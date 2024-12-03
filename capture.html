@@ -1,0 +1,982 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>capture - a script for analysts and incident handlers</title>
+		<meta name="description" content="previous embarassments that are burdensome to me, abridged.">
+		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="gimme pizza slow (high quality)">
+		<meta name="generator" content="Eleventy v3.0.0">
+		
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+/* This is an arbitrary CSS string added to the bundle */
+@charset "UTF-8";
+
+@font-face {
+        font-family: et-book;
+        src: url(/css/tufte-css/et-book/et-book-roman-line-figures/et-book-roman-line-figures.eot);
+        src: url(/css/tufte-css/et-book/et-book-roman-line-figures/et-book-roman-line-figures.eot?#iefix) format("embedded-opentype"), url(/css/tufte-css/et-book/et-book-roman-line-figures/et-book-roman-line-figures.woff) format("woff"), url(/css/tufte-css/et-book/et-book-roman-line-figures/et-book-roman-line-figures.ttf) format("truetype"), url(/css/tufte-css/et-book/et-book-roman-line-figures/et-book-roman-line-figures.svg#etbookromanosf) format("svg");
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap
+}
+
+@font-face {
+        font-family: et-book;
+        src: url(/css/tufte-css/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.eot);
+        src: url(/css/tufte-css/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.eot?#iefix) format("embedded-opentype"), url(/css/tufte-css/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.woff) format("woff"), url(/css/tufte-css/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.ttf) format("truetype"), url(/css/tufte-css/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.svg#etbookromanosf) format("svg");
+        font-weight: 400;
+        font-style: italic;
+        font-display: swap
+}
+
+@font-face {
+        font-family: et-book;
+        src: url(/css/tufte-css/et-book/et-book-bold-line-figures/et-book-bold-line-figures.eot);
+        src: url(/css/tufte-css/et-book/et-book-bold-line-figures/et-book-bold-line-figures.eot?#iefix) format("embedded-opentype"), url(/css/tufte-css/et-book/et-book-bold-line-figures/et-book-bold-line-figures.woff) format("woff"), url(/css/tufte-css/et-book/et-book-bold-line-figures/et-book-bold-line-figures.ttf) format("truetype"), url(/css/tufte-css/et-book/et-book-bold-line-figures/et-book-bold-line-figures.svg#etbookromanosf) format("svg");
+        font-weight: 700;
+        font-style: normal;
+        font-display: swap
+}
+
+@font-face {
+        font-family: et-book-roman-old-style;
+        src: url(/css/tufte-css/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.eot);
+        src: url(/css/tufte-css/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.eot?#iefix) format("embedded-opentype"), url(/css/tufte-css/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.woff) format("woff"), url(/css/tufte-css/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.ttf) format("truetype"), url(/css/tufte-css/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.svg#etbookromanosf) format("svg");
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap
+}
+
+html {
+        font-size: 15px
+}
+
+body {
+        width: 87.5%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 12.5%;
+        font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+        background-color: #fffff8;
+        color: #111;
+        max-width: 1400px;
+        counter-reset: sidenote-counter
+}
+
+h1 {
+        font-weight: 400;
+        margin-top: 4rem;
+        margin-bottom: 1.5rem;
+        font-size: 3.2rem;
+        line-height: 1
+}
+
+h2 {
+        font-style: italic;
+        font-weight: 400;
+        margin-top: 2.1rem;
+        margin-bottom: 1.4rem;
+        font-size: 2.2rem;
+        line-height: 1
+}
+
+h3 {
+        font-style: italic;
+        font-weight: 400;
+        font-size: 1.7rem;
+        margin-top: 2rem;
+        margin-bottom: 1.4rem;
+        line-height: 1
+}
+
+hr {
+        display: block;
+        height: 1px;
+        width: 55%;
+        border: 0;
+        border-top: 1px solid #ccc;
+        margin: 1em 0;
+        padding: 0
+}
+
+p.subtitle {
+        font-style: italic;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-size: 1.8rem;
+        display: block;
+        line-height: 1
+}
+
+.numeral {
+        font-family: et-book-roman-old-style
+}
+
+.danger {
+        color: red
+}
+
+article {
+        padding: 5rem 0
+}
+
+section {
+        padding-top: 1rem;
+        padding-bottom: 1rem
+}
+
+ol,
+p,
+ul {
+        font-size: 1.4rem;
+        line-height: 2rem
+}
+
+p {
+        margin-top: 1.4rem;
+        margin-bottom: 1.4rem;
+        padding-right: 0;
+        vertical-align: baseline
+}
+
+div.epigraph {
+        margin: 5em 0
+}
+
+div.epigraph>blockquote {
+        margin-top: 3em;
+        margin-bottom: 3em
+}
+
+div.epigraph>blockquote,
+div.epigraph>blockquote>p {
+        font-style: italic
+}
+
+div.epigraph>blockquote>footer {
+        font-style: normal
+}
+
+div.epigraph>blockquote>footer>cite {
+        font-style: italic
+}
+
+blockquote {
+        font-size: 1.4rem
+}
+
+blockquote p {
+        width: 55%;
+        margin-right: 40px
+}
+
+blockquote footer {
+        width: 55%;
+        font-size: 1.1rem;
+        text-align: right
+}
+
+section>footer,
+section>p,
+section>table {
+        width: 55%
+}
+
+section>ol,
+section>ul {
+        width: 50%;
+        -webkit-padding-start: 5%
+}
+
+li:not(:first-child) {
+        margin-top: .25rem
+}
+
+figure {
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+        max-width: 55%;
+        -webkit-margin-start: 0;
+        -webkit-margin-end: 0;
+        margin: 0 0 3em 0
+}
+
+figcaption {
+        float: right;
+        clear: right;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 1.1rem;
+        line-height: 1.6;
+        vertical-align: baseline;
+        position: relative;
+        max-width: 40%
+}
+
+figure.fullwidth figcaption {
+        margin-right: 24%
+}
+
+a:link,
+a:visited {
+        color: inherit
+}
+
+.no-tufte-underline:link {
+        background: unset;
+        text-shadow: unset
+}
+
+.hover-tufte-underline:hover,
+.tufte-underline,
+a:link {
+        text-decoration: none;
+        background: -webkit-linear-gradient(#fffff8, #fffff8), -webkit-linear-gradient(#fffff8, #fffff8), -webkit-linear-gradient(currentColor, currentColor);
+        background: linear-gradient(#fffff8, #fffff8), linear-gradient(#fffff8, #fffff8), linear-gradient(currentColor, currentColor);
+        -webkit-background-size: .05em 1px, .05em 1px, 1px 1px;
+        -moz-background-size: .05em 1px, .05em 1px, 1px 1px;
+        background-size: .05em 1px, .05em 1px, 1px 1px;
+        background-repeat: no-repeat, no-repeat, repeat-x;
+        text-shadow: .03em 0 #fffff8, -.03em 0 #fffff8, 0 .03em #fffff8, 0 -.03em #fffff8, .06em 0 #fffff8, -.06em 0 #fffff8, .09em 0 #fffff8, -.09em 0 #fffff8, .12em 0 #fffff8, -.12em 0 #fffff8, .15em 0 #fffff8, -.15em 0 #fffff8;
+        background-position: 0 93%, 100% 93%, 0 93%
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+
+        .hover-tufte-underline:hover,
+        .tufte-underline,
+        a:link {
+                background-position-y: 87%, 87%, 87%
+        }
+}
+
+a:link::-moz-selection,
+a:link::selection {
+        text-shadow: .03em 0 #b4d5fe, -.03em 0 #b4d5fe, 0 .03em #b4d5fe, 0 -.03em #b4d5fe, .06em 0 #b4d5fe, -.06em 0 #b4d5fe, .09em 0 #b4d5fe, -.09em 0 #b4d5fe, .12em 0 #b4d5fe, -.12em 0 #b4d5fe, .15em 0 #b4d5fe, -.15em 0 #b4d5fe;
+        background: #b4d5fe
+}
+
+img {
+        max-width: 100%
+}
+
+.marginnote,
+.sidenote {
+        float: right;
+        clear: right;
+        margin-right: -60%;
+        width: 50%;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 1.1rem;
+        line-height: 1.3;
+        vertical-align: baseline;
+        position: relative
+}
+
+.sidenote-number {
+        counter-increment: sidenote-counter
+}
+
+.sidenote-number:after,
+.sidenote:before {
+        font-family: et-book-roman-old-style;
+        position: relative;
+        vertical-align: baseline
+}
+
+.sidenote-number:after {
+        content: counter(sidenote-counter);
+        font-size: 1rem;
+        top: -.5rem;
+        left: .1rem
+}
+
+.sidenote:before {
+        content: counter(sidenote-counter) " ";
+        font-size: 1rem;
+        top: -.5rem
+}
+
+blockquote .marginnote,
+blockquote .sidenote {
+        margin-right: -82%;
+        min-width: 59%;
+        text-align: left
+}
+
+div.fullwidth,
+table.fullwidth {
+        width: 100%
+}
+
+div.table-wrapper {
+        overflow-x: auto;
+        font-family: "Trebuchet MS", "Gill Sans", "Gill Sans MT", sans-serif
+}
+
+.sans {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+        letter-spacing: .03em
+}
+
+code,
+pre>code {
+        font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+        font-size: 1rem;
+        line-height: 1.42;
+        -webkit-text-size-adjust: 100%
+}
+
+.sans>code {
+        font-size: 1.2rem
+}
+
+h1>code,
+h2>code,
+h3>code {
+        font-size: .8em
+}
+
+.marginnote>code,
+.sidenote>code {
+        font-size: 1rem
+}
+
+pre>code {
+        font-size: .9rem;
+        margin-left: 2.5%;
+        overflow-x: auto;
+        display: block
+}
+
+pre.fullwidth>code {
+        width: 90%
+        clear: both
+}
+
+.fullwidth {
+        max-width: 90%;
+        clear: both
+}
+
+span.newthought {
+        font-variant: small-caps;
+        font-size: 1.2em
+}
+
+input.margin-toggle {
+        display: none
+}
+
+label.sidenote-number {
+        display: inline
+}
+
+label.margin-toggle:not(.sidenote-number) {
+        display: none
+}
+
+.iframe-wrapper {
+        position: relative;
+        padding-bottom: 56.25%;
+        padding-top: 25px;
+        height: 0
+}
+
+.iframe-wrapper iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%
+}
+
+@media (max-width:760px) {
+        body {
+                width: 84%;
+                padding-left: 8%;
+                padding-right: 8%
+        }
+
+        hr,
+        section>footer,
+        section>p,
+        section>table {
+                width: 100%
+        }
+
+        pre>code {
+                width: 97%
+        }
+
+        section>ol {
+                width: 90%
+        }
+
+        section>ul {
+                width: 90%
+        }
+
+        figure {
+                max-width: 90%
+        }
+
+        figcaption,
+        figure.fullwidth figcaption {
+                margin-right: 0;
+                max-width: none
+        }
+
+        blockquote {
+                margin-left: 1.5em;
+                margin-right: 0
+        }
+
+        blockquote footer,
+        blockquote p {
+                width: 100%
+        }
+
+        label.margin-toggle:not(.sidenote-number) {
+                display: inline
+        }
+
+        .marginnote,
+        .sidenote {
+                display: none
+        }
+
+        .margin-toggle:checked+.marginnote,
+        .margin-toggle:checked+.sidenote {
+                display: block;
+                float: left;
+                left: 1rem;
+                clear: both;
+                width: 95%;
+                margin: 1rem 2.5%;
+                vertical-align: baseline;
+                position: relative
+        }
+
+        label {
+                cursor: pointer
+        }
+
+        div.table-wrapper,
+        table {
+                width: 85%
+        }
+
+        img {
+                width: 100%
+        }
+}
+.visually-hidden:not(:focus):not(:active) {
+  clip: rect(0 0 0 0); 
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap; 
+  width: 1px;
+}
+
+pre,
+code {
+    font-family: var(--font-family-monospace);
+}
+pre:not([class*="language-"]) {
+    margin: .5em 0;
+    line-height: 1.375; /* 22px /16 */
+    -moz-tab-size: var(--syntax-tab-size);
+    -o-tab-size: var(--syntax-tab-size);
+    tab-size: var(--syntax-tab-size);
+    -webkit-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+    direction: ltr;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    overflow-x: auto;
+}
+code {
+    word-break: break-all;
+}
+/**
+ * GHColors theme by Avi Aryan (http://aviaryan.in)
+ * Inspired by Github syntax coloring
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+    color: #393A34;
+    font-family: "Consolas", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
+    direction: ltr;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    font-size: .9em;
+    line-height: 1.2em;
+
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}
+
+pre > code[class*="language-"] {
+    font-size: 1em;
+}
+
+pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
+code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
+    background: #b3d4fc;
+}
+
+pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
+code[class*="language-"]::selection, code[class*="language-"] ::selection {
+    background: #b3d4fc;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+    padding: 1em;
+    margin: .5em 0;
+    overflow: auto;
+    border: 1px solid #dddddd;
+    background-color: white;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+    padding: .2em;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background: #f8f8f8;
+    border: 1px solid #dddddd;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+    color: #999988;
+    font-style: italic;
+}
+
+.token.namespace {
+    opacity: .7;
+}
+
+.token.string,
+.token.attr-value {
+    color: #e3116c;
+}
+
+.token.punctuation,
+.token.operator {
+    color: #393A34; /* no highlight */
+}
+
+.token.entity,
+.token.url,
+.token.symbol,
+.token.number,
+.token.boolean,
+.token.variable,
+.token.constant,
+.token.property,
+.token.regex,
+.token.inserted {
+    color: #36acaa;
+}
+
+.token.atrule,
+.token.keyword,
+.token.attr-name,
+.language-autohotkey .token.selector {
+    color: #00a4db;
+}
+
+.token.function,
+.token.deleted,
+.language-autohotkey .token.tag {
+    color: #9a050f;
+}
+
+.token.tag,
+.token.selector,
+.language-autohotkey .token.keyword {
+    color: #00009f;
+}
+
+.token.important,
+.token.function,
+.token.bold {
+    font-weight: bold;
+}
+
+.token.italic {
+    font-style: italic;
+}</style>
+	</head>
+	<body>
+		<a href="#skip" class="visually-hidden">Skip to main content</a>
+
+		<header>
+			<a href="/" class="home-link sans"><h1 id="gimme-pizza-slow-high-quality">gimme pizza slow (high quality)</h1></a>
+			<nav>
+				<h2 class="visually-hidden" id="top-level-navigation-menu">Top level navigation menu</h2>
+				<ul class="nav visually-hidden">
+					<li class="nav-item"><a href="/">Home</a></li>
+					<li class="nav-item"><a href="/about/">About</a></li>
+					<li class="nav-item"><a href="/feed/feed.xml">Feed</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main id="skip">
+			<heading-anchors>
+				
+<h2 id="capture-a-script-for-analysts-and-incident-handlers">capture - a script for analysts and incident handlers</h2>
+
+<p class="subtitle">
+	<time datetime="2009-02-18">18 February 2009</time></p>
+    
+
+<article>
+<section><p>I’ve found this script very useful for network security monitoring, incident handling, and analyst training.</p>
+<h3 id="the-problems">The problem(s)</h3>
+<p>Frequently, security analysts kick off tcpdump full packet captures on unix servers with tapped interfaces at trust zone perimeters which they leave running in the background. Often this is done in a hurry in order to catch something before it disappears, and just as often, the capture is left running for a few days, weeks, or even months at a time.</p>
+<p>Unfortunately, this leaves dozens of tcpdump capture files strewn about home directories, all of them poorly named and all too often left running and forgotten. Which ones are junk? Which can be archived or deleted? What a mess!</p>
+<h3 id="the-horror">The Horror</h3>
+<p>And this is even more problematic for those of you practicing <a href="http://taosecurity.blogspot.com/">network security monitoring</a> with <a href="http://www.snort.org/users/roesch/Site/Daemonlogger/Daemonlogger.html">daemonlogger</a> or a similar rolling full packet capture daemon.</p>
+<p>How can an analyst dig through hundreds of large pcap files for just the traffic they want? Whether it is 50Gb of accumulated network traffic that left a T1 connection over the past week, or that left an OC3 connection in the past 15 hours, it is too much to pull a file at a time, even <em>with</em> a guess where to start. These nsm daemons can easily generate a Gb of data every minute! Neither tcpdump -r nor daemonlogger -r accept wild cards. Hunting for an event one file at a time? No thanks.</p>
+<p>Who wants to mess with <em>ps</em>, <em>grep</em>, and <em>kill</em>, much less the oft repeated <em>-nn -s 1516 -i interface</em> during incident handling?</p>
+<h3 id="a-solution">A solution</h3>
+<p>I created a perl script to manage starting, monitoring, and stopping all packet captures - live or from active daemonlogger pcap files. I retrained all my analysts to use it. I updated my sensor monitoring scripts to start using it too.</p>
+<p>I think this would be useful at ISP’s, .edu’s, and enterprise organizations so I refactored what my team and I have been using for the past year to make it significantly better. Time to release it!</p>
+<h3 id="capture">capture</h3>
+<pre><code>> capture
+Usage: capture [-h?lsmv] [r|R] [-a analyst -d 'quoted description' -e 'quoted expression'] [-f filter]
+</code></pre>
+<h3 id="starting-captures">Starting captures</h3>
+<p>Script the repetitive stuff, force the informative and useful stuff, and prevent mistakes.</p>
+<pre><code>> sudo capture -a grant -d 'traffic to grantstavely.com' -e 'host 205.134.166.178'
+Password:
+Started: grant_traffic.to.grantstavely.com_Tue.Feb17.2009-20.20.22.UTC_1234902022_.pcap
+</code></pre>
+<h3 id="monitoring-captures">Monitoring captures</h3>
+<pre><code>> sudo capture -l
+grant Tue Feb 17 15:20:22 2009 traffic to grantstavely com
+will Tue Feb 17 15:24:05 2009 irc traffic
+philip Tue Feb 17 15:24:41 2009 strange malware on 8081
+</code></pre>
+<p>Too many, I’m checking on my own captures only!</p>
+<pre><code>> sudo capture -lf grant
+grant Tue Feb 17 15:20:22 2009 traffic to grantstavely com
+</code></pre>
+<p>Need more detail?</p>
+<pre><code>> sudo capture -lv
+Analyst: grant
+Size (bytes): 720.00 KB
+Started: Tue Feb 17 15:20:56 2009
+Last Modified: Tue Feb 17 15:21:31 2009
+Last Accessed: Tue Feb 17 15:20:56 2009
+Last Changed: Tue Feb 17 15:21:31 2009
+Description: traffic to grantstavely com
+Expression: host 75.101.142.201
+Capture File:
+/Users/grant/captures/grant_traffic.to.grantstavely.com_Tue.Feb17.2009-20.20.56.UTC_1234902056_.pcap
+</code></pre>
+<h3 id="stopping-captures">Stopping Captures</h3>
+<pre><code>> sudo capture -svf grant
+Analyst: grant
+Size (bytes): 720.00 KB
+Started: Tue Feb 17 15:20:56 2009
+Last Modified: Tue Feb 17 15:21:31 2009
+Last Accessed: Tue Feb 17 15:20:56 2009
+Last Changed: Tue Feb 17 15:21:31 2009
+Description: traffic to grantstavely com
+Expression: host 75.101.142.201
+Capture File:
+/Users/grant/captures/grant_traffic.to.grantstavely.com_Tue.Feb17.2009-20.20.56.UTC_1234902056_.pcap
+
+Capture file info:
+File name: grant_traffic.to.grantstavely.com_Tue.Feb17.2009-20.20.56.UTC_1234902056_.pcap
+File type: Wireshark/tcpdump/... - libpcap
+File encapsulation: Ethernet
+Number of packets: 2778
+File size: 1869006 bytes
+Data size: 1824534 bytes
+Capture duration: 12.070557 seconds
+Start time: Tue Feb 17 15:48:22 2009
+End time: Tue Feb 17 15:48:34 2009
+Data rate: 151155.74 bytes/s
+Data rate: 1209245.95 bits/s
+Average packet size: 656.78 bytes
+</code></pre>
+<h3 id="daemonlogger-data">Daemonlogger Data</h3>
+<p>If you have a directory of daemonlogger pcaps, point <em>capture</em> at them with the same standard syntax and it will run through each file, gradually merging only the data you want into a single manageable pcap.</p>
+<p>Note that <em>capture</em> maintains a soft link to the currently merged temp file using the name of the final target file so that you can start performing analysis right away.</p>
+<pre><code>> capture -ra grant -d 'historical traffic to gs.com' -e 'host 75.101.142.201'
+Generating grant_historical.traffic.to.gs.com_Tue.Feb17.2009-21.12.57.UTC_1234905177_.past.pcap
+Currently Processing: Tue Feb 17 05:23:45 2009
+</code></pre>
+<p>Or do both - start a new live capture and grab the same data from daemonlogger archived pcaps.</p>
+<pre><code>> capture -Ra grant -d 'historical traffic to gs.com' -e 'host 75.101.142.201'
+Started: grant_historical.traffic.to.gs.com_Tue.Feb17.2009-21.12.57.UTC_1234905177_.pcap
+Generating grant_historical.traffic.to.gs.com_Tue.Feb17.2009-21.12.57.UTC_1234905177_.past.pcap
+Currently Processing: Tue Feb 17 05:23:45 2009
+</code></pre>
+<p>While running, the “Currently Processing” line will maintain a listing of how far through daemonlogger data the process is. From another console, the same is available to other analysts</p>
+<pre><code>> capture -lv
+Analyst: will
+Size (bytes): 60.00 KB
+Started: Tue Feb 17 16:21:02 2009
+Last Modified: Tue Feb 17 16:21:15 2009
+Last Accessed: Tue Feb 17 16:21:03 2009
+Last Changed: Tue Feb 17 16:21:15 2009
+Description: dns traffic
+Expression: port 53
+Capture File: /Users/grant/captures/will_dns.traffic_Tue.Feb17.2009-21.21.02.UTC_1234905662_.pcap
+
+Analyst: grant
+Size (bytes): 0 Bytes
+Progress: Tue Feb 17 10:03:01 2009
+Description: historical traffic to gs com
+Expression: host 75.101.142.201
+Capture File:
+/Users/grant/captures/grant.processing.4958.1234882981_historical.traffic.to.gs.com_Tue.Feb17.2009-21.12.57.UTC_1234905177_.past.pcap
+</code></pre>
+<h3 id="additional-uses">Additional uses</h3>
+<p><em>capture</em> takes full advantage of syslog, so that you can validate what analysts did what, and when.</p>
+<p>You could schedule regular e-mail to management to validate what captures are running, or were run, per user, per day, and so on.</p>
+<p>If short on disk space, leave only individual long running captures going against specific hosts, add them to start with init.</p>
+<p><em>capture</em> has support for hashing completed capture files, use the hashes later to validate your data.</p>
+<p>Use shell aliasing to create a quick start 'cap <span class="inlineMath"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1</mn></mrow><annotation encoding="application/x-tex">1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span></span></span></span></span>2 $3' alias which defaults to one of the operations cap normally requires -a, -d, and -e to perform</p>
+<h3 id="requirements">Requirements</h3>
+<p>You must have: perl, a few perl modules, and tcpdump. You also need capinfos and mergecap, both of which are part of most wireshark and tshark distributions.</p>
+<p>I suggest that analysts run <em>capture</em> on systems using sudo.</p>
+<p><em>capture</em> has been tested and run successfully on linux, bsd, and MacOSX systems. You should review the source to configure the handful of options available before testing.</p>
+<h3 id="future-plans">Future plans</h3>
+<ul>
+<li>~Run through a directory of pcaps w/ mergecap~</li>
+<li>~Integrate daemonlogger~</li>
+<li>~Better privilege seperation~</li>
+<li>~Built in man page~</li>
+<li>~Functional option combinations and errors~</li>
+<li>~FreeBSD and OSX support~</li>
+<li>~More useful verbose output~</li>
+<li>More user testing</li>
+<li>A “speed start” no-flag syntax for starting captures rapidly</li>
+<li>~Proper SIGNAL handling to stop —read jobs~</li>
+<li>/etc/ file usage to replace script header configuration</li>
+<li>Assumption defaults (friendly handler name interpreting, auto descriptions using bpf, etc)</li>
+<li>Suggested alternate resources; web links, dns information, argus queries, ids urls, extensible whatever</li>
+<li>A web front end</li>
+<li>Just kidding about the web front end</li>
+<li>Specific script targeted output</li>
+<li>Capture monitor and alerting</li>
+<li>Better facilitation of metrics</li>
+<li>Threading to improve speed of daemonlogger filtering</li>
+</ul>
+<h3 id="download">Download</h3>
+<p>Capture is hosted on <a href="http://code.google.com/p/nsm-capture/">google code</a>.</p>
+<p><a href="http://creativecommons.org/licenses/by-sa/3.0/us/"><picture><source type="image/avif" srcset="/capture.html/A7mrjelG37-88.avif 88w"><source type="image/webp" srcset="/capture.html/A7mrjelG37-88.webp 88w"><img loading="lazy" decoding="async" src="/capture.html/A7mrjelG37-88.png" alt="Creative Commons License" width="88" height="31"></picture></a>
+This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa/3.0/us/">Creative Commons Attribution-Share Alike 3.0 United States License</a>.</p>
+<p>Enjoy!</p>
+</section>
+</article>
+
+
+			</heading-anchors>
+		</main>
+
+		<footer>
+			<p class="visually-hidden"><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></em></p>
+		</footer>
+
+		<!-- This page `/capture.html` was built on 2024-12-03T17:54:59.628Z -->
+		<script type="module" src="/dist/rJ3_G-2ArF.js"></script>
+	</body>
+</html>
