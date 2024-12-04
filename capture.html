@@ -225,10 +225,13 @@ body {
         margin-right: auto;
         padding-left: 12.5%;
         font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
-        background-color: #fffff8;
-        color: #111;
+        background-color: #ffffff;
+        color: #333;
         max-width: 1400px;
         counter-reset: sidenote-counter
+        cursor: -moz-grabbing;
+        cursor: -webkit-grabbing;
+        cursor: grabbing, auto;
 }
 
 h1 {
@@ -388,9 +391,11 @@ figure.fullwidth figcaption {
         margin-right: 24%
 }
 
-a:link,
+a:link {
+        color: #00aeff
+}
 a:visited {
-        color: inherit
+        color: #cc88cc
 }
 
 .no-tufte-underline:link {
@@ -816,6 +821,7 @@ pre[class*="language-"] {
 
 		<main id="skip">
 			<heading-anchors>
+                <section>
 				
 <h2 id="capture-a-script-for-analysts-and-incident-handlers">capture - a script for analysts and incident handlers</h2>
 
@@ -969,6 +975,7 @@ This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa
 </article>
 
 
+                </section>
 			</heading-anchors>
 		</main>
 
@@ -976,7 +983,7 @@ This work is licensed under a <a href="http://creativecommons.org/licenses/by-sa
 			<p class="visually-hidden"><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></em></p>
 		</footer>
 
-		<!-- This page `/capture.html` was built on 2024-12-03T18:44:37.116Z -->
+		<!-- This page `/capture.html` was built on 2024-12-04T19:16:24.307Z -->
 		<script type="module" src="/dist/rJ3_G-2ArF.js"></script>
 	</body>
 </html>
