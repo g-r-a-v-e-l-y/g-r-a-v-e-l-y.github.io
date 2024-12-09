@@ -1,0 +1,11 @@
+# define hook
+
+add_command_hook("define","define");
+
+sub hook_define {
+	$text = $_[0];
+
+
+
+	return 0;
+}

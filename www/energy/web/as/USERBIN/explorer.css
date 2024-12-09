@@ -1,0 +1,42 @@
+P
+{ font-family: Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif; 
+color: #7F7F7F; 
+font-size: 10pt; 
+text-align: justify;  
+font-weight: lighter;
+line-height: 100%;
+background: tile.gif }
+
+TD
+{ font-family: Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif; 
+color: #7F7F7F; 
+font-size: 10pt; 
+text-align: justify;  
+font-weight: lighter;
+line-height: 100%;
+background: tile.gif }
+
+B
+{ font-family: Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif; 
+color: #737373;
+size: 12t; 
+text-align: justify;  
+font-weight: lighter;
+line-height: 100%;
+background: tile.gif }
+
+H1
+{ font-family: Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif; 
+color: #7F7F7F; 
+font-size: 10pt;  
+text-align: center;  
+font-weight: lighter;
+line-height: 100%;
+background: tile.gif }
+
+.title
+{ color: #7000000;
+font-size: 14pt;
+font-weight: bold;
+text-align: center}
+

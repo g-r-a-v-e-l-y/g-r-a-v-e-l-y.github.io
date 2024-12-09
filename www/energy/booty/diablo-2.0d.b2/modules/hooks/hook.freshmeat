@@ -1,0 +1,29 @@
+# freshmeat hook
+
+add_command_hook("freshmeat","freshmeat");
+
+sub hook_freshmeat {
+        $text = $_[0];
+
+	if($text =~ /^freshmeat$/) {
+		if($ulevel{$unick} >= $clevel{news}) {
+			if (!fork()) {
+		       		$data = httpget("www.freshmeat.net",80,"/backend/fm.rdf");
+		       		if ($data ne "") {
+		         		$ndata = backend($data,"Freshmeat");
+		         		sockwrite($sock,"PRIVMSG $uchan :$ndata");
+		        	}
+		       		else {
+		        		 sockwrite($sock,"PRIVMSG $uchan :$unick, there was an error while retreiving headlines. Please visit http://freshmeat.net instead.");
+		        	}
+		       		exit(0);
+		      	}
+		        return 1;
+		}
+		else {
+			return -1;
+		}
+	}
+
+	return 0;
+}

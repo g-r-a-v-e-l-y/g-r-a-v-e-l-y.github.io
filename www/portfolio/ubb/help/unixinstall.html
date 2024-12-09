@@ -1,0 +1,288 @@
+<html>
+
+	<head>
+		<meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+		<title>Ultimate Bulletin Board - UNIX/LINUX Installation Instructions</title>
+		<meta content="The official site of the Ultimate Bulletin Board (UBB), one of the most popular and powerful BBS programs available on the internet. Unique design, browser-based control panel for customization. " name="Description">
+		<meta content="bulletin boards, forums, BBS, internet, online, discussion groups, newsgroups, usenet, freeware, shareware, UBB, ultimate bulletin board, customize, Perl, CGI, UNIX, NT, affordable, Ted O'Neill, Madrona Park, Prime-Web, Prime Web, scriptkeeper, UltimateBB, scripts, programs, threads, topics" name="keywords">
+<script language="JavaScript">
+<!--
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+//-->
+</script>
+	</head>
+
+	<body bgcolor="#ffffff" text="#000000" link="#336699" vlink="#336699">
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+			<tr>
+				
+    <td align="left" valign="top" width="130"><br>
+    </td>
+				<td align="left" valign="top" width="20"></td>
+				<td align="left" valign="top" width="100%"><!-- CONTENT TABLE START -->
+					<table cellpadding="0" cellspacing="0" width="100%" border="0">
+						<tr>
+							
+          <td align="left" valign="top" width="100%"><font size="4" face="TREBUCHET MS,ARIAL,HELVETICA" color="#336699"><b>These 
+            are instructions for people <br>
+            using Unix or Linux servers </b></font> 
+            <hr size="1" width="100%" color="336699" noshade>
+            
+            <p><font size="2" face="VERDANA,ARIAL,HELVETICA"><b>These are instructions for people using Unix or Linux servers</b></font></p>
+<p><font size="2" face="VERDANA,ARIAL,HELVETICA"><b>Before You Begin You Will Need</b></font>
+								<p><font size="2" face="VERDANA,ARIAL,HELVETICA"><ol>
+        <li> A copy of the UBB zip file downloaded from Scriptkeeper.com</li>
+        <li> Unzipping software such as WinZip</li>
+        <li> An FTP Client such as WS_FTP, Leap or CuteFTP</li>
+        <li>Any CGI FAQ from your web host [please read it completely before starting. 
+        </li>
+      </ol>
+            </font> 
+            <ol>
+              <li><font size="2" face="VERDANA,ARIAL,HELVETICA"><b>Unzip the UBB 
+                Files on Your Computer</b></font> 
+                <p><font size="2" face="VERDANA,ARIAL,HELVETICA">Use your unzipping 
+                  software to unzip the ubb file into a folder on your desktop 
+                  or in a location you can find again easily. If you are unzipping 
+                  on your own Linux or Unix machine, use the -a switch [i.e. unzip 
+                  -a ubb550.zip].</font></p>
+                <p><font size="2" face="VERDANA,ARIAL,HELVETICA">When you have 
+                  finished you should have a folder containing 4 sub-folders called 
+                  cgi-bin, Members, NonCGI and variable_files</font></p>
+              <li><font size="2" face="VERDANA,ARIAL,HELVETICA"><b>Log onto Your 
+                Web Server</b></font> 
+                <p><font size="2" face="VERDANA,ARIAL,HELVETICA">Open your FTP 
+                  client and log into your web server with the hostname, username 
+                  and password your Internet provider has given you. Look at the 
+                  list of files or directories your find there.</font></p>
+                <p><font size="2" face="VERDANA,ARIAL,HELVETICA">Look for the 
+                  directory where your web pages are stored. You may already be 
+                  in this directory if you find files called index.html or home.html. 
+                  You *may* have to look in directories call www, htdocs or public_html 
+                  to find where the web pages are stored. If in doubt ask your 
+                  ISP Customer Support service.</font></p>
+                <p><font size="2" face="VERDANA,ARIAL,HELVETICA">If there is a 
+                  directory called cgi-bin or cgi-local remember where it is because 
+                  you will come back to it later. If your web provider CGI FAQ 
+                  requires you to use a certain directory for your scripts, find 
+                  it and note the location. You will come back to it later.</font></p>
+              <li><font size="2" face="VERDANA,ARIAL,HELVETICA"><b>Upload the 
+                cgi-bin Scripts</b></font> 
+                <p><font size="2" face="VERDANA,ARIAL,HELVETICA">Use your FTP 
+                  program to find the cgi-bin, cgi-local or the directory your 
+                  web host requires for CGI scripts. Click to open this directory.</font> 
+                </p>
+                <p><font size="2" face="VERDANA,ARIAL,HELVETICA">If there is no 
+                  such directory anywhere, create one called cgi-bin now in the 
+                  main web directory. Use the FTP client to CHMOD this CGI directory 
+                  755 [owner rwx, group r-x, others r-x] now.</font></p>
+                <p><font size="2" face="VERDANA,ARIAL,HELVETICA">Click to open 
+                  it the CGI directory and set your FTP client to ASCII mode. 
+                  Upload the contents of the unzipped cgi-bin folder on your computer. 
+                  Select all the files you have uploaded and chmod them 755 with 
+                  your FTP Client.</font></p>
+              <li><font size="2" face="VERDANA,ARIAL,HELVETICA"><b>Upload the 
+                Variables Files</b></font> 
+                <p><font size="2" face="VERDANA,ARIAL,HELVETICA">Upload the contents 
+                  of the variables files to the same cgi directory as above. You 
+                  must set your FTP client to upload the files in ASCII mode.</font></p>
+                <p><font size="2" face="VERDANA,ARIAL,HELVETICA">Select all 4 
+                  of the variables files you have uploaded [UltBB.setup, Styles.file, 
+                  forums.cgi, mods.file] and chmod them 777 with your FTP Client 
+                  [owner rwx, group rwx, others rwx] </font></p>
+              <li><font size="2" face="VERDANA,ARIAL,HELVETICA"><b>Create a Members 
+                Directory and Upload Files</b></font> 
+                <p><font size="2" face="VERDANA,ARIAL,HELVETICA">Inside the CGI 
+                  directory create a directory called Members [spelled exactly]. 
+                  Click to select it and right click to find the option to chmod 
+                  it 777 [owner rwx, group rwx, others rwx]. This directory can 
+                  also be located above your web root for greater security.</font></p>
+                <p><font size="2" face="VERDANA,ARIAL,HELVETICA">Open this directory. 
+                  Upload the contents of the unzipped Members folder on your computer 
+                  in ASCII mode.</font></p>
+                <p><font size="2" face="VERDANA,ARIAL,HELVETICA">Click to select 
+                  the file called Admin5.cgi and right click on it to find the 
+                  option to chmod it 777 [owner rwx, group rwx, others rwx].</font></p>
+              <li><font size="2" face="VERDANA,ARIAL,HELVETICA"><b>Create a Directory 
+                for Your Forum Files</b></font> 
+                <p><font size="2" face="VERDANA,ARIAL,HELVETICA">Change directories 
+                  to your main web directory [see step 2] Create a directory there 
+                  called ubb. Click to select the directory and right click to 
+                  find the option to chmod it 777 [owner rwx group rwx others 
+                  rwx]</font></p>
+                <p><font size="2" face="VERDANA,ARIAL,HELVETICA">Open the directory 
+                  and upload the contents of your unzipped NonCGI folder to it. 
+                  You may set your FTP client to upload in automatic. Or you may 
+                  choose to upload all .html files in ASCII and all the .gif and 
+                  jpg files in Binary.</font></p>
+              <li><font size="2" face="VERDANA,ARIAL,HELVETICA"><b>Edit Your cplinks.html 
+                File</b></font> 
+                <p><font size="2" face="VERDANA,ARIAL,HELVETICA">On your own computer 
+                  open up the file called cplinks.html in a text editor like Notepad. 
+                  You will see basic html code.</font></p>
+                <p><font size="2" face="VERDANA,ARIAL,HELVETICA">You must edit 
+                  only one link: Look for &lt;BASE HREF = &quot; &quot;&gt;. Edit 
+                  in the full URL to your CGI directory between the quotation 
+                  marks.<br>
+                  <br>
+                  For example: &lt;BASE HREF=&quot;http://www.mydomain/cgi-bin/&quot;&gt;</font></p>
+                <p><font face="Verdana, Arial, Helvetica, sans-serif" size="2">Check 
+                  that the URL goes between the two quotes and be sure the URL 
+                  ends with a slash &quot;/&quot;.</font></p>
+                <p><font size="2" face="VERDANA,ARIAL,HELVETICA">Save the cplinks.html 
+                  file and upload it again to the ubb directory.</font></p>
+              <li><font size="2" face="VERDANA,ARIAL,HELVETICA"><b>Open the Control 
+                Panel in Your Web Browser</b></font> 
+                <p><font size="2" face="VERDANA,ARIAL,HELVETICA">Open your web 
+                  browser and go to the URL http://www.mydomain.com/ubb/cp.html 
+                  [you will substitute in your domain name and directories to 
+                  match the names you have chosen in the steps above]</font></p>
+                <p><font size="2" face="VERDANA,ARIAL,HELVETICA">You will see 
+                  a UBB control panel with links down the left side. Click the 
+                  top link called General Settings.</font></p>
+                  <p><font size="2" face="VERDANA,ARIAL,HELVETICA">Look on the right for a new page 
+                  saying 'Your absolute paths need to be configured ...'. Click the link to open up a page of blank general settings.
+                  </font></p>
+                <p><font size="2" face="VERDANA,ARIAL,HELVETICA">The first section 
+                  is called 'Absolute Paths'. There may be paths entered there 
+                  automatically by UBB. Leave them for now.</font></p>
+              <li><font size="2" face="VERDANA,ARIAL,HELVETICA"><b>Set the General 
+                Settings Absolute Paths</b></font> 
+                <p><font size="2" face="VERDANA,ARIAL,HELVETICA">A quick explanation: 
+                  The path is the full path from your server root, for example 
+                  /home/usr/htdocs/yourname [the exact path will be different 
+                  in each server]</font></p>
+                <p><font size="2" face="VERDANA,ARIAL,HELVETICA">You can often 
+                  find this path exactly if you click on the environmental variables 
+                  link at the top of your page. Within the list look for one variable 
+                  called Script_Filename. This will be the path to your script. 
+                  Cut off the &quot;/cpanel.cgi&quot; from the end and you will 
+                  have the absolute path to your CGI directory.</font> </p>
+                <p><font size="2" face="VERDANA,ARIAL,HELVETICA">Use this path 
+                  as a reference </font></p>
+                <p><font size="2" face="VERDANA,ARIAL,HELVETICA">There are 4 absolute 
+                  paths to fill in</font></p>
+                <p><font size="1" face="VERDANA,ARIAL,HELVETICA">Absolute path 
+                  to your CGI directory [i.e. /home/usr/docs/yourname/cgi-bin<br>
+                  Absolute Path to your UBB directory [i.e. /home/usr/docs/yourname/ubb 
+                  <br>
+                  Absolute Path to your Members directory [usually the CGI path 
+                  with /Members added on the end] <br>
+                  Absolute path to your Variables files [usually identical to 
+                  the CGI path] </font></p>
+                <p><font size="2" face="VERDANA,ARIAL,HELVETICA">There are no 
+                  trailing slashes in an absolute path. </font></p>
+              <li><font size="2" face="VERDANA,ARIAL,HELVETICA"><b>Set the General 
+                Settings URLS</b></font> 
+                <P><font size="2" face="VERDANA,ARIAL,HELVETICA">The second section 
+                  is called URLS.</font></p>
+                <p><font size="2" face="VERDANA,ARIAL,HELVETICA">These will all 
+                  begin with http:// ... If UBB has already filled in an URL, 
+                  leave it.</font></p>
+                <p><font size="2" face="VERDANA,ARIAL,HELVETICA">But check that 
+                  each URL ends with a directory name corresponding to the directory 
+                  names on your web server. For example the CGI URL in a common 
+                  installation will end with /cgi-bin or /cgi-local</font></p>
+                <p><font size="2" face="VERDANA,ARIAL,HELVETICA">The NonCGI URL 
+                  will also end with a directory name i.e. /ubb</font></p>
+                <p><font size="2" face="VERDANA,ARIAL,HELVETICA">There are <u>no</u> 
+                  trailing slashes on any of these URLS.</font></p>
+                <p><font size="2" face="VERDANA,ARIAL,HELVETICA">The web site 
+                  URL should be the main URL for your web site.</font></p>
+              <li><font size="2" face="VERDANA,ARIAL,HELVETICA"><b> Choose Your 
+                Options</b></font> 
+                <P><font size="2" face="VERDANA,ARIAL,HELVETICA">Below the absolute 
+                  paths and the urls are many choices about the names, addresses 
+                  and functions of your UBB.</font></p>
+                <p><font size="2" face="VERDANA,ARIAL,HELVETICA">Fill them in 
+                  accurately or leave the defaults. Choose the 'sendmail' email 
+                  option in the Licensed version.</font></p>
+              <li><font size="2" face="VERDANA,ARIAL,HELVETICA"><b>Submit Your 
+                'General Settings'</b></font> 
+                <p><font size="2" face="VERDANA,ARIAL,HELVETICA">At the bottom 
+                  of the general settings page fill in the default username Admin5 
+                  and the password 4tugboat. Spelling and case must be exact.</font></p>
+                <p><font size="2" face="VERDANA,ARIAL,HELVETICA">Click submit. 
+                  If your paths and permissions are correct, your will receive 
+                  a message saying the settings gave been updated.</font></p>
+                <p><font size="2" face="VERDANA,ARIAL,HELVETICA">If your get a 
+                  blank screen or an error message see the troubleshooting suggestions.</font></p>
+              <li><font size="2" face="VERDANA,ARIAL,HELVETICA"><b>Submit your 
+                Styles Settings [licensed version only]</b></font> 
+                <p><font size="2" face="VERDANA,ARIAL,HELVETICA">Click 'Styles' 
+                  on the left hand side of your control panel. You may change 
+                  any of the options listed or leave the defaults until your installation 
+                  is tested completely. Check that your Admin5 name and password 
+                  are filled in at the bottom and click submit.</font></p>
+              <li><font size="2" face="VERDANA,ARIAL,HELVETICA"><b>Submit your 
+                Forums Settings</b></font> 
+                <p><font size="2" face="VERDANA,ARIAL,HELVETICA">Click 'Forums' 
+                  on the left hand side of your control panel. You may change 
+                  any of the names and options there or leave them to change later. 
+                  Check that your Admin5 name and password are filled in at the 
+                  bottom and click submit.</font></p>
+              <li><font size="2" face="VERDANA,ARIAL,HELVETICA"><b>Submit your 
+                Moderators Settings</b></font> 
+                <p><font size="2" face="VERDANA,ARIAL,HELVETICA">Click 'Moderators' 
+                  on the left hand side of your control panel. You may add only 
+                  Admin5 as a moderator until other users are registered [only 
+                  a valid registered user can be a moderator]. Check that your 
+                  Admin5 name and password are filled in at the top and click 
+                  submit.</font></p>
+              <li><font size="2" face="VERDANA,ARIAL,HELVETICA"><b>Open your Bulletin 
+                Board for the First Time</b></font> 
+                <p><font size="2" face="VERDANA,ARIAL,HELVETICA">Click 'Your UBB' 
+                  on the left hand side of your control panel. A new window will 
+                  open with a list of forums. Click the first forum name to open 
+                  it. Looking for a link to 'post new topic'. Click it and use 
+                  the Admin5/4tugboat login to post a new message. </font></p>
+                <p><font size="2" face="VERDANA,ARIAL,HELVETICA">Click Register 
+                  at the top right of your UBB page. Register yourself and make 
+                  sure you can post and reply to messages.</font></p>
+              <li><font size="2" face="VERDANA,ARIAL,HELVETICA"><b>Secure Your 
+                Bulletin Board Admin Name</b></font> 
+                <p><font size="2" face="VERDANA,ARIAL,HELVETICA">After you have 
+                  registered your own name successfully, go back to the control 
+                  panel and click on 'User Info and Permissions' on the left hand 
+                  side. Login with <span class="titlebar"></span>Admin5/4tugboat 
+                  and search for your own name. Use the option check box to make 
+                  yourself an administrator. Test that your own name is accepted 
+                  for administrative functions.</font></p>
+                <p><font size="2" face="VERDANA,ARIAL,HELVETICA">Use the 'User 
+                  Info and Permissions' link to to delete the Admin5 user for 
+                  security reasons. If you wish to keep the Admin5 user, you must 
+                  change the password by clicking the 'profile' link on any regular 
+                  UBB Page.</font></p>
+              <li><font size="2" face="VERDANA,ARIAL,HELVETICA"><b>Bookmark the 
+                UBB Technical Manual for 'How to' Questions</b></font> 
+                <p><font size="2" face="VERDANA,ARIAL,HELVETICA">A technical manual 
+                  is available from your Control Panel main page or at <b>http://www.ultimatebb.com/manual/index.shtml</b> 
+                  There are also support forums at <b>http://www.scriptkeeper.com/cgi-bin/Ultimate.cgi</b> 
+                  where most questions have been answered before. Be sure to use 
+                  the appropriate forum and the search function for greater speed.</font></p>
+            </ol>
+								</td>
+							<td align="left" valign="top" width="20"></td>
+						</tr>
+					</table>
+					<!-- CONTENT TABLE END -->
+				</td>
+				<td align="left" valign="top" width="20"></td>
+			</tr>
+		</table>
+		<!-- SIDEBAR AND CONTENT TABLE END -->
+		<!-- FOOTER TABLE START -->
+		<table cellpadding="0" cellspacing="0" border="0" width="100%">
+			<tr>
+				<td align="left" valign="top" width="150"></td>
+				
+    <td align="center" valign="top" width="100%"><font size="1" face="VERDANA,ARIAL,HELVETICA" color="#666666"> 
+      </font><font size="1" face="VERDANA,ARIAL,HELVETICA" color="#666666"> </font></td>
+			</tr>
+		</table>
+		<!-- FOOTER TABLE END -->
+	</body>
+
+</html>

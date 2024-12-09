@@ -1,0 +1,23 @@
+body {
+	background-color: #000000;
+	color: #0099FF;
+}
+th {
+	background-color: #0099FF;
+	color: #000000;
+}
+td {
+	background-color: #000000;
+	color: #0099FF;
+}
+table {
+	font-size: 10px;
+	font-weight: normal;
+}
+td.other {
+	background-color: #222222;
+	color: #0099FF;
+}
+a {color: #555555; text-decoration: none;}
+a:hover {color: #0099FF; text-decoration: underline}
+

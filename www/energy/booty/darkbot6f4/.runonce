@@ -1,0 +1,32 @@
+#!/bin/sh
+# Sends me a short email so I know if this bot is being
+# used by others, and thus should continue working on
+# Darkbot or not....  -jas
+# Nov 19th, 2000 -- no longer sends any email. Now it just
+# connects to the darkbot website and registers with it what
+# OS you're using. See the results at http://darkbot.net/cgi
+
+OS=`uname`
+#VER=`grep "Darkbot Revision" *.c`
+DONEIT=email.flag
+if [ -e "$DONEIT" ]; then
+	echo
+	echo "########################################################################"
+	echo "This program is provided free for non-commercial use only. Any"
+	echo "commercial use of this source code or binaries compiled thereof requires"
+	echo "the prior written consent of the author, Contact jason@darkbot.net"
+	echo "with any questions regarding commercial use. Distribution of modifid"
+	echo "source code or binaries compiled from modified source code is expressly"
+	echo "forbidden."
+	echo 
+	echo "If you do not agree with the above user agreement, please hit CTRL+C"
+	echo "now, and delete darkbot. Otherwise, hit enter to continue."
+	echo "#######################################################################"
+	read x
+        rm -rf $DONEIT
+	echo ""
+	echo ""
+	lynx -source http://darkbot.net/cgi/reg.cgi?$OS
+	echo ""
+	sleep 1
+fi

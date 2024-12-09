@@ -1,0 +1,169 @@
+3/10/01 - dm12-e-vs-69-g1.zip (game 1 EQL)
+
+** team 1 	: Monty , tgm2001 , Tech , Flood
+** team 2(*69) 	: HellShadow , Rench , Katsu , Stasis
+
+Well, it's sad to say, but I believe that the game was lost because of the Quad and Battlesuit.
+Before we lost the lead we had 4/6 Battle Suits and 4/6 Quads. After the 13:00 mark (which is
+when we fell behind) we didnt manage a single Quad and got 1 BS. *69 got 4 Quads and 3 BS after
+13min. One thing we need to do is be more aware of the surroundings in dm12. I believe this 
+might be due to lack of practice in dm12, but it should be taken note of. When running through 
+the halls in dm12 don't go blazing around the corners, one hit with the sg will take you out. 
+The RL is the key to the map, however it can be overrun with the quad and BS and taken back, 
+so make sure the Quad and BS are timed well. In contrast with dm6 the quad in dm12 is likely to
+run its course for the full 30 secs along with the BS theefore it's more important in this map.
+We were behind 7-1 then when tech pulled the BS quad combo we pulled ahead 8-7 and took over the
+RL room. Stay with a teammate and dont go chasing someone the last few seconds of a quad run
+while falling down and giving up the RL room. I think the only reason we lost at the end besides
+the quad/BS is because we lost focus. Strays would run in and out of RL room getting gunned 
+down. The RL room can easily be held by 2 people. Flood managed to keep all 4 away at the 12 min
+mark.
+
++++ Loss of focus and coordination after 12min mark.
+--- Good playing for our limited dm12 practice.
+
+***stats***
+Name      |Kills|Deaths|Effeciency|Damage Given|Damage Recieved|Team Damage
+--------------------------------------------------------------------------
+e.MonTy   | 18  |  21  |   46     |    3989    |      4058     | 142
+--------------------------------------------------------------------------
+e.tgm2001 | 14  |  18  |   41     |    3197    |      3563     | 100
+--------------------------------------------------------------------------
+e.Tech    | 13  |  21  |   36     |    3555    |      3719     | 203 (good timing)
+--------------------------------------------------------------------------
+e.flood   | 13  |  18  |   37     |    3024    |      3192     | 000 (low team dmg)
+--------------------------------------------------------------------------
+AVERAGE   | 15  |  20  |   40     |    3441    |      3663     | 111 
+
+
+--------------------------------------------------------------------------
+HellShadow| 16  |  12  |   55     |    3213    |      3176     | 060
+--------------------------------------------------------------------------
+Rench     | 21  |  18  |   51     |    3712    |      3873     | 020
+--------------------------------------------------------------------------
+Katsu     | 23  |  13  |   63     |    4617    |      3217     | 071 
+--------------------------------------------------------------------------
+Stasis    | 18  |  15  |   51     |    2990    |      3499     | 037
+--------------------------------------------------------------------------
+AVERAGE   | 20  |  15  |   55     |    3633    |      3441     | 047
+
+				!!! Quad Stats !!!
+       Energy - 4 quads                                 *69 - 6 quads 
+
+       3-Monty						 4-Rench
+       1-Tech 				         	 2-Katsu
+
+			     !!! Battle Suit Stats !!!
+       Energy - 5 BS					 *69 - 5 BS
+
+       4-Tech						 4-Stasis
+       1-tgm2001					 1-Rench
+
+--------------------------------------------------------------------------
+3/10/01 - dm6-e-vs-69-g2.zip (game 2 EQL)
+
+** team 1 	: Monty , tgm2001 , Tech , Flood
+** team 2(*69) 	: HellShadow , Rench , Katsu , Stasis
+
+I think that this was our first game that we actually worked well as a team. We tried to get
+almost every quad. Also, we held RA for a longer time than we usually do agianst good teams.
+Make sure you don't keep your back facing open space when an easy rail can take you out. We 
+still chase frags in this game while running in a straight line. Any weapon will cause major 
+damage if not killing you when attempting this. Avoid camping down on the lower levels when 
+you have a weapon, this allows the other team to take total control of the map. I saw a few 
+times where people would stay stationary waiting for an opponent to appear. This works in 1v1
+but you cannot be certain what is happening from behind or above you with other opponents. When
+grabbing the quad run through the map, but make sure you are back to the RA in time to clear it
+ out and take control of it. *69 did A good job saving weapons in comparison to us. We were
+getting anxious as we do in other games, paranoid that our opponent would manage to pick up the
+ weap before someone else does. If this happens you can always call out "Weap Available" and
+run away leaving the weapon behind. Make sure that someone says they want the weapon or only
+has mg in team overlay, otherwise take it immediately.
+
++++ Weapon control and quad stats.
+--- Need to help teammates and save weaps.
+
+***stats***
+Name      |Kills|Deaths|Effeciency|Damage Given|Damage Recieved|Team Damage
+--------------------------------------------------------------------------
+e.MonTy   | 32  |  22  |   57     |    5009    |      4281     | 005 (good team dmg/ra control)
+--------------------------------------------------------------------------
+e.tgm2001 | 22  |  17  |   50     |    5141    |      3525     | 228 (nice dmg giv/rec ratio)
+--------------------------------------------------------------------------
+e.Tech    | 31  |  31  |   49     |    5970    |      5300     | 066 (nice timing again)
+--------------------------------------------------------------------------
+e.flood   | 25  |  15  |   61     |    4665    |      3346     | 202 (good eff)
+--------------------------------------------------------------------------
+AVERAGE   | 28  |  21  |   54     |    5196    |      4113     | 125 
+
+
+--------------------------------------------------------------------------
+HellShadow| 16  |  12  |   55     |    3213    |      3176     | 060
+--------------------------------------------------------------------------
+Rench     | 21  |  18  |   51     |    3712    |      3873     | 020
+--------------------------------------------------------------------------
+Katsu     | 23  |  13  |   63     |    4617    |      3217     | 071 
+--------------------------------------------------------------------------
+Stasis    | 18  |  15  |   51     |    2990    |      3499     | 037
+--------------------------------------------------------------------------
+AVERAGE   | 21  |  28  |   55     |    3633    |      3633     | 047 
+
+				!!! Quad Stats !!!
+       Energy - 7 quads                                 *69 - 3 quads 
+
+       4-Tech						3-Rench
+       3-Monty						
+       1-Flood		
+
+--------------------------------------------------------------------------
+3/10/01 - dm6-e-vs-69-g3.zip (game 3 EQL)
+
+** team 1 	: Monty , tgm2001 , Tech , Flood
+** team 2(*69) 	: HellShadow , Rench , Katsu , Stasis
+
+The start of this game was great, we all had spots and guarded them, it looked like you guys
+were really prepared for this game. Even though flood's connect gave out, while we were pumped
+up, we were able to hang on and pull out the win. One thing that we need to do is use binds
+more often. However monty has been working hard on them and has finally created a set of team
+binds that we can use for future matches. This wouldve helped us greatly this game. Again, we
+had very good weapon control. The quad was controlled very well by all of us. However the rail
+and RA seemed to be controlled easily by *69 for most of the game. There was one point where
+the RA was lost for about 5-6 minutes. This was the period in which we fell behind. I think
+what gave us this victory was the quad runs and the individual talent that we have. Our
+teamwork has been definately improving over the past month though. Our structure is no longer
+in an ffa format.
+
++++ Weapon control and quad stats,(again) good job guys :).
+--- RA and rail was lost for most of the game.
+
+***stats***
+Name      |Kills|Deaths|Effeciency|Damage Given|Damage Recieved|Team Damage
+--------------------------------------------------------------------------
+e.MonTy   | 41  |  21  |   64     |    5726    |      4526     | 167 (incredible game :))
+--------------------------------------------------------------------------
+e.tgm2001 | 32  |  20  |   60     |    5276    |      3787     | 068 (nice dmg giv/rec ratio)
+--------------------------------------------------------------------------
+e.Tech    | 17  |  17  |   48     |    3680    |      4203     | 133 
+--------------------------------------------------------------------------
+e.o5o     | 12  |  30  |   28     |    3044    |      4930     | 015 (good t.dmg, dont rush ppl)
+--------------------------------------------------------------------------
+AVERAGE   | 26  |  22  |   50     |    4432    |      4362     | 096 
+
+
+--------------------------------------------------------------------------
+HellShadow| 22  |  27  |   42     |    4272    |      4589     | 035
+--------------------------------------------------------------------------
+Rench     | 20  |  30  |   40     |    3799    |      4615     | 195
+--------------------------------------------------------------------------
+Katsu     | 23  |  17  |   57     |    4406    |      3693     | 414 
+--------------------------------------------------------------------------
+Stasis    *****************          Left Early         ******************
+--------------------------------------------------------------------------
+AVERAGE   | NA  |  NA  |   NA     |    4362    |      4432     |  NA 
+
+				!!! Quad Stats !!!
+       Energy - 8 quads                                 *69 - 2 quads 
+
+       6-Monty :)					1-Katsu
+       1-tgm2001					1-Stasis	
+       1-o5o		

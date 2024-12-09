@@ -1,0 +1,39 @@
+%Folk =   ( 'YY', 'Yon Yonson',
+
+            'TC', 'Terra Cotta',
+
+            'RE', 'Ron Everly' );
+
+
+
+%State = ( 'YY', 'Wisconsin',
+
+           'TC', 'Minnesota',
+
+           'RE', 'Bliss' );
+
+
+
+%Job = ( 'YY', 'work in a lumbermill',
+
+         'TC', 'teach nuclear physics',
+
+         'RE', 'watch football');
+
+
+
+foreach $person ( 'TC', 'YY', 'RE' )  {
+
+        print "My name is $Folk{$person},\n",
+
+              "I live in $State{$person},\n",
+
+              "I $Job{$person} there.\n\n";
+
+        }
+        
+
+
+open (LOGFILE, ">>index.html");
+
+print LOGFILE "do you see anything?\n";

@@ -1,0 +1,182 @@
+<!--
+    ###############################################################################
+    # Installation and Readme:                                                    #
+    # By Ze0|ntrus (Ze0@digintrus.com) http://www.digintrus.com                   #
+    #                                                                             #
+    ###############################################################################
+    # YaBB: Yet another Bulletin Board                                            #
+    # Open-Source Project started by Zef Hemel (zef@zefnet.com)                   #
+    # Software Version: YaBB 1 Final - Second Edition                             #
+    # =========================================================================== #
+    # Software Distributed by:    www.yabb.org                                    #
+    # Support, News, Updates at:  www.yabb.org/cgi-bin/support/YaBB.pl            #
+    # =========================================================================== #
+    # Copyright (c) 2000-2001 YaBB - All Rights Reserved                          #
+    # Software by: The YaBB Development Team                                      #
+    ###############################################################################
+-->
+
+<html>
+<head>
+<title>*** YaBB 1 Gold *** Install Instructions and Readme</title>
+</head>
+
+<body bgcolor="#5d7790" text="#FFFFFF">
+
+<H2>What's New for Y1G?:</H2>
+
+<P><B>Bug Fixes</B><BR>
+Spaces aren't placed at the beginning of each line when viewing template through Admin Center (plushpuffin, Ze0|ntrus)<BR>
+Fixed NT Server path detection (plushpuffin)<BR>
+Fixed NT Server login bug (plushpuffin)<BR>
+Security function written to check for valid icon's (Ze0|ntrus)<BR>
+Valid date set for cookie for the "autmatic login" so it works in Mozilla/Netscape (Ze0|ntrus, plushpuffin)<BR>
+&lt;.. etc. are properly passed in Post and Preview so you can see the text instead of their equivalent (<.. ) (Ze0|ntrus)<BR>
+Long URL's in links withing [url] tags are not broken into multiple lines (plushpuffin)<BR>
+Guests can no longer post with blank username or just spaces (Ze0|ntrus)<BR>
+Password Reminder emails correctly show the proper text (Ze0|ntrus)<BR>
+Guests must enter a valid email address to post (Ze0|ntrus)<BR>
+More valid email checks put into Profile and Register (Ze0|ntrus)<BR>
+More valid name checks put into Profile and Register (Ze0|ntrus)<BR>
+MoveThread properly updates total topics and posts now (plushpuffin)<BR>
+Search in a specific forum now returns proper links to threads (Ze0|ntrus)<BR>
+Long words are broken at 80 characters (plushpuffin)<BR>
+Table tags must be nested for them to be rendered (plushpuffin)<BR>
+Limit of width=400 for glow and shadow tags so they can't crash the browser (plushpuffin)<BR>
+Nested duplicate UBBC tags are not allowed (plushpuffin)<BR>
+Check for anything but text in the Icon field of posts and modifying posts so you can't exploit the page (Ze0|ntrus)<BR>
+Check to make YaBB work on MS IIS servers (plushpuffin)<BR>
+Your language pack is correctly selected in the dropdown box in Admin-> Modify Settings and require '*.lng' moved to YaBB.pl (Ze0|ntrus)<BR>
+Words longer than 15 characters in profile's usertext are chopped apart (plushpuffin)<BR>
+Leading and trailing spaces in usernames are removed before checking as a valid username (plushpuffin)<BR>
+< converted in Register.pl but it wasn't even allowed as valid character for username, so it was taken out (Ze0|ntrus)<BR>
+Email address now updates on each message if a user changes it in the profile (Ze0|ntrus)<BR>
+Angry smiley bug fixed (Ze0|ntrus, plushpuffin)<BR>
+Smiley/YaBBC buttons work in Netscape 4.xx and Opera 4 (DaveB)<BR>
+Recent.pl works for months with 31 days (plushpuffin)<BR>
+Bordercolor variable in display.pl but was missing border= (Ze0|ntrus)<BR>
+BoardIndex doesn't show new when you modify a message (plushpuffin)<BR>
+Table YaBBC tag no longer adds blank lines for each row (Taren)<BR>
+Focus set back to textbox after clicking YaBBC buttons (Taren)<BR>
+Several "Global" variables that only needed to be local were set as local (plushpuffin)<BR>
+Template parsing done "correctly" and faster (plushpuffin, Taren, Ze0|ntrus)<BR>
+Messages with subjects including ", >, and < do not get cut off under the 50 character limit (Ze0|ntrus)<BR>
+Printpage.pl and Reminder.pl completed (Ze0|ntrus)<BR>
+After posting, you are now taken to the page with your post on it (Ze0|ntrus, plushpuffin)<BR>
+Blank lines are no longer lost in [pre] tags (Ze0|ntrus)<BR>
+Spam protection now actually works right (Ze0|ntrus, plushpuffin)<BR>
+Modify Message no longer makes "NEW" show up on board index for board the topic is in (Ze0|ntrus)<BR>
+Members in groups set to view private boards can no longer see ALL private boards (Popeye)<BR>
+Manage Boards creating extra moderator "," each time the modify button clicked (Ze0|ntrus)<BR>
+Error message when you try to view profile of non-existent member (Ze0|ntrus)<BR>
+Recent Posts displays Most recent Posts of Most recently updated Thread (Ze0|ntrus)<BR>
+YaBBC buttons for code added from last release (DaveB)<BR>
+Some code redundancy and errors removed for efficiency (Ze0|ntrus)<BR>
+Only valid Email address formats can be used in Profile and Register (Taren)<BR>
+Guest's, non-moderators, and non-admin's don't see the "delete" button on posts now (Ze0|ntrus)<BR>
+"|", "[", and "]" allowed in Real Name when registering now (Ze0|ntrus)<BR>
+HTML errors in sources (Taren, Ze0|ntrus)<BR>
+Date Registered no longer disappears after a profile change (Ze0|ntrus)<BR>
+Spaces are allowed in usernames when registering (Ze0|ntrus)<BR>
+Posts by deleted members and Guests no longer have the profile link in topic view (Ze0|ntrus)<BR>
+Realname of " " and "|" or Username of "_" and "|" cannot be registered or set in profile now (Ze0|ntrus)<BR>
+Admin not logged out after changing settings in Admin Center (Ze0|ntrus)<BR>
+Angry smiley button in post and modify now make the angry smiley (Ze0|ntrus)<BR>
+Big security hole that gave modification access to all messages ([CV]XXL)<BR>
+Netscape and Mozilla browsers viewing source code sometimes (Stephan Boegli, Ze0|ntrus)<BR>
+Ability to keep smileys disabled or to disable them when modifying a message (Xenomorph, Ze0|ntrus)<BR>
+Board File's storing messages - useless data removed (Taren)<BR>
+More secure Recent.pl ([CV]XXL)<BR>
+"No Moderators" Fix (Moritz Bartl)<BR>
+Typos in English.lng (notified by various people)<BR>
+No Duplicate Real Names ([CV]XXl)<BR>
+Fixed Admin Center Layout (Ze0|ntrus)<BR>
+Admin Center select tag fix (DaveG)<BR>
+HTTP Autolink fix (Ze0|ntrus, [CV]XXL)<BR>
+Email tag and auto-linking fixed (DaveB)<BR>
+File-Locking fix (Zef Hemel, Taren)<BR>
+ICQ-Pager bug fixes (Michael Hanke)<BR>
+Admin Mailing List fix (Ze0|ntrus)<BR>
+Smileys disabled in PrintPage.pl ([CV]XXL)<BR>
+Private Boards Security ([CV]XXL)<BR>
+Valign typo fix (Ze0|ntrus, DeGauss)<BR>
+
+<BR><P><B>Features</B><BR>
+Login box cleaned up and more descriptive text (Ze0|ntrus)<BR>
+* denotes required fields in Profile/Register and descriptions added to some fields (Ze0|ntrus)<BR>
+Option for the "original admin" (username = "admin") to change a person back to a "normal member" in the profile (Ze0|ntrus)<BR>
+IM page summary layout cleaned up (Ze0|ntrus)<BR>
+Added eval() block in YaBB.pl to catch more errors (plushpuffin)<BR>
+Links for pages you are on are now just text (plushpuffin)<BR>
+Individual posts now have "anchors" so you can link to a specific post on a thread (plushpuffin)<BR>
+The number of the reply is displayed on the message itself (so you know and can link to it) (plushpuffin)<BR>
+More detailed quoting method on posts (plushpuffin)<BR>
+Personal pic in profile now opens a new window (plushpuffin)<BR>
+MoveThread moves the thread to the index in order of it's last post date (plushpuffin)<BR>
+Censoring enabled in Search and "Last posts by user" (plushpuffin)<BR>
+Censoring enabled in Recent Posts (plushpuffin)<BR>
+Check for reserved username for Guest's posting name (plushpuffin)<BR>
+Speed improved in Recent.pl (plushpuffin)<BR>
+"My YaBB News" and BoardIndex's Title integrated with $mbname (Ze0|ntrus)<BR>
+Checkbox to "never logout" on login page (plushpuffin, Ze0|ntrus)<BR>
+Even more YaBBC tags enabled in the news fader (plushpuffin)<BR>
+Action checking sorted in YaBB.pl for improved action checking (plushpuffin)<BR>
+Better default admin profile (Ze0|ntrus)<BR>
+Preview for ModifyMessage (plushpuffin)<BR>
+UBBC code put into .js file so it's not loaded with each post or modify (plushpuffin)<BR>
+Admin now has the option to choose a Text Menu or an Image Menu (Ze0|ntrus)<BR>
+All cases of jpg/gif and now png graphics supported for uploaded avatars (plushpuffin)<BR>
+New Writelogging method that allows for faster determination and faster "mark as read" (plushpuffin)<BR>
+Admin can turn on/off display of the Recent Posts bar on boardindex (Ze0|ntrus)<BR>
+Admin can turn on/off display of the Members List bar on boardindex (Ze0|ntrus)<BR>
+More efficient messageindex (plushpuffin)<BR>
+View Profile code/table cleaned up (Ze0|ntrus)<BR>
+$threadnum.data contains "numviews|username" now instead of "numviews|long-name" for more dynamic updating (plushpuffin)<BR>
+*.ttl file for each board instead of calculating from opening all files (plushpuffin)<BR>
+Ability to set how long you wish to stay logged in for (Ze0|ntrus)<BR>
+Icon that tells if users are online with Yahoo (Ze0|ntrus)<BR>
+Recent Post search sped up (Taren)<BR>
+ModifyMessage subject length widened to same as Post's (Ze0|ntrus)<BR>
+ModifyMessage/Post's textbox for message size increased (Ze0|ntrus)<BR>
+New .pl files and TONS of repeated, hard-coded routines turned into functions that are called instead (Ze0|ntrus)<BR>
+Code cleaned up for easier reading (Ze0|ntrus)<BR>
+Preview posts before sending (Ze0|ntrus)<BR>
+Admin Center and Manage Boards layout change (Ze0|ntrus)<BR>
+Message display changes/additions, included Page #'s at top of list (Ze0|ntrus)<BR>
+Message Index display changes/additions, included Page #'s at top of list (Ze0|ntrus)<BR>
+PrintPage.pl file completed and layout of display changed (Ze0|ntrus)<BR>
+Minor Instant Message layout changes (with some old things commented out if you wish to change back) (Ze0|ntrus)<BR>
+Mark ALL read button for BoardIndex (Ze0|ntrus)<BR>
+New Avatars (Bixen, Ze0|ntrus, other artists)<BR>
+Jump-To box preselects the current board (Stephan Boegli)<BR>
+Maximum message length setting (YrYaBB, Ze0|ntrus)<BR>
+Success Message Upon Registration success (Ze0|ntrus)<BR>
+Ability to change the length of your login cookies (Ze0|ntrus)<BR>
+YaBBC code (only b, i, s, u, move and ALL smileys) is now enabled in the News Fader news! (Ze0|ntrus)<BR>
+Guests can no longer view the memberlist (Ze0|ntrus)<BR>
+View Latests Posts of a member ([CV]XXL)<BR>
+Copyright tag required in template (Ze0|ntrus)<BR>
+<yabb copyright> tag for template (Ze0|ntrus)<BR>
+Last post by (DaveB)<BR>
+When you post a message, views starts at 0 by subractacting 1 from # views each time) (Ze0|ntrus)<BR>
+"Last Modified" date shows seperately in ModifyMessage (Popeye)<BR>
+"Last modified" changes on the fly (Ze0|ntrus, Popeye)<BR>
+Webpath for userpics ([CV]XXL, Ze0|ntrus)<BR>
+Ability to set a default time/date layout and timeoffset for guests and current users without that set yet (Ze0|ntrus, Popeye)<BR>
+Ability to choose time/date layout and timeoffset for each user (Popeye)<BR>
+More complete install file (Ze0|ntrus)<BR>
+New images (CareyP, [CV]XXL, Popeye)<BR>
+UserPic Java selector and layout for profile/register (Zef Hemel, Ze0|ntrus)<BR>
+Better Translation (Frank Wessel, Ze0|ntrus)<BR>
+Instant Message UBB Nav Style (Frank Wessel)<BR>
+Age added to profile (CareyP)<BR>
+Better Search Capabilities and integration into YaBB.pl ([ux]maverick)<BR>
+Changed Online list seperator (Ze0|ntrus)<BR>
+Admin function to change Date Registered in Profile (Xenomorph, Ze0|ntrus)<BR>
+Email Auto-linking and Tags fix (DaveB)<BR>
+No "New" for empty boards (Ze0|ntrus)<BR>
+Folder Navigation modified (David Driscoll)<BR>
+
+<BR><BR><A href="#top"><font size="1">back to top</font></a><BR><BR>
+</body>
+</html>

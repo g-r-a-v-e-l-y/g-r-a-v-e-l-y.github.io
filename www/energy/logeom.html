@@ -1,0 +1,616 @@
+<HTML><HEAD><TITLE>Access Log: grants_box</TITLE></HEAD><BODY BGCOLOR="#ffffff" TEXT="#000000">
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<LINK rel="STYLESHEET" type="text/css" href="explorer.css">
+<style type="text/css">
+<!--
+a:link    
+{ color:#000000;
+text-decoration: underline
+}
+
+a:visited 
+{ color:#000000;
+text-decoration: underline
+}
+
+a:active  
+{ color:#000000
+ }
+
+a:hover  
+{ color:#FFFFFF;
+background:#EE9C00;
+text-decoration: underline
+}
+//-->
+</STYLE>
+<SCRIPT LANGUAGE="JavaScript">
+<!-- ImageReady Preload Script (red.psd) -->
+
+<!-- ImageReady Preload Script (red.psd) -->
+<!--
+
+function newImage(arg) {
+	if (document.images) {
+		rslt = new Image();
+		rslt.src = arg;
+		return rslt;
+	}
+}
+
+function changeImages() {
+	if (document.images && (preloadFlag == true)) {
+		for (var i=0; i<changeImages.arguments.length; i+=2) {
+			document[changeImages.arguments[i]].src = changeImages.arguments[i+1];
+		}
+	}
+}
+
+var preloadFlag = false;
+function preloadImages() {
+	if (document.images) {
+		blue_03_over = newImage("images/blue_03-over.gif");
+		blue_05_over = newImage("images/blue_05-over.gif");
+		blue_07_over = newImage("images/blue_07-over.gif");
+		blue_09_over = newImage("images/blue_09-over.gif");
+		blue_11_over = newImage("images/blue_11-over.gif");
+		blue_13_over = newImage("images/blue_13-over.gif");
+		blue_24_over = newImage("images/blue_24-over.gif");
+		blue_26_over = newImage("images/blue_26-over.gif");
+		blue_28_over = newImage("images/blue_28-over.gif");
+		blue_30_over = newImage("images/blue_30-over.gif");
+		preloadFlag = true;
+	}
+}
+
+// -->
+</SCRIPT>
+<!-- End Preload Script -->
+</HEAD>
+<BODY BGCOLOR=#FFFFFF ONLOAD="preloadImages();" topmargin="0" marginheight="0" leftmargin="0" marginwidth="0">
+<!-- ImageReady Slices (red.psd) -->
+<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+	<TR>
+		<TD>
+			<IMG SRC="images/spacer.gif" WIDTH=6 HEIGHT=1></TD>
+		<TD>
+			<IMG SRC="images/spacer.gif" WIDTH=29 HEIGHT=1></TD>
+		<TD>
+			<IMG SRC="images/spacer.gif" WIDTH=8 HEIGHT=1></TD>
+		<TD>
+			<IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=1></TD>
+		<TD>
+			<IMG SRC="images/spacer.gif" WIDTH=7 HEIGHT=1></TD>
+		<TD>
+			<IMG SRC="images/spacer.gif" WIDTH=26 HEIGHT=1></TD>
+		<TD>
+			<IMG SRC="images/spacer.gif" WIDTH=9 HEIGHT=1></TD>
+		<TD>
+			<IMG SRC="images/spacer.gif" WIDTH=35 HEIGHT=1></TD>
+		<TD>
+			<IMG SRC="images/spacer.gif" WIDTH=9 HEIGHT=1></TD>
+		<TD>
+			<IMG SRC="images/spacer.gif" WIDTH=16 HEIGHT=1></TD>
+		<TD>
+			<IMG SRC="images/spacer.gif" WIDTH=8 HEIGHT=1></TD>
+		<TD>
+			<IMG SRC="images/spacer.gif" WIDTH=22 HEIGHT=1></TD>
+		<TD>
+			<IMG SRC="images/spacer.gif" WIDTH=19 HEIGHT=1></TD>
+		<TD>
+			<IMG SRC="images/spacer.gif" WIDTH=8 HEIGHT=1></TD>
+		<TD>
+			<IMG SRC="images/spacer.gif" WIDTH=31 HEIGHT=1></TD>
+		<TD>
+			<IMG SRC="images/spacer.gif" WIDTH=8 HEIGHT=1></TD>
+		<TD>
+			<IMG SRC="images/spacer.gif" WIDTH=58 HEIGHT=1></TD>
+		<TD>
+			<IMG SRC="images/spacer.gif" WIDTH=8 HEIGHT=1></TD>
+		<TD>
+			<IMG SRC="images/spacer.gif" WIDTH=42 HEIGHT=1></TD>
+		<TD>
+			<IMG SRC="images/spacer.gif" WIDTH=427 HEIGHT=1></TD>
+		<TD>
+			<IMG SRC="images/spacer.gif" WIDTH=4 HEIGHT=1></TD>
+		<TD>
+			<IMG SRC="images/spacer.gif" WIDTH=9 HEIGHT=1></TD>
+		<TD>
+			<IMG SRC="images/spacer.gif" WIDTH=3 HEIGHT=1></TD>
+		<TD>
+			<IMG SRC="images/spacer.gif" WIDTH=7 HEIGHT=1></TD>
+		<TD></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=24>
+			<IMG SRC="images/blue_01.gif" WIDTH=800 HEIGHT=4></TD>
+		<TD>
+			<IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=4></TD>
+	</TR>
+	<TR>
+		<TD ROWSPAN=5>
+			<IMG SRC="images/blue_02.gif" WIDTH=6 HEIGHT=36></TD>
+		<TD COLSPAN=3>
+			<A HREF="index.shtml"
+			   ONMOUSEOVER="changeImages('blue_03', 'images/blue_03-over.gif'); return true;"
+			   ONMOUSEOUT="changeImages('blue_03', 'images/blue_03.gif'); return true;">
+				<IMG NAME="blue_03" SRC="images/blue_03.gif" WIDTH=38 HEIGHT=12 BORDER=0></A></TD>
+		<TD ROWSPAN=2>
+			<IMG SRC="images/blue_04.gif" WIDTH=7 HEIGHT=19></TD>
+		<TD COLSPAN=5>
+			<A HREF="messageboard.html"
+			   ONMOUSEOVER="changeImages('blue_05', 'images/blue_05-over.gif'); return true;"
+			   ONMOUSEOUT="changeImages('blue_05', 'images/blue_05.gif'); return true;">
+				<IMG NAME="blue_05" SRC="images/blue_05.gif" WIDTH=95 HEIGHT=12 BORDER=0></A></TD>
+		<TD ROWSPAN=2>
+			<IMG SRC="images/blue_06.gif" WIDTH=8 HEIGHT=19></TD>
+		<TD COLSPAN=2>
+			<A HREF="roster.html"
+			   ONMOUSEOVER="changeImages('blue_07', 'images/blue_07-over.gif'); return true;"
+			   ONMOUSEOUT="changeImages('blue_07', 'images/blue_07.gif'); return true;">
+				<IMG NAME="blue_07" SRC="images/blue_07.gif" WIDTH=41 HEIGHT=12 BORDER=0></A></TD>
+		<TD ROWSPAN=5>
+			<IMG SRC="images/blue_08.gif" WIDTH=8 HEIGHT=36></TD>
+		<TD>
+			<A HREF="files.html"
+			   ONMOUSEOVER="changeImages('blue_09', 'images/blue_09-over.gif'); return true;"
+			   ONMOUSEOUT="changeImages('blue_09', 'images/blue_09.gif'); return true;">
+				<IMG NAME="blue_09" SRC="images/blue_09.gif" WIDTH=31 HEIGHT=12 BORDER=0></A></TD>
+		<TD ROWSPAN=5>
+			<IMG SRC="images/blue_10.gif" WIDTH=8 HEIGHT=36></TD>
+		<TD>
+			<A HREF="matches.html"
+			   ONMOUSEOVER="changeImages('blue_11', 'images/blue_11-over.gif'); return true;"
+			   ONMOUSEOUT="changeImages('blue_11', 'images/blue_11.gif'); return true;">
+				<IMG NAME="blue_11" SRC="images/blue_11.gif" WIDTH=58 HEIGHT=12 BORDER=0></A></TD>
+		<TD ROWSPAN=5>
+			<IMG SRC="images/blue_12.gif" WIDTH=8 HEIGHT=36></TD>
+		<TD>
+			<A HREF="extras.html"
+			   ONMOUSEOVER="changeImages('blue_13', 'images/blue_13-over.gif'); return true;"
+			   ONMOUSEOUT="changeImages('blue_13', 'images/blue_13.gif'); return true;">
+				<IMG NAME="blue_13" SRC="images/blue_13.gif" WIDTH=42 HEIGHT=12 BORDER=0></A></TD>
+		<TD COLSPAN=2 ROWSPAN=2>
+			<IMG SRC="images/blue_14.gif" WIDTH=431 HEIGHT=19></TD>
+		<TD>
+			<IMG SRC="images/blue_15.gif" WIDTH=9 HEIGHT=12></TD>
+		<TD COLSPAN=2 ROWSPAN=2>
+			<IMG SRC="images/blue_16.gif" WIDTH=10 HEIGHT=19></TD>
+		<TD>
+			<IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=12></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=3>
+			<IMG SRC="images/blue_17.gif" WIDTH=38 HEIGHT=7></TD>
+		<TD COLSPAN=5>
+			<IMG SRC="images/blue_18.gif" WIDTH=95 HEIGHT=7></TD>
+		<TD COLSPAN=2>
+			<IMG SRC="images/blue_19.gif" WIDTH=41 HEIGHT=7></TD>
+		<TD ROWSPAN=4>
+			<IMG SRC="images/blue_20.gif" WIDTH=31 HEIGHT=24></TD>
+		<TD ROWSPAN=4>
+			<IMG SRC="images/blue_21.gif" WIDTH=58 HEIGHT=24></TD>
+		<TD ROWSPAN=4>
+			<IMG SRC="images/blue_22.gif" WIDTH=42 HEIGHT=24></TD>
+		<TD>
+			<IMG SRC="images/blue_23.gif" WIDTH=9 HEIGHT=7></TD>
+		<TD>
+			<IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=7></TD>
+	</TR>
+	<TR>
+		<TD>
+			<A HREF="info.html"
+			   ONMOUSEOVER="changeImages('blue_24', 'images/blue_24-over.gif'); return true;"
+			   ONMOUSEOUT="changeImages('blue_24', 'images/blue_24.gif'); return true;">
+				<IMG NAME="blue_24" SRC="images/blue_24.gif" WIDTH=29 HEIGHT=12 BORDER=0></A></TD>
+		<TD ROWSPAN=3>
+			<IMG SRC="images/blue_25.gif" WIDTH=8 HEIGHT=17></TD>
+		<TD COLSPAN=3>
+			<A HREF="links.html"
+			   ONMOUSEOVER="changeImages('blue_26', 'images/blue_26-over.gif'); return true;"
+			   ONMOUSEOUT="changeImages('blue_26', 'images/blue_26.gif'); return true;">
+				<IMG NAME="blue_26" SRC="images/blue_26.gif" WIDTH=34 HEIGHT=12 BORDER=0></A></TD>
+		<TD ROWSPAN=3>
+			<IMG SRC="images/blue_27.gif" WIDTH=9 HEIGHT=17></TD>
+		<TD>
+			<A HREF="rants.html"
+			   ONMOUSEOVER="changeImages('blue_28', 'images/blue_28-over.gif'); return true;"
+			   ONMOUSEOUT="changeImages('blue_28', 'images/blue_28.gif'); return true;">
+				<IMG NAME="blue_28" SRC="images/blue_28.gif" WIDTH=35 HEIGHT=12 BORDER=0></A></TD>
+		<TD ROWSPAN=3>
+			<IMG SRC="images/blue_29.gif" WIDTH=9 HEIGHT=17></TD>
+		<TD COLSPAN=3>
+			<A HREF="history.html"
+			   ONMOUSEOVER="changeImages('blue_30', 'images/blue_30-over.gif'); return true;"
+			   ONMOUSEOUT="changeImages('blue_30', 'images/blue_30.gif'); return true;">
+				<IMG NAME="blue_30" SRC="images/blue_30.gif" WIDTH=46 HEIGHT=12 BORDER=0></A></TD>
+		<TD ROWSPAN=3>
+			<IMG SRC="images/blue_31.gif" WIDTH=19 HEIGHT=17></TD>
+		<TD ROWSPAN=3>
+			<IMG SRC="images/blue_32.gif" WIDTH=427 HEIGHT=17></TD>
+		<TD COLSPAN=3 ROWSPAN=2>
+			<IMG SRC="images/blue_33.gif" WIDTH=16 HEIGHT=15></TD>
+		<TD ROWSPAN=3>
+			<IMG SRC="images/blue_34.gif" WIDTH=7 HEIGHT=17></TD>
+		<TD>
+			<IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=12></TD>
+	</TR>
+	<TR>
+		<TD ROWSPAN=2>
+			<IMG SRC="images/blue_35.gif" WIDTH=29 HEIGHT=5></TD>
+		<TD COLSPAN=3 ROWSPAN=2>
+			<IMG SRC="images/blue_36.gif" WIDTH=34 HEIGHT=5></TD>
+		<TD ROWSPAN=2>
+			<IMG SRC="images/blue_37.gif" WIDTH=35 HEIGHT=5></TD>
+		<TD COLSPAN=3 ROWSPAN=2>
+			<IMG SRC="images/blue_38.gif" WIDTH=46 HEIGHT=5></TD>
+		<TD>
+			<IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=3></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=3>
+			<IMG SRC="images/blue_39.gif" WIDTH=16 HEIGHT=2></TD>
+		<TD>
+			<IMG SRC="images/spacer.gif" WIDTH=1 HEIGHT=2></TD>
+	</TR>
+</TABLE>
+<H1 ALIGN=CENTER>Access Log:<BR>grants_box</H1>
+<P ALIGN=CENTER><STRONG>(Accesses Through 23:31:59 31 Oct 2000)</STRONG></P>
+<A NAME="index"><HR></A>
+<H2 ALIGN=CENTER>Index</H2>
+<P><CENTER><TABLE><TR>
+<TD VALIGN=TOP>
+<P ALIGN=CENTER><STRONG>Long-Term Statistics:</STRONG></P><P><UL>
+<LI><A HREF="#monthly">Monthly Statistics</A>
+<LI><A HREF="#daily">Daily Statistics (Past Five Weeks)</A>
+<LI><A HREF="#dayofweek">Day of Week Statistics</A>
+<LI><A HREF="#hourly">Hourly Statistics</A>
+<P><LI><A HREF="#records">&quot;Record Book&quot;</A>
+</UL></P></TD><TD><P>&nbsp; &nbsp; &nbsp</P></TD><TD VALIGN=TOP>
+<P ALIGN=CENTER><STRONG>Statistics for the Current Month (Oct 2000):</STRONG></P><P><UL>
+<LI><A HREF="#topnfilesbyhits">Top 10 Files by Number of Hits</A>
+<LI><A HREF="#topnfilesbyvolume">Top 10 Files by Volume</A>
+<LI><A HREF="#files">Complete File Statistics</A><P>
+<LI><A HREF="#topn404">Top 10 Most Frequently Requested 404 Files</A>
+<LI><A HREF="#404">Complete 404 File Not Found Statistics</A><P>
+<LI><A HREF="#topleveldomain">"Top Level" Domains</A>
+</UL></P></TD></TR></TABLE></CENTER></P>
+<P><CENTER><TABLE BORDER CELLPADDING=6><TR>
+<TD><P ALIGN=CENTER><BIG><STRONG>Key Terms:</STRONG></BIG>
+<P ALIGN=CENTER><STRONG>Hits:</STRONG> The total number of files requested from the server.
+<BR><STRONG>Bytes:</STRONG> The amount of information transferred in filling those requests.
+<BR><STRONG>Visits:</STRONG> The (approximate) number of actual individual visitors.
+<BR><STRONG>PViews:</STRONG> The number of Web pages viewed by those visitors.
+<P ALIGN=CENTER>The bar graphs below are based upon number of visitors.</P></TD>
+</TR></TABLE></CENTER></P>
+<A NAME="monthly"><HR></A><H2 ALIGN=CENTER>Monthly Statistics</H2>
+<PRE>
+        Hits               Bytes      Visits      PViews      Month
+
+       1,775          20,721,722          16         194   Oct 2000  <IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar2.gif" HEIGHT=7 WIDTH=20 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar3.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar3.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar3.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar3.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar3.gif" HEIGHT=7 WIDTH=4 ALT="">
+</PRE>
+<P ALIGN=CENTER><SMALL>[ <A HREF="#index">Return to Index</A> ]</SMALL></P>
+
+<A NAME="daily"><HR></A><H2 ALIGN=CENTER>Daily Statistics (Past Five Weeks)</H2>
+<PRE>
+        Hits               Bytes      Visits      PViews       Date
+
+       1,775          20,721,722          16         194     31 Oct  <IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar2.gif" HEIGHT=7 WIDTH=20 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar3.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar3.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar3.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar3.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar3.gif" HEIGHT=7 WIDTH=4 ALT="">
+</PRE>
+<P ALIGN=CENTER><SMALL>[ <A HREF="#index">Return to Index</A> ]</SMALL></P>
+
+<A NAME="dayofweek"><HR></A><H2 ALIGN=CENTER>Day of Week Statistics</H2>
+<PRE>
+        Hits               Bytes      Visits      PViews        Day
+
+           0                   0           0           0        Sun  
+           0                   0           0           0        Mon  
+       1,775          20,721,722          16         194        Tue  <IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar2.gif" HEIGHT=7 WIDTH=20 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar4.gif" HEIGHT=7 WIDTH=40 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar6.gif" HEIGHT=7 WIDTH=40 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT="">
+           0                   0           0           0        Wed  
+           0                   0           0           0        Thu  
+           0                   0           0           0        Fri  
+           0                   0           0           0        Sat  
+</PRE>
+<P ALIGN=CENTER><SMALL>[ <A HREF="#index">Return to Index</A> ]</SMALL></P>
+
+<A NAME="hourly"><HR></A><H2 ALIGN=CENTER>Hourly Statistics</H2>
+<PRE>
+        Hits               Bytes      Visits      PViews       Hour
+
+           0                   0           0           0         00  
+           0                   0           0           0         01  
+           0                   0           0           0         02  
+           0                   0           0           0         03  
+           0                   0           0           0         04  
+           0                   0           0           0         05  
+           0                   0           0           0         06  
+           0                   0           0           0         07  
+           0                   0           0           0         08  
+           0                   0           0           0         09  
+           0                   0           0           0         10  
+           0                   0           0           0         11  
+           0                   0           0           0         12  
+           0                   0           0           0         13  
+           0                   0           0           0         14  
+           0                   0           0           0         15  
+           0                   0           0           0         16  
+           0                   0           0           0         17  
+           0                   0           0           0         18  
+         590           6,931,196           2          56         19  <IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar2.gif" HEIGHT=7 WIDTH=20 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar4.gif" HEIGHT=7 WIDTH=40 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar6.gif" HEIGHT=7 WIDTH=40 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT="">
+         806          12,786,747           9         101         20  <IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar2.gif" HEIGHT=7 WIDTH=20 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar4.gif" HEIGHT=7 WIDTH=40 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar6.gif" HEIGHT=7 WIDTH=40 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT="">
+         372             858,507           3          33         21  <IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar2.gif" HEIGHT=7 WIDTH=20 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar4.gif" HEIGHT=7 WIDTH=40 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar6.gif" HEIGHT=7 WIDTH=40 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar5.gif" HEIGHT=7 WIDTH=4 ALT="">
+           5              16,653           1           3         22  <IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar2.gif" HEIGHT=7 WIDTH=20 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar4.gif" HEIGHT=7 WIDTH=40 ALT="">
+           2             128,619           1           1         23  <IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar2.gif" HEIGHT=7 WIDTH=20 ALT=""><IMG SRC="http://24.23.47.111/b/beta/cgi/weblog/graphs/bar4.gif" HEIGHT=7 WIDTH=40 ALT="">
+</PRE>
+<P ALIGN=CENTER><SMALL>[ <A HREF="#index">Return to Index</A> ]</SMALL></P>
+
+<A NAME="records"><HR></A><H2 ALIGN=CENTER>&quot;Record Book&quot;</H2>
+<P><STRONG>Most Hits:</STRONG> 1,775 (Oct 31, 2000)
+<P><STRONG>Most Bytes:</STRONG> 20,721,722 (Oct 31, 2000)
+<P><STRONG>Most Visits:</STRONG> 16 (Oct 31, 2000)
+<P><STRONG>Most PViews:</STRONG> 194 (Oct 31, 2000)
+<P ALIGN=CENTER><SMALL>[ <A HREF="#index">Return to Index</A> ]</SMALL></P>
+
+<A NAME="topnfilesbyhits"><HR></A><H2 ALIGN=CENTER>Top 10 Files by Number of Hits (Oct 2000)</H2>
+<PRE>
+Last Accessed               Hits           Bytes   File
+
+21:36:27 31 Oct 2000          23          23,395   /b/beta/explorer.css
+21:36:27 31 Oct 2000          23          12,139   /b/beta/navigator.css
+21:36:53 31 Oct 2000          19         239,172   /b/beta/
+21:36:59 31 Oct 2000          10          40,720   /b/beta/private.html
+21:37:09 31 Oct 2000           9         413,403   /b/beta/log.html
+22:06:58 31 Oct 2000           8           7,967   /b/
+22:06:50 31 Oct 2000           7           5,781   /b/logo.html
+20:22:54 31 Oct 2000           6          63,411   /ubb2/cgi/forumdisplay.cgi
+23:31:40 31 Oct 2000           6          28,624   /ubb2/cgi/Ultimate.cgi
+20:03:49 31 Oct 2000           5           1,955   /portfolio/portfolio.html
+</PRE>
+<P ALIGN=CENTER><SMALL>[ <A HREF="#index">Return to Index</A> ]</SMALL></P>
+
+<A NAME="topnfilesbyvolume"><HR></A><H2 ALIGN=CENTER>Top 10 Files by Volume (Oct 2000)</H2>
+<PRE>
+Last Accessed               Hits           Bytes   File
+
+20:21:43 31 Oct 2000           3      10,043,193   /b/demos/(b)vs(m).dm3
+20:06:35 31 Oct 2000           3         421,787   /b/demos/radioshit!!s.mp3
+21:37:09 31 Oct 2000           9         413,403   /b/beta/log.html
+21:36:53 31 Oct 2000          19         239,172   /b/beta/
+21:34:30 31 Oct 2000           3          78,434   /b/news.shtml
+20:22:54 31 Oct 2000           6          63,411   /ubb2/cgi/forumdisplay.cgi
+21:36:59 31 Oct 2000          10          40,720   /b/beta/private.html
+23:31:40 31 Oct 2000           6          28,624   /ubb2/cgi/Ultimate.cgi
+20:21:30 31 Oct 2000           2          24,775   /b/beta/cgi/ubb/cgi/forumdisplay.cgi
+20:21:23 31 Oct 2000           5          24,385   /b/beta/cgi/ubb/cgi/ultimate.cgi
+</PRE>
+<P ALIGN=CENTER><SMALL>[ <A HREF="#index">Return to Index</A> ]</SMALL></P>
+
+<A NAME="files"><HR></A><H2 ALIGN=CENTER>Complete File Statistics (Oct 2000)</H2>
+<PRE>
+Last Accessed               Hits           Bytes   File
+
+22:06:58 31 Oct 2000           8           7,967   /b/
+21:36:53 31 Oct 2000          19         239,172   /b/beta/
+21:37:03 31 Oct 2000           2           7,836   /b/beta/cgi/newspro.cgi
+20:21:23 31 Oct 2000           4           1,564   /b/beta/cgi/ubb/bbtitle5.jpg
+20:21:30 31 Oct 2000           2          24,775   /b/beta/cgi/ubb/cgi/forumdisplay.cgi
+20:21:23 31 Oct 2000           5          24,385   /b/beta/cgi/ubb/cgi/ultimate.cgi
+20:21:24 31 Oct 2000           1             391   /b/beta/cgi/ubb/closed.gif
+20:21:24 31 Oct 2000           1             391   /b/beta/cgi/ubb/open.gif
+20:21:24 31 Oct 2000           1             390   /b/beta/cgi/ubb/tline.gif
+20:21:24 31 Oct 2000           1             391   /b/beta/cgi/ubb/topic5.jpg
+21:37:09 31 Oct 2000          15           7,150   /b/beta/cgi/weblog/graphs/bar2.gif
+21:37:09 31 Oct 2000          15           7,080   /b/beta/cgi/weblog/graphs/bar3.gif
+21:37:09 31 Oct 2000          15           7,227   /b/beta/cgi/weblog/graphs/bar4.gif
+21:37:09 31 Oct 2000          15           7,080   /b/beta/cgi/weblog/graphs/bar5.gif
+21:37:09 31 Oct 2000          15           7,242   /b/beta/cgi/weblog/graphs/bar6.gif
+20:21:23 31 Oct 2000           4           1,560   /b/beta/empty.html
+21:36:27 31 Oct 2000          23          23,395   /b/beta/explorer.css
+20:21:40 31 Oct 2000           2             782   /b/beta/extras.html
+19:20:33 31 Oct 2000           1             391   /b/beta/files.html
+19:20:43 31 Oct 2000           1             391   /b/beta/history.html
+21:36:27 31 Oct 2000          24          10,032   /b/beta/images/blue_01.gif
+21:36:27 31 Oct 2000          22           8,982   /b/beta/images/blue_02.gif
+21:36:28 31 Oct 2000          30          12,915   /b/beta/images/blue_03-over.gif
+21:36:38 31 Oct 2000          16           7,383   /b/beta/images/blue_03.gif
+21:36:27 31 Oct 2000          22           9,151   /b/beta/images/blue_04.gif
+21:36:28 31 Oct 2000          24          12,032   /b/beta/images/blue_05-over.gif
+21:36:27 31 Oct 2000          21          10,149   /b/beta/images/blue_05.gif
+21:36:27 31 Oct 2000          22           9,157   /b/beta/images/blue_06.gif
+21:36:28 31 Oct 2000          23          10,645   /b/beta/images/blue_07-over.gif
+21:36:27 31 Oct 2000          22           9,793   /b/beta/images/blue_07.gif
+21:36:18 31 Oct 2000          21           8,790   /b/beta/images/blue_08.gif
+21:36:28 31 Oct 2000          22           9,846   /b/beta/images/blue_09-over.gif
+21:36:10 31 Oct 2000          17           7,544   /b/beta/images/blue_09.gif
+21:36:38 31 Oct 2000          18           7,810   /b/beta/images/blue_10.gif
+21:36:28 31 Oct 2000          22          10,562   /b/beta/images/blue_11-over.gif
+21:35:51 31 Oct 2000          19           9,329   /b/beta/images/blue_11.gif
+21:36:02 31 Oct 2000          18           7,617   /b/beta/images/blue_12.gif
+21:36:28 31 Oct 2000          22          10,306   /b/beta/images/blue_13-over.gif
+21:36:02 31 Oct 2000          18           8,283   /b/beta/images/blue_13.gif
+21:36:02 31 Oct 2000          18           7,986   /b/beta/images/blue_14.gif
+21:36:27 31 Oct 2000          20           8,483   /b/beta/images/blue_15.gif
+21:36:06 31 Oct 2000          18           7,599   /b/beta/images/blue_16.gif
+21:36:06 31 Oct 2000          18           7,614   /b/beta/images/blue_17.gif
+21:36:27 31 Oct 2000          20           8,648   /b/beta/images/blue_18.gif
+21:36:18 31 Oct 2000          19           8,182   /b/beta/images/blue_19.gif
+21:36:10 31 Oct 2000          18           7,659   /b/beta/images/blue_20.gif
+21:36:10 31 Oct 2000          19           8,321   /b/beta/images/blue_21.gif
+21:36:10 31 Oct 2000          20           8,890   /b/beta/images/blue_22.gif
+21:36:18 31 Oct 2000          19           7,963   /b/beta/images/blue_23.gif
+21:36:28 31 Oct 2000          22           9,758   /b/beta/images/blue_24-over.gif
+21:36:18 31 Oct 2000          22           9,710   /b/beta/images/blue_24.gif
+21:36:14 31 Oct 2000          20           8,357   /b/beta/images/blue_25.gif
+21:36:28 31 Oct 2000          22          10,070   /b/beta/images/blue_26-over.gif
+21:36:14 31 Oct 2000          21           9,258   /b/beta/images/blue_26.gif
+21:36:27 31 Oct 2000          22           9,142   /b/beta/images/blue_27.gif
+21:36:28 31 Oct 2000          21           9,523   /b/beta/images/blue_28-over.gif
+21:36:27 31 Oct 2000          22           9,559   /b/beta/images/blue_28.gif
+21:36:27 31 Oct 2000          20           8,360   /b/beta/images/blue_29.gif
+21:36:28 31 Oct 2000          21           9,931   /b/beta/images/blue_30-over.gif
+21:36:27 31 Oct 2000          22           9,856   /b/beta/images/blue_30.gif
+21:36:27 31 Oct 2000          20           8,361   /b/beta/images/blue_31.gif
+21:36:27 31 Oct 2000          20           8,892   /b/beta/images/blue_32.gif
+21:36:27 31 Oct 2000          21           9,471   /b/beta/images/blue_33.gif
+21:36:27 31 Oct 2000          19           7,963   /b/beta/images/blue_34.gif
+21:36:18 31 Oct 2000          20           8,540   /b/beta/images/blue_35.gif
+21:36:18 31 Oct 2000          20           8,540   /b/beta/images/blue_36.gif
+21:36:18 31 Oct 2000          20           8,544   /b/beta/images/blue_37.gif
+21:36:18 31 Oct 2000          22           9,552   /b/beta/images/blue_38.gif
+21:36:18 31 Oct 2000          20           8,342   /b/beta/images/blue_39.gif
+21:36:18 31 Oct 2000          12           5,118   /b/beta/images/foot.gif
+21:36:11 31 Oct 2000          11           4,698   /b/beta/images/newsbar.gif
+19:20:33 31 Oct 2000           1             391   /b/beta/images/roster.gif
+21:36:27 31 Oct 2000          23           9,295   /b/beta/images/spacer.gif
+21:36:38 31 Oct 2000           2           9,668   /b/beta/info.html
+19:20:42 31 Oct 2000           1             391   /b/beta/links.html
+21:37:09 31 Oct 2000           9         413,403   /b/beta/log.html
+19:59:12 31 Oct 2000           2             782   /b/beta/matches.html
+20:21:23 31 Oct 2000           5          10,967   /b/beta/messageboard.html
+21:36:27 31 Oct 2000          23          12,139   /b/beta/navigator.css
+21:36:59 31 Oct 2000          10          40,720   /b/beta/private.html
+19:20:43 31 Oct 2000           1             391   /b/beta/rants.html
+19:20:33 31 Oct 2000           1             391   /b/beta/roster.html
+20:21:23 31 Oct 2000           4           1,564   /b/beta/yabb/cgi-bin/YaBB.pl
+21:35:32 31 Oct 2000           5           8,290   /b/demos/
+20:21:43 31 Oct 2000           3      10,043,193   /b/demos/(b)vs(m).dm3
+20:06:35 31 Oct 2000           3         421,787   /b/demos/radioshit!!s.mp3
+21:34:31 31 Oct 2000           3           2,437   /b/images/newscard_01.gif
+21:34:31 31 Oct 2000           3           2,357   /b/images/newscard_02.gif
+21:34:31 31 Oct 2000           3           4,257   /b/images/newscard_03.gif
+21:34:31 31 Oct 2000           3           2,555   /b/images/newscard_04.gif
+21:34:33 31 Oct 2000           3           2,457   /b/images/newscard_05.gif
+21:34:31 31 Oct 2000           3           1,863   /b/images/newscard_06.gif
+21:34:31 31 Oct 2000           3           3,408   /b/images/newscard_07.gif
+21:34:31 31 Oct 2000           3           3,567   /b/images/newscard_08.gif
+21:34:31 31 Oct 2000           2           2,054   /b/images/newscard_09.gif
+21:34:31 31 Oct 2000           2           1,130   /b/images/newscard_10.gif
+21:34:31 31 Oct 2000           2           2,214   /b/images/newscard_12.gif
+21:34:31 31 Oct 2000           3           1,499   /b/images/spacer.gif
+22:07:00 31 Oct 2000           1           1,414   /b/links.html
+22:06:50 31 Oct 2000           7          23,009   /b/logo.gif
+22:06:50 31 Oct 2000           7           5,781   /b/logo.html
+21:34:20 31 Oct 2000           3           7,161   /b/members.html
+21:34:30 31 Oct 2000           3          78,434   /b/news.shtml
+21:34:33 31 Oct 2000           3         258,870   /portfolio/b_and_n/images/nate.jpg
+23:31:59 31 Oct 2000          16       6,964,380   /portfolio/current.jpg
+20:03:56 31 Oct 2000           6           2,334   /portfolio/grayguest.gif
+20:03:54 31 Oct 2000           2             782   /portfolio/guestover.gif
+20:02:03 31 Oct 2000           1           1,643   /portfolio/image1.html
+20:03:21 31 Oct 2000           1             391   /portfolio/image2.html
+20:02:07 31 Oct 2000           1           1,728   /portfolio/image3.html
+20:03:14 31 Oct 2000           1           1,849   /portfolio/image4.html
+20:03:28 31 Oct 2000           1           1,593   /portfolio/image5.html
+20:03:33 31 Oct 2000           1           2,050   /portfolio/image6.html
+20:03:51 31 Oct 2000           1           1,600   /portfolio/image7.html
+20:03:14 31 Oct 2000           1          13,238   /portfolio/images/WWWB.gif
+20:03:33 31 Oct 2000           1           5,060   /portfolio/images/acidstep.gif
+20:03:21 31 Oct 2000           1             390   /portfolio/images/big/Litestep/current.jpg
+20:03:38 31 Oct 2000           1         215,594   /portfolio/images/big/acidstep.jpg
+20:02:03 31 Oct 2000           1          33,825   /portfolio/images/big/axefire.jpg
+20:02:05 31 Oct 2000           1          25,758   /portfolio/images/big/axered.gif
+20:03:29 31 Oct 2000           1          81,428   /portfolio/images/big/midnight.gif
+20:03:49 31 Oct 2000           5           1,950   /portfolio/images/portfolio_01.jpg
+20:03:49 31 Oct 2000           5           1,955   /portfolio/images/portfolio_02.jpg
+20:03:49 31 Oct 2000           5           1,955   /portfolio/images/portfolio_03.jpg
+20:03:49 31 Oct 2000           5           1,955   /portfolio/images/portfolio_04.jpg
+20:03:49 31 Oct 2000           5           1,955   /portfolio/images/portfolio_05.jpg
+20:03:49 31 Oct 2000           5           1,950   /portfolio/images/portfolio_06.jpg
+20:03:49 31 Oct 2000           5           1,955   /portfolio/images/portfolio_07.jpg
+20:03:49 31 Oct 2000           5           1,955   /portfolio/images/portfolio_08.jpg
+20:03:49 31 Oct 2000           5           1,955   /portfolio/images/portfolio_09.jpg
+20:03:49 31 Oct 2000           5           1,950   /portfolio/images/portfolio_10.jpg
+20:03:49 31 Oct 2000           5           1,955   /portfolio/images/portfolio_11.jpg
+20:03:49 31 Oct 2000           5           1,950   /portfolio/images/portfolio_12.jpg
+20:03:49 31 Oct 2000           5           1,950   /portfolio/images/portfolio_13.jpg
+20:03:49 31 Oct 2000           5           1,955   /portfolio/images/portfolio_14.jpg
+20:03:49 31 Oct 2000           5           1,955   /portfolio/images/portfolio_15.jpg
+20:03:49 31 Oct 2000           5           1,955   /portfolio/images/portfolio_16.jpg
+20:03:49 31 Oct 2000           5           1,955   /portfolio/images/portfolio_17.jpg
+20:03:49 31 Oct 2000           5           1,955   /portfolio/images/portfolio_18.jpg
+20:03:49 31 Oct 2000           5           1,950   /portfolio/images/portfolio_19.jpg
+20:03:49 31 Oct 2000           5           1,950   /portfolio/images/portfolio_20.jpg
+20:03:49 31 Oct 2000           5           1,955   /portfolio/images/portfolio_21.jpg
+20:03:49 31 Oct 2000           5           1,955   /portfolio/images/portfolio_22.jpg
+20:03:49 31 Oct 2000           5           1,950   /portfolio/images/portfolio_23.jpg
+20:03:49 31 Oct 2000           5           1,950   /portfolio/images/portfolio_24.jpg
+20:03:49 31 Oct 2000           5           1,955   /portfolio/images/portfolio_25.jpg
+20:03:51 31 Oct 2000           5           1,955   /portfolio/images/portfolio_26.jpg
+20:03:49 31 Oct 2000           5           1,955   /portfolio/images/portfolio_27.jpg
+20:03:49 31 Oct 2000           5           1,955   /portfolio/images/spacer.gif
+20:03:51 31 Oct 2000           3           1,170   /portfolio/images/thumb.gif
+20:02:46 31 Oct 2000           2           4,613   /portfolio/oldsites/Quasilateral/
+20:02:46 31 Oct 2000           2         113,166   /portfolio/oldsites/Quasilateral/main.gif
+20:02:48 31 Oct 2000           1           1,368   /portfolio/oldsites/beginnings/
+21:50:05 31 Oct 2000           2           1,606   /portfolio/oldsites/beginnings/beg.css
+20:02:56 31 Oct 2000           1          17,584   /portfolio/oldsites/beginnings/bio.html
+20:03:01 31 Oct 2000           1           5,422   /portfolio/oldsites/beginnings/des.html
+21:50:05 31 Oct 2000           2           4,036   /portfolio/oldsites/beginnings/diamond.gif
+20:02:48 31 Oct 2000           1          21,932   /portfolio/oldsites/beginnings/diskette.jpg
+20:02:56 31 Oct 2000           1           9,499   /portfolio/oldsites/beginnings/gallery/axereds.gif
+20:02:50 31 Oct 2000           1          10,038   /portfolio/oldsites/beginnings/index2.html
+20:03:03 31 Oct 2000           1          17,303   /portfolio/oldsites/beginnings/links.html
+20:02:50 31 Oct 2000           1          32,185   /portfolio/oldsites/beginnings/menu.jpg
+20:03:03 31 Oct 2000           1           1,422   /portfolio/oldsites/beginnings/onionlink1098.gif
+21:50:05 31 Oct 2000           2          12,128   /portfolio/oldsites/beginnings/resume.html
+20:03:03 31 Oct 2000           1          25,408   /portfolio/oldsites/beginnings/sonique.gif
+20:03:03 31 Oct 2000           1           2,495   /portfolio/oldsites/beginnings/suck.gif
+21:50:05 31 Oct 2000           2          30,870   /portfolio/oldsites/beginnings/title.jpg
+20:03:03 31 Oct 2000           1           2,219   /portfolio/oldsites/beginnings/winamp-miniban.gif
+20:03:49 31 Oct 2000           5           1,955   /portfolio/portfolio.html
+20:03:53 31 Oct 2000           5           1,955   /portfolio/spy.gif
+20:04:01 31 Oct 2000           5           1,950   /portfolio/spyOver.gif
+20:03:51 31 Oct 2000           3           1,173   /portfolio/style.css
+20:03:56 31 Oct 2000           1             391   /portfolio/ubb/bbtitle5.jpg
+20:03:56 31 Oct 2000           1           3,097   /portfolio/ubb/cgi/Ultimate.cgi
+20:22:56 31 Oct 2000           1           5,307   /ubb2/Forum1/HTML/000024.html
+22:06:58 31 Oct 2000           8          21,911   /ubb2/bbtitle5.gif
+20:22:52 31 Oct 2000           4           9,407   /ubb2/bbtitle5.jpg
+23:31:40 31 Oct 2000           6          28,624   /ubb2/cgi/Ultimate.cgi
+20:22:54 31 Oct 2000           6          63,411   /ubb2/cgi/forumdisplay.cgi
+20:13:47 31 Oct 2000           4           8,054   /ubb2/cgi/postings.cgi
+20:22:54 31 Oct 2000           4           1,730   /ubb2/closed.gif
+20:22:56 31 Oct 2000           1             391   /ubb2/email.gif
+20:22:54 31 Oct 2000           4           2,519   /ubb2/open.gif
+20:22:56 31 Oct 2000           1             390   /ubb2/posticon.gif
+20:22:56 31 Oct 2000           1             391   /ubb2/profile.gif
+20:22:56 31 Oct 2000           1             391   /ubb2/reply5.jpg
+20:22:54 31 Oct 2000           4           1,706   /ubb2/tline.gif
+20:22:56 31 Oct 2000           1             391   /ubb2/tline3.gif
+20:22:54 31 Oct 2000           4           4,064   /ubb2/topic5.jpg
+21:35:32 31 Oct 2000           5           2,739   Code 302 Moved Temporarily
+21:36:28 31 Oct 2000         161         631,493   Code 403 Forbidden
+20:03:06 31 Oct 2000           1           3,906   Code 404 Not Found
+20:10:02 31 Oct 2000           1             959   Code 502 Bad Gateway
+</PRE>
+<P ALIGN=CENTER><SMALL>[ <A HREF="#index">Return to Index</A> ]</SMALL></P>
+
+<A NAME="topn404"><HR></A><H2 ALIGN=CENTER>Top 10 Most Frequently Requested 404 Files (Oct 2000)</H2>
+<PRE>
+Last Accessed               Hits           Bytes   File
+
+20:03:06 31 Oct 2000           1           3,906   /favicon.ico
+</PRE>
+<P ALIGN=CENTER><SMALL>[ <A HREF="#index">Return to Index</A> ]</SMALL></P>
+
+<A NAME="404"><HR></A><H2 ALIGN=CENTER>Complete 404 File Not Found Statistics (Oct 2000)</H2>
+<PRE>
+Last Accessed               Hits           Bytes   File
+
+20:03:06 31 Oct 2000           1           3,906   /favicon.ico
+</PRE>
+<P ALIGN=CENTER><SMALL>[ <A HREF="#index">Return to Index</A> ]</SMALL></P>
+
+<A NAME="topleveldomain"><HR></A><H2 ALIGN=CENTER>"Top Level" Domains (Oct 2000)</H2>
+<PRE>
+Last Accessed               Hits           Bytes   "Top Level" Domain
+
+21:50:05 31 Oct 2000       1,059      13,749,080   xxx  = Unresolved Domain
+22:07:00 31 Oct 2000         101       3,877,686   com  = US Commercial
+23:31:59 31 Oct 2000         615       3,094,956   edu  = US Educational
+</PRE>
+<P ALIGN=CENTER><SMALL>[ <A HREF="#index">Return to Index</A> ]</SMALL></P>
+
+<HR>
+<P ALIGN=CENTER><SMALL>This report was generated by <STRONG><A HREF="http://awsd.com/scripts/weblog/">WebLog 2.20</A></STRONG></SMALL></P>
+</BODY></HTML>

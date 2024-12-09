@@ -1,0 +1,52 @@
+# ignore hook
+
+add_command_hook("ignore","ignore");
+
+sub hook_ignore {
+	$text = $_[0];
+
+	if($text =~ /^ignore[ ]?([^ ]+)[ ]?(.*)$/) {
+		$one = lc($1);
+		$two = lc($2);
+		if ($one =~ /add/) {
+			if ($ulevel{$two} >= $ulevel{$unick}) {sockwrite($sock,"privmsg $uchan :Error: you may not set the ignore flag for $two\. [Reason: $two is level $ulevel{$two}\, and you are only level $ulevel{$unick}\]");}
+			else {
+				if ($ignored{$two} == "1") {sockwrite($sock,"privmsg $uchan :Error: $two is already ignored!");} else {$ignored{$two} = 1; $iglist .= "$two "; $igsetby{$two} = $unick; sockwrite($sock,"privmsg $uchan :Ignored: $two");}
+			}
+		} elsif ($one =~ /del/) {
+			$igtemp = $igsetby{$two};
+			if ($ulevel{$igtemp} > $ulevel{$unick}) {sockwrite($sock,"privmsg $uchan :Error: you may not unset the ignore flag for $two\. [Reason: $two was ignored by a level $ulevel{$igtemp} user\, and you are only level $ulevel{$unick}");}
+			else {
+				if ($ignored{$two} == "") {sockwrite($sock,"privmsg $uchan :Error: $two is not ignored!");} else {$ignored{$two} = 0; $igsetby{$two} = ""; sockwrite($sock,"privmsg $uchan :UnIgnored: $two");
+					#$igtemp2 = $two; $iglist =~ /^[ ]?(.*)$igtemp2[ ]?(.*)$/; if ($1 ne "") {$iglist = "$1 $2";} else {$iglist = $2;}}
+					$x = 0;
+					my(@iglist) = split(' ',$iglist);
+					$iglist = "";
+					foreach $igflist (@iglist) {
+						if($igflist ne $two) {
+							$x +=1;
+							if($x eq 1) {$iglist .= "$igflist";}
+							if($x > 1) {$iglist .= " $igflist";}
+						}
+					}
+				}
+			}
+		} elsif ($one =~ /wipe/ || $one =~ /clear/){
+			$ignotw = "";
+			my(@iglist) = split(' ',$iglist);
+			$iglist = "";
+			for $igflist (@iglist) {
+				$ignored{$igflist} = "";
+				if ($ulevel{$igsetby{$igflist}} > $ulevel{$unick}) {$ignotw .= $igflist; $iglist .= $igflist;}
+			}
+			if ($ignotw ne "") {sockwrite($sock,"privmsg $uchan :Ignore list wiped with the exception of: $ignotw");}
+			else {sockwrite($sock,"privmsg $uchan :Ignore list wiped.");}
+		} elsif ($one =~ /list/) {
+			if ($iglist ne "") {sockwrite($sock,"privmsg $uchan :Ignored List: $iglist");}
+			else {sockwrite($sock,"privmsg $uchan :Ignored List: [Empty]");}
+		} else {sockwrite($sock,"privmsg $uchan :Error: Bad Syntax. Syntax: $cmdprefix ignore \[add\|del\|wipe\/clear\|list\]");}
+	        return 1;
+	}
+
+	return 0;
+}

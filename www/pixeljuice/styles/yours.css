@@ -1,0 +1,219 @@
+body {
+  color : WindowText;
+  background-color : Background ;
+  margin : 0;
+  padding : 0;
+  font : menu;
+}
+
+.ahem, a.dhtmlaunch:link, a.dhtmlaunch:visited, a.dhtmlaunch:active, a.dhtmlaunch:hover, a.dhtmlaunch2:link, a.dhtmlaunch2:visited, a.dhtmlaunch2:active, a.dhtmlaunch2:hover, .logo {
+ display : none;
+}
+.navpadding {
+  color : WindowText;
+  background-color : Background ;
+  }
+div.brokeass {
+  color : HighlightText ;
+  font : menu;
+}
+
+select{
+  background-color : Background ;
+  color : HighlightText ;
+
+    font : menu;
+}
+
+a.copyright:link {
+	color : menutext;
+	background-color : menu;
+  cursor : default;
+  text-decoration : none;
+}
+a.copyright:visited {
+	color : menutext;
+	background-color : menu;
+  cursor : default;
+  text-decoration : none;
+}
+a.copyright:active {
+	color : menutext;
+	background-color : menu;
+  cursor : default;
+  text-decoration : none;
+}
+a.copyright:hover {
+	color : menutext;
+	background-color : menu;
+  cursor : default;
+  border : none;
+  text-decoration : none;
+}
+
+div#navigation {
+  background : menu  ;
+  color : Menu ;
+
+  padding : 0;
+  margin : 0;
+  position : absolute;
+  top : 12px;
+  left : 445px;
+    font : menu;
+	line-height : 180%;
+	  border-top: 2px solid ThreeDLightShadow;
+  border-right : 2px solid ThreeDShadow;
+  border-left : 2px solid ThreeDLightShadow;
+  border-bottom : 2px solid ThreeDShadow;
+}
+
+div#main {
+  background-color : Window ;
+  border-left : 2px solid ThreeDLightShadow ;
+  border-right : 2px solid ThreeDShadow ;
+  border-bottom : 2px solid ThreeDShadow ;
+  border-top : 2px solid ThreeDLightShadow ;
+  color : WindowText ;
+  width : 400px;
+  position : absolute;
+  padding : 10px;
+  margin : 0;
+  top : 45px;
+  left : 12px;
+  text-align : justify;
+  z-index : 2;
+  font : menu;
+  line-height : 180%;
+  height : 350px;
+  overflow : auto;
+}
+
+div#pagetitle {
+  line-height : normal;
+  background : Highlight;
+  color : HighlightText;
+  border-top: 2px solid ThreeDLightShadow;
+  border-right : 2px solid ThreeDShadow;
+  border-left : 2px solid ThreeDLightShadow;
+  border-bottom : 2px solid ThreeDShadow;
+  height : 20px;
+  padding : 10px;
+  width : 400px;
+  position : absolute;
+  top : 12px;
+  left : 12px;
+  z-index : 1;
+  font : caption;
+}
+
+#spybox{
+  width : 80%;
+  border : 0 0 0 0;
+  outline : none;
+  color : WindowText;
+  background-color : Window;
+  text-align : center;
+  position : relative;
+  margin-left : auto;
+  margin-right : auto;
+    font : menu;
+}
+
+#themedrop{
+  background-color : ThreeDFace;
+  color : Background;
+  font : menu;
+  position : absolute;
+  left : 320px;
+  top : 20px;
+  z-index : 4;
+  }
+img.scaled {
+  width : 10%;
+  border : 0;
+  display : inline;
+  margin : 6px;
+}
+
+.broke {
+  color : HighlightText ;
+  font-size : 11px;
+  background-color : Highlight ;
+  border-top : 1px dotted black;
+  border-bottom : 1px dotted black;
+    font : small-caption;
+}
+
+a:link {
+  text-decoration : underline;
+}
+
+a:visited {
+	  text-decoration : underline;
+}
+
+a:active {
+	  text-decoration : underline;
+}
+
+a:hover {
+    font : menu underline;
+
+}
+
+pre {
+  font-family : "Lucida Console", "Letter Gothic MT", "Courier New", Courier, monospace;
+  color : WindowText;
+  background-color : Window;
+	padding : 2%;
+	text-align : center;
+	  font : menu;
+}
+
+.tinypre {
+  font-family : "Lucida Console", "Letter Gothin MT", "Courier New", Courier, monospace;
+  font-size : 1px;
+  color : WindowText;
+    font : menu;
+  }
+
+h1 {
+  font-weight : bold;
+  color : WindowText;
+  background-color : Window;
+  margin : 3px;
+  line-height : normal;
+}
+
+strong {
+  background : Highlight;
+  color : HighlightText;
+  display : block;
+  font : bold menu;
+
+  }
+a.nav:link {
+	color : menutext;
+	background-color : menu;
+	display : block;
+	font : menu ;
+}
+a.nav:visited {
+	color : menutext;
+	background-color : menu;
+	display : block;
+	font : menu ;
+}
+a.nav:active {
+	color : menutext;
+	background-color : menu;
+  display : block;
+    font : menu ;
+}
+a.nav:hover {
+  color : HighlightText;
+  background-color : Highlight ;
+  display : block;
+    font : menu ;
+}

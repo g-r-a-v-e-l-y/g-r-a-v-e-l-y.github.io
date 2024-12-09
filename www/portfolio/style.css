@@ -1,0 +1,35 @@
+P
+{ font-family: verdana, Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif;
+color: white;
+font-size: 11px;
+font-weight: lighter;
+line-height: 160% }
+
+TD
+{ font-family: verdana, Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif;
+color: black;
+font-size: 10px;
+font-weight: lighter;
+line-height: 100%;
+}
+
+H1
+{ font-family: verdana, Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif;
+color: black;
+font-size: 20px;
+background-color: white;
+font-weight: lighter;
+line-height: 100% }
+
+H3
+{ font-family: verdana, Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif;
+color: #FFFFFF;
+font-size: 14px;
+font-weight: bold;
+}
+
+.black
+{ color: black }
+
+body
+{ background-color: white ; color : black; }

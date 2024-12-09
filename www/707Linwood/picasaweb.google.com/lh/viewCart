@@ -1,0 +1,360 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Picasa Web Albums</title>
+<link ref="SHORTCUT ICON" href="http://picasa.google.com/assets/picasa.ico" />
+<base href="http://picasaweb.google.com/s/v/26.34/" />
+<script type="text/javascript">
+var _profile_start = new Date().getTime();
+var _profile_report = new Image();
+function _profile() {
+var now = new Date().getTime();
+var pagetime = now - _profile_load;
+var loadtime = now - _profile_start;
+var output = document.getElementById("hdf_profile");
+if (output) output.innerHTML = "page read in " + pagetime + "ms<br />" +
+"body.onload called after " + loadtime + "ms<br />";
+_profile_report.src = "/lh/profile?uname=&plt=" +
+loadtime + "&evid=1200410266231000_174245382_980337032";
+}
+</script>
+<script type="text/javascript">//<!--
+var _LH = {
+  locale: "en_US",
+  calDay: 0
+};
+
+var _authuser = {name:""};
+var _user = {name:"",nickname:"",portrait:"",link:"",noalbums:1};
+var _album = {id:"",link:"",name:"",title:"",titleshort:""
+,kmlLink: ""};
+
+var _copyOrMovePath = "";
+var _createAlbumPath = "";
+var _selectedPhotosPath = "";
+var _loginUrl = "https:\x2F\x2Fwww.google.com\x2Faccounts\x2FServiceLogin?hl=en_US\x26continue=\x26passive=true";
+var _signUpUrl = "https:\x2F\x2Fwww.google.com\x2Faccounts\x2FNewAccount?hl=en_US\x26amp\x3Bcontinue=http%3A%2F%2Fpicasaweb.google.com%2F\x26amp\x3Bpassive=true\x26amp\x3Bservice=lh2";
+var _activateUrl = "https:\x2F\x2Fwww.google.com\x2Faccounts\x2FNewAccount?hl=en_US\x26amp\x3Bcontinue=http%3A%2F%2Fpicasaweb.google.com%2Flh%2Flogin%3Fcontinue%3Dhttp%253A%252F%252Fpicasaweb.google.com%252Flh%252FviewCart\x26amp\x3Bpassive=true\x26amp\x3Bservice=lh2";
+var _updatePhotoPath = "";
+var _addCommentPath = "";
+var _reorderPath = "";
+var _selectedCommentsPath = "";
+
+
+
+
+var _updateCartPath = "\x2Flh\x2FupdateCart";
+
+var _geocodePath = "";
+var _batchUpdateGeoPath = "";
+
+
+var _features = {
+    tags:1,
+    search:1,
+    globalsearch:1,
+    globalsearchpromo:1,
+    newfeatureslink:1,
+    cart:1,
+    contentcaching:1,
+    displaylanguage:1,
+    developerlink:1,
+    payments:1,
+    contacts:1,
+    geotagging:1,
+    newStrings:1,
+    onebar:1,
+    cccquota:1,
+    signups:1,
+    i18nTest:1,
+    flashSlideshow:1,
+    photopickeralbumview:1,
+    autoupdatealbums:1,
+    imagesearch:1};
+
+var _thumbSize = 144;
+
+var dialog_;
+function LH_createDialog() {
+  dialog_ = new LH_Dialog(DIALOG_CREATE);
+}
+function LH_uploadDialog() {
+  
+    dialog_ = new LH_Dialog(DIALOG_UPLOAD_FIRST);
+  
+}
+function LH_editDialog() {
+  dialog_ = new LH_Dialog(DIALOG_EDIT);
+}
+function LH_copyDialog(iids) {
+  dialog_ = new LH_Dialog(DIALOG_COPY, iids,
+    function() { _d('restoreVideo'); });
+}
+function LH_moveDialog(iids) {
+  dialog_ = new LH_Dialog(DIALOG_MOVE, iids,
+    function() { _d('restoreVideo'); });
+}
+
+
+var _photo = [];
+
+//--></script>
+<link rel="stylesheet" type="text/css" href="styles/lh.css" />
+<script type="text/javascript"
+            src="script/lh_en_US.js"></script>
+<!--[if IE]>
+<style type="text/css">
+.lhcl_menu .menu-item img {
+width: 24px;
+height: 24px;
+}
+#ctx_icon {
+width: 24px;
+height: 24px;
+}
+</style>
+<![endif]-->
+<script type="text/javascript">
+var _c =
+(function() {
+var m, u = navigator.userAgent.toLowerCase();
+function ua(s) {return u.indexOf(s) >= 0;}
+if (ua('opera') || ua('konqueror')) {
+return false;
+} else if (m = u.match(/safari\/(\d+)/)) {
+return (Number(m[1]) >= 412);
+} else if (m = u.match(/msie (\d)\.(\d)/)) {
+return (Number(m[1]) >= 6);
+} else if (ua('gecko')) {
+m = u.match(/rv:(\d)\.(\d)/)
+return Number(m[1]) >= 2 || (Number(m[1]) == 1 && Number(m[2] >= 8));
+}
+return false;
+})();
+</script>
+</head>
+<body onload="_profile();_onload();"
+  class="owner lhcl_lang_en_US
+  ">
+<script type="text/javascript">
+if (!_c) document.write('<div class="lhcl_browserwarning">You are using a browser that is not fully supported. Some features may not work too well, but you are welcome to have a look around.<\/div>');
+</script>
+<noscript>
+<div class="lhcl_browserwarning">You are using a browser that is not fully supported. Some features may not work too well, but you are welcome to have a look around.</div>
+</noscript>
+<table id="lhid_topnav"><tr>
+<td style="padding-top:1em;" valign=top><a href="/">
+<img src="img/picasaweblogo-en_US.gif" id="lhid_logo"
+  alt="Picasa Web Albums" /></a>
+</td>
+<td>
+<table style="width:100%">
+<tr>
+<td id="lhid_userinfo">
+<a href="http://googlephotos.blogspot.com" target="_blank">Blog</a>
+| <a href="http://picasa.google.com/intl/en_us/web/help.html" target="_blank">Help</a>
+| <a id="lhid_login" href="https://www.google.com/accounts/ServiceLogin?hl=en_US&amp;continue=http%3A%2F%2Fpicasaweb.google.com%2Flh%2Flogin%3Fcontinue%3Dhttp%253A%252F%252Fpicasaweb.google.com%252Flh%252FviewCart&amp;service=lh2&amp;passive=true">Sign In</a>
+| <a id="lhid_signup" href="https://www.google.com/accounts/NewAccount?hl=en_US&amp;continue=http%3A%2F%2Fpicasaweb.google.com%2F&amp;passive=true&amp;service=lh2">Sign up for Picasa Web Albums</a>
+</td>
+</tr>
+<tr>
+<td class="lhcl_align_right" style="padding-top:0.5em; padding-right:0.5em; font-size:0.8em;">
+</td>
+</tr></table>
+</td>
+</tr></table>
+<table id="lhid_navbar_nz" width="100%">
+<tr>
+<td>
+</td>
+<td width="100%"></td>
+<td>
+<table cellspacing=0 cellpadding=0 class="searchbox" id="lhid_searchanchor">
+<tbody><tr class="toprow" >
+<th class="first"><div></div></th>
+<th colspan="3"></th>
+<th class="last"><div></div></th>
+</tr>
+<tr>
+<th class="first"></th>
+<td id="btntd">
+<button id="lhid_btn"> <img id="dwn" src="img/downarrow.gif" />
+</button>
+</td>
+<form name="search_form" action="/lh/searchbrowse#0+1" method="get">
+<td>
+<span class="search_input">
+<input id="lhid_searchbox" type="text" size="25" maxlength="128" value="" />
+</span>
+</td>
+<td>
+<span class="search_button_holder">
+<button type="submit" class="searchbtn" title="Search Photos">Search Photos</button>
+</span>
+</td>
+<input id="lhid_querytext" type="hidden" name="q" value=""/>
+<input id="lhid_search_uname" type="hidden" name="uname" value=""/>
+<input id="lhid_psc" type="hidden" name="psc" value="G" />
+<input id="lhid_crowdfilter" name="filter" type="hidden" value="1" />
+</form>
+<th class="last"></th>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</table>
+<div id="lhid_feedback" class="lhcl_feedback" style="display:none">
+<center>
+<table class="lhcl_alertMessage" cellspacing="0" cellpadding="0">
+<tr align="left" valign="top"><td><img src="img/alertmsg_tl.gif" align="left"/></td>
+<td rowspan="2" id="msg" style="padding: .2em 1em;">
+</td>
+<td align="right"><img src="img/alertmsg_tr.gif" align="right"/></td>
+</tr>
+<tr valign="bottom">
+<td align="left"><img src="img/alertmsg_bl.gif" align="left"/></td>
+<td align="right"><img src="img/alertmsg_br.gif" align="right"/></td>
+</tr>
+</table>
+</center>
+</div>
+<div class="lhcl_body">
+<div class="lhcl_cartbody">
+<table>
+<tr>
+<td class="lhcl_leftbox">
+<div id="lhid_instructions" class="lhcl_cartinstructions lhcl_instep1">
+<div id="lhid_step1">
+<div class="lhcl_header">
+Step 1: Select Prints to Order
+</div>
+<div class="lhcl_text">
+To add more prints to your order, you can click on the "Order Prints" button on any album or photo page.
+</div>
+</div>
+<div id="lhid_step2">
+<div class="lhcl_header">
+Step 2: Choose a Print Provider
+</div>
+<div id="lhid_noprovider" >
+<table class="lhcl_graphicButton" 
+                  onclick="_selectProvider();"/>
+<tr>
+<td class="lhcl_buttonleft">
+<img src="img/bbl.gif" alt="" />
+</td>
+<td id="lhid_chooseProviderText" class="lhcl_buttontext">
+Select Print Provider
+</td>
+<td class="lhcl_buttonright">
+<img src="img/bbr.gif" alt="" />
+</td>
+</tr>
+</table>
+</div>
+<div id="lhid_hasprovider" style="display:none">
+<div><center><table><tr><td>
+<input type="radio" checked="checked" />
+</td><td>
+<span id="lhid_currentprovider">
+</span>
+</td></tr><tr><td colspan=2>
+<a href="javascript:_selectProvider()">Select a different provider</a>
+</td></tr></table></center></div>
+</div>
+</div>
+<div id="lhid_step3">
+<div class="lhcl_header">
+Step 3: Order Prints &amp; Products
+</div>
+<div id="lhid_instructions3_photos"  class="lhcl_text">
+After you add photos to your order you will be able to order prints.
+</div>
+&nbsp
+</div>
+</div>
+</td>
+<td class="lhcl_cartbox">
+<script type="text/javascript">
+var cartPhotoCount = 0;
+var cartAlbumCount = {};
+</script>
+<div id="lhid_nonemptycart" style="display:none">
+<div class="lhcl_ordercontents" id="lhid_ordercontents">
+<table style="width:100%"><tr>
+<td width="100%"><h4>Photos in your order:&nbsp;
+<span id="lhid_cartcount">0</span></h4>
+</td>
+<td style="white-space:nowrap">
+<span class="lhcl_fakelink" onclick="_d('ClearCart')">
+<img src="img/clearcart.gif" />
+</span>
+<span class="lhcl_fakelink" onclick="_d('ClearCart')">
+Clear Order
+</span>
+</td>
+</tr></table>
+</div>
+<div class="lhcl_body">
+<div style="clear:both"></div>
+</div>
+</div>
+<div class="lhcl_emptycart" id="lhid_emptycart" >
+<p><span style="font-weight:bold;color:#a00;">New!</span> Now you can order prints from within Picasa Web Albums.</p>
+<h4>Currently there are no photos in your order.</h4>
+To add prints to your order, click "Order Prints" next to any photo or album. When you are done adding photos, come back to this page and choose a provider to continue with your order.
+</div>
+<form action="/lh/updateCart&cartop=clear" method="post" id="lhid_clearform"></form>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<script>
+_vc();
+</script>
+<script type="text/javascript">
+var _picasaInstalled = !!(navigator.mimeTypes['application/x-picasa-detect'] ||
+navigator.mimeTypes['application/x-picasa']);
+</script>
+<!--[if gte Picasa 2.0]>
+<script type="text/javascript">
+_picasaInstalled = true;
+</script>
+<![endif]-->
+<div id="lhid_footer">
+&copy;2007 Google&nbsp;
+<span id="lhid_downloadpicasafooter">
+<a href="http://dl.google.com/picasa/picasaweb-current-setup.exe" target="_blank">Download Picasa</a> - </span>
+<span id="lhid_launchpicasafooter" style="display:none">
+<a href="picasa://uploadtogoogle/">Launch Picasa</a> - </span>
+<script type="text/javascript">
+pwa.setup(pwa.footer, _picasaInstalled,
+'http:\x2F\x2Fgoogle.com\x2Fdl\x2Fmac\x2Finstall\x2FInstallPicasaWebAlbumsUploaders.dmg');
+</script>
+<a href="http://google.com/accounts/TOS?hl=en_US" target="_blank">Terms of Use</a> -
+<a href="http://picasa.google.com/intl/en_us/web/privacy.html" target="_blank">Privacy Policy</a> -
+<a href="http://picasa.google.com/intl/en_us/web/policy.html" target="_blank">Program Policies</a> -
+<a href="http://code.google.com/apis/picasaweb/" target="_blank">Developer</a> -
+<a href="http://www.google.com" target="_blank">Google Home</a>
+</div>
+<script type="text/javascript">
+<!--
+_ps({
+  global: {
+    name: "Community Photos",
+    search_url: '/lh/searchbrowse?psc=G&amp;filter=0',
+    search_corpus: 'G',
+    uncrowded_search_url: 'http://picasaweb.google.com/lh/search?psc=G&amp;filter=0',
+    is_primary: 1},
+  primary: 'G',
+  query: ''
+});
+//--></script>
+<script type="text/javascript">
+var _profile_load = new Date().getTime();
+</script>
+<script type="text/javascript">pwa.start()</script>
+</body>
+</html>

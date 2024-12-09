@@ -1,0 +1,436 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Picasa Web Albums - HelpShop.com - ParkCircle</title>
+<link ref="SHORTCUT ICON" href="http://picasa.google.com/assets/picasa.ico" />
+<base href="http://picasaweb.google.com/s/v/26.34/" />
+<script type="text/javascript">
+var _profile_start = new Date().getTime();
+var _profile_report = new Image();
+function _profile() {
+var now = new Date().getTime();
+var pagetime = now - _profile_load;
+var loadtime = now - _profile_start;
+var output = document.getElementById("hdf_profile");
+if (output) output.innerHTML = "page read in " + pagetime + "ms<br />" +
+"body.onload called after " + loadtime + "ms<br />";
+_profile_report.src = "/lh/profile?uname=HelpShop.com&plt=" +
+loadtime + "&evid=1200410279912000_174242579_980285866";
+}
+</script>
+<script type="text/javascript">//<!--
+var _LH = {
+  locale: "en_US",
+  calDay: 0
+};
+
+var _authuser = {name:""};
+var _user = {name:"HelpShop.com",nickname:"HelpShop.com",portrait:"http:\x2F\x2Flh5.google.com\x2FHelpShop.com\x2FAAAAJjubSH0\x2FAAAAAAAAA-I\x2FIJ8G4thxac0\x2Fs48-c\x2FHelpShop.com",link:"http:\x2F\x2Fpicasaweb.google.com\x2FHelpShop.com"};
+var _album = {id:"5099008856433880433",link:"http:\x2F\x2Fpicasaweb.google.com\x2FHelpShop.com\x2FParkCircle",name:"ParkCircle",title:"ParkCircle",titleshort:"ParkCircle"
+,kmlLink: "http:\x2F\x2Fpicasaweb.google.com\x2Fdata\x2Ffeed\x2Fbase\x2Fuser\x2FHelpShop.com\x2Falbumid\x2F5099008856433880433?kind=photo\x26alt=kml\x26hl=en_US",uploadlink:"http:\x2F\x2Fpicasaweb.google.com\x2Flh\x2FwebUpload?uname=HelpShop.com\x26aid=5099008856433880433",thumb:"http:\x2F\x2Flh4.google.com\x2FHelpShop.com\x2FRsNRigpP7XE\x2FAAAAAAAAA3I\x2FB6LA2h_W18o\x2FParkCircle.jpg",largepreview:"http:\x2F\x2Flh4.google.com\x2FHelpShop.com\x2FRsNRigpP7XE\x2FAAAAAAAAA3I\x2FB6LA2h_W18o\x2Fs160-c\x2FParkCircle.jpg"};
+
+var _copyOrMovePath = "\x2Flh\x2FcopyMovePhotos?tok=";
+var _createAlbumPath = "\x2Flh\x2FcreateAlbum?tok=";
+var _selectedPhotosPath = "\x2Flh\x2FselectedPhotos?tok=";
+var _loginUrl = "https:\x2F\x2Fwww.google.com\x2Faccounts\x2FServiceLogin?hl=en_US\x26continue=\x26passive=true";
+var _signUpUrl = "https:\x2F\x2Fwww.google.com\x2Faccounts\x2FNewAccount?hl=en_US\x26amp\x3Bcontinue=http%3A%2F%2Fpicasaweb.google.com%2F\x26amp\x3Bpassive=true\x26amp\x3Bservice=lh2";
+var _activateUrl = "https:\x2F\x2Fwww.google.com\x2Faccounts\x2FNewAccount?hl=en_US\x26amp\x3Bcontinue=http%3A%2F%2Fpicasaweb.google.com%2Flh%2Flogin%3Fcontinue%3Dhttp%253A%252F%252Fpicasaweb.google.com%252FHelpShop.com%252FParkCircle%252Fphoto\x26amp\x3Bpassive=true\x26amp\x3Bservice=lh2";
+var _updatePhotoPath = "\x2Flh\x2FupdatePhoto?tok=";
+var _addCommentPath = "\x2Flh\x2FaddComment?tok=";
+var _reorderPath = "";
+var _selectedCommentsPath = "\x2Flh\x2FselectedComments?tok=";
+
+
+var _setPrefUrl = "\x2Flh\x2FsetPref?tok=";
+
+
+
+var _updateCartPath = "\x2Flh\x2FupdateCart";
+
+var _geocodePath = "\x2Flh\x2Fgeocode?tok=";
+var _batchUpdateGeoPath = "\x2Flh\x2FbatchUpdateGeo?tok=";
+
+
+var _features = {
+    tags:1,
+    search:1,
+    globalsearch:1,
+    globalsearchpromo:1,
+    newfeatureslink:1,
+    cart:1,
+    contentcaching:1,
+    displaylanguage:1,
+    developerlink:1,
+    payments:1,
+    contacts:1,
+    geotagging:1,
+    showgeo:1,
+    newStrings:1,
+    onebar:1,
+    cccquota:1,
+    signups:1,
+    i18nTest:1,
+    flashSlideshow:1,
+    photopickeralbumview:1,
+    autoupdatealbums:1,
+    imagesearch:1};
+
+var _thumbSize = 144;
+
+var dialog_;
+function LH_createDialog() {
+  dialog_ = new LH_Dialog(DIALOG_CREATE);
+}
+function LH_uploadDialog() {
+  
+    dialog_ = new LH_Dialog(DIALOG_UPLOAD_FIRST);
+  
+}
+function LH_editDialog() {
+  dialog_ = new LH_Dialog(DIALOG_EDIT);
+}
+function LH_copyDialog(iids) {
+  dialog_ = new LH_Dialog(DIALOG_COPY, iids,
+    function() { _d('restoreVideo'); });
+}
+function LH_moveDialog(iids) {
+  dialog_ = new LH_Dialog(DIALOG_MOVE, iids,
+    function() { _d('restoreVideo'); });
+}
+
+
+var _photo = [
+{id:"5116786589306525554",v:"881",w:3264,h:2448,s:"http:\x2F\x2Flh3.google.com\x2FHelpShop.com\x2FRwJ6SwcZF3I\x2FAAAAAAAAA3E\x2FyrRccgMDBrg\x2FCandidate4.jpg",t:"Candidate4.jpg",dl:0,c:"Candidate #4, The fountain was moved for the picture. Just an idea. Let us know if this could look good. My photoshop skills couldn\x26#39\x3Bt fix the perspective."},
+{id:"5099009337470217602",v:"469",w:3264,h:2448,s:"http:\x2F\x2Flh5.google.com\x2FHelpShop.com\x2FRsNR-gpP7YI\x2FAAAAAAAAAdU\x2FMobReGGWiDI\x2FIMG_0001.JPG",t:"IMG_0001.JPG",dl:0,c:"This is candidate #1 for the portrait. The right side of the house is not visible because of trees. There are other pictures from a different angle that show that part of the house."},
+{id:"5099009797031718290",v:"472",w:3264,h:2448,s:"http:\x2F\x2Flh4.google.com\x2FHelpShop.com\x2FRsNSZQpP7ZI\x2FAAAAAAAAAdg\x2FNTvPhFsGBoc\x2FIMG_0002.JPG",t:"IMG_0002.JPG",dl:0,c:"This is candidate #2 for the house portrait. It is the same view as #1, but it is zoomed in on the house."},
+{id:"5099010140629101986",v:"474",w:3264,h:2448,s:"http:\x2F\x2Flh4.google.com\x2FHelpShop.com\x2FRsNStQpP7aI\x2FAAAAAAAAAdo\x2FMnh95IUz5h4\x2FIMG_0003.JPG",t:"IMG_0003.JPG",dl:0,c:"closeup with same position as candidates #1 and #2"},
+{id:"5099010527176158642",v:"477",w:3264,h:2448,s:"http:\x2F\x2Flh6.google.com\x2FHelpShop.com\x2FRsNTDwpP7bI\x2FAAAAAAAAAd0\x2FqcJzy8fxiN8\x2FIMG_0004.JPG",t:"IMG_0004.JPG",dl:0,c:"closeup with same position as candidates #1 and #2"},
+{id:"5099010913723215298",v:"479",w:3264,h:2448,s:"http:\x2F\x2Flh4.google.com\x2FHelpShop.com\x2FRsNTaQpP7cI\x2FAAAAAAAAAd8\x2FNO3esH2ZjlY\x2FIMG_0005.JPG",t:"IMG_0005.JPG",dl:0,c:"closeup with same position as candidates #1 and #2"},
+{id:"5099011330335043026",v:"482",w:3264,h:2448,s:"http:\x2F\x2Flh5.google.com\x2FHelpShop.com\x2FRsNTygpP7dI\x2FAAAAAAAAAeI\x2F_eSBzBoyZi8\x2FIMG_0006.JPG",t:"IMG_0006.JPG",dl:0,c:"closeup with same position as candidates #1 and #2"},
+{id:"5099011725472034274",v:"484",w:3264,h:2448,s:"http:\x2F\x2Flh5.google.com\x2FHelpShop.com\x2FRsNUJgpP7eI\x2FAAAAAAAAAeQ\x2Fo-FdSEKvzKI\x2FIMG_0007.JPG",t:"IMG_0007.JPG",dl:0,c:"closeup with same position as candidates #1 and #2"},
+{id:"5099012112019090930",v:"487",w:3264,h:2448,s:"http:\x2F\x2Flh3.google.com\x2FHelpShop.com\x2FRsNUgApP7fI\x2FAAAAAAAAAec\x2FJXvTAy6_ww0\x2FIMG_0008.JPG",t:"IMG_0008.JPG",dl:0,c:"closeup with same position as candidates #1 and #2"},
+{id:"5099012532925885954",v:"489",w:3264,h:2448,s:"http:\x2F\x2Flh5.google.com\x2FHelpShop.com\x2FRsNU4gpP7gI\x2FAAAAAAAAAek\x2FdTJcS2QajV8\x2FIMG_0009.JPG",t:"IMG_0009.JPG",dl:0,c:"This fountain is to the right of the house, and not visible in the candidate pictures, but possibly incorporating it would be a nice touch."},
+{id:"5099013022552157714",v:"492",w:3264,h:2448,s:"http:\x2F\x2Flh3.google.com\x2FHelpShop.com\x2FRsNVVApP7hI\x2FAAAAAAAAAew\x2F4FK98ykFHV8\x2FIMG_0010.JPG",t:"IMG_0010.JPG",dl:0},
+{id:"5099013443458952738",v:"495",w:3264,h:2448,s:"http:\x2F\x2Flh5.google.com\x2FHelpShop.com\x2FRsNVtgpP7iI\x2FAAAAAAAAAe8\x2FnsUciSwnhIY\x2FIMG_0011.JPG",t:"IMG_0011.JPG",dl:0,c:"New angle to show right side front of house."},
+{id:"5099013860070780466",v:"497",w:3264,h:2448,s:"http:\x2F\x2Flh6.google.com\x2FHelpShop.com\x2FRsNWFwpP7jI\x2FAAAAAAAAAfE\x2FFVHFDdvT0mE\x2FIMG_0012.JPG",t:"IMG_0012.JPG",dl:0,c:"closeup right side front"},
+{id:"5099014293862477378",v:"500",w:3264,h:2448,s:"http:\x2F\x2Flh3.google.com\x2FHelpShop.com\x2FRsNWfApP7kI\x2FAAAAAAAAAfQ\x2F7xVFVPB28qU\x2FIMG_0013.JPG",t:"IMG_0013.JPG",dl:0,c:"closeup right side front"},
+{id:"5099014727654174290",v:"502",w:3264,h:2448,s:"http:\x2F\x2Flh4.google.com\x2FHelpShop.com\x2FRsNW4QpP7lI\x2FAAAAAAAAAfY\x2F4ERvpNMTTLk\x2FIMG_0014.JPG",t:"IMG_0014.JPG",dl:0},
+{id:"5099015268820053602",v:"505",w:3264,h:2448,s:"http:\x2F\x2Flh6.google.com\x2FHelpShop.com\x2FRsNXXwpP7mI\x2FAAAAAAAAAfk\x2FF0plAZq4zts\x2FIMG_0015.JPG",t:"IMG_0015.JPG",dl:0},
+{id:"5099015801395998322",v:"508",w:3264,h:2448,s:"http:\x2F\x2Flh6.google.com\x2FHelpShop.com\x2FRsNX2wpP7nI\x2FAAAAAAAAAfw\x2FsCvvxvPy3kI\x2FIMG_0016.JPG",t:"IMG_0016.JPG",dl:0},
+{id:"5099016321087041154",v:"511",w:3264,h:2448,s:"http:\x2F\x2Flh3.google.com\x2FHelpShop.com\x2FRsNYVApP7oI\x2FAAAAAAAAAf8\x2FMV7Lp12dIPk\x2FIMG_0017.JPG",t:"IMG_0017.JPG",dl:0,c:"Candidate #3 for portrait"},
+{id:"5099016638914621074",v:"514",w:3264,h:2448,s:"http:\x2F\x2Flh5.google.com\x2FHelpShop.com\x2FRsNYngpP7pI\x2FAAAAAAAAAgI\x2FYAfeU_Qg5YU\x2FIMG_0018.JPG",t:"IMG_0018.JPG",dl:0},
+{id:"5099017154310696610",v:"516",w:3264,h:2448,s:"http:\x2F\x2Flh5.google.com\x2FHelpShop.com\x2FRsNZFgpP7qI\x2FAAAAAAAAAgQ\x2FVtkgp__6uSI\x2FIMG_0019.JPG",t:"IMG_0019.JPG",dl:0},
+{id:"5099017669706772146",v:"519",w:3264,h:2448,s:"http:\x2F\x2Flh5.google.com\x2FHelpShop.com\x2FRsNZjgpP7rI\x2FAAAAAAAAAgc\x2FB5sSz7Hr0Zs\x2FIMG_0020.JPG",t:"IMG_0020.JPG",dl:0,c:"right side front of house"},
+{id:"5099018009009188546",v:"521",w:3264,h:2448,s:"http:\x2F\x2Flh4.google.com\x2FHelpShop.com\x2FRsNZ3QpP7sI\x2FAAAAAAAAAgk\x2FPVE-g7bdoyg\x2FIMG_0021.JPG",t:"IMG_0021.JPG",dl:0,c:"closeup fountain"},
+{id:"5099018318246833874",v:"524",w:3264,h:2448,s:"http:\x2F\x2Flh4.google.com\x2FHelpShop.com\x2FRsNaJQpP7tI\x2FAAAAAAAAAgw\x2FJxyd-fAGAFU\x2FIMG_0022.JPG",t:"IMG_0022.JPG",dl:0},
+{id:"5099018803578138338",v:"526",w:3264,h:2448,s:"http:\x2F\x2Flh5.google.com\x2FHelpShop.com\x2FRsNalgpP7uI\x2FAAAAAAAAAg4\x2FkwZlSfSmQ64\x2FIMG_0023.JPG",t:"IMG_0023.JPG",dl:0},
+{id:"5099019331859115762",v:"529",w:3264,h:2448,s:"http:\x2F\x2Flh4.google.com\x2FHelpShop.com\x2FRsNbEQpP7vI\x2FAAAAAAAAAhE\x2Far5_MZNHkmU\x2FIMG_0024.JPG",t:"IMG_0024.JPG",dl:0},
+{id:"5099019881614929666",v:"532",w:3264,h:2448,s:"http:\x2F\x2Flh4.google.com\x2FHelpShop.com\x2FRsNbkQpP7wI\x2FAAAAAAAAAhQ\x2FTNu71qglYYk\x2FIMG_0025.JPG",t:"IMG_0025.JPG",dl:0,c:"right side front of house"},
+{id:"5099020354061332242",v:"535",w:3264,h:2448,s:"http:\x2F\x2Flh6.google.com\x2FHelpShop.com\x2FRsNb_wpP7xI\x2FAAAAAAAAAhc\x2Fto3SO5z4RNc\x2FIMG_0026.JPG",t:"IMG_0026.JPG",dl:0,c:"right side front of house"},
+{id:"5099020736313421602",v:"537",w:3264,h:2448,s:"http:\x2F\x2Flh3.google.com\x2FHelpShop.com\x2FRsNcWApP7yI\x2FAAAAAAAAAhk\x2Fs2hVoRENBj4\x2FIMG_0027.JPG",t:"IMG_0027.JPG",dl:0,c:"closeup door"},
+{id:"5099021277479300914",v:"540",w:3264,h:2448,s:"http:\x2F\x2Flh5.google.com\x2FHelpShop.com\x2FRsNc1gpP7zI\x2FAAAAAAAAAhw\x2Fl9YuwOOE3VY\x2FIMG_0028.JPG",t:"IMG_0028.JPG",dl:0,c:"new angle front of house with clear view of right side front"},
+{id:"5099021754220670786",v:"543",w:3264,h:2448,s:"http:\x2F\x2Flh4.google.com\x2FHelpShop.com\x2FRsNdRQpP70I\x2FAAAAAAAAAh8\x2F3zFcxmKjazI\x2FIMG_0029.JPG",t:"IMG_0029.JPG",dl:0,c:"right side front"},
+{id:"5099022188012367698",v:"545",w:3264,h:2448,s:"http:\x2F\x2Flh5.google.com\x2FHelpShop.com\x2FRsNdqgpP71I\x2FAAAAAAAAAiE\x2FBRrBvf0Nfjw\x2FIMG_0030.JPG",t:"IMG_0030.JPG",dl:0,c:"front closeup new angle"},
+{id:"5099022643278901090",v:"548",w:3264,h:2448,s:"http:\x2F\x2Flh3.google.com\x2FHelpShop.com\x2FRsNeFApP72I\x2FAAAAAAAAAiQ\x2FOugNg21GTMk\x2FIMG_0031.JPG",t:"IMG_0031.JPG",dl:0,c:"front closeup new angle"},
+{id:"5099023128610205554",v:"550",w:3264,h:2448,s:"http:\x2F\x2Flh4.google.com\x2FHelpShop.com\x2FRsNehQpP73I\x2FAAAAAAAAAiY\x2FN8r7VLFbZig\x2FIMG_0032.JPG",t:"IMG_0032.JPG",dl:0,c:"front closeup new angle"},
+{id:"5099023583876738946",v:"553",w:3264,h:2448,s:"http:\x2F\x2Flh6.google.com\x2FHelpShop.com\x2FRsNe7wpP74I\x2FAAAAAAAAAik\x2FQS1HNZMKJuE\x2FIMG_0033.JPG",t:"IMG_0033.JPG",dl:0,c:"closeup of windows front right side"},
+{id:"5099023966128828306",v:"555",w:3264,h:2448,s:"http:\x2F\x2Flh3.google.com\x2FHelpShop.com\x2FRsNfSApP75I\x2FAAAAAAAAAis\x2F9eJv7uplpzQ\x2FIMG_0034.JPG",t:"IMG_0034.JPG",dl:0,c:"closeup front right side"},
+{id:"5099024404215492514",v:"558",w:3264,h:2448,s:"http:\x2F\x2Flh5.google.com\x2FHelpShop.com\x2FRsNfrgpP76I\x2FAAAAAAAAAi4\x2FU2y6Qlp2hyo\x2FIMG_0035.JPG",t:"IMG_0035.JPG",dl:0,c:"closeup front right side"},
+{id:"5099024992626012082",v:"560",w:3264,h:2448,s:"http:\x2F\x2Flh6.google.com\x2FHelpShop.com\x2FRsNgNwpP77I\x2FAAAAAAAAAjA\x2FlN3FT929iBM\x2FIMG_0036.JPG",t:"IMG_0036.JPG",dl:0,c:"front right side"},
+{id:"5099025439302610882",v:"563",w:3264,h:2448,s:"http:\x2F\x2Flh6.google.com\x2FHelpShop.com\x2FRsNgnwpP78I\x2FAAAAAAAAAjM\x2FOTFWgSqiDS4\x2FIMG_0037.JPG",t:"IMG_0037.JPG",dl:0,c:"closeup front right side"},
+{id:"5099025873094307794",v:"565",w:3264,h:2448,s:"http:\x2F\x2Flh3.google.com\x2FHelpShop.com\x2FRsNhBApP79I\x2FAAAAAAAAAjU\x2Fw3Du3sO0Wnc\x2FIMG_0038.JPG",t:"IMG_0038.JPG",dl:0,c:"closeup front door new angle. These bushes are too big for the house. Making them look smaller might be difficult though. Mailbox on bottom left should be installed higher on wall."},
+{id:"5099026315475939298",v:"568",w:3264,h:2448,s:"http:\x2F\x2Flh6.google.com\x2FHelpShop.com\x2FRsNhawpP7-I\x2FAAAAAAAAAjg\x2FSfxz-_g9sXA\x2FIMG_0039.JPG",t:"IMG_0039.JPG",dl:0},
+{id:"5099026749267636210",v:"570",w:3264,h:2448,s:"http:\x2F\x2Flh3.google.com\x2FHelpShop.com\x2FRsNh0ApP7_I\x2FAAAAAAAAAjo\x2F4rkHMBECTns\x2FIMG_0040.JPG",t:"IMG_0040.JPG",dl:0,c:"Front door walkway"},
+{id:"5099027127224758274",v:"573",w:3264,h:2448,s:"http:\x2F\x2Flh3.google.com\x2FHelpShop.com\x2FRsNiKApP8AI\x2FAAAAAAAAAj0\x2FOl_v7EKvxOE\x2FIMG_0041.JPG",t:"IMG_0041.JPG",dl:0,c:"closeup front door left"},
+{id:"5099027475117109266",v:"575",w:3264,h:2448,s:"http:\x2F\x2Flh4.google.com\x2FHelpShop.com\x2FRsNieQpP8BI\x2FAAAAAAAAAj8\x2FfQriSW4LZo8\x2FIMG_0042.JPG",t:"IMG_0042.JPG",dl:0,c:"closeup front door right"},
+{id:"5099027994808152098",v:"578",w:3264,h:2448,s:"http:\x2F\x2Flh5.google.com\x2FHelpShop.com\x2FRsNi8gpP8CI\x2FAAAAAAAAAkI\x2Fs5uZoJYR3GU\x2FIMG_0043.JPG",t:"IMG_0043.JPG",dl:0,c:"front door new angle"},
+{id:"5099028505909260338",v:"581",w:3264,h:2448,s:"http:\x2F\x2Flh4.google.com\x2FHelpShop.com\x2FRsNjaQpP8DI\x2FAAAAAAAAAkU\x2FxPPCjVwXHx4\x2FIMG_0044.JPG",t:"IMG_0044.JPG",dl:0,c:"front left side new angle"},
+{id:"5099029025600303170",v:"584",w:3264,h:2448,s:"http:\x2F\x2Flh5.google.com\x2FHelpShop.com\x2FRsNj4gpP8EI\x2FAAAAAAAAAkg\x2FXNAs6nbfPRg\x2FIMG_0045.JPG",t:"IMG_0045.JPG",dl:0},
+{id:"5099029536701411410",v:"587",w:3264,h:2448,s:"http:\x2F\x2Flh4.google.com\x2FHelpShop.com\x2FRsNkWQpP8FI\x2FAAAAAAAAAks\x2FNvmWPEdffk4\x2FIMG_0046.JPG",t:"IMG_0046.JPG",dl:0,c:"closeup address monument"},
+{id:"5099030017737748578",v:"590",w:3264,h:2448,s:"http:\x2F\x2Flh4.google.com\x2FHelpShop.com\x2FRsNkyQpP8GI\x2FAAAAAAAAAk4\x2F2fnyR_cK2r4\x2FIMG_0047.JPG",t:"IMG_0047.JPG",dl:0},
+{id:"5099030515953954930",v:"592",w:3264,h:2448,s:"http:\x2F\x2Flh4.google.com\x2FHelpShop.com\x2FRsNlPQpP8HI\x2FAAAAAAAAAlA\x2FVs9I-fYdiUg\x2FIMG_0048.JPG",t:"IMG_0048.JPG",dl:0},
+{id:"5099030996990292098",v:"595",w:3264,h:2448,s:"http:\x2F\x2Flh4.google.com\x2FHelpShop.com\x2FRsNlrQpP8II\x2FAAAAAAAAAlM\x2Fjquu_GlnDn0\x2FIMG_0049.JPG",t:"IMG_0049.JPG",dl:0,c:"closeup of chimney from front"},
+{id:"5099031533861204114",v:"597",w:3264,h:2448,s:"http:\x2F\x2Flh5.google.com\x2FHelpShop.com\x2FRsNmKgpP8JI\x2FAAAAAAAAAlU\x2Fbv5af6-jpMc\x2FIMG_0050.JPG",t:"IMG_0050.JPG",dl:0,c:"view of left side of house"},
+{id:"5099032040667345058",v:"600",w:3264,h:2448,s:"http:\x2F\x2Flh3.google.com\x2FHelpShop.com\x2FRsNmoApP8KI\x2FAAAAAAAAAlg\x2FXIaOmcy0rUM\x2FIMG_0051.JPG",t:"IMG_0051.JPG",dl:0},
+{id:"5099032530293616818",v:"603",w:3264,h:2448,s:"http:\x2F\x2Flh5.google.com\x2FHelpShop.com\x2FRsNnEgpP8LI\x2FAAAAAAAAAls\x2FY8jsTLMmxd8\x2FIMG_0052.JPG",t:"IMG_0052.JPG",dl:0,c:"different view shows circle driveway shared by this house and neighbor on right. Center of fountain is on property line which continues back to gap in iron fence."},
+{id:"5099033019919888578",v:"605",w:3264,h:2448,s:"http:\x2F\x2Flh3.google.com\x2FHelpShop.com\x2FRsNnhApP8MI\x2FAAAAAAAAAl0\x2FNaUjD4DKrWU\x2FIMG_0053.JPG",t:"IMG_0053.JPG",dl:0,c:"view of left side of house"},
+{id:"5099033470891454674",v:"608",w:3264,h:2448,s:"http:\x2F\x2Flh4.google.com\x2FHelpShop.com\x2FRsNn7QpP8NI\x2FAAAAAAAAAmA\x2FWKUE1IK2ifY\x2FIMG_0054.JPG",t:"IMG_0054.JPG",dl:0,c:"closeup view left side of house"},
+{id:"5099033951927791842",v:"610",w:3264,h:2448,s:"http:\x2F\x2Flh4.google.com\x2FHelpShop.com\x2FRsNoXQpP8OI\x2FAAAAAAAAAmI\x2F-Ans_iUGdsw\x2FIMG_0055.JPG",t:"IMG_0055.JPG",dl:0,c:"closeup view left side of house"},
+{id:"5099034385719488754",v:"613",w:3264,h:2448,s:"http:\x2F\x2Flh5.google.com\x2FHelpShop.com\x2FRsNowgpP8PI\x2FAAAAAAAAAmU\x2FJm4XRgfJwpI\x2FIMG_0056.JPG",t:"IMG_0056.JPG",dl:0,c:"closeup view left side of house"},
+{id:"5099034815216218370",v:"615",w:3264,h:2448,s:"http:\x2F\x2Flh5.google.com\x2FHelpShop.com\x2FRsNpJgpP8QI\x2FAAAAAAAAAmc\x2FuW5H7eENPdg\x2FIMG_0057.JPG",t:"IMG_0057.JPG",dl:0,c:"closeup view left side of house"},
+{id:"5099035279072686354",v:"618",w:3264,h:2448,s:"http:\x2F\x2Flh5.google.com\x2FHelpShop.com\x2FRsNpkgpP8RI\x2FAAAAAAAAAmo\x2FHGF-j763PwE\x2FIMG_0058.JPG",t:"IMG_0058.JPG",dl:0,c:"view of right side of house with some view of front right of house."},
+{id:"5099035751519088930",v:"620",w:3264,h:2448,s:"http:\x2F\x2Flh3.google.com\x2FHelpShop.com\x2FRsNqAApP8SI\x2FAAAAAAAAAmw\x2F-9Smcl9oRjU\x2FIMG_0059.JPG",t:"IMG_0059.JPG",dl:0},
+{id:"5099036236850393394",v:"623",w:3264,h:2448,s:"http:\x2F\x2Flh4.google.com\x2FHelpShop.com\x2FRsNqcQpP8TI\x2FAAAAAAAAAm8\x2FYzzbmMNWako\x2FIMG_0060.JPG",t:"IMG_0060.JPG",dl:0,c:"view right side of house"},
+{id:"5099036528908169538",v:"625",w:3264,h:2448,s:"http:\x2F\x2Flh4.google.com\x2FHelpShop.com\x2FRsNqtQpP8UI\x2FAAAAAAAAAnE\x2FqD3jZ9K4Y4k\x2FIMG_0061.JPG",t:"IMG_0061.JPG",dl:0,c:"trying exposure bracketing"},
+{id:"5099036769426338130",v:"628",w:3264,h:2448,s:"http:\x2F\x2Flh4.google.com\x2FHelpShop.com\x2FRsNq7QpP8VI\x2FAAAAAAAAAnQ\x2Fwr2tyUz36mU\x2FIMG_0062.JPG",t:"IMG_0062.JPG",dl:0},
+{id:"5099037147383460194",v:"630",w:3264,h:2448,s:"http:\x2F\x2Flh4.google.com\x2FHelpShop.com\x2FRsNrRQpP8WI\x2FAAAAAAAAAnY\x2Fq8JbE5ty_-M\x2FIMG_0063.JPG",t:"IMG_0063.JPG",dl:0},
+{id:"5099037572585222514",v:"633",w:3264,h:2448,s:"http:\x2F\x2Flh3.google.com\x2FHelpShop.com\x2FRsNrqApP8XI\x2FAAAAAAAAAnk\x2FgFrN3iA4BKU\x2FIMG_0064.JPG",t:"IMG_0064.JPG",dl:0},
+{id:"5099037937657442690",v:"635",w:3264,h:2448,s:"http:\x2F\x2Flh4.google.com\x2FHelpShop.com\x2FRsNr_QpP8YI\x2FAAAAAAAAAns\x2F0xM6NQB18D4\x2FIMG_0065.JPG",t:"IMG_0065.JPG",dl:0},
+{id:"5099038375744106898",v:"638",w:3264,h:2448,s:"http:\x2F\x2Flh6.google.com\x2FHelpShop.com\x2FRsNsYwpP8ZI\x2FAAAAAAAAAn4\x2FFCkwwUGHLdg\x2FIMG_0066.JPG",t:"IMG_0066.JPG",dl:0},
+{id:"5099038946974757282",v:"640",w:3264,h:2448,s:"http:\x2F\x2Flh3.google.com\x2FHelpShop.com\x2FRsNs6ApP8aI\x2FAAAAAAAAAoA\x2FLxDAmdm66qA\x2FIMG_0067.JPG",t:"IMG_0067.JPG",dl:0},
+{id:"5099039483845669298",v:"643",w:3264,h:2448,s:"http:\x2F\x2Flh4.google.com\x2FHelpShop.com\x2FRsNtZQpP8bI\x2FAAAAAAAAAoM\x2FUaVGL1RlR8E\x2FIMG_0068.JPG",t:"IMG_0068.JPG",dl:0,c:"view of circle driveway looking toward street."},
+{id:"5099040003536712130",v:"646",w:3264,h:2448,s:"http:\x2F\x2Flh5.google.com\x2FHelpShop.com\x2FRsNt3gpP8cI\x2FAAAAAAAAAoY\x2FfpzP91Rvkao\x2FIMG_0069.JPG",t:"IMG_0069.JPG",dl:0},
+{id:"5099040527522722258",v:"649",w:3264,h:2448,s:"http:\x2F\x2Flh3.google.com\x2FHelpShop.com\x2FRsNuWApP8dI\x2FAAAAAAAAAok\x2FAU1Y-pVmqIo\x2FIMG_0070.JPG",t:"IMG_0070.JPG",dl:0,c:"Candidate #1 and #2 were taken from on that hill straight ahead."},
+{id:"5099041064393634274",v:"652",w:3264,h:2448,s:"http:\x2F\x2Flh4.google.com\x2FHelpShop.com\x2FRsNu1QpP8eI\x2FAAAAAAAAAow\x2Fa8SVtsUPXy8\x2FIMG_0071.JPG",t:"IMG_0071.JPG",dl:0,c:"view right side of house"},
+{id:"5099041618444415474",v:"655",w:3264,h:2448,s:"http:\x2F\x2Flh5.google.com\x2FHelpShop.com\x2FRsNvVgpP8fI\x2FAAAAAAAAAo8\x2FJSzFnQdI6GQ\x2FIMG_0072.JPG",t:"IMG_0072.JPG",dl:0,c:"right side of house"},
+{id:"5099042108070687234",v:"658",w:3264,h:2448,s:"http:\x2F\x2Flh3.google.com\x2FHelpShop.com\x2FRsNvyApP8gI\x2FAAAAAAAAApI\x2Fj2tJmuzWZc4\x2FIMG_0073.JPG",t:"IMG_0073.JPG",dl:0},
+{id:"5099042627761730066",v:"661",w:3264,h:2448,s:"http:\x2F\x2Flh4.google.com\x2FHelpShop.com\x2FRsNwQQpP8hI\x2FAAAAAAAAApU\x2FFG6__scD4tc\x2FIMG_0074.JPG",t:"IMG_0074.JPG",dl:0},
+{id:"5099043164632642082",v:"664",w:3264,h:2448,s:"http:\x2F\x2Flh5.google.com\x2FHelpShop.com\x2FRsNwvgpP8iI\x2FAAAAAAAAApg\x2FPGLG3CA3zj4\x2FIMG_0075.JPG",t:"IMG_0075.JPG",dl:0,c:"right side of house"},
+{id:"5099043705798521394",v:"667",w:3264,h:2448,s:"http:\x2F\x2Flh3.google.com\x2FHelpShop.com\x2FRsNxPApP8jI\x2FAAAAAAAAAps\x2FWdLLjwHpjI8\x2FIMG_0076.JPG",t:"IMG_0076.JPG",dl:0,c:"property line goes through street light and through gap in fence and down stone stairs"},
+{id:"5099044289914073666",v:"670",w:3264,h:2448,s:"http:\x2F\x2Flh3.google.com\x2FHelpShop.com\x2FRsNxxApP8kI\x2FAAAAAAAAAp4\x2FsfDI9gEHm0k\x2FIMG_0077.JPG",t:"IMG_0077.JPG",dl:0},
+{id:"5099044861144724050",v:"673",w:3264,h:2448,s:"http:\x2F\x2Flh4.google.com\x2FHelpShop.com\x2FRsNySQpP8lI\x2FAAAAAAAAAqE\x2FBW187x4MRWg\x2FIMG_0078.JPG",t:"IMG_0078.JPG",dl:0},
+{id:"5099045273461584482",v:"676",w:3264,h:2448,s:"http:\x2F\x2Flh4.google.com\x2FHelpShop.com\x2FRsNyqQpP8mI\x2FAAAAAAAAAqQ\x2FOmDe4t68tos\x2FIMG_0079.JPG",t:"IMG_0079.JPG",dl:0,c:"closeup front door"},
+{id:"5099045681483477618",v:"678",w:3264,h:2448,s:"http:\x2F\x2Flh3.google.com\x2FHelpShop.com\x2FRsNzCApP8nI\x2FAAAAAAAAAqY\x2FoVRUkphb4KM\x2FIMG_0080.JPG",t:"IMG_0080.JPG",dl:0,c:"A good location for mailbox held up by adorable wife."},
+{id:"5099046037965763202",v:"681",w:3264,h:2448,s:"http:\x2F\x2Flh6.google.com\x2FHelpShop.com\x2FRsNzWwpP8oI\x2FAAAAAAAAAqk\x2FuW0QwSPo-WA\x2FIMG_0081.JPG",t:"IMG_0081.JPG",dl:0},
+{id:"5099046398743016082",v:"683",w:3264,h:2448,s:"http:\x2F\x2Flh6.google.com\x2FHelpShop.com\x2FRsNzrwpP8pI\x2FAAAAAAAAAqs\x2Fs9dS5fIVx68\x2FIMG_0082.JPG",t:"IMG_0082.JPG",dl:0},
+{id:"5099046703685694114",v:"686",w:3264,h:2448,s:"http:\x2F\x2Flh5.google.com\x2FHelpShop.com\x2FRsNz9gpP8qI\x2FAAAAAAAAAq4\x2FMH5on5WWJf8\x2FIMG_0083.JPG",t:"IMG_0083.JPG",dl:0}];
+
+//--></script>
+<link rel="stylesheet" type="text/css" href="styles/lh.css" />
+<script type="text/javascript"
+            src="script/lh_en_US.js"></script>
+<!--[if IE]>
+<style type="text/css">
+.lhcl_menu .menu-item img {
+width: 24px;
+height: 24px;
+}
+#ctx_icon {
+width: 24px;
+height: 24px;
+}
+</style>
+<![endif]-->
+<script type="text/javascript">
+var _c =
+(function() {
+var m, u = navigator.userAgent.toLowerCase();
+function ua(s) {return u.indexOf(s) >= 0;}
+if (ua('opera') || ua('konqueror')) {
+return false;
+} else if (m = u.match(/safari\/(\d+)/)) {
+return (Number(m[1]) >= 412);
+} else if (m = u.match(/msie (\d)\.(\d)/)) {
+return (Number(m[1]) >= 6);
+} else if (ua('gecko')) {
+m = u.match(/rv:(\d)\.(\d)/)
+return Number(m[1]) >= 2 || (Number(m[1]) == 1 && Number(m[2] >= 8));
+}
+return false;
+})();
+</script>
+<script type="text/javascript">
+function _redirect() {
+var r = "http:\x2F\x2Fpicasaweb.google.com\x2Flh\x2FviewPhoto?uname=HelpShop.com\x26amp\x3Baid=5099008856433880433\x26amp\x3Biid=5116786589306525554";
+var m = location.hash.match(/#s?(\d+)/);
+if (m) {
+r = r.replace(/&amp;/g, '&').replace(/iid=\d+/, 'iid=' + m[1]);
+location.replace(r);
+}
+return false;
+}
+if (!_c) _redirect();
+document.write('\x3c\x21\x2d\x2d');
+</script>
+<meta http-equiv="refresh" content="5; URL='http://picasaweb.google.com/lh/viewPhoto?uname=HelpShop.com&amp;aid=5099008856433880433&amp;iid=5116786589306525554'" />
+<script type="text/javascript">//--></script>
+</head>
+<body onload="_profile();_onload();"
+  class="anon lhcl_lang_en_US
+  ">
+<script type="text/javascript">
+if (!_c) document.write('<div class="lhcl_browserwarning">You are using a browser that is not fully supported. Some features may not work too well, but you are welcome to have a look around.<\/div>');
+</script>
+<noscript>
+<div class="lhcl_browserwarning">You are using a browser that is not fully supported. Some features may not work too well, but you are welcome to have a look around.</div>
+</noscript>
+<table id="lhid_topnav"><tr>
+<td style="padding-top:1em;" valign=top><a href="/">
+<img src="img/picasaweblogo-en_US.gif" id="lhid_logo"
+  alt="Picasa Web Albums" /></a>
+</td>
+<td>
+<table style="width:100%">
+<tr>
+<td id="lhid_userinfo">
+<a href="http://googlephotos.blogspot.com" target="_blank">Blog</a>
+| <a href="http://picasa.google.com/intl/en_us/web/help.html" target="_blank">Help</a>
+| <a id="lhid_login" href="https://www.google.com/accounts/ServiceLogin?hl=en_US&amp;continue=http%3A%2F%2Fpicasaweb.google.com%2Flh%2Flogin%3Fcontinue%3Dhttp%253A%252F%252Fpicasaweb.google.com%252FHelpShop.com%252FParkCircle%252Fphoto&amp;service=lh2&amp;passive=true">Sign In</a>
+| <a id="lhid_signup" href="https://www.google.com/accounts/NewAccount?hl=en_US&amp;continue=http%3A%2F%2Fpicasaweb.google.com%2F&amp;passive=true&amp;service=lh2">Sign up for Picasa Web Albums</a>
+</td>
+</tr>
+<tr>
+<td class="lhcl_align_right" style="padding-top:0.5em; padding-right:0.5em; font-size:0.8em;">
+<a href="/lh/viewCart" onclick="javascript:_setBackLink();" class="lhcl_nounderline"><img src="img/order.gif"></a>
+<a href="/lh/viewCart" onclick="javascript:_setBackLink();">
+View Order
+</a><span id="lhid_cartDiv" class="lhcl_metadata" style="display:none"> (<span id="lhid_cartCount"></span>)</span>
+</td>
+</tr></table>
+</td>
+</tr></table>
+<table id="lhid_navbar_nz" width="100%">
+<tr>
+<td>
+<a id="lhid_publicgallerylink" href="http://picasaweb.google.com/HelpShop.com">HelpShop.com's Public Gallery</a>
+&raquo; <a id="lhid_albumlink" href="http://picasaweb.google.com/HelpShop.com/ParkCircle">ParkCircle</a>
+</td>
+<td width="100%"></td>
+<td>
+<table cellspacing=0 cellpadding=0 class="searchbox" id="lhid_searchanchor">
+<tbody><tr class="toprow" >
+<th class="first"><div></div></th>
+<th colspan="3"></th>
+<th class="last"><div></div></th>
+</tr>
+<tr>
+<th class="first"></th>
+<td id="btntd">
+<button id="lhid_btn"> <img id="dwn" src="img/downarrow.gif" />
+</button>
+</td>
+<form name="search_form" action="/lh/searchbrowse#0+1" method="get">
+<td>
+<span class="search_input">
+<input id="lhid_searchbox" type="text" size="25" maxlength="128" value="" />
+</span>
+</td>
+<td>
+<span class="search_button_holder">
+<button type="submit" class="searchbtn" title="Search Photos">Search Photos</button>
+</span>
+</td>
+<input id="lhid_querytext" type="hidden" name="q" value=""/>
+<input id="lhid_search_uname" type="hidden" name="uname" value="HelpShop.com"/>
+<input id="lhid_psc" type="hidden" name="psc" value="G" />
+<input id="lhid_crowdfilter" name="filter" type="hidden" value="1" />
+</form>
+<th class="last"></th>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</table>
+<div id="lhid_feedback" class="lhcl_feedback" style="display:none">
+<center>
+<table class="lhcl_alertMessage" cellspacing="0" cellpadding="0">
+<tr align="left" valign="top"><td><img src="img/alertmsg_tl.gif" align="left"/></td>
+<td rowspan="2" id="msg" style="padding: .2em 1em;">
+</td>
+<td align="right"><img src="img/alertmsg_tr.gif" align="right"/></td>
+</tr>
+<tr valign="bottom">
+<td align="left"><img src="img/alertmsg_bl.gif" align="left"/></td>
+<td align="right"><img src="img/alertmsg_br.gif" align="right"/></td>
+</tr>
+</table>
+</center>
+</div>
+<div class="lhcl_body" id="lhid_searchbody">
+<table><tbody  >
+<tr>
+<td id="lhid_leftbox">
+<div id="lhid_main"></div>
+</td>
+<td id="lhid_rightbox">
+<div class="lhcl_rightgutter">
+<div class="lhcl_prettybox lhcl_sidebox lhcl_recordbox">
+<div class="lhcl_body">
+<table class="lhcl_host">
+<tr>
+<td class="lhcl_column_left">
+<div>
+<a id="lhid_portraitlink"
+                 href="http://picasaweb.google.com/HelpShop.com">
+<img class="lhcl_portrait" id="lhcl_portrait_id"
+                     src="http://lh5.google.com/HelpShop.com/AAAAJjubSH0/AAAAAAAAA-I/IJ8G4thxac0/s48-c/HelpShop.com"
+                     width="48"
+                     height="48" />
+</a>
+</div>
+</td>
+<td class="lhcl_column_right">
+<div class="lhcl_name" id="lhid_user_nickname">
+HelpShop.com
+</div>
+<div class="lhcl_info">
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div id="lhid_tools"></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<iframe id="lhid_secrethistory"></iframe>
+<script type="text/javascript">//<!--
+
+_album.slideshowlink = "http:\x2F\x2Fpicasaweb.google.com\x2FHelpShop.com\x2FParkCircle\x2Fphoto";
+_album.location = "";
+_album.src = "http:\x2F\x2Flh4.google.com\x2FHelpShop.com\x2FRsNRigpP7XE\x2FAAAAAAAAA3I\x2FB6LA2h_W18o\x2FParkCircle.jpg";
+_album.dateonly = _fd("28,7,2007");
+
+
+
+pwa.setup(pwa.slideshow);
+pwa.setup(pwa.flagger,'HelpShop.com','5099008856433880433');
+//--></script>
+<script type="text/javascript">
+var _picasaInstalled = !!(navigator.mimeTypes['application/x-picasa-detect'] ||
+navigator.mimeTypes['application/x-picasa']);
+</script>
+<!--[if gte Picasa 2.0]>
+<script type="text/javascript">
+_picasaInstalled = true;
+</script>
+<![endif]-->
+<div id="lhid_footer">
+&copy;2007 Google&nbsp;
+<span id="lhid_downloadpicasafooter">
+<a href="http://dl.google.com/picasa/picasaweb-current-setup.exe" target="_blank">Download Picasa</a> - </span>
+<span id="lhid_launchpicasafooter" style="display:none">
+<a href="picasa://uploadtogoogle/">Launch Picasa</a> - </span>
+<script type="text/javascript">
+pwa.setup(pwa.footer, _picasaInstalled,
+'http:\x2F\x2Fgoogle.com\x2Fdl\x2Fmac\x2Finstall\x2FInstallPicasaWebAlbumsUploaders.dmg');
+</script>
+<a href="http://google.com/accounts/TOS?hl=en_US" target="_blank">Terms of Use</a> -
+<a href="http://picasa.google.com/intl/en_us/web/privacy.html" target="_blank">Privacy Policy</a> -
+<a href="http://picasa.google.com/intl/en_us/web/policy.html" target="_blank">Program Policies</a> -
+<a href="http://code.google.com/apis/picasaweb/" target="_blank">Developer</a> -
+<a href="http://www.google.com" target="_blank">Google Home</a>
+</div>
+<script type="text/javascript">
+<!--
+_ps({
+  foreign: {
+    name: "HelpShop.com",
+    search_url: '/lh/searchbrowse?psc=F&amp;uname=HelpShop.com&amp;filter=0',
+    search_corpus: 'F',
+    uncrowded_search_url: 'http://picasaweb.google.com/lh/search?psc=F&amp;uname=HelpShop.com&amp;filter=0',
+    is_primary: 0,
+    target_user: 'HelpShop.com',
+    foreign_nickname: 'HelpShop.com'},
+  global: {
+    name: "Community Photos",
+    search_url: '/lh/searchbrowse?psc=G&amp;uname=HelpShop.com&amp;filter=0',
+    search_corpus: 'G',
+    uncrowded_search_url: 'http://picasaweb.google.com/lh/search?psc=G&amp;uname=HelpShop.com&amp;filter=0',
+    is_primary: 1,
+    target_user: 'HelpShop.com'},
+  primary: 'G',
+  query: ''
+});
+//--></script>
+<script type="text/javascript">
+var _profile_load = new Date().getTime();
+</script>
+<script type="text/javascript">pwa.start()</script>
+</body>
+</html>

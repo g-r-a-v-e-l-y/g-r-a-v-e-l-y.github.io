@@ -1,0 +1,45 @@
+# deluser hook
+
+add_command_hook("deluser","deluser");
+
+sub hook_deluser {
+        $text = $_[0];
+
+        if($text =~ /^deluser (.*)$/) {
+                $user = $1;
+		if($ulevel{$unick} >= $clevel{aop} && $nnick eq $unick) {
+	                if($ulevel{$user} >= 1) {
+	                        if ($ulevel{$user} < $ulevel{$unick}) {
+	                                if($ulevel{$user} >= 5) { $access = "Owner"; }
+	                                elsif($ulevel{$user} == 4) { $access = "Admin"; }
+	                                elsif($ulevel{$user} == 3) { $access = "Sop"; }
+	                                elsif($ulevel{$user} == 2) { $access = "Aop"; }
+	                                else { $access = "normal user"; }
+	                                sockwrite($sock,"PRIVMSG $uchan :Removed $access \2$user\2.");
+	                                delete $uhosts{$user};
+	                                delete $ulevel{$user};
+	                                delete $uchans{$user};
+	                                saveusers();
+	                        }
+	                        else {
+	                                if($ulevel{$user} == 5 && $ulevel{$unick} == 5) {
+	                                        sockwrite($sock,"PRIVMSG $uchan :Owners must be deleted using the user maintenance tool.");
+	                                }
+	                                else {
+	                                        sockwrite($sock,"PRIVMSG $uchan :$unick, you do not have access to remove $user from the user list.");
+	                                }
+	                        }
+	                }
+	                else {
+	                        sockwrite($sock,"PRIVMSG $uchan :$user is not on the user list.");
+	                }
+	                return 1;
+		}
+		else {
+			return -1;
+		}
+        }
+
+        return 0;
+}
+

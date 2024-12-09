@@ -1,0 +1,21 @@
+# sysinfo hook
+
+add_command_hook("sysinfo","sysinfo");
+
+sub hook_sysinfo {
+	$text = $_[0];
+
+	if($text =~ /^sysinfo[ ]?(.*)$/) {
+		if($ulevel{$unick} >= $clevel{stats}) {
+			$machine = `uname -m` ;         chomp($machine);
+			$host = `uname -n` ;            chomp($host);
+			$kernel = `uname -r` ;          chomp($kernel);
+			$linux = `uname -s` ;           chomp($linux);
+			$ver = `uname -v` ;             chomp($ver);
+			sockwrite($sock,"PRIVMSG $uchan :$host is running $linux $kernel $ver on an $machine");
+		        return 1;
+		} else { return -1; }
+	}
+
+	return 0;
+}

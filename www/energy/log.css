@@ -1,0 +1,86 @@
+PRE
+{ font-family: courier,system, }
+H2
+{ font-family: verdana, Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif; 
+color: #606060; 
+font-size: 20px
+}
+
+
+P
+{ font-family: verdana, Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif; 
+color: #606060; 
+font-size: 10px
+}
+
+TD
+{ font-family: verdana, Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif; 
+color: #606060; 
+font-size: 10px
+}
+
+B
+{ font-family: verdana, Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif; 
+color: #000000; 
+font-size: 10px;
+font-weight: normal
+}
+
+strong
+{ font-family: verdana, Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif; 
+font-size: 10px
+}
+
+H1
+{ font-family: verdana, Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif; 
+color: #000000; 
+font-size: 10px
+}
+
+small
+{ font-family: verdana, Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif; 
+color: #606060; 
+font-size: 10px
+}
+
+.news_subject	
+{ font-family: verdana, Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif; 
+color: #666666; 
+font-size: 10px;
+font-weight: bold;
+font-variant: small-caps  
+
+}
+
+
+.poster
+{ font-family: verdana, Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif; 
+color: #888888; 
+font-size: 10px;
+text-align: left
+}
+
+.date
+{ font-family: verdana, Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif; 
+color: #888888; 
+font-size: 10px;
+text-align: right
+}
+
+I
+{ font-style: normal }
+
+BODY	   
+{ scrollbar-face-color: #ffffff; 
+scrollbar-shadow-color: #bbbbbb; 
+scrollbar-highlight-color: #bbbbbb; 
+scrollbar-3dlight-color: #ffffff; 
+scrollbar-darkshadow-color: #ffffff; 
+scrollbar-track-color: #ffffff; 
+scrollbar-arrow-color: #ffffff
+}
+
+.right
+{
+text-align: right
+}

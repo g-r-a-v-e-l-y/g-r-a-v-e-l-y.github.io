@@ -1,0 +1,65 @@
+		=======================
+		*  Diablo Help Files  *
+		*        Basic        *
+		*  Last Update: v1.5  *		
+		=======================
+
+	COMMAND LISTING:
+
+-------------------------------------------------------------------------------
+Command:	WEATHER [<zip>]
+Description:	Retrieves weather information
+-------------------------------------------------------------------------------
+Command:	DICT <string>
+Description:	Looks up string in dictionary and refers URL
+-------------------------------------------------------------------------------
+Command:	HOST <dns>
+Description:	Uses the unix program host to lookup a dns
+-------------------------------------------------------------------------------
+Command:	THES <string>
+Description:	Find words related to a string
+-------------------------------------------------------------------------------
+Command:	XLATE <lang> <string>
+Description:	Translates a string using the language perameter
+-------------------------------------------------------------------------------
+Command:	RQUOTE 
+Description:	Display random quote
+-------------------------------------------------------------------------------
+Command:	SERVERLIST
+Description:	Display Server List
+-------------------------------------------------------------------------------
+Command:	NICKLIST
+Description:	Display Nickname list
+-------------------------------------------------------------------------------
+Command:	CHANLIST
+Description:	Display Channel list
+-------------------------------------------------------------------------------
+Command:	VERISON
+Description:	Display version information
+-------------------------------------------------------------------------------
+Command:	SENTENCE
+Description:	Outputs random sentence
+Requirements:	sentence.c must be compiled (done in defualt setup)
+-------------------------------------------------------------------------------
+Command:	STATS
+Description:	Display stats
+-------------------------------------------------------------------------------
+Command:	UPTIME
+Description:	Display bot's uptime
+-------------------------------------------------------------------------------
+Command:	SYSUPTIME
+Description:	Display the uptime of the bot's host system
+-------------------------------------------------------------------------------
+Command:	SYSINFO
+Description:	Display information about the bot's host system
+-------------------------------------------------------------------------------
+Command:	SLASHDOT
+Description:	Display slashdot headlines
+-------------------------------------------------------------------------------
+Command:	FRESHMEAT
+Description:	Display freshmeat headlines
+-------------------------------------------------------------------------------
+
+                ======================
+                *  End Of Help File  *
+                ======================

@@ -1,0 +1,26 @@
+# version hook
+
+add_command_hook("version","version");
+
+sub hook_version {
+	$text = $_[0];
+
+	if($text =~ /^version[ ]?(.*)$/) {
+                if($ulevel{$unick} >= $clevel{version}) {
+			$mail = $email;
+			if($mail ne "") {
+				$mail = "$mail";
+				if($mail =~ /(.*)\@(.*)/) {
+					$mail = " \(\2$1\2\37\@\37\2$2\2\)";
+				}
+				else {
+					$mail="";
+				}
+			}
+	     		sockwrite($sock,"PRIVMSG $uchan :$version : $ownernick$mail");
+	        	return 1;
+		} else { return -1; }
+	}
+
+	return 0;
+}

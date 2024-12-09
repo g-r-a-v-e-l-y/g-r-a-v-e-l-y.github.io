@@ -1,0 +1,39 @@
+P
+{ font-family: Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif; 
+color: #7F7F7F; 
+font-size: 10pt;   
+}
+
+TD
+{ font-family: Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif; 
+color: #7F7F7F; 
+font-size: 10pt;   
+}
+
+B
+{ font-family: Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif; 
+color: #737373;
+size: 12t;   
+}
+
+H1
+{ font-family: Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif; 
+color: #7F7F7F; 
+font-size: 10pt;
+font-weight: lighter;
+line-height: 100% }    
+
+
+.title
+{ color: #000000;
+font-size: 14pt;
+font-weight: bold;
+text-align: center
+}
+
+H2
+{ font-family: Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif; 
+color: #7F7F7F; 
+font-size: 12pt;
+font-weight: bold;
+line-height: 100% }  
