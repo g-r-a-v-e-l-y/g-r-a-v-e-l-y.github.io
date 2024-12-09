@@ -97,16 +97,6 @@
 	</url>
 	
 	<url>
-		<loc>https://www.gravely.pizza/due-to-a-technical-problem.html</loc>
-		<lastmod>2008-01-30</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://www.gravely.pizza/vox-repair.html</loc>
-		<lastmod>2008-02-02</lastmod>
-	</url>
-	
-	<url>
 		<loc>https://www.gravely.pizza/weekend-convention.html</loc>
 		<lastmod>2008-02-14</lastmod>
 	</url>
@@ -124,11 +114,6 @@
 	<url>
 		<loc>https://www.gravely.pizza/business-meetings.html</loc>
 		<lastmod>2008-03-25</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://www.gravely.pizza/yahoo-webchat-regular-expression.html</loc>
-		<lastmod>2008-04-17</lastmod>
 	</url>
 	
 	<url>
@@ -359,6 +344,11 @@
 	<url>
 		<loc>https://www.gravely.pizza/</loc>
 		<lastmod>2024-11-23</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://www.gravely.pizza/archive/</loc>
+		<lastmod>2024-12-09</lastmod>
 	</url>
 	
 	<url>

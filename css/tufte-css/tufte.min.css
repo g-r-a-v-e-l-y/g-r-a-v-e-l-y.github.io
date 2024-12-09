@@ -239,6 +239,13 @@ a:link {
         background-position: 0 93%, 100% 93%, 0 93%
 }
 
+.ha:link, .ha:visited, .ha:active{
+        background: none;
+        text-shadow: none;
+        text-decoration: none;
+        color: #aaa;
+}
+
 @media screen and (-webkit-min-device-pixel-ratio:0) {
 
         .hover-tufte-underline:hover,
