@@ -1,0 +1,983 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="fediverse:creator" content="@gravely@mastodon.social">
+		<title>gimme pizza slow (high quality)</title>
+		<meta name="description" content="previous embarassments that are burdensome to me, abridged.">
+		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="gimme pizza slow (high quality)">
+        <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+        <link rel="shortcut icon" href="/favicon.ico">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+        <link rel="manifest" href="/site.webmanifest">
+		<meta name="generator" content="Eleventy v3.0.0">
+		
+		<style>/* This is an arbitrary CSS string added to the bundle */
+@charset "UTF-8";
+
+@font-face {
+        font-family: et-book;
+        src: url(/css/tufte-css/et-book/et-book-roman-line-figures/et-book-roman-line-figures.eot);
+        src: url(/css/tufte-css/et-book/et-book-roman-line-figures/et-book-roman-line-figures.eot?#iefix) format("embedded-opentype"), url(/css/tufte-css/et-book/et-book-roman-line-figures/et-book-roman-line-figures.woff) format("woff"), url(/css/tufte-css/et-book/et-book-roman-line-figures/et-book-roman-line-figures.ttf) format("truetype"), url(/css/tufte-css/et-book/et-book-roman-line-figures/et-book-roman-line-figures.svg#etbookromanosf) format("svg");
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap
+}
+
+@font-face {
+        font-family: et-book;
+        src: url(/css/tufte-css/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.eot);
+        src: url(/css/tufte-css/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.eot?#iefix) format("embedded-opentype"), url(/css/tufte-css/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.woff) format("woff"), url(/css/tufte-css/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.ttf) format("truetype"), url(/css/tufte-css/et-book/et-book-display-italic-old-style-figures/et-book-display-italic-old-style-figures.svg#etbookromanosf) format("svg");
+        font-weight: 400;
+        font-style: italic;
+        font-display: swap
+}
+
+@font-face {
+        font-family: et-book;
+        src: url(/css/tufte-css/et-book/et-book-bold-line-figures/et-book-bold-line-figures.eot);
+        src: url(/css/tufte-css/et-book/et-book-bold-line-figures/et-book-bold-line-figures.eot?#iefix) format("embedded-opentype"), url(/css/tufte-css/et-book/et-book-bold-line-figures/et-book-bold-line-figures.woff) format("woff"), url(/css/tufte-css/et-book/et-book-bold-line-figures/et-book-bold-line-figures.ttf) format("truetype"), url(/css/tufte-css/et-book/et-book-bold-line-figures/et-book-bold-line-figures.svg#etbookromanosf) format("svg");
+        font-weight: 700;
+        font-style: normal;
+        font-display: swap
+}
+
+@font-face {
+        font-family: et-book-roman-old-style;
+        src: url(/css/tufte-css/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.eot);
+        src: url(/css/tufte-css/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.eot?#iefix) format("embedded-opentype"), url(/css/tufte-css/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.woff) format("woff"), url(/css/tufte-css/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.ttf) format("truetype"), url(/css/tufte-css/et-book/et-book-roman-old-style-figures/et-book-roman-old-style-figures.svg#etbookromanosf) format("svg");
+        font-weight: 400;
+        font-style: normal;
+        font-display: swap
+}
+
+html {
+        font-size: 15px
+}
+
+body {
+        width: 87.5%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 12.5%;
+        font-family: et-book, Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+        background-color: #ffffff;
+        color: #333;
+        max-width: 1400px;
+        counter-reset: sidenote-counter
+        cursor: -moz-grabbing;
+        cursor: -webkit-grabbing;
+        cursor: grabbing, auto;
+}
+
+h1 {
+        font-weight: 400;
+        margin-top: 4rem;
+        margin-bottom: 1.5rem;
+        font-size: 3.2rem;
+        line-height: 1
+}
+
+h2 {
+        font-style: italic;
+        font-weight: 400;
+        margin-top: 2.1rem;
+        margin-bottom: 1.4rem;
+        font-size: 2.2rem;
+        line-height: 1
+}
+
+h3 {
+        font-style: italic;
+        font-weight: 400;
+        font-size: 1.7rem;
+        margin-top: 2rem;
+        margin-bottom: 1.4rem;
+        line-height: 1
+}
+
+hr {
+        display: block;
+        height: 1px;
+        width: 55%;
+        border: 0;
+        border-top: 1px solid #ccc;
+        margin: 1em 0;
+        padding: 0
+}
+
+p.subtitle {
+        font-style: italic;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-size: 1.8rem;
+        display: block;
+        line-height: 1
+}
+
+.numeral {
+        font-family: et-book-roman-old-style
+}
+
+.danger {
+        color: red
+}
+
+article {
+        padding: 5rem 0
+}
+
+section {
+        padding-top: 1rem;
+        padding-bottom: 1rem
+}
+
+ol,
+p,
+ul {
+        font-size: 1.4rem;
+        line-height: 2rem
+}
+
+p {
+        margin-top: 1.4rem;
+        margin-bottom: 1.4rem;
+        padding-right: 0;
+        vertical-align: baseline
+}
+
+div.epigraph {
+        margin: 5em 0
+}
+
+div.epigraph>blockquote {
+        margin-top: 3em;
+        margin-bottom: 3em
+}
+
+div.epigraph>blockquote,
+div.epigraph>blockquote>p {
+        font-style: italic
+}
+
+div.epigraph>blockquote>footer {
+        font-style: normal
+}
+
+div.epigraph>blockquote>footer>cite {
+        font-style: italic
+}
+
+blockquote {
+        font-size: 1.4rem
+}
+
+blockquote p {
+        width: 55%;
+        margin-right: 40px
+}
+
+blockquote footer {
+        width: 55%;
+        font-size: 1.1rem;
+        text-align: right
+}
+
+section>footer,
+section>p,
+section>table {
+        width: 55%
+}
+
+section>ol,
+section>ul {
+        width: 50%;
+        -webkit-padding-start: 5%
+}
+
+li:not(:first-child) {
+        margin-top: .25rem
+}
+
+figure {
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font: inherit;
+        vertical-align: baseline;
+        max-width: 55%;
+        -webkit-margin-start: 0;
+        -webkit-margin-end: 0;
+        margin: 0 0 3em 0
+}
+
+figcaption {
+        float: right;
+        clear: right;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 1.1rem;
+        line-height: 1.6;
+        vertical-align: baseline;
+        position: relative;
+        max-width: 40%
+}
+
+figure.fullwidth figcaption {
+        margin-right: 24%
+}
+
+a:link {
+        color: #00aeff
+}
+
+a:visited {
+        color: #000
+}
+
+.no-tufte-underline:link {
+        background: unset;
+        text-shadow: unset
+}
+
+.hover-tufte-underline:hover,
+.tufte-underline,
+a:link {
+        text-decoration: none;
+        background: -webkit-linear-gradient(#fffff8, #fffff8), -webkit-linear-gradient(#fffff8, #fffff8), -webkit-linear-gradient(currentColor, currentColor);
+        background: linear-gradient(#fffff8, #fffff8), linear-gradient(#fffff8, #fffff8), linear-gradient(currentColor, currentColor);
+        -webkit-background-size: .05em 1px, .05em 1px, 1px 1px;
+        -moz-background-size: .05em 1px, .05em 1px, 1px 1px;
+        background-size: .05em 1px, .05em 1px, 1px 1px;
+        background-repeat: no-repeat, no-repeat, repeat-x;
+        text-shadow: .03em 0 #fffff8, -.03em 0 #fffff8, 0 .03em #fffff8, 0 -.03em #fffff8, .06em 0 #fffff8, -.06em 0 #fffff8, .09em 0 #fffff8, -.09em 0 #fffff8, .12em 0 #fffff8, -.12em 0 #fffff8, .15em 0 #fffff8, -.15em 0 #fffff8;
+        background-position: 0 93%, 100% 93%, 0 93%
+}
+
+.ha:link, .ha:visited, .ha:active{
+        background: none;
+        text-shadow: none;
+        text-decoration: none;
+        color: #aaa;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+
+        .hover-tufte-underline:hover,
+        .tufte-underline,
+        a:link {
+                background-position-y: 87%, 87%, 87%
+        }
+}
+
+a:link::-moz-selection,
+a:link::selection {
+        text-shadow: .03em 0 #b4d5fe, -.03em 0 #b4d5fe, 0 .03em #b4d5fe, 0 -.03em #b4d5fe, .06em 0 #b4d5fe, -.06em 0 #b4d5fe, .09em 0 #b4d5fe, -.09em 0 #b4d5fe, .12em 0 #b4d5fe, -.12em 0 #b4d5fe, .15em 0 #b4d5fe, -.15em 0 #b4d5fe;
+        background: #b4d5fe
+}
+
+img {
+        max-width: 100%;
+        height: auto;
+}
+
+/* Nav */
+.nav {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.nav-item {
+    display: inline-block;
+    margin-right: 1em;
+}
+.nav-item, .nav a[href] {
+    color: #000;
+}
+.nav>li:not(:first-child) {
+        margin-top: 0;
+}
+.marginnote,
+.sidenote {
+        float: right;
+        clear: right;
+        margin-right: -60%;
+        width: 50%;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 1.1rem;
+        line-height: 1.3;
+        vertical-align: baseline;
+        position: relative
+}
+
+.sidenote-number {
+        counter-increment: sidenote-counter
+}
+
+.sidenote-number:after,
+.sidenote:before {
+        font-family: et-book-roman-old-style;
+        position: relative;
+        vertical-align: baseline
+}
+
+.sidenote-number:after {
+        content: counter(sidenote-counter);
+        font-size: 1rem;
+        top: -.5rem;
+        left: .1rem
+}
+
+.sidenote:before {
+        content: counter(sidenote-counter) " ";
+        font-size: 1rem;
+        top: -.5rem
+}
+
+blockquote .marginnote,
+blockquote .sidenote {
+        margin-right: -82%;
+        min-width: 59%;
+        text-align: left
+}
+
+div.fullwidth,
+table.fullwidth {
+        width: 100%
+}
+
+div.table-wrapper {
+        overflow-x: auto;
+        font-family: "Trebuchet MS", "Gill Sans", "Gill Sans MT", sans-serif
+}
+
+.sans {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+        letter-spacing: .03em
+}
+
+code,
+pre>code {
+        font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+        font-size: 1rem;
+        line-height: 1.42;
+        -webkit-text-size-adjust: 100%
+}
+
+.sans>code {
+        font-size: 1.2rem
+}
+
+h1>code,
+h2>code,
+h3>code {
+        font-size: .8em
+}
+
+.marginnote>code,
+.sidenote>code {
+        font-size: 1rem
+}
+
+pre>code {
+        font-size: .9rem;
+        margin-left: 2.5%;
+        overflow-x: auto;
+        display: block
+}
+
+pre.fullwidth>code {
+        width: 90%
+        clear: both
+}
+
+.fullwidth {
+        max-width: 90%;
+        clear: both
+}
+
+span.newthought {
+        font-variant: small-caps;
+        font-size: 1.2em
+}
+
+input.margin-toggle {
+        display: none
+}
+
+label.sidenote-number {
+        display: inline
+}
+
+label.margin-toggle:not(.sidenote-number) {
+        display: none
+}
+
+.iframe-wrapper {
+        position: relative;
+        padding-bottom: 56.25%;
+        padding-top: 25px;
+        height: 0
+}
+
+.iframe-wrapper iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%
+}
+
+@media (max-width:760px) {
+        body {
+                width: 84%;
+                padding-left: 8%;
+                padding-right: 8%
+        }
+
+        hr,
+        section>footer,
+        section>p,
+        section>table {
+                width: 100%
+        }
+
+        pre>code {
+                width: 97%
+        }
+
+        section>ol {
+                width: 90%
+        }
+
+        section>ul {
+                width: 90%
+        }
+
+        figure {
+                max-width: 90%
+        }
+
+        figcaption,
+        figure.fullwidth figcaption {
+                margin-right: 0;
+                max-width: none
+        }
+
+        blockquote {
+                margin-left: 1.5em;
+                margin-right: 0
+        }
+
+        blockquote footer,
+        blockquote p {
+                width: 100%
+        }
+
+        label.margin-toggle:not(.sidenote-number) {
+                display: inline
+        }
+
+        .marginnote,
+        .sidenote {
+                display: none
+        }
+
+        .margin-toggle:checked+.marginnote,
+        .margin-toggle:checked+.sidenote {
+                display: block;
+                float: left;
+                left: 1rem;
+                clear: both;
+                width: 95%;
+                margin: 1rem 2.5%;
+                vertical-align: baseline;
+                position: relative
+        }
+
+        label {
+                cursor: pointer
+        }
+
+        div.table-wrapper,
+        table {
+                width: 85%
+        }
+
+        img {
+                width: 100%;
+                height: auto;
+        }
+}
+.visually-hidden:not(:focus):not(:active) {
+  clip: rect(0 0 0 0); 
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap; 
+  width: 1px;
+}
+
+pre,
+code {
+    font-family: var(--font-family-monospace);
+}
+pre:not([class*="language-"]) {
+    margin: .5em 0;
+    line-height: 1.375; /* 22px /16 */
+    -moz-tab-size: var(--syntax-tab-size);
+    -o-tab-size: var(--syntax-tab-size);
+    tab-size: var(--syntax-tab-size);
+    -webkit-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+    direction: ltr;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    overflow-x: auto;
+}
+code {
+    word-break: break-all;
+}
+/**
+ * GHColors theme by Avi Aryan (http://aviaryan.in)
+ * Inspired by Github syntax coloring
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+    color: #393A34;
+    font-family: "Consolas", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
+    direction: ltr;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    font-size: .9em;
+    line-height: 1.2em;
+
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}
+
+pre > code[class*="language-"] {
+    font-size: 1em;
+}
+
+pre[class*="language-"]::-moz-selection, pre[class*="language-"] ::-moz-selection,
+code[class*="language-"]::-moz-selection, code[class*="language-"] ::-moz-selection {
+    background: #b3d4fc;
+}
+
+pre[class*="language-"]::selection, pre[class*="language-"] ::selection,
+code[class*="language-"]::selection, code[class*="language-"] ::selection {
+    background: #b3d4fc;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+    padding: 1em;
+    margin: .5em 0;
+    overflow: auto;
+    border: 1px solid #dddddd;
+    background-color: white;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+    padding: .2em;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background: #f8f8f8;
+    border: 1px solid #dddddd;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+    color: #999988;
+    font-style: italic;
+}
+
+.token.namespace {
+    opacity: .7;
+}
+
+.token.string,
+.token.attr-value {
+    color: #e3116c;
+}
+
+.token.punctuation,
+.token.operator {
+    color: #393A34; /* no highlight */
+}
+
+.token.entity,
+.token.url,
+.token.symbol,
+.token.number,
+.token.boolean,
+.token.variable,
+.token.constant,
+.token.property,
+.token.regex,
+.token.inserted {
+    color: #36acaa;
+}
+
+.token.atrule,
+.token.keyword,
+.token.attr-name,
+.language-autohotkey .token.selector {
+    color: #00a4db;
+}
+
+.token.function,
+.token.deleted,
+.language-autohotkey .token.tag {
+    color: #9a050f;
+}
+
+.token.tag,
+.token.selector,
+.language-autohotkey .token.keyword {
+    color: #00009f;
+}
+
+.token.important,
+.token.function,
+.token.bold {
+    font-weight: bold;
+}
+
+.token.italic {
+    font-style: italic;
+}</style>
+	</head>
+	<body>
+		  <a href="#skip" class="visually-hidden">Skip to main content</a>
+
+		<header>
+			<nav>
+				<h2 class="visually-hidden" id="top-level-navigation-menu">Top level navigation menu</h2>
+				<ul class="nav">
+					<li class="nav-item sans"><a class="no-tufte-underline" href="/">Home</a></li>
+					<li class="nav-item sans"><a class="no-tufte-underline" href="/archive/">Archives</a></li>
+					<li class="nav-item sans"><a class="no-tufte-underline" href="/about/">About</a></li>
+					<li class="nav-item sans"><a class="no-tufte-underline" href="/feed/feed.xml">Feed</a></li>
+				</ul>
+
+                <a rel="me" class="visually-hidden" href="https://mastodon.social/@gravely">Mastodon</a>
+			</nav>
+
+            <a href="/" class="no-tufte-underline"><h1 class="sans nav-item" id="gimme-pizza-slow-high-quality">gimme pizza slow (high quality)</h1></a>
+		</header>
+
+		<main id="skip">
+			<heading-anchors>
+				
+<section>
+<h2 id="all-posts">Posts</h2>
+<artile>
+<ol class="postlist" reversed="">
+	<li class="postlist-item">
+		<a href="/an-imaginary-mix.html" class="postlist-link">An imaginary mix</a>,
+		<time class="postlist-date" datetime="2011-10-09">October 2011</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/torrent-applescript-folder-action.html" class="postlist-link">torrent applescript folder action</a>,
+		<time class="postlist-date" datetime="2011-10-03">October 2011</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/kindle-screensavers.html" class="postlist-link">Kindle &quot;Screensavers&quot;</a>,
+		<time class="postlist-date" datetime="2011-10-03">October 2011</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/stephen-king-on-fiction.html" class="postlist-link">Stephen King on fiction</a>,
+		<time class="postlist-date" datetime="2011-04-14">April 2011</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/synecdoche-and-metonymy.html" class="postlist-link">Synecdoche and Metonymy</a>,
+		<time class="postlist-date" datetime="2011-01-21">January 2011</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/scream-like-a-man.html" class="postlist-link">Scream Like a Man</a>,
+		<time class="postlist-date" datetime="2010-03-20">March 2010</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/the-thermostat-fallacy.html" class="postlist-link">The Thermostat Fallacy</a>,
+		<time class="postlist-date" datetime="2010-02-23">February 2010</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/the-paradox-of-controls.html" class="postlist-link">The Paradox of Controls</a>,
+		<time class="postlist-date" datetime="2010-02-18">February 2010</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/eggcorns-in-technology-a-list.html" class="postlist-link">Eggcorns in Technology: A list</a>,
+		<time class="postlist-date" datetime="2010-02-16">February 2010</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/on-the-ipad.html" class="postlist-link">On the iPad</a>,
+		<time class="postlist-date" datetime="2010-02-14">February 2010</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/shmoocon-2010-advice.html" class="postlist-link">Shmoocon 2010 Advice</a>,
+		<time class="postlist-date" datetime="2010-02-04">February 2010</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/dnssnarf.html" class="postlist-link">dnssnarf</a>,
+		<time class="postlist-date" datetime="2009-12-05">December 2009</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/trstus.html" class="postlist-link">trst.us</a>,
+		<time class="postlist-date" datetime="2009-09-24">September 2009</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/what-i-expect-inside-inside-files-with-underscores-in-the-name-instead-of-spaces.html" class="postlist-link">What I expect inside inside files with underscores in the name instead of spaces...</a>,
+		<time class="postlist-date" datetime="2009-09-17">September 2009</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/red-teaming-with-eicar.html" class="postlist-link">Red teaming with EICAR</a>,
+		<time class="postlist-date" datetime="2009-09-05">September 2009</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/the-shortened-url-straw-men-of-doom.html" class="postlist-link">The shortened url straw men of doom</a>,
+		<time class="postlist-date" datetime="2009-06-04">June 2009</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/how-i-decoded-the-verizon-2009-dbir-cover.html" class="postlist-link">How I Decoded the Verizon 2009 DBIR Cover</a>,
+		<time class="postlist-date" datetime="2009-04-27">April 2009</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/wikipedia.html" class="postlist-link">Wikipedia</a>,
+		<time class="postlist-date" datetime="2009-04-17">April 2009</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/the-mad-tea-party.html" class="postlist-link">The Mad Tea Party</a>,
+		<time class="postlist-date" datetime="2009-04-15">April 2009</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/capture.html" class="postlist-link">capture - a script for analysts and incident handlers</a>,
+		<time class="postlist-date" datetime="2009-02-18">February 2009</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/corporate-brand-mash-up-diy-rebellion.html" class="postlist-link">Corporate Brand Mash-up DIY Rebellion</a>,
+		<time class="postlist-date" datetime="2009-01-23">January 2009</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/ubik-the-fortune-file.html" class="postlist-link">Ubik, the fortune file</a>,
+		<time class="postlist-date" datetime="2008-12-23">December 2008</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/simplepedia-wiki.html" class="postlist-link">Simplepedia</a>,
+		<time class="postlist-date" datetime="2008-12-22">December 2008</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/plato-on-the-written-word.html" class="postlist-link">Plato on the written word</a>,
+		<time class="postlist-date" datetime="2008-12-04">December 2008</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/how-i-almost-got-myself-killed.html" class="postlist-link">How I almost got myself killed </a>,
+		<time class="postlist-date" datetime="2008-12-02">December 2008</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/body-language.html" class="postlist-link">Body Language</a>,
+		<time class="postlist-date" datetime="2008-11-25">November 2008</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/outlook-zen-koans.html" class="postlist-link">Outlook Zen Koans</a>,
+		<time class="postlist-date" datetime="2008-11-24">November 2008</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/ambiguously-hyperbolic.html" class="postlist-link">Ambiguously Hyperbolic</a>,
+		<time class="postlist-date" datetime="2008-11-17">November 2008</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/dark-side-of-the-town-hall.html" class="postlist-link">Dark Side of the Town Hall</a>,
+		<time class="postlist-date" datetime="2008-11-16">November 2008</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/a-failed-analogy-to-stock-market-shorting-practices.html" class="postlist-link">A failed analogy to stock market shorting practices </a>,
+		<time class="postlist-date" datetime="2008-11-04">November 2008</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/on-cs-lewis.html" class="postlist-link">On C.S. Lewis</a>,
+		<time class="postlist-date" datetime="2008-11-01">November 2008</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/gs_linkedin.html" class="postlist-link">gs_linkedin</a>,
+		<time class="postlist-date" datetime="2008-10-25">October 2008</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/warp-xp.html" class="postlist-link">Warp XP</a>,
+		<time class="postlist-date" datetime="2008-10-22">October 2008</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/the-office-1912-shorpy-photo-archive.html" class="postlist-link">The Office: 1912 | Shorpy Photo Archive</a>,
+		<time class="postlist-date" datetime="2008-10-22">October 2008</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/making-the-gamblers-fallacy-disappear-the-role-of-experience-hbs-working-knowledge.html" class="postlist-link">Making the Gambler&#39;s Fallacy Disappear: The Role of Experience — HBS Working Knowledge</a>,
+		<time class="postlist-date" datetime="2008-10-16">October 2008</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/mailchannels-anti-spam-blog-an-update-to-the-email-standards.html" class="postlist-link">MailChannels | Anti-Spam Blog: An update to the email standards</a>,
+		<time class="postlist-date" datetime="2008-10-16">October 2008</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/dns-is-tricky.html" class="postlist-link">DNS is tricky</a>,
+		<time class="postlist-date" datetime="2008-07-22">July 2008</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/obs.html" class="postlist-link">obs</a>,
+		<time class="postlist-date" datetime="2008-05-14">May 2008</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/cutting-dns-kite-strings.html" class="postlist-link">Cutting DNS kite strings</a>,
+		<time class="postlist-date" datetime="2008-05-11">May 2008</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/weekend-reading.html" class="postlist-link">Solved problems, and weekend reading</a>,
+		<time class="postlist-date" datetime="2008-05-06">May 2008</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/charmsec.html" class="postlist-link">CharmSec</a>,
+		<time class="postlist-date" datetime="2008-05-02">May 2008</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/sans-giac-gcfa.html" class="postlist-link">SANS GIAC GCFA</a>,
+		<time class="postlist-date" datetime="2008-04-30">April 2008</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/hans-reiser-guilty.html" class="postlist-link">Hans Reiser: Guilty</a>,
+		<time class="postlist-date" datetime="2008-04-29">April 2008</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/logging-incident-handler-activity-on-the-console.html" class="postlist-link">Logging incident handler activity on the console</a>,
+		<time class="postlist-date" datetime="2008-04-28">April 2008</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/business-meetings.html" class="postlist-link">Business Meetings</a>,
+		<time class="postlist-date" datetime="2008-03-25">March 2008</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/shmoocon-2008.html" class="postlist-link">Shmoocon 2008</a>,
+		<time class="postlist-date" datetime="2008-02-19">February 2008</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/Syn-Phishus.html" class="postlist-link">Syn Phishus</a>,
+		<time class="postlist-date" datetime="2008-02-18">February 2008</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/weekend-convention.html" class="postlist-link">Weekend Convention</a>,
+		<time class="postlist-date" datetime="2008-02-14">February 2008</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/johnny-winter.html" class="postlist-link">Johnny Winter</a>,
+		<time class="postlist-date" datetime="2008-01-27">January 2008</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/tufte-on-the-iphone.html" class="postlist-link">Tufte on the iPhone</a>,
+		<time class="postlist-date" datetime="2008-01-25">January 2008</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/space-ghost-coast-to-coast-fortunes.html" class="postlist-link">Space Ghost Coast to Coast fortunes</a>,
+		<time class="postlist-date" datetime="2008-01-25">January 2008</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/making-pizza-paradiso-pizza.html" class="postlist-link">Making Pizza Paradiso Pizza</a>,
+		<time class="postlist-date" datetime="2008-01-18">January 2008</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/tv-b-gone-ii.html" class="postlist-link">TV-B-Gone II</a>,
+		<time class="postlist-date" datetime="2008-01-13">January 2008</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/shmoocon-2008-tickets-ordered.html" class="postlist-link">Shmoocon 2008 tickets ordered!</a>,
+		<time class="postlist-date" datetime="2008-01-10">January 2008</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/vim-google.html" class="postlist-link">vim google</a>,
+		<time class="postlist-date" datetime="2007-12-18">December 2007</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/the-second-disk-of-in-rainbows.html" class="postlist-link">The second disk of In Rainbows</a>,
+		<time class="postlist-date" datetime="2007-12-05">December 2007</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/the-hard-sell.html" class="postlist-link">The Hard Sell</a>,
+		<time class="postlist-date" datetime="2007-12-03">December 2007</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/sparklines-and-data-trending.html" class="postlist-link">Sparklines and data trending</a>,
+		<time class="postlist-date" datetime="2007-11-01">November 2007</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/conways-law.html" class="postlist-link">Conway&#39;s Law</a>,
+		<time class="postlist-date" datetime="2007-10-20">October 2007</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/tufte-presenting-data-and-information.html" class="postlist-link">Tufte - Presenting Data and Information</a>,
+		<time class="postlist-date" datetime="2007-10-19">October 2007</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/eternal-bash-history.html" class="postlist-link">Eternal bash history</a>,
+		<time class="postlist-date" datetime="2007-10-18">October 2007</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/first-post.html" class="postlist-link">First Post</a>,
+		<time class="postlist-date" datetime="2002-04-19">April 2002</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/beos.html" class="postlist-link">BeOS</a>,
+		<time class="postlist-date" datetime="1999-10-12">October 1999</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/cable-modem.html" class="postlist-link">Cable Modem</a>,
+		<time class="postlist-date" datetime="1999-09-11">September 1999</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/server-issues.html" class="postlist-link">Server issues</a>,
+		<time class="postlist-date" datetime="1999-08-06">August 1999</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/portfolio-review-day.html" class="postlist-link">Portfolio Review Day</a>,
+		<time class="postlist-date" datetime="1999-07-26">July 1999</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/logo-work.html" class="postlist-link">Logo work</a>,
+		<time class="postlist-date" datetime="1999-07-20">July 1999</time>
+	</li>
+</ol>
+</artile>
+</section>
+
+
+			</heading-anchors>
+		</main>
+
+		<footer>
+			<p class="visually-hidden"><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></em></p>
+            <a rel="me" class="visually-hidden" href="https://mastodon.social/@gravely">Mastodon</a>
+		</footer>
+
+		<!-- This page `/archive/` was built on 2024-12-09T19:14:21.645Z -->
+		<script type="module" src="/dist/rJ3_G-2ArF.js"></script>
+	</body>
+</html>
