@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="fediverse:creator" content="@gravely@mastodon.social">
 		<title>gimme pizza slow (high quality)</title>
 		<meta name="description" content="previous embarassments that are burdensome to me, abridged.">
 		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="gimme pizza slow (high quality)">
@@ -226,8 +227,9 @@ figure.fullwidth figcaption {
 a:link {
         color: #00aeff
 }
+
 a:visited {
-        color: #cc88cc
+        color: #000
 }
 
 .no-tufte-underline:link {
@@ -235,7 +237,6 @@ a:visited {
         text-shadow: unset
 }
 
-.hover-tufte-underline:hover,
 .tufte-underline,
 a:link {
         text-decoration: none;
@@ -268,6 +269,23 @@ img {
         max-width: 100%
 }
 
+/* Nav */
+.nav {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.nav-item {
+    display: inline-block;
+    margin-right: 1em;
+}
+.nav-item, .nav a[href] {
+    color: #000;
+}
+.nav>li:not(:first-child) {
+        margin-top: 0;
+}
 .marginnote,
 .sidenote {
         float: right;
@@ -640,28 +658,31 @@ pre[class*="language-"] {
 		<a href="#skip" class="visually-hidden">Skip to main content</a>
 
 		<header>
-			<a href="/" class="home-link sans"><h1 id="gimme-pizza-slow-high-quality">gimme pizza slow (high quality)</h1></a>
 			<nav>
 				<h2 class="visually-hidden" id="top-level-navigation-menu">Top level navigation menu</h2>
-				<ul class="nav visually-hidden">
-					<li class="nav-item"><a href="/" aria-current="page">Home</a></li>
-					<li class="nav-item"><a href="/about/">About</a></li>
-					<li class="nav-item"><a href="/feed/feed.xml">Feed</a></li>
+				<ul class="nav">
+					<li class="nav-item sans"><a class="no-tufte-underline" href="/">Home</a></li>
+					<li class="nav-item sans"><a class="no-tufte-underline" href="/about/">About</a></li>
+					<li class="nav-item sans"><a class="no-tufte-underline" href="/feed/feed.xml">Feed</a></li>
 				</ul>
 			</nav>
+
+            <a href="/" class="no-tufte-underline"><h1 class="sans nav-item" id="gimme-pizza-slow-high-quality">gimme pizza slow (high quality)</h1></a>
 		</header>
 
 		<main id="skip">
 			<heading-anchors>
                 <section>
 				
+<h2 id="all-posts">Posts</h2>
+<article>
 <ol class="postlist" reversed="">
 	<li class="postlist-item">
-		<a href="/a-prospective-dj-setlist.html" class="postlist-link">A prospective DJ setlist</a>,
+		<a href="/an-imaginary-mix.html" class="postlist-link">An imaginary mix</a>,
 		<time class="postlist-date" datetime="2011-10-09">October 2011</time>
 	</li>
 	<li class="postlist-item">
-		<a href="/osx-folder-actions-to-move-downloads.html" class="postlist-link">OSX Folder Actions to Move Downloads</a>,
+		<a href="/torrent-applescript-folder-action.html" class="postlist-link">torrent applescript folder action</a>,
 		<time class="postlist-date" datetime="2011-10-03">October 2011</time>
 	</li>
 	<li class="postlist-item">
@@ -913,22 +934,43 @@ pre[class*="language-"] {
 		<time class="postlist-date" datetime="2007-10-18">October 2007</time>
 	</li>
 	<li class="postlist-item">
-		<a href="/starke-meyers.html" class="postlist-link">Starke Meyers</a>,
-		<time class="postlist-date" datetime="2007-09-29">September 2007</time>
+		<a href="/first-post.html" class="postlist-link">First Post</a>,
+		<time class="postlist-date" datetime="2002-04-19">April 2002</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/beos.html" class="postlist-link">BeOS</a>,
+		<time class="postlist-date" datetime="1999-10-12">October 1999</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/cable-modem.html" class="postlist-link">Cable Modem</a>,
+		<time class="postlist-date" datetime="1999-09-11">September 1999</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/server-issues.html" class="postlist-link">Server issues</a>,
+		<time class="postlist-date" datetime="1999-08-06">August 1999</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/portfolio-review-day.html" class="postlist-link">Portfolio Review Day</a>,
+		<time class="postlist-date" datetime="1999-07-26">July 1999</time>
+	</li>
+	<li class="postlist-item">
+		<a href="/logo-work.html" class="postlist-link">Logo work</a>,
+		<time class="postlist-date" datetime="1999-07-20">July 1999</time>
 	</li>
 </ol>
+</article>
 
 
 
                 </section>
-			</heading-anchors>
-		</main>
+		</heading-anchors></main>
 
 		<footer>
 			<p class="visually-hidden"><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></em></p>
+            <a rel="me" class="visually-hidden" href="https://mastodon.social/@gravely">Mastodon</a>
 		</footer>
 
-		<!-- This page `/` was built on 2024-12-04T19:16:24.302Z -->
+		<!-- This page `/` was built on 2024-12-09T00:50:26.735Z -->
 		<script type="module" src="/dist/rJ3_G-2ArF.js"></script>
 	</body>
 </html>

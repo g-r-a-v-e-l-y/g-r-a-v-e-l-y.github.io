@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="fediverse:creator" content="@gravely@mastodon.social">
 		<title>Tufte - Presenting Data and Information</title>
 		<meta name="description" content="previous embarassments that are burdensome to me, abridged.">
 		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="gimme pizza slow (high quality)">
@@ -394,8 +395,9 @@ figure.fullwidth figcaption {
 a:link {
         color: #00aeff
 }
+
 a:visited {
-        color: #cc88cc
+        color: #000
 }
 
 .no-tufte-underline:link {
@@ -403,7 +405,6 @@ a:visited {
         text-shadow: unset
 }
 
-.hover-tufte-underline:hover,
 .tufte-underline,
 a:link {
         text-decoration: none;
@@ -436,6 +437,23 @@ img {
         max-width: 100%
 }
 
+/* Nav */
+.nav {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.nav-item {
+    display: inline-block;
+    margin-right: 1em;
+}
+.nav-item, .nav a[href] {
+    color: #000;
+}
+.nav>li:not(:first-child) {
+        margin-top: 0;
+}
 .marginnote,
 .sidenote {
         float: right;
@@ -808,15 +826,16 @@ pre[class*="language-"] {
 		<a href="#skip" class="visually-hidden">Skip to main content</a>
 
 		<header>
-			<a href="/" class="home-link sans"><h1 id="gimme-pizza-slow-high-quality">gimme pizza slow (high quality)</h1></a>
 			<nav>
 				<h2 class="visually-hidden" id="top-level-navigation-menu">Top level navigation menu</h2>
-				<ul class="nav visually-hidden">
-					<li class="nav-item"><a href="/">Home</a></li>
-					<li class="nav-item"><a href="/about/">About</a></li>
-					<li class="nav-item"><a href="/feed/feed.xml">Feed</a></li>
+				<ul class="nav">
+					<li class="nav-item sans"><a class="no-tufte-underline" href="/">Home</a></li>
+					<li class="nav-item sans"><a class="no-tufte-underline" href="/about/">About</a></li>
+					<li class="nav-item sans"><a class="no-tufte-underline" href="/feed/feed.xml">Feed</a></li>
 				</ul>
 			</nav>
+
+            <a href="/" class="no-tufte-underline"><h1 class="sans nav-item" id="gimme-pizza-slow-high-quality">gimme pizza slow (high quality)</h1></a>
 		</header>
 
 		<main id="skip">
@@ -832,7 +851,7 @@ pre[class*="language-"] {
 <article>
 <section><p>I had the pleasure of attending a one day course on the <a href="http://www.edwardtufte.com/tufte/courses">presentation of data and information</a> given by <a href="http://www.tufte.com">Edward Tufte</a> in Washington DC.</p>
 <p>I already owned copies of <a href="http://www.edwardtufte.com/tufte/books_vdqi"><em>The Visual Display of Quantitative Information</em></a>, as well as <a href="http://www.edwardtufte.com/tufte/books_ei"><em>Envisioning Information</em></a>, but with the course came bundled four of his books; the two above, as well as <a href="http://www.edwardtufte.com/tufte/books_visex"><em>Visual Explanations</em></a>, and his newest work, <a href="http://www.edwardtufte.com/tufte/books_visex"><em>Beautiful Evidence</em></a>.</p>
-<p><picture><source type="image/avif" srcset="/img/YpOeQxaN5r-338.avif 338w"><source type="image/webp" srcset="/img/YpOeQxaN5r-338.webp 338w"><img loading="lazy" decoding="async" src="/img/YpOeQxaN5r-338.jpeg" alt="tufte&#x27;s dog" width="338" height="222"></picture></p>
+<p><picture><source type="image/avif" srcset="/.11ty/image/?src=content%2Fblog%2Ffineart_Max2.jpg&width=338&format=avif&via=transform 338w"><source type="image/webp" srcset="/.11ty/image/?src=content%2Fblog%2Ffineart_Max2.jpg&width=338&format=webp&via=transform 338w"><img loading="lazy" decoding="async" src="/.11ty/image/?src=content%2Fblog%2Ffineart_Max2.jpg&width=338&format=jpeg&via=transform" alt="tufte&#x27;s dog" width="338" height="222"></picture></p>
 <p>I thoroughly enjoyed it and actually took notes!</p>
 <p>In addition to the general theme of data presentation, Tuft spoke to his personal interests in science, the history of data presentation, and philosophy.</p>
 </section>
@@ -840,14 +859,14 @@ pre[class*="language-"] {
 
 
                 </section>
-			</heading-anchors>
-		</main>
+		</heading-anchors></main>
 
 		<footer>
 			<p class="visually-hidden"><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></em></p>
+            <a rel="me" class="visually-hidden" href="https://mastodon.social/@gravely">Mastodon</a>
 		</footer>
 
-		<!-- This page `/tufte-presenting-data-and-information.html` was built on 2024-12-04T19:16:24.304Z -->
+		<!-- This page `/tufte-presenting-data-and-information.html` was built on 2024-12-09T00:50:26.729Z -->
 		<script type="module" src="/dist/rJ3_G-2ArF.js"></script>
 	</body>
 </html>

@@ -215,8 +215,9 @@ figure.fullwidth figcaption {
 a:link {
         color: #00aeff
 }
+
 a:visited {
-        color: #cc88cc
+        color: #000
 }
 
 .no-tufte-underline:link {
@@ -224,7 +225,6 @@ a:visited {
         text-shadow: unset
 }
 
-.hover-tufte-underline:hover,
 .tufte-underline,
 a:link {
         text-decoration: none;
@@ -257,6 +257,23 @@ img {
         max-width: 100%
 }
 
+/* Nav */
+.nav {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.nav-item {
+    display: inline-block;
+    margin-right: 1em;
+}
+.nav-item, .nav a[href] {
+    color: #000;
+}
+.nav>li:not(:first-child) {
+        margin-top: 0;
+}
 .marginnote,
 .sidenote {
         float: right;

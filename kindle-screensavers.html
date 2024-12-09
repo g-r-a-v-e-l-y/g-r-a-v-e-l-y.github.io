@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="fediverse:creator" content="@gravely@mastodon.social">
 		<title>Kindle &quot;Screensavers&quot;</title>
 		<meta name="description" content="previous embarassments that are burdensome to me, abridged.">
 		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="gimme pizza slow (high quality)">
@@ -394,8 +395,9 @@ figure.fullwidth figcaption {
 a:link {
         color: #00aeff
 }
+
 a:visited {
-        color: #cc88cc
+        color: #000
 }
 
 .no-tufte-underline:link {
@@ -403,7 +405,6 @@ a:visited {
         text-shadow: unset
 }
 
-.hover-tufte-underline:hover,
 .tufte-underline,
 a:link {
         text-decoration: none;
@@ -436,6 +437,23 @@ img {
         max-width: 100%
 }
 
+/* Nav */
+.nav {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.nav-item {
+    display: inline-block;
+    margin-right: 1em;
+}
+.nav-item, .nav a[href] {
+    color: #000;
+}
+.nav>li:not(:first-child) {
+        margin-top: 0;
+}
 .marginnote,
 .sidenote {
         float: right;
@@ -808,15 +826,16 @@ pre[class*="language-"] {
 		<a href="#skip" class="visually-hidden">Skip to main content</a>
 
 		<header>
-			<a href="/" class="home-link sans"><h1 id="gimme-pizza-slow-high-quality">gimme pizza slow (high quality)</h1></a>
 			<nav>
 				<h2 class="visually-hidden" id="top-level-navigation-menu">Top level navigation menu</h2>
-				<ul class="nav visually-hidden">
-					<li class="nav-item"><a href="/">Home</a></li>
-					<li class="nav-item"><a href="/about/">About</a></li>
-					<li class="nav-item"><a href="/feed/feed.xml">Feed</a></li>
+				<ul class="nav">
+					<li class="nav-item sans"><a class="no-tufte-underline" href="/">Home</a></li>
+					<li class="nav-item sans"><a class="no-tufte-underline" href="/about/">About</a></li>
+					<li class="nav-item sans"><a class="no-tufte-underline" href="/feed/feed.xml">Feed</a></li>
 				</ul>
 			</nav>
+
+            <a href="/" class="no-tufte-underline"><h1 class="sans nav-item" id="gimme-pizza-slow-high-quality">gimme pizza slow (high quality)</h1></a>
 		</header>
 
 		<main id="skip">
@@ -831,7 +850,7 @@ pre[class*="language-"] {
 
 <article>
 <section><p>I made some lock screen images for my <a href="http://wiki.mobileread.com/wiki/Kindle_Screen_Saver_Hack_for_all_2.x_and_3.x_Kindles">jailbroken Kindle</a><label for="md-to-make-your-own-in" class="margin-toggle ">&#8853;</label><input type="checkbox" id="md-to-make-your-own-in" class="margin-toggle"><span class="marginnote">To make your own in <a href="http://www.imagemagick.org/script/index.php">imagemagick</a>, use this pattern: <code>composite -tile pattern.gif -size 600x800 -monochrome xc:none lock-screen.png</code></span> using tiles from the excellent <a href="http://k10k.net/pixelpatterns/">Kaliber10000 Pixel Patterns Collection</a><sup id="fnref-1"><a href="#fn-1" class="footnote-ref">1</a></sup>.</p>
-<p><a href="/img/00002_k10k-tile-04.png"><picture><source type="image/avif" srcset="/img/ua325pjETu-128.avif 128w"><source type="image/webp" srcset="/img/ua325pjETu-128.webp 128w"><img loading="lazy" decoding="async" src="/img/ua325pjETu-128.png" alt="tile" title="title" width="128" height="128"></picture></a> <a href="/img/00006_k10k-tile-03.png"><picture><source type="image/avif" srcset="/img/RWffyvw3zL-128.avif 128w"><source type="image/webp" srcset="/img/RWffyvw3zL-128.webp 128w"><img loading="lazy" decoding="async" src="/img/RWffyvw3zL-128.png" alt="title" title="title" width="128" height="128"></picture></a> <a href="/img/00003_k10k-tile-02.png"><picture><source type="image/avif" srcset="/img/5hRohTXn1b-128.avif 128w"><source type="image/webp" srcset="/img/5hRohTXn1b-128.webp 128w"><img loading="lazy" decoding="async" src="/img/5hRohTXn1b-128.png" alt="tile" title="title" width="128" height="128"></picture></a> <a href="/img/00001_k10k-tile-07.png"><picture><source type="image/avif" srcset="/img/DmmRrxChQS-128.avif 128w"><source type="image/webp" srcset="/img/DmmRrxChQS-128.webp 128w"><img loading="lazy" decoding="async" src="/img/DmmRrxChQS-128.png" alt="tile" title="title" width="128" height="128"></picture></a> <a href="/img/00005_k10k-tile-01.png"><picture><source type="image/avif" srcset="/img/iCbnDgBmSm-128.avif 128w"><source type="image/webp" srcset="/img/iCbnDgBmSm-128.webp 128w"><img loading="lazy" decoding="async" src="/img/iCbnDgBmSm-128.png" alt="tile" title="title" width="128" height="128"></picture></a> <a href="/img/00008_k10k-tile-08.png"><picture><source type="image/avif" srcset="/img/Iq5xynsE7H-128.avif 128w"><source type="image/webp" srcset="/img/Iq5xynsE7H-128.webp 128w"><img loading="lazy" decoding="async" src="/img/Iq5xynsE7H-128.png" alt="tile" title="title" width="128" height="128"></picture></a></p>
+<p><a href="/img/00002_k10k-tile-04.png"><picture><source type="image/avif" srcset="/.11ty/image/?src=content%2Fblog%2F2011-10-02-kindle-screensavers%2F00002_k10k-tile-04-thumb.png&width=128&format=avif&via=transform 128w"><source type="image/webp" srcset="/.11ty/image/?src=content%2Fblog%2F2011-10-02-kindle-screensavers%2F00002_k10k-tile-04-thumb.png&width=128&format=webp&via=transform 128w"><img loading="lazy" decoding="async" src="/.11ty/image/?src=content%2Fblog%2F2011-10-02-kindle-screensavers%2F00002_k10k-tile-04-thumb.png&width=128&format=png&via=transform" alt="tile" title="title" width="128" height="128"></picture></a> <a href="/img/00006_k10k-tile-03.png"><picture><source type="image/avif" srcset="/.11ty/image/?src=content%2Fblog%2F2011-10-02-kindle-screensavers%2F00006_k10k-tile-03-thumb.png&width=128&format=avif&via=transform 128w"><source type="image/webp" srcset="/.11ty/image/?src=content%2Fblog%2F2011-10-02-kindle-screensavers%2F00006_k10k-tile-03-thumb.png&width=128&format=webp&via=transform 128w"><img loading="lazy" decoding="async" src="/.11ty/image/?src=content%2Fblog%2F2011-10-02-kindle-screensavers%2F00006_k10k-tile-03-thumb.png&width=128&format=png&via=transform" alt="title" title="title" width="128" height="128"></picture></a> <a href="/img/00003_k10k-tile-02.png"><picture><source type="image/avif" srcset="/.11ty/image/?src=content%2Fblog%2F2011-10-02-kindle-screensavers%2F00003_k10k-tile-01-thumb.png&width=128&format=avif&via=transform 128w"><source type="image/webp" srcset="/.11ty/image/?src=content%2Fblog%2F2011-10-02-kindle-screensavers%2F00003_k10k-tile-01-thumb.png&width=128&format=webp&via=transform 128w"><img loading="lazy" decoding="async" src="/.11ty/image/?src=content%2Fblog%2F2011-10-02-kindle-screensavers%2F00003_k10k-tile-01-thumb.png&width=128&format=png&via=transform" alt="tile" title="title" width="128" height="128"></picture></a> <a href="/img/00001_k10k-tile-07.png"><picture><source type="image/avif" srcset="/.11ty/image/?src=content%2Fblog%2F2011-10-02-kindle-screensavers%2F00008_k10k-tile-07-thumb.png&width=128&format=avif&via=transform 128w"><source type="image/webp" srcset="/.11ty/image/?src=content%2Fblog%2F2011-10-02-kindle-screensavers%2F00008_k10k-tile-07-thumb.png&width=128&format=webp&via=transform 128w"><img loading="lazy" decoding="async" src="/.11ty/image/?src=content%2Fblog%2F2011-10-02-kindle-screensavers%2F00008_k10k-tile-07-thumb.png&width=128&format=png&via=transform" alt="tile" title="title" width="128" height="128"></picture></a> <a href="/img/00005_k10k-tile-01.png"><picture><source type="image/avif" srcset="/.11ty/image/?src=content%2Fblog%2F2011-10-02-kindle-screensavers%2F00005_k10k-tile-01-thumb.png&width=128&format=avif&via=transform 128w"><source type="image/webp" srcset="/.11ty/image/?src=content%2Fblog%2F2011-10-02-kindle-screensavers%2F00005_k10k-tile-01-thumb.png&width=128&format=webp&via=transform 128w"><img loading="lazy" decoding="async" src="/.11ty/image/?src=content%2Fblog%2F2011-10-02-kindle-screensavers%2F00005_k10k-tile-01-thumb.png&width=128&format=png&via=transform" alt="tile" title="title" width="128" height="128"></picture></a> <a href="/img/00008_k10k-tile-08.png"><picture><source type="image/avif" srcset="/.11ty/image/?src=content%2Fblog%2F2011-10-02-kindle-screensavers%2F00008_k10k-tile-08-thumb.png&width=128&format=avif&via=transform 128w"><source type="image/webp" srcset="/.11ty/image/?src=content%2Fblog%2F2011-10-02-kindle-screensavers%2F00008_k10k-tile-08-thumb.png&width=128&format=webp&via=transform 128w"><img loading="lazy" decoding="async" src="/.11ty/image/?src=content%2Fblog%2F2011-10-02-kindle-screensavers%2F00008_k10k-tile-08-thumb.png&width=128&format=png&via=transform" alt="tile" title="title" width="128" height="128"></picture></a></p>
 <div class="footnotes">
 <hr>
 <ol>
@@ -846,14 +865,14 @@ pre[class*="language-"] {
 
 
                 </section>
-			</heading-anchors>
-		</main>
+		</heading-anchors></main>
 
 		<footer>
 			<p class="visually-hidden"><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></em></p>
+            <a rel="me" class="visually-hidden" href="https://mastodon.social/@gravely">Mastodon</a>
 		</footer>
 
-		<!-- This page `/kindle-screensavers.html` was built on 2024-12-04T19:16:24.308Z -->
+		<!-- This page `/kindle-screensavers.html` was built on 2024-12-09T00:50:26.734Z -->
 		<script type="module" src="/dist/rJ3_G-2ArF.js"></script>
 	</body>
 </html>

@@ -11,11 +11,12 @@
     <name>gravely</name>
   </author>
   <entry>
-    <title>A prospective DJ setlist</title>
-    <link href="https://www.gravely.pizza/a-prospective-dj-setlist.html" />
+    <title>An imaginary mix</title>
+    <link href="https://www.gravely.pizza/an-imaginary-mix.html" />
     <updated>2011-10-09T03:43:00Z</updated>
-    <id>https://www.gravely.pizza/a-prospective-dj-setlist.html</id>
-    <content type="html">&lt;section&gt;&lt;ul&gt;
+    <id>https://www.gravely.pizza/an-imaginary-mix.html</id>
+    <content type="html">&lt;section&gt;&lt;p&gt;Sometimes you hear something like a beat or a riff or whatever and think, well that’s nice.&lt;/p&gt;
+&lt;ul&gt;
 &lt;li&gt;Wayne’s World - Garth “I like to play the drums”&lt;/li&gt;
 &lt;li&gt;Steve Gadd - Playing in the pocket sample, youtube&lt;/li&gt;
 &lt;li&gt;Harry “Haywire” McClintock - The Big Rock Candy Mountain&lt;/li&gt;
@@ -58,15 +59,14 @@
 &lt;/section&gt;</content>
   </entry>
   <entry>
-    <title>OSX Folder Actions to Move Downloads</title>
-    <link href="https://www.gravely.pizza/osx-folder-actions-to-move-downloads.html" />
+    <title>torrent applescript folder action</title>
+    <link href="https://www.gravely.pizza/torrent-applescript-folder-action.html" />
     <updated>2011-10-03T08:37:00Z</updated>
-    <id>https://www.gravely.pizza/osx-folder-actions-to-move-downloads.html</id>
+    <id>https://www.gravely.pizza/torrent-applescript-folder-action.html</id>
     <content type="html">&lt;section&gt;&lt;p&gt;Aaaag, it’s so annoying having to add the &lt;em&gt;~GNU/Linux ISO~&lt;/em&gt; torrent file I
 just downloaded to my home server’s torrent daemon’s auto-start directory. So,
 I hacked up &lt;a href=&quot;https://www.gravely.pizza/files/Move%20Torrents.scpt&quot;&gt;this Folder Action&lt;/a&gt; to do it for me
-automatically.&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&quot;language-applescript&quot;&gt;on adding folder items to thisFolder after receiving added_items
+automatically.&lt;/p&gt;&lt;pre&gt;&lt;code class=&quot;language-applescript&quot;&gt;on adding folder items to thisFolder after receiving added_items
     set DroboTorrents to &quot;storage:New Media&quot;
     repeat with addedFile in added_items
         tell application &quot;Finder&quot;
@@ -83,8 +83,39 @@ automatically.&lt;/p&gt;
         end tell
     end repeat
 end adding folder items to
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/section&gt;</content>
+&lt;/code&gt;&lt;/pre&gt;&lt;/section&gt;
+&lt;section&gt;&lt;h2 id=&quot;updated-for-2024&quot;&gt;Updated for 2024&lt;/h2&gt;&lt;pre&gt;&lt;code class=&quot;language-applescript&quot;&gt;on adding folder items to thisFolder after receiving added_items
+    repeat with addedFile in added_items
+        tell application &quot;Finder&quot;
+            if (the name of the addedFile ends with &quot;torrent&quot;) then
+                set qbt to &quot;/opt/homebrew/bin/qbt torrent add &#39;&quot; &amp;#x26; POSIX path of addedFile &amp;#x26; &quot;&#39; 2&gt;&amp;#x26;1 | grep &#39;successfully added torrent&#39;&quot;
+                set fileName to name of (info for addedFile)
+                try
+                    set response to do shell script qbt
+                    set hash to word 4 of response
+                    try
+                        tell application &quot;Finder&quot;
+                            delete addedFile
+                        end tell
+                    on error errMsg
+                        display notification &quot;ERROR deleting &quot; &amp;#x26; addedFile &amp;#x26; errMsg
+                    end try
+                on error errMsg
+                    display notification &quot;ERROR adding torrent: &quot; &amp;#x26; qbt &amp;#x26; &quot;error: &quot; &amp;#x26; errMsg
+                end try
+                try
+                    set qbt to &quot;/opt/homebrew/bin/qbt torrent list --hashes &#39;&quot; &amp;#x26; hash &amp;#x26; &quot;&#39; 2&gt;&amp;#x26;1 | grep Size&quot;
+                    set response to do shell script qbt
+                on error errMsg
+                    display notification &quot;ERROR: listing torrents by hash: &quot; &amp;#x26; hash &amp;#x26; &quot; Command: &quot; &amp;#x26; qbt &amp;#x26; &quot;error: &quot; &amp;#x26; errMsg
+                end try
+                display notification response with title &quot;Torrent Downloading&quot; subtitle fileName
+            end if
+        end tell
+    end repeat
+end adding folder items to
+&lt;/code&gt;&lt;/pre&gt;&lt;/section&gt;
+</content>
   </entry>
   <entry>
     <title>Kindle &quot;Screensavers&quot;</title>
@@ -92,7 +123,7 @@ end adding folder items to
     <updated>2011-10-03T00:52:00Z</updated>
     <id>https://www.gravely.pizza/kindle-screensavers.html</id>
     <content type="html">&lt;section&gt;&lt;p&gt;I made some lock screen images for my &lt;a href=&quot;http://wiki.mobileread.com/wiki/Kindle_Screen_Saver_Hack_for_all_2.x_and_3.x_Kindles&quot;&gt;jailbroken Kindle&lt;/a&gt;&lt;label for=&quot;md-to-make-your-own-in&quot; class=&quot;margin-toggle &quot;&gt;&amp;#8853;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;md-to-make-your-own-in&quot; class=&quot;margin-toggle&quot;&gt;&lt;span class=&quot;marginnote&quot;&gt;To make your own in &lt;a href=&quot;http://www.imagemagick.org/script/index.php&quot;&gt;imagemagick&lt;/a&gt;, use this pattern: &lt;code&gt;composite -tile pattern.gif -size 600x800 -monochrome xc:none lock-screen.png&lt;/code&gt;&lt;/span&gt; using tiles from the excellent &lt;a href=&quot;http://k10k.net/pixelpatterns/&quot;&gt;Kaliber10000 Pixel Patterns Collection&lt;/a&gt;&lt;sup id=&quot;fnref-1&quot;&gt;&lt;a href=&quot;https://www.gravely.pizza/kindle-screensavers.html#fn-1&quot; class=&quot;footnote-ref&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.gravely.pizza/img/00002_k10k-tile-04.png&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://www.gravely.pizza/img/ua325pjETu-128.avif 128w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://www.gravely.pizza/img/ua325pjETu-128.webp 128w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://www.gravely.pizza/img/ua325pjETu-128.png&quot; alt=&quot;tile&quot; title=&quot;title&quot; width=&quot;128&quot; height=&quot;128&quot;&gt;&lt;/picture&gt;&lt;/a&gt; &lt;a href=&quot;https://www.gravely.pizza/img/00006_k10k-tile-03.png&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://www.gravely.pizza/img/RWffyvw3zL-128.avif 128w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://www.gravely.pizza/img/RWffyvw3zL-128.webp 128w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://www.gravely.pizza/img/RWffyvw3zL-128.png&quot; alt=&quot;title&quot; title=&quot;title&quot; width=&quot;128&quot; height=&quot;128&quot;&gt;&lt;/picture&gt;&lt;/a&gt; &lt;a href=&quot;https://www.gravely.pizza/img/00003_k10k-tile-02.png&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://www.gravely.pizza/img/5hRohTXn1b-128.avif 128w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://www.gravely.pizza/img/5hRohTXn1b-128.webp 128w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://www.gravely.pizza/img/5hRohTXn1b-128.png&quot; alt=&quot;tile&quot; title=&quot;title&quot; width=&quot;128&quot; height=&quot;128&quot;&gt;&lt;/picture&gt;&lt;/a&gt; &lt;a href=&quot;https://www.gravely.pizza/img/00001_k10k-tile-07.png&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://www.gravely.pizza/img/DmmRrxChQS-128.avif 128w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://www.gravely.pizza/img/DmmRrxChQS-128.webp 128w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://www.gravely.pizza/img/DmmRrxChQS-128.png&quot; alt=&quot;tile&quot; title=&quot;title&quot; width=&quot;128&quot; height=&quot;128&quot;&gt;&lt;/picture&gt;&lt;/a&gt; &lt;a href=&quot;https://www.gravely.pizza/img/00005_k10k-tile-01.png&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://www.gravely.pizza/img/iCbnDgBmSm-128.avif 128w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://www.gravely.pizza/img/iCbnDgBmSm-128.webp 128w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://www.gravely.pizza/img/iCbnDgBmSm-128.png&quot; alt=&quot;tile&quot; title=&quot;title&quot; width=&quot;128&quot; height=&quot;128&quot;&gt;&lt;/picture&gt;&lt;/a&gt; &lt;a href=&quot;https://www.gravely.pizza/img/00008_k10k-tile-08.png&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://www.gravely.pizza/img/Iq5xynsE7H-128.avif 128w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://www.gravely.pizza/img/Iq5xynsE7H-128.webp 128w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://www.gravely.pizza/img/Iq5xynsE7H-128.png&quot; alt=&quot;tile&quot; title=&quot;title&quot; width=&quot;128&quot; height=&quot;128&quot;&gt;&lt;/picture&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.gravely.pizza/img/00002_k10k-tile-04.png&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://www.gravely.pizza/.11ty/image/?src=content%2Fblog%2F2011-10-02-kindle-screensavers%2F00002_k10k-tile-04-thumb.png&amp;width=128&amp;format=avif&amp;via=transform 128w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://www.gravely.pizza/.11ty/image/?src=content%2Fblog%2F2011-10-02-kindle-screensavers%2F00002_k10k-tile-04-thumb.png&amp;width=128&amp;format=webp&amp;via=transform 128w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://www.gravely.pizza/.11ty/image/?src=content%2Fblog%2F2011-10-02-kindle-screensavers%2F00002_k10k-tile-04-thumb.png&amp;width=128&amp;format=png&amp;via=transform&quot; alt=&quot;tile&quot; title=&quot;title&quot; width=&quot;128&quot; height=&quot;128&quot;&gt;&lt;/picture&gt;&lt;/a&gt; &lt;a href=&quot;https://www.gravely.pizza/img/00006_k10k-tile-03.png&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://www.gravely.pizza/.11ty/image/?src=content%2Fblog%2F2011-10-02-kindle-screensavers%2F00006_k10k-tile-03-thumb.png&amp;width=128&amp;format=avif&amp;via=transform 128w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://www.gravely.pizza/.11ty/image/?src=content%2Fblog%2F2011-10-02-kindle-screensavers%2F00006_k10k-tile-03-thumb.png&amp;width=128&amp;format=webp&amp;via=transform 128w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://www.gravely.pizza/.11ty/image/?src=content%2Fblog%2F2011-10-02-kindle-screensavers%2F00006_k10k-tile-03-thumb.png&amp;width=128&amp;format=png&amp;via=transform&quot; alt=&quot;title&quot; title=&quot;title&quot; width=&quot;128&quot; height=&quot;128&quot;&gt;&lt;/picture&gt;&lt;/a&gt; &lt;a href=&quot;https://www.gravely.pizza/img/00003_k10k-tile-02.png&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://www.gravely.pizza/.11ty/image/?src=content%2Fblog%2F2011-10-02-kindle-screensavers%2F00003_k10k-tile-01-thumb.png&amp;width=128&amp;format=avif&amp;via=transform 128w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://www.gravely.pizza/.11ty/image/?src=content%2Fblog%2F2011-10-02-kindle-screensavers%2F00003_k10k-tile-01-thumb.png&amp;width=128&amp;format=webp&amp;via=transform 128w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://www.gravely.pizza/.11ty/image/?src=content%2Fblog%2F2011-10-02-kindle-screensavers%2F00003_k10k-tile-01-thumb.png&amp;width=128&amp;format=png&amp;via=transform&quot; alt=&quot;tile&quot; title=&quot;title&quot; width=&quot;128&quot; height=&quot;128&quot;&gt;&lt;/picture&gt;&lt;/a&gt; &lt;a href=&quot;https://www.gravely.pizza/img/00001_k10k-tile-07.png&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://www.gravely.pizza/.11ty/image/?src=content%2Fblog%2F2011-10-02-kindle-screensavers%2F00008_k10k-tile-07-thumb.png&amp;width=128&amp;format=avif&amp;via=transform 128w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://www.gravely.pizza/.11ty/image/?src=content%2Fblog%2F2011-10-02-kindle-screensavers%2F00008_k10k-tile-07-thumb.png&amp;width=128&amp;format=webp&amp;via=transform 128w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://www.gravely.pizza/.11ty/image/?src=content%2Fblog%2F2011-10-02-kindle-screensavers%2F00008_k10k-tile-07-thumb.png&amp;width=128&amp;format=png&amp;via=transform&quot; alt=&quot;tile&quot; title=&quot;title&quot; width=&quot;128&quot; height=&quot;128&quot;&gt;&lt;/picture&gt;&lt;/a&gt; &lt;a href=&quot;https://www.gravely.pizza/img/00005_k10k-tile-01.png&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://www.gravely.pizza/.11ty/image/?src=content%2Fblog%2F2011-10-02-kindle-screensavers%2F00005_k10k-tile-01-thumb.png&amp;width=128&amp;format=avif&amp;via=transform 128w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://www.gravely.pizza/.11ty/image/?src=content%2Fblog%2F2011-10-02-kindle-screensavers%2F00005_k10k-tile-01-thumb.png&amp;width=128&amp;format=webp&amp;via=transform 128w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://www.gravely.pizza/.11ty/image/?src=content%2Fblog%2F2011-10-02-kindle-screensavers%2F00005_k10k-tile-01-thumb.png&amp;width=128&amp;format=png&amp;via=transform&quot; alt=&quot;tile&quot; title=&quot;title&quot; width=&quot;128&quot; height=&quot;128&quot;&gt;&lt;/picture&gt;&lt;/a&gt; &lt;a href=&quot;https://www.gravely.pizza/img/00008_k10k-tile-08.png&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://www.gravely.pizza/.11ty/image/?src=content%2Fblog%2F2011-10-02-kindle-screensavers%2F00008_k10k-tile-08-thumb.png&amp;width=128&amp;format=avif&amp;via=transform 128w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://www.gravely.pizza/.11ty/image/?src=content%2Fblog%2F2011-10-02-kindle-screensavers%2F00008_k10k-tile-08-thumb.png&amp;width=128&amp;format=webp&amp;via=transform 128w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://www.gravely.pizza/.11ty/image/?src=content%2Fblog%2F2011-10-02-kindle-screensavers%2F00008_k10k-tile-08-thumb.png&amp;width=128&amp;format=png&amp;via=transform&quot; alt=&quot;tile&quot; title=&quot;title&quot; width=&quot;128&quot; height=&quot;128&quot;&gt;&lt;/picture&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&quot;footnotes&quot;&gt;
 &lt;hr&gt;
 &lt;ol&gt;

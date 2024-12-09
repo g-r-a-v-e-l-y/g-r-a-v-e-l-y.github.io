@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="fediverse:creator" content="@gravely@mastodon.social">
 		<title>gimme pizza slow (high quality)</title>
 		<meta name="description" content="previous embarassments that are burdensome to me, abridged.">
 		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="gimme pizza slow (high quality)">
@@ -226,8 +227,9 @@ figure.fullwidth figcaption {
 a:link {
         color: #00aeff
 }
+
 a:visited {
-        color: #cc88cc
+        color: #000
 }
 
 .no-tufte-underline:link {
@@ -235,7 +237,6 @@ a:visited {
         text-shadow: unset
 }
 
-.hover-tufte-underline:hover,
 .tufte-underline,
 a:link {
         text-decoration: none;
@@ -268,6 +269,23 @@ img {
         max-width: 100%
 }
 
+/* Nav */
+.nav {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.nav-item {
+    display: inline-block;
+    margin-right: 1em;
+}
+.nav-item, .nav a[href] {
+    color: #000;
+}
+.nav>li:not(:first-child) {
+        margin-top: 0;
+}
 .marginnote,
 .sidenote {
         float: right;
@@ -640,33 +658,33 @@ pre[class*="language-"] {
 		<a href="#skip" class="visually-hidden">Skip to main content</a>
 
 		<header>
-			<a href="/" class="home-link sans"><h1 id="gimme-pizza-slow-high-quality">gimme pizza slow (high quality)</h1></a>
 			<nav>
 				<h2 class="visually-hidden" id="top-level-navigation-menu">Top level navigation menu</h2>
-				<ul class="nav visually-hidden">
-					<li class="nav-item"><a href="/">Home</a></li>
-					<li class="nav-item"><a href="/about/" aria-current="page">About</a></li>
-					<li class="nav-item"><a href="/feed/feed.xml">Feed</a></li>
+				<ul class="nav">
+					<li class="nav-item sans"><a class="no-tufte-underline" href="/">Home</a></li>
+					<li class="nav-item sans"><a class="no-tufte-underline" href="/about/">About</a></li>
+					<li class="nav-item sans"><a class="no-tufte-underline" href="/feed/feed.xml">Feed</a></li>
 				</ul>
 			</nav>
+
+            <a href="/" class="no-tufte-underline"><h1 class="sans nav-item" id="gimme-pizza-slow-high-quality">gimme pizza slow (high quality)</h1></a>
 		</header>
 
 		<main id="skip">
 			<heading-anchors>
                 <section>
-				<section><h1 id="about">About</h1>
-<p>I am a person that writes stuff.</p>
-</section>
+				<section><h2 id="about">About</h2><p>Hi, I’m gravely (he/him). I started blogging in 1999 and stopped blogging in 2011. I re-deployed this old stuff just to see how people do things like this anymore. I’ve been using <a href="https://www.youtube.com/watch?v=bpet67TTVag">gimme pizza</a> in some variation for messages of the day and server banners and for a while, and it’s where the name of the site came from.</p><p>I’m mostly on <a href="https://mastodon.social/@gravely">Mastodon</a> lately and kinda not doing social networking anymore otherwise. I’m also on <a href="https://www.linkedin.com/in/gravely/">LinkedIn</a>, because I help out on the security team at <a href="https://twitch.tv/">Twitch</a>.</p><p><picture><source type="image/avif" srcset="/.11ty/image/?src=content%2Fselfie-winter-2024.png&width=640&format=avif&via=transform 640w"><source type="image/webp" srcset="/.11ty/image/?src=content%2Fselfie-winter-2024.png&width=640&format=webp&via=transform 640w"><img loading="lazy" decoding="async" src="/.11ty/image/?src=content%2Fselfie-winter-2024.png&width=640&format=png&via=transform" alt="Selfie from December 2024 that I took at a kid&#x27;s birthday party after showing my kid what he looked like in a party hat and then going to take a pic of him and his friends and oops the camera is backwards" width="640" height="480"></picture></p><p>This website uses <a href="https://edwardtufte.github.io/tufte-css/">Tufte CSS</a>, created by Dave Liepmann, which I’ve modified and broken a little. This is all published using <a href="https://github.com/g-r-a-v-e-l-y/">GitHub Pages</a> because that was the easiest way to do it.</p></section>
+
 
                 </section>
-			</heading-anchors>
-		</main>
+		</heading-anchors></main>
 
 		<footer>
 			<p class="visually-hidden"><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></em></p>
+            <a rel="me" class="visually-hidden" href="https://mastodon.social/@gravely">Mastodon</a>
 		</footer>
 
-		<!-- This page `/about/` was built on 2024-12-04T19:16:24.303Z -->
+		<!-- This page `/about/` was built on 2024-12-09T00:50:26.735Z -->
 		<script type="module" src="/dist/rJ3_G-2ArF.js"></script>
 	</body>
 </html>

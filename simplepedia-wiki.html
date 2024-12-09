@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="fediverse:creator" content="@gravely@mastodon.social">
 		<title>Simplepedia</title>
 		<meta name="description" content="previous embarassments that are burdensome to me, abridged.">
 		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="gimme pizza slow (high quality)">
@@ -394,8 +395,9 @@ figure.fullwidth figcaption {
 a:link {
         color: #00aeff
 }
+
 a:visited {
-        color: #cc88cc
+        color: #000
 }
 
 .no-tufte-underline:link {
@@ -403,7 +405,6 @@ a:visited {
         text-shadow: unset
 }
 
-.hover-tufte-underline:hover,
 .tufte-underline,
 a:link {
         text-decoration: none;
@@ -436,6 +437,23 @@ img {
         max-width: 100%
 }
 
+/* Nav */
+.nav {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.nav-item {
+    display: inline-block;
+    margin-right: 1em;
+}
+.nav-item, .nav a[href] {
+    color: #000;
+}
+.nav>li:not(:first-child) {
+        margin-top: 0;
+}
 .marginnote,
 .sidenote {
         float: right;
@@ -808,15 +826,16 @@ pre[class*="language-"] {
 		<a href="#skip" class="visually-hidden">Skip to main content</a>
 
 		<header>
-			<a href="/" class="home-link sans"><h1 id="gimme-pizza-slow-high-quality">gimme pizza slow (high quality)</h1></a>
 			<nav>
 				<h2 class="visually-hidden" id="top-level-navigation-menu">Top level navigation menu</h2>
-				<ul class="nav visually-hidden">
-					<li class="nav-item"><a href="/">Home</a></li>
-					<li class="nav-item"><a href="/about/">About</a></li>
-					<li class="nav-item"><a href="/feed/feed.xml">Feed</a></li>
+				<ul class="nav">
+					<li class="nav-item sans"><a class="no-tufte-underline" href="/">Home</a></li>
+					<li class="nav-item sans"><a class="no-tufte-underline" href="/about/">About</a></li>
+					<li class="nav-item sans"><a class="no-tufte-underline" href="/feed/feed.xml">Feed</a></li>
 				</ul>
 			</nav>
+
+            <a href="/" class="no-tufte-underline"><h1 class="sans nav-item" id="gimme-pizza-slow-high-quality">gimme pizza slow (high quality)</h1></a>
 		</header>
 
 		<main id="skip">
@@ -832,10 +851,10 @@ pre[class*="language-"] {
 <article>
 <section><p>I integrated two existing greasemonkey user scripts for wikipedia, and added lots of <em>element { display: none; }</em>‘s to the style sheet, and ended up with a userscript I’m calling <a href="http://userscripts.org/scripts/show/42312">Simplepedia</a>:</p>
 <p>Wikipedia’s design and style is tiring and cluttered:</p>
-<p><a href="pre-simplepedia-belew.png"><picture><source type="image/avif" srcset="/img/G8CPZc92LJ-350.avif 350w"><source type="image/webp" srcset="/img/G8CPZc92LJ-350.webp 350w"><img loading="lazy" decoding="async" src="/img/G8CPZc92LJ-350.png" alt="screenshot of wikipedia on the Adrian Belew page" width="350" height="273"></picture></a></p>
+<p><a href="pre-simplepedia-belew.png"><picture><source type="image/avif" srcset="/.11ty/image/?src=content%2Fblog%2Fpre-simplepedia-belew-thumb.png&width=350&format=avif&via=transform 350w"><source type="image/webp" srcset="/.11ty/image/?src=content%2Fblog%2Fpre-simplepedia-belew-thumb.png&width=350&format=webp&via=transform 350w"><img loading="lazy" decoding="async" src="/.11ty/image/?src=content%2Fblog%2Fpre-simplepedia-belew-thumb.png&width=350&format=png&via=transform" alt="screenshot of wikipedia on the Adrian Belew page" width="350" height="273"></picture></a></p>
 <p>There is just too much going on!</p>
 <p>Without the entire left bar, banner ads, footers, and tiny sans serif type, <a href="http://www.wikipedia.org/">wikipedia</a> is much more inviting:</p>
-<p><a href="simplepedia-belew.png" title="Click to veiew larger"><picture><source type="image/avif" srcset="/img/WUmFDLyptj-350.avif 350w"><source type="image/webp" srcset="/img/WUmFDLyptj-350.webp 350w"><img loading="lazy" decoding="async" src="/img/WUmFDLyptj-350.png" alt="screenshot of simplepedia on the Adrian Belew page" width="350" height="269"></picture></a></p>
+<p><a href="simplepedia-belew.png" title="Click to veiew larger"><picture><source type="image/avif" srcset="/.11ty/image/?src=content%2Fblog%2Fsimplepedia-belew-thumb.png&width=350&format=avif&via=transform 350w"><source type="image/webp" srcset="/.11ty/image/?src=content%2Fblog%2Fsimplepedia-belew-thumb.png&width=350&format=webp&via=transform 350w"><img loading="lazy" decoding="async" src="/.11ty/image/?src=content%2Fblog%2Fsimplepedia-belew-thumb.png&width=350&format=png&via=transform" alt="screenshot of simplepedia on the Adrian Belew page" width="350" height="269"></picture></a></p>
 <p>There are still issues – some hard coded elements just can’t be undone. The front page language selection doorstop is completely lacking ID elements, and I don’t want to follow their lead and hard code a DOM-walking cleanup. Entire tables exist just to pad out other tables. There are numbered lists that are actually unordered lists with each list item hard coding their number values. Colors and fonts are called out inline all over the place in css in place of proper classes and ids.</p>
 <p>This was inspired by <a href="http://hicksdesign.co.uk/">Jon Hick’s</a> excellent <a href="http://helvetireader.com/">Helvetireader</a> user script for Google Reader.</p>
 <p>If you don’t have Greasemonkey yet, <a href="https://addons.mozilla.org/en-US/firefox/addon/748">go get it</a>. It isn’t just for firefox either, <a href="http://8-p.info/greasekit/">greasekit</a> is a port for WebKit browsers like Safari and Omniweb.</p>
@@ -844,14 +863,14 @@ pre[class*="language-"] {
 
 
                 </section>
-			</heading-anchors>
-		</main>
+		</heading-anchors></main>
 
 		<footer>
 			<p class="visually-hidden"><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></em></p>
+            <a rel="me" class="visually-hidden" href="https://mastodon.social/@gravely">Mastodon</a>
 		</footer>
 
-		<!-- This page `/simplepedia-wiki.html` was built on 2024-12-04T19:16:24.307Z -->
+		<!-- This page `/simplepedia-wiki.html` was built on 2024-12-09T00:50:26.733Z -->
 		<script type="module" src="/dist/rJ3_G-2ArF.js"></script>
 	</body>
 </html>

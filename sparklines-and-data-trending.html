@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="fediverse:creator" content="@gravely@mastodon.social">
 		<title>Sparklines and data trending</title>
 		<meta name="description" content="previous embarassments that are burdensome to me, abridged.">
 		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="gimme pizza slow (high quality)">
@@ -394,8 +395,9 @@ figure.fullwidth figcaption {
 a:link {
         color: #00aeff
 }
+
 a:visited {
-        color: #cc88cc
+        color: #000
 }
 
 .no-tufte-underline:link {
@@ -403,7 +405,6 @@ a:visited {
         text-shadow: unset
 }
 
-.hover-tufte-underline:hover,
 .tufte-underline,
 a:link {
         text-decoration: none;
@@ -436,6 +437,23 @@ img {
         max-width: 100%
 }
 
+/* Nav */
+.nav {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.nav-item {
+    display: inline-block;
+    margin-right: 1em;
+}
+.nav-item, .nav a[href] {
+    color: #000;
+}
+.nav>li:not(:first-child) {
+        margin-top: 0;
+}
 .marginnote,
 .sidenote {
         float: right;
@@ -808,15 +826,16 @@ pre[class*="language-"] {
 		<a href="#skip" class="visually-hidden">Skip to main content</a>
 
 		<header>
-			<a href="/" class="home-link sans"><h1 id="gimme-pizza-slow-high-quality">gimme pizza slow (high quality)</h1></a>
 			<nav>
 				<h2 class="visually-hidden" id="top-level-navigation-menu">Top level navigation menu</h2>
-				<ul class="nav visually-hidden">
-					<li class="nav-item"><a href="/">Home</a></li>
-					<li class="nav-item"><a href="/about/">About</a></li>
-					<li class="nav-item"><a href="/feed/feed.xml">Feed</a></li>
+				<ul class="nav">
+					<li class="nav-item sans"><a class="no-tufte-underline" href="/">Home</a></li>
+					<li class="nav-item sans"><a class="no-tufte-underline" href="/about/">About</a></li>
+					<li class="nav-item sans"><a class="no-tufte-underline" href="/feed/feed.xml">Feed</a></li>
 				</ul>
 			</nav>
+
+            <a href="/" class="no-tufte-underline"><h1 class="sans nav-item" id="gimme-pizza-slow-high-quality">gimme pizza slow (high quality)</h1></a>
 		</header>
 
 		<main id="skip">
@@ -832,7 +851,7 @@ pre[class*="language-"] {
 <article>
 <section><p>I keep going on about <a href="http://www.edwardtufte.com/tufte/courses">Tufte stuff</a>.</p>
 <p>I find <a href="http://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0001OR">sparklines</a> really really amazingly cool. I currently use them in my weekly reports for management thanks to some software from <a href="http://www.bissantz.de/sparklines/">Bizzantz</a> and a spreadsheet I kept all summer. I’m using the free version and will buy up once we decide on a license count and version that we need.</p>
-<p><picture><source type="image/avif" srcset="/img/x4Lc1VpERE-420.avif 420w"><source type="image/webp" srcset="/img/x4Lc1VpERE-420.webp 420w"><img loading="lazy" decoding="async" src="/img/x4Lc1VpERE-420.gif" alt="a screenshot of a fake report I made full of sparklines" width="420" height="641"></picture></p>
+<p><picture><source type="image/avif" srcset="/.11ty/image/?src=content%2Fblog%2Fsparklines-in-practice.gif&width=420&format=avif&via=transform 420w"><source type="image/webp" srcset="/.11ty/image/?src=content%2Fblog%2Fsparklines-in-practice.gif&width=420&format=webp&via=transform 420w"><img loading="lazy" decoding="async" src="/.11ty/image/?src=content%2Fblog%2Fsparklines-in-practice.gif&width=420&format=gif&via=transform" alt="a screenshot of a fake report I made full of sparklines" width="420" height="641"></picture></p>
 <p>Pretty rad eh? I replaced the measured items of this example using photoshop, and it’s not as nice as it could be, but I can throw the real thing together in MS Word at the end of the week pretty quickly and send it up. I like it!</p>
 <p>Lessons learned so far:</p>
 <p>The first week I played with them I didn’t align them vertically, which made it less obvious that as the assholes stopped doing what they were asked to do that President Scroob got more complaints about them. It looks like too many of them were manning the radar, but who knows? Is there really a correlation between Druish / Jewish gags and gags involving Barf’s tail?</p>
@@ -842,14 +861,14 @@ pre[class*="language-"] {
 
 
                 </section>
-			</heading-anchors>
-		</main>
+		</heading-anchors></main>
 
 		<footer>
 			<p class="visually-hidden"><em>Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></em></p>
+            <a rel="me" class="visually-hidden" href="https://mastodon.social/@gravely">Mastodon</a>
 		</footer>
 
-		<!-- This page `/sparklines-and-data-trending.html` was built on 2024-12-04T19:16:24.304Z -->
+		<!-- This page `/sparklines-and-data-trending.html` was built on 2024-12-09T00:50:26.729Z -->
 		<script type="module" src="/dist/rJ3_G-2ArF.js"></script>
 	</body>
 </html>

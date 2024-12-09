@@ -2,8 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 	
 	<url>
-		<loc>https://www.gravely.pizza/starke-meyers.html</loc>
-		<lastmod>2007-09-29</lastmod>
+		<loc>https://www.gravely.pizza/logo-work.html</loc>
+		<lastmod>1999-07-20</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://www.gravely.pizza/portfolio-review-day.html</loc>
+		<lastmod>1999-07-26</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://www.gravely.pizza/server-issues.html</loc>
+		<lastmod>1999-08-06</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://www.gravely.pizza/cable-modem.html</loc>
+		<lastmod>1999-09-11</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://www.gravely.pizza/beos.html</loc>
+		<lastmod>1999-10-12</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://www.gravely.pizza/first-post.html</loc>
+		<lastmod>2002-04-19</lastmod>
 	</url>
 	
 	<url>
@@ -317,12 +342,12 @@
 	</url>
 	
 	<url>
-		<loc>https://www.gravely.pizza/osx-folder-actions-to-move-downloads.html</loc>
+		<loc>https://www.gravely.pizza/torrent-applescript-folder-action.html</loc>
 		<lastmod>2011-10-03</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://www.gravely.pizza/a-prospective-dj-setlist.html</loc>
+		<loc>https://www.gravely.pizza/an-imaginary-mix.html</loc>
 		<lastmod>2011-10-09</lastmod>
 	</url>
 	
@@ -338,6 +363,6 @@
 	
 	<url>
 		<loc>https://www.gravely.pizza/feed/feed.xml</loc>
-		<lastmod>2024-12-04</lastmod>
+		<lastmod>2024-12-09</lastmod>
 	</url>
 </urlset>
