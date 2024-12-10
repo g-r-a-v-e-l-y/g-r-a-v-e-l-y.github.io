@@ -285,8 +285,11 @@ img {
         margin-top: 0;
         margin-left: 1em;
 }
+.previousPost {
+    padding-left: 2em;
+}
 .nextPost {
-    padding-left: 10em;
+    padding-left: 9em;
 }
 .marginnote,
 .sidenote {
