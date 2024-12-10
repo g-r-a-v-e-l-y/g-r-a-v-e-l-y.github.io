@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet href="pretty-atom-feed.xsl" type="text/xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-  <title>gravely&#39;s world</title>
+  <title>gimme pizza slow (high quality)</title>
   <subtitle>This is where I put my posts.</subtitle>
-  <link href="https://www.gravely.pizza/feed/feed.xml" rel="self" />
-  <link href="https://www.gravely.pizza/" />
+  <link href="https://gravely.pizza/feed/feed.xml" rel="self" />
+  <link href="https://gravely.pizza/" />
   <updated>2011-10-09T03:43:00Z</updated>
-  <id>https://www.gravely.pizza/</id>
+  <id>https://gravely.pizza/</id>
   <author>
     <name>gravely</name>
   </author>
   <entry>
     <title>An imaginary mix</title>
-    <link href="https://www.gravely.pizza/an-imaginary-mix.html" />
+    <link href="https://gravely.pizza/an-imaginary-mix.html" />
     <updated>2011-10-09T03:43:00Z</updated>
-    <id>https://www.gravely.pizza/an-imaginary-mix.html</id>
+    <id>https://gravely.pizza/an-imaginary-mix.html</id>
     <content type="html">&lt;section&gt;&lt;p&gt;Sometimes you hear something like a beat or a riff or whatever and think, well that’s nice.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Wayne’s World - Garth “I like to play the drums”&lt;/li&gt;
@@ -60,12 +60,12 @@
   </entry>
   <entry>
     <title>torrent applescript folder action</title>
-    <link href="https://www.gravely.pizza/torrent-applescript-folder-action.html" />
+    <link href="https://gravely.pizza/torrent-applescript-folder-action.html" />
     <updated>2011-10-03T08:37:00Z</updated>
-    <id>https://www.gravely.pizza/torrent-applescript-folder-action.html</id>
+    <id>https://gravely.pizza/torrent-applescript-folder-action.html</id>
     <content type="html">&lt;section&gt;&lt;p&gt;Aaaag, it’s so annoying having to add the &lt;em&gt;~GNU/Linux ISO~&lt;/em&gt; torrent file I
 just downloaded to my home server’s torrent daemon’s auto-start directory. So,
-I hacked up &lt;a href=&quot;https://www.gravely.pizza/files/Move%20Torrents.scpt&quot;&gt;this Folder Action&lt;/a&gt; to do it for me
+I hacked up &lt;a href=&quot;https://gravely.pizza/files/Move%20Torrents.scpt&quot;&gt;this Folder Action&lt;/a&gt; to do it for me
 automatically.&lt;/p&gt;&lt;pre&gt;&lt;code class=&quot;language-applescript&quot;&gt;on adding folder items to thisFolder after receiving added_items
     set DroboTorrents to &quot;storage:New Media&quot;
     repeat with addedFile in added_items
@@ -119,17 +119,17 @@ end adding folder items to
   </entry>
   <entry>
     <title>Kindle &quot;Screensavers&quot;</title>
-    <link href="https://www.gravely.pizza/kindle-screensavers.html" />
+    <link href="https://gravely.pizza/kindle-screensavers.html" />
     <updated>2011-10-03T00:52:00Z</updated>
-    <id>https://www.gravely.pizza/kindle-screensavers.html</id>
-    <content type="html">&lt;section&gt;&lt;p&gt;I made some lock screen images for my &lt;a href=&quot;http://wiki.mobileread.com/wiki/Kindle_Screen_Saver_Hack_for_all_2.x_and_3.x_Kindles&quot;&gt;jailbroken Kindle&lt;/a&gt;&lt;label for=&quot;md-to-make-your-own-in&quot; class=&quot;margin-toggle &quot;&gt;&amp;#8853;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;md-to-make-your-own-in&quot; class=&quot;margin-toggle&quot;&gt;&lt;span class=&quot;marginnote&quot;&gt;To make your own in &lt;a href=&quot;http://www.imagemagick.org/script/index.php&quot;&gt;imagemagick&lt;/a&gt;, use this pattern: &lt;code&gt;composite -tile pattern.gif -size 600x800 -monochrome xc:none lock-screen.png&lt;/code&gt;&lt;/span&gt; using tiles from the excellent &lt;a href=&quot;http://k10k.net/pixelpatterns/&quot;&gt;Kaliber10000 Pixel Patterns Collection&lt;/a&gt;&lt;sup id=&quot;fnref-1&quot;&gt;&lt;a href=&quot;https://www.gravely.pizza/kindle-screensavers.html#fn-1&quot; class=&quot;footnote-ref&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.gravely.pizza/img/00002_k10k-tile-04.png&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://www.gravely.pizza/img/ua325pjETu-128.avif 128w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://www.gravely.pizza/img/ua325pjETu-128.webp 128w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://www.gravely.pizza/img/ua325pjETu-128.png&quot; alt=&quot;tile&quot; title=&quot;title&quot; width=&quot;128&quot; height=&quot;128&quot;&gt;&lt;/picture&gt;&lt;/a&gt; &lt;a href=&quot;https://www.gravely.pizza/img/00006_k10k-tile-03.png&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://www.gravely.pizza/img/RWffyvw3zL-128.avif 128w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://www.gravely.pizza/img/RWffyvw3zL-128.webp 128w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://www.gravely.pizza/img/RWffyvw3zL-128.png&quot; alt=&quot;title&quot; title=&quot;title&quot; width=&quot;128&quot; height=&quot;128&quot;&gt;&lt;/picture&gt;&lt;/a&gt; &lt;a href=&quot;https://www.gravely.pizza/img/00003_k10k-tile-02.png&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://www.gravely.pizza/img/5hRohTXn1b-128.avif 128w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://www.gravely.pizza/img/5hRohTXn1b-128.webp 128w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://www.gravely.pizza/img/5hRohTXn1b-128.png&quot; alt=&quot;tile&quot; title=&quot;title&quot; width=&quot;128&quot; height=&quot;128&quot;&gt;&lt;/picture&gt;&lt;/a&gt; &lt;a href=&quot;https://www.gravely.pizza/img/00001_k10k-tile-07.png&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://www.gravely.pizza/img/DmmRrxChQS-128.avif 128w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://www.gravely.pizza/img/DmmRrxChQS-128.webp 128w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://www.gravely.pizza/img/DmmRrxChQS-128.png&quot; alt=&quot;tile&quot; title=&quot;title&quot; width=&quot;128&quot; height=&quot;128&quot;&gt;&lt;/picture&gt;&lt;/a&gt; &lt;a href=&quot;https://www.gravely.pizza/img/00005_k10k-tile-01.png&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://www.gravely.pizza/img/iCbnDgBmSm-128.avif 128w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://www.gravely.pizza/img/iCbnDgBmSm-128.webp 128w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://www.gravely.pizza/img/iCbnDgBmSm-128.png&quot; alt=&quot;tile&quot; title=&quot;title&quot; width=&quot;128&quot; height=&quot;128&quot;&gt;&lt;/picture&gt;&lt;/a&gt; &lt;a href=&quot;https://www.gravely.pizza/img/00008_k10k-tile-08.png&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://www.gravely.pizza/img/Iq5xynsE7H-128.avif 128w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://www.gravely.pizza/img/Iq5xynsE7H-128.webp 128w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://www.gravely.pizza/img/Iq5xynsE7H-128.png&quot; alt=&quot;tile&quot; title=&quot;title&quot; width=&quot;128&quot; height=&quot;128&quot;&gt;&lt;/picture&gt;&lt;/a&gt;&lt;/p&gt;
+    <id>https://gravely.pizza/kindle-screensavers.html</id>
+    <content type="html">&lt;section&gt;&lt;p&gt;I made some lock screen images for my &lt;a href=&quot;http://wiki.mobileread.com/wiki/Kindle_Screen_Saver_Hack_for_all_2.x_and_3.x_Kindles&quot;&gt;jailbroken Kindle&lt;/a&gt;&lt;label for=&quot;md-to-make-your-own-in&quot; class=&quot;margin-toggle &quot;&gt;&amp;#8853;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;md-to-make-your-own-in&quot; class=&quot;margin-toggle&quot;&gt;&lt;span class=&quot;marginnote&quot;&gt;To make your own in &lt;a href=&quot;http://www.imagemagick.org/script/index.php&quot;&gt;imagemagick&lt;/a&gt;, use this pattern: &lt;code&gt;composite -tile pattern.gif -size 600x800 -monochrome xc:none lock-screen.png&lt;/code&gt;&lt;/span&gt; using tiles from the excellent &lt;a href=&quot;http://k10k.net/pixelpatterns/&quot;&gt;Kaliber10000 Pixel Patterns Collection&lt;/a&gt;&lt;sup id=&quot;fnref-1&quot;&gt;&lt;a href=&quot;https://gravely.pizza/kindle-screensavers.html#fn-1&quot; class=&quot;footnote-ref&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://gravely.pizza/img/00002_k10k-tile-04.png&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://gravely.pizza/img/ua325pjETu-128.avif 128w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://gravely.pizza/img/ua325pjETu-128.webp 128w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://gravely.pizza/img/ua325pjETu-128.png&quot; alt=&quot;tile&quot; title=&quot;title&quot; width=&quot;128&quot; height=&quot;128&quot;&gt;&lt;/picture&gt;&lt;/a&gt; &lt;a href=&quot;https://gravely.pizza/img/00006_k10k-tile-03.png&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://gravely.pizza/img/RWffyvw3zL-128.avif 128w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://gravely.pizza/img/RWffyvw3zL-128.webp 128w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://gravely.pizza/img/RWffyvw3zL-128.png&quot; alt=&quot;title&quot; title=&quot;title&quot; width=&quot;128&quot; height=&quot;128&quot;&gt;&lt;/picture&gt;&lt;/a&gt; &lt;a href=&quot;https://gravely.pizza/img/00003_k10k-tile-02.png&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://gravely.pizza/img/5hRohTXn1b-128.avif 128w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://gravely.pizza/img/5hRohTXn1b-128.webp 128w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://gravely.pizza/img/5hRohTXn1b-128.png&quot; alt=&quot;tile&quot; title=&quot;title&quot; width=&quot;128&quot; height=&quot;128&quot;&gt;&lt;/picture&gt;&lt;/a&gt; &lt;a href=&quot;https://gravely.pizza/img/00001_k10k-tile-07.png&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://gravely.pizza/img/DmmRrxChQS-128.avif 128w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://gravely.pizza/img/DmmRrxChQS-128.webp 128w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://gravely.pizza/img/DmmRrxChQS-128.png&quot; alt=&quot;tile&quot; title=&quot;title&quot; width=&quot;128&quot; height=&quot;128&quot;&gt;&lt;/picture&gt;&lt;/a&gt; &lt;a href=&quot;https://gravely.pizza/img/00005_k10k-tile-01.png&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://gravely.pizza/img/iCbnDgBmSm-128.avif 128w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://gravely.pizza/img/iCbnDgBmSm-128.webp 128w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://gravely.pizza/img/iCbnDgBmSm-128.png&quot; alt=&quot;tile&quot; title=&quot;title&quot; width=&quot;128&quot; height=&quot;128&quot;&gt;&lt;/picture&gt;&lt;/a&gt; &lt;a href=&quot;https://gravely.pizza/img/00008_k10k-tile-08.png&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://gravely.pizza/img/Iq5xynsE7H-128.avif 128w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://gravely.pizza/img/Iq5xynsE7H-128.webp 128w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://gravely.pizza/img/Iq5xynsE7H-128.png&quot; alt=&quot;tile&quot; title=&quot;title&quot; width=&quot;128&quot; height=&quot;128&quot;&gt;&lt;/picture&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;div class=&quot;footnotes&quot;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
 &lt;li id=&quot;fn-1&quot;&gt;
 &lt;p&gt;All the original tiles are licensed “Commercial Usage OK (but please credit the creator)”&lt;/p&gt;
-&lt;a href=&quot;https://www.gravely.pizza/kindle-screensavers.html#fnref-1&quot; class=&quot;footnote-backref&quot;&gt;↩&lt;/a&gt;
+&lt;a href=&quot;https://gravely.pizza/kindle-screensavers.html#fnref-1&quot; class=&quot;footnote-backref&quot;&gt;↩&lt;/a&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/div&gt;
@@ -137,9 +137,9 @@ end adding folder items to
   </entry>
   <entry>
     <title>Stephen King on fiction</title>
-    <link href="https://www.gravely.pizza/stephen-king-on-fiction.html" />
+    <link href="https://gravely.pizza/stephen-king-on-fiction.html" />
     <updated>2011-04-14T13:25:00Z</updated>
-    <id>https://www.gravely.pizza/stephen-king-on-fiction.html</id>
+    <id>https://gravely.pizza/stephen-king-on-fiction.html</id>
     <content type="html">&lt;section&gt;&lt;blockquote&gt;
 &lt;p&gt;JP: I’ll tell you what I responded to. In the last two paragraphs, the tears sort of jumped to my eyes, but I realized that it wasn’t the deaths, oddly enough, that I was responding to — it was the bravery of the old poet, staggering around.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -166,9 +166,9 @@ even if they were metaphorical tears —&lt;/p&gt;
   </entry>
   <entry>
     <title>Synecdoche and Metonymy</title>
-    <link href="https://www.gravely.pizza/synecdoche-and-metonymy.html" />
+    <link href="https://gravely.pizza/synecdoche-and-metonymy.html" />
     <updated>2011-01-21T15:43:00Z</updated>
-    <id>https://www.gravely.pizza/synecdoche-and-metonymy.html</id>
+    <id>https://gravely.pizza/synecdoche-and-metonymy.html</id>
     <content type="html">&lt;section&gt;&lt;p&gt;Look:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Because synecdoche is a concept intimately associated with metonymy, not
@@ -183,9 +183,9 @@ synecdoche is also a synecdoche of metonymy. The converse is also true.&lt;/p&gt
   </entry>
   <entry>
     <title>Scream Like a Man</title>
-    <link href="https://www.gravely.pizza/scream-like-a-man.html" />
+    <link href="https://gravely.pizza/scream-like-a-man.html" />
     <updated>2010-03-20T19:28:00Z</updated>
-    <id>https://www.gravely.pizza/scream-like-a-man.html</id>
+    <id>https://gravely.pizza/scream-like-a-man.html</id>
     <content type="html">&lt;section&gt;&lt;h3 id=&quot;text-adventures&quot;&gt;Text Adventures&lt;/h3&gt;
 &lt;p&gt;You see an article or a twitter toot or whatever.&lt;/p&gt;
 &lt;blockquote&gt;
@@ -210,7 +210,7 @@ course, when you go to a site you don’t want to work for, but the ads have
 already loaded. That’s &lt;a href=&quot;http://arstechnica.com/business/news/2010/03/why-ad-blocking-is-devastating-to-the-sites-you-love.ars&quot;&gt;revenue&lt;/a&gt;. Gross.&lt;/p&gt;
 &lt;p&gt;The web isn’t a passive medium. These links can be fixed go to better sites.
 The web isn’t a passive medium.&lt;/p&gt;
-&lt;p&gt;So I made &lt;a href=&quot;https://www.gravely.pizza/files/scream.user.js&quot;&gt;this greasemonkey script&lt;/a&gt; to zap all links
+&lt;p&gt;So I made &lt;a href=&quot;https://gravely.pizza/files/scream.user.js&quot;&gt;this greasemonkey script&lt;/a&gt; to zap all links
 to all the sites I don’t want to work for. Zap them dead. If it’s too late—say
 a shortened url tricked me—I’d rather see a &lt;a href=&quot;http://www.youtube.com/watch?v=L0-lkl9TzsU&quot;&gt;goat scream like
 man&lt;/a&gt; than see what a mistake I
@@ -250,15 +250,15 @@ for (i=0; i&amp;#x3C;list.length; i++) {
 &lt;p&gt;Run that against the entire web and it turns nasty links into neuters, and
 adds ✌ to them so that it’s obvious.&lt;/p&gt;
 &lt;p&gt;Well, &lt;em&gt;I&lt;/em&gt; think it’s fun.&lt;/p&gt;
-&lt;h3 id=&quot;install-the-greasemonkey-script&quot;&gt;&lt;a href=&quot;https://www.gravely.pizza/files/scream.user.js&quot;&gt;Install the greasemonkey script&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;install-the-greasemonkey-script&quot;&gt;&lt;a href=&quot;https://gravely.pizza/files/scream.user.js&quot;&gt;Install the greasemonkey script&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Greasemonkey&quot;&gt;(You need greasemonkey for it to work)&lt;/a&gt;&lt;/p&gt;
 &lt;/section&gt;</content>
   </entry>
   <entry>
     <title>The Thermostat Fallacy</title>
-    <link href="https://www.gravely.pizza/the-thermostat-fallacy.html" />
+    <link href="https://gravely.pizza/the-thermostat-fallacy.html" />
     <updated>2010-02-23T19:21:00Z</updated>
-    <id>https://www.gravely.pizza/the-thermostat-fallacy.html</id>
+    <id>https://gravely.pizza/the-thermostat-fallacy.html</id>
     <content type="html">&lt;section&gt;&lt;p&gt;I’ve always called this collection of phenomena &lt;em&gt;thermostat fallacies&lt;/em&gt;, but my dad does HVAC for a living, so, go figure. I’m not even sure that they are proper fallacies.&lt;/p&gt;
 &lt;h3 id=&quot;the-premise&quot;&gt;The premise&lt;/h3&gt;
 &lt;p&gt;In our cars, the analog dial or lever spanning a blue triangle stacked on a red triangle presents an analog blend of temperatures. At least that’s how they used to work. But in analog home thermostats, and increasingly in cars, in multiple zones even, the temperature dial offers “now” and “target” temperatures.&lt;/p&gt;
@@ -280,9 +280,9 @@ adds ✌ to them so that it’s obvious.&lt;/p&gt;
   </entry>
   <entry>
     <title>The Paradox of Controls</title>
-    <link href="https://www.gravely.pizza/the-paradox-of-controls.html" />
+    <link href="https://gravely.pizza/the-paradox-of-controls.html" />
     <updated>2010-02-18T16:55:00Z</updated>
-    <id>https://www.gravely.pizza/the-paradox-of-controls.html</id>
+    <id>https://gravely.pizza/the-paradox-of-controls.html</id>
     <content type="html">&lt;section&gt;&lt;p&gt;Given an effectively infinite set of behaviors, and a limited set of actors, the simplest and most common control strategy to restrict the behavior of actors seems to be:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Deny any known forbidden actions.&lt;/li&gt;
@@ -349,9 +349,9 @@ adds ✌ to them so that it’s obvious.&lt;/p&gt;
   </entry>
   <entry>
     <title>Eggcorns in Technology: A list</title>
-    <link href="https://www.gravely.pizza/eggcorns-in-technology-a-list.html" />
+    <link href="https://gravely.pizza/eggcorns-in-technology-a-list.html" />
     <updated>2010-02-16T15:38:00Z</updated>
-    <id>https://www.gravely.pizza/eggcorns-in-technology-a-list.html</id>
+    <id>https://gravely.pizza/eggcorns-in-technology-a-list.html</id>
     <content type="html">&lt;section&gt;&lt;blockquote&gt;
 &lt;p&gt;In linguistics, an eggcorn is an idiosyncratic substitution of a word or phrase for a word or words that sound similar or identical in the speaker’s dialect. The new phrase introduces a meaning that is different from the original, but plausible in the same context (“old-timers’ disease” for “Alzheimer’s disease”). This is as opposed to a malapropism, where the substitution creates a nonsensical phrase. Classical malapropisms generally derive their comic effect from the fault of the user, whilst eggcorns are errors that exhibit creativity or logic. Eggcorns often involve replacing an unfamiliar, archaic, or obscure word with a more common or modern word (“baited breath” for “bated breath”).&lt;/p&gt;
 &lt;p&gt;The term “eggcorn” was coined by Geoffrey Pullum in September 2003, in response to an article by Mark Liberman on the website Language Log, a blog for linguists. Liberman discussed the case of a woman who substitutes the phrase egg corn for the word acorn, arguing that the precise phenomenon lacked a name; Pullum suggested using “eggcorn” itself.&lt;/p&gt;
@@ -367,9 +367,9 @@ adds ✌ to them so that it’s obvious.&lt;/p&gt;
   </entry>
   <entry>
     <title>On the iPad</title>
-    <link href="https://www.gravely.pizza/on-the-ipad.html" />
+    <link href="https://gravely.pizza/on-the-ipad.html" />
     <updated>2010-02-14T19:58:00Z</updated>
-    <id>https://www.gravely.pizza/on-the-ipad.html</id>
+    <id>https://gravely.pizza/on-the-ipad.html</id>
     <content type="html">&lt;section&gt;&lt;p&gt;&lt;em&gt;This is an edited repost of an e-mail I sent to the CapSecDC mailing list over the weekend.&lt;/em&gt;&lt;/p&gt;
 &lt;h3 id=&quot;what-is-interesting-about-the-ipad&quot;&gt;What is interesting about the iPad?&lt;/h3&gt;
 &lt;p&gt;There are a bunch of technologies making interesting convergences in the iPad including search, mobility, task oriented Human Computer Interaction (HCI), and networks, but let’s just look at the HCI part.&lt;/p&gt;
