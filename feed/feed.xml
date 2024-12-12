@@ -118,24 +118,6 @@ end adding folder items to
 </content>
   </entry>
   <entry>
-    <title>Kindle &quot;Screensavers&quot;</title>
-    <link href="https://gravely.pizza/kindle-screensavers.html" />
-    <updated>2011-10-03T00:52:00Z</updated>
-    <id>https://gravely.pizza/kindle-screensavers.html</id>
-    <content type="html">&lt;section&gt;&lt;p&gt;I made some lock screen images for my &lt;a href=&quot;http://wiki.mobileread.com/wiki/Kindle_Screen_Saver_Hack_for_all_2.x_and_3.x_Kindles&quot;&gt;jailbroken Kindle&lt;/a&gt;&lt;label for=&quot;md-to-make-your-own-in&quot; class=&quot;margin-toggle &quot;&gt;&amp;#8853;&lt;/label&gt;&lt;input type=&quot;checkbox&quot; id=&quot;md-to-make-your-own-in&quot; class=&quot;margin-toggle&quot;&gt;&lt;span class=&quot;marginnote&quot;&gt;To make your own in &lt;a href=&quot;http://www.imagemagick.org/script/index.php&quot;&gt;imagemagick&lt;/a&gt;, use this pattern: &lt;code&gt;composite -tile pattern.gif -size 600x800 -monochrome xc:none lock-screen.png&lt;/code&gt;&lt;/span&gt; using tiles from the excellent &lt;a href=&quot;http://k10k.net/pixelpatterns/&quot;&gt;Kaliber10000 Pixel Patterns Collection&lt;/a&gt;&lt;sup id=&quot;fnref-1&quot;&gt;&lt;a href=&quot;https://gravely.pizza/kindle-screensavers.html#fn-1&quot; class=&quot;footnote-ref&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://gravely.pizza/img/00002_k10k-tile-04.png&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://gravely.pizza/img/ua325pjETu-128.avif 128w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://gravely.pizza/img/ua325pjETu-128.webp 128w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://gravely.pizza/img/ua325pjETu-128.png&quot; alt=&quot;tile&quot; title=&quot;title&quot; width=&quot;128&quot; height=&quot;128&quot;&gt;&lt;/picture&gt;&lt;/a&gt; &lt;a href=&quot;https://gravely.pizza/img/00006_k10k-tile-03.png&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://gravely.pizza/img/RWffyvw3zL-128.avif 128w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://gravely.pizza/img/RWffyvw3zL-128.webp 128w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://gravely.pizza/img/RWffyvw3zL-128.png&quot; alt=&quot;title&quot; title=&quot;title&quot; width=&quot;128&quot; height=&quot;128&quot;&gt;&lt;/picture&gt;&lt;/a&gt; &lt;a href=&quot;https://gravely.pizza/img/00003_k10k-tile-02.png&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://gravely.pizza/img/5hRohTXn1b-128.avif 128w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://gravely.pizza/img/5hRohTXn1b-128.webp 128w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://gravely.pizza/img/5hRohTXn1b-128.png&quot; alt=&quot;tile&quot; title=&quot;title&quot; width=&quot;128&quot; height=&quot;128&quot;&gt;&lt;/picture&gt;&lt;/a&gt; &lt;a href=&quot;https://gravely.pizza/img/00001_k10k-tile-07.png&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://gravely.pizza/img/DmmRrxChQS-128.avif 128w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://gravely.pizza/img/DmmRrxChQS-128.webp 128w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://gravely.pizza/img/DmmRrxChQS-128.png&quot; alt=&quot;tile&quot; title=&quot;title&quot; width=&quot;128&quot; height=&quot;128&quot;&gt;&lt;/picture&gt;&lt;/a&gt; &lt;a href=&quot;https://gravely.pizza/img/00005_k10k-tile-01.png&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://gravely.pizza/img/iCbnDgBmSm-128.avif 128w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://gravely.pizza/img/iCbnDgBmSm-128.webp 128w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://gravely.pizza/img/iCbnDgBmSm-128.png&quot; alt=&quot;tile&quot; title=&quot;title&quot; width=&quot;128&quot; height=&quot;128&quot;&gt;&lt;/picture&gt;&lt;/a&gt; &lt;a href=&quot;https://gravely.pizza/img/00008_k10k-tile-08.png&quot;&gt;&lt;picture&gt;&lt;source type=&quot;image/avif&quot; srcset=&quot;https://gravely.pizza/img/Iq5xynsE7H-128.avif 128w&quot;&gt;&lt;source type=&quot;image/webp&quot; srcset=&quot;https://gravely.pizza/img/Iq5xynsE7H-128.webp 128w&quot;&gt;&lt;img loading=&quot;lazy&quot; decoding=&quot;async&quot; src=&quot;https://gravely.pizza/img/Iq5xynsE7H-128.png&quot; alt=&quot;tile&quot; title=&quot;title&quot; width=&quot;128&quot; height=&quot;128&quot;&gt;&lt;/picture&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;div class=&quot;footnotes&quot;&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-&lt;li id=&quot;fn-1&quot;&gt;
-&lt;p&gt;All the original tiles are licensed “Commercial Usage OK (but please credit the creator)”&lt;/p&gt;
-&lt;a href=&quot;https://gravely.pizza/kindle-screensavers.html#fnref-1&quot; class=&quot;footnote-backref&quot;&gt;↩&lt;/a&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;
-&lt;/section&gt;</content>
-  </entry>
-  <entry>
     <title>Stephen King on fiction</title>
     <link href="https://gravely.pizza/stephen-king-on-fiction.html" />
     <updated>2011-04-14T13:25:00Z</updated>
@@ -459,6 +441,25 @@ adds ✌ to them so that it’s obvious.&lt;/p&gt;
 &lt;p&gt;I think the size factor is more important than that. Looking at photos, watching videos, and reading articles on phones is a pretty poor experience. The pocket portability is a strength and a weakness on phones. I don’t plan on buying an iPad because it doesn’t solve any problems for me; but not because it’s too small, or too expensive to not multi-task — being a camera window, and an email window, and an IM window, and a menu, and a process management list all at once is a weakness, not a strength — I don’t plan on buying one because while I would like to have one, I’d like to have one less than I like to eat and drink really well, or get more camera lenses, or fly more places and check them out — and because I feel pretty damned unlimited with the CLI and WIMP crap I already have.&lt;/p&gt;
 &lt;p&gt;But I get the idea, and I think it’s really, really, fucking cool.&lt;/p&gt;
 &lt;h3 id=&quot;sources&quot;&gt;Sources&lt;/h3&gt;
+&lt;/section&gt;</content>
+  </entry>
+  <entry>
+    <title>Shmoocon 2010 Advice</title>
+    <link href="https://gravely.pizza/shmoocon-2010-advice.html" />
+    <updated>2010-02-04T16:05:00Z</updated>
+    <id>https://gravely.pizza/shmoocon-2010-advice.html</id>
+    <content type="html">&lt;section&gt;&lt;p&gt;I write here this morning in an attempt to return from a self-inflicted unhappy state.&lt;/p&gt;
+&lt;p&gt;One of the reasons I maintain archives of my content here — embarrassing as it always is — is because I force myself to revisit it at times like this, in the hope that I might learn more from my past mistakes than I did the first time through them.&lt;/p&gt;
+&lt;p&gt;I invite you to play along. Strike through and asides noted as we improve my own past. If only it was this easy!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://grantstavely.com/shmoocon&quot;&gt;Shmoocon&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;I just signed up for Shmoocon, billing itself as &lt;em&gt;“…an all-new, annual East coast hacker convention hell-bent on offering an interesting and new atmosphere for demonstrating technology exploitation, inventive software &amp;#x26; hardware solutions, as well as open discussion of critical information security issues.“&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;aside:&lt;/strong&gt; OK.&lt;/p&gt;
+&lt;p&gt;~The last (only) LUG meeting I went to was full of Haha I use loonix! 1337! people and the last other geek meet-up I went to was a mix of ultra-brights and people that change backup tapes every night (on reseting TCP sessions: “So you could knock out an FTP session! other tape-changer: But could you knock over an ssl session?” (sorry that’s so obscure but it was silly at the time))~&lt;/p&gt;
+&lt;p&gt;Hackers! ~As a lowly consultant (like a sysadmin albeit ~35+ times over, simultaneously)~ I~’ll~ expect to be surrounded by a bunch of extremely bright ~coders, a few~ people ~like myself, and a larger handful of nerds and clueless wannabe’s (those last three groups may intermingle a bit)~.&lt;/p&gt;
+&lt;p&gt;I hope I get a t-shirt.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;aside:&lt;/strong&gt; What’s with the incessant, murky qualification and labeling and classification of fellow human beings? Lose it.&lt;/p&gt;
 &lt;/section&gt;</content>
   </entry>
 </feed>

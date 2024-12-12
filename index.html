@@ -711,7 +711,6 @@ pre[class*="language-"] {
 
 <p class="subtitle">
     <time datetime="2011-10-09">09 October 2011</time></p>
-    
 
 <article>
 <section><p>Sometimes you hear something like a beat or a riff or whatever and think, well that’s nice.</p>
@@ -757,10 +756,100 @@ pre[class*="language-"] {
 </ul>
 </section>
 </article>
+    <h2 id="torrent-applescript-folder-action">torrent applescript folder action</h2>
+
+<p class="subtitle">
+    <time datetime="2011-10-03">03 October 2011</time></p>
+
+<article>
+<section><p>Aaaag, it’s so annoying having to add the <em>~GNU/Linux ISO~</em> torrent file I
+just downloaded to my home server’s torrent daemon’s auto-start directory. So,
+I hacked up <a href="/files/Move%20Torrents.scpt">this Folder Action</a> to do it for me
+automatically.</p><pre><code class="language-applescript">on adding folder items to thisFolder after receiving added_items
+    set DroboTorrents to "storage:New Media"
+    repeat with addedFile in added_items
+        tell application "Finder"
+            if (the name extension of the addedFile is "torrent") then
+                try
+                    tell application "Finder"
+                        move addedFile to DroboTorrents with replacing
+                        delete addedFile
+                    end tell
+                on error
+                    display dialog "Unable to move " &#x26; (name of i) with icon caution with title "Welp,"
+                end try
+            end if
+        end tell
+    end repeat
+end adding folder items to
+</code></pre></section>
+<section><h2 id="updated-for-2024">Updated for 2024</h2><pre><code class="language-applescript">on adding folder items to thisFolder after receiving added_items
+    repeat with addedFile in added_items
+        tell application "Finder"
+            if (the name of the addedFile ends with "torrent") then
+                set qbt to "/opt/homebrew/bin/qbt torrent add '" &#x26; POSIX path of addedFile &#x26; "' 2>&#x26;1 | grep 'successfully added torrent'"
+                set fileName to name of (info for addedFile)
+                try
+                    set response to do shell script qbt
+                    set hash to word 4 of response
+                    try
+                        tell application "Finder"
+                            delete addedFile
+                        end tell
+                    on error errMsg
+                        display notification "ERROR deleting " &#x26; addedFile &#x26; errMsg
+                    end try
+                on error errMsg
+                    display notification "ERROR adding torrent: " &#x26; qbt &#x26; "error: " &#x26; errMsg
+                end try
+                try
+                    set qbt to "/opt/homebrew/bin/qbt torrent list --hashes '" &#x26; hash &#x26; "' 2>&#x26;1 | grep Size"
+                    set response to do shell script qbt
+                on error errMsg
+                    display notification "ERROR: listing torrents by hash: " &#x26; hash &#x26; " Command: " &#x26; qbt &#x26; "error: " &#x26; errMsg
+                end try
+                display notification response with title "Torrent Downloading" subtitle fileName
+            end if
+        end tell
+    end repeat
+end adding folder items to
+</code></pre></section>
+
+</article>
+    <h2 id="stephen-king-on-fiction">Stephen King on fiction</h2>
+
+<p class="subtitle">
+    <time datetime="2011-04-14">14 April 2011</time></p>
+
+<article>
+<section><blockquote>
+<p>JP: I’ll tell you what I responded to. In the last two paragraphs, the tears sort of jumped to my eyes, but I realized that it wasn’t the deaths, oddly enough, that I was responding to — it was the bravery of the old poet, staggering around.</p>
+</blockquote>
+<p>…</p>
+<blockquote>
+<p>SK: Yeah, but when fiction works for me it works on an emotional level first
+and an intellectual level second. If you say that tears jumped to your eyes,
+even if they were metaphorical tears —</p>
+</blockquote>
+<blockquote>
+<p>JP: They weren’t. They were physical tears.</p>
+</blockquote>
+<blockquote>
+<p>SK: Oh …</p>
+</blockquote>
+<blockquote>
+<p>JP: I sniffed a little bit.</p>
+</blockquote>
+<blockquote>
+<p>SK: (laughs) That’s good. Well, James, it was all made up.</p>
+</blockquote>
+<p>From <a href="http://www.theatlantic.com/entertainment/archive/2011/04/stephen-king-on-the-creative-process-the-state-of-fiction-and-more/237023/">an interview with James Parker at The Atlantic</a>.</p>
+</section>
+</article>
 
 
 
-<p>66 more posts can be found in <a href="/archive/">the archive</a>.</p>
+<p>62 more posts can be found in <a href="/archive/">the archive</a>.</p>
 
 
 </section>
@@ -789,7 +878,7 @@ pre[class*="language-"] {
             </nav>
 		</footer>
 
-		<!-- This page `/` was built on 2024-12-10T20:13:00.472Z -->
+		<!-- This page `/` was built on 2024-12-12T20:56:53.600Z -->
 		<script type="module" src="/dist/rJ3_G-2ArF.js"></script>
 	</body>
 </html>

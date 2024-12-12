@@ -15,175 +15,7 @@
         <link rel="manifest" href="/site.webmanifest">
 		<meta name="generator" content="Eleventy v3.0.0">
 		
-		<style>/**
- * okaidia theme for JavaScript, CSS and HTML
- * Loosely based on Monokai textmate theme by http://www.monokai.nl/
- * @author ocodia
- */
-
-code[class*="language-"],
-pre[class*="language-"] {
-	color: #f8f8f2;
-	background: none;
-	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
-	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-	font-size: 1em;
-	text-align: left;
-	white-space: pre;
-	word-spacing: normal;
-	word-break: normal;
-	word-wrap: normal;
-	line-height: 1.5;
-
-	-moz-tab-size: 4;
-	-o-tab-size: 4;
-	tab-size: 4;
-
-	-webkit-hyphens: none;
-	-moz-hyphens: none;
-	-ms-hyphens: none;
-	hyphens: none;
-}
-
-/* Code blocks */
-pre[class*="language-"] {
-	padding: 1em;
-	margin: .5em 0;
-	overflow: auto;
-	border-radius: 0.3em;
-}
-
-:not(pre) > code[class*="language-"],
-pre[class*="language-"] {
-	background: #272822;
-}
-
-/* Inline code */
-:not(pre) > code[class*="language-"] {
-	padding: .1em;
-	border-radius: .3em;
-	white-space: normal;
-}
-
-.token.comment,
-.token.prolog,
-.token.doctype,
-.token.cdata {
-	color: #8292a2;
-}
-
-.token.punctuation {
-	color: #f8f8f2;
-}
-
-.token.namespace {
-	opacity: .7;
-}
-
-.token.property,
-.token.tag,
-.token.constant,
-.token.symbol,
-.token.deleted {
-	color: #f92672;
-}
-
-.token.boolean,
-.token.number {
-	color: #ae81ff;
-}
-
-.token.selector,
-.token.attr-name,
-.token.string,
-.token.char,
-.token.builtin,
-.token.inserted {
-	color: #a6e22e;
-}
-
-.token.operator,
-.token.entity,
-.token.url,
-.language-css .token.string,
-.style .token.string,
-.token.variable {
-	color: #f8f8f2;
-}
-
-.token.atrule,
-.token.attr-value,
-.token.function,
-.token.class-name {
-	color: #e6db74;
-}
-
-.token.keyword {
-	color: #66d9ef;
-}
-
-.token.regex,
-.token.important {
-	color: #fd971f;
-}
-
-.token.important,
-.token.bold {
-	font-weight: bold;
-}
-.token.italic {
-	font-style: italic;
-}
-
-.token.entity {
-	cursor: help;
-}
-/*
- * New diff- syntax
- */
-
-pre[class*="language-diff-"] {
-	--eleventy-code-padding: 1.25em;
-	padding-left: var(--eleventy-code-padding);
-	padding-right: var(--eleventy-code-padding);
-}
-.token.deleted {
-	background-color: hsl(0, 51%, 37%);
-	color: inherit;
-}
-.token.inserted {
-	background-color: hsl(126, 31%, 39%);
-	color: inherit;
-}
-
-/* Make the + and - characters unselectable for copy/paste */
-.token.prefix.unchanged,
-.token.prefix.inserted,
-.token.prefix.deleted {
-	-webkit-user-select: none;
-	user-select: none;
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	padding-top: 2px;
-	padding-bottom: 2px;
-}
-.token.prefix.inserted,
-.token.prefix.deleted {
-	width: var(--eleventy-code-padding);
-	background-color: rgba(0,0,0,.2);
-}
-
-/* Optional: full-width background color */
-.token.inserted:not(.prefix),
-.token.deleted:not(.prefix) {
-	display: block;
-	margin-left: calc(-1 * var(--eleventy-code-padding));
-	margin-right: calc(-1 * var(--eleventy-code-padding));
-	text-decoration: none; /* override del, ins, mark defaults */
-	color: inherit; /* override del, ins, mark defaults */
-}
-/* This is an arbitrary CSS string added to the bundle */
+		<style>/* This is an arbitrary CSS string added to the bundle */
 @charset "UTF-8";
 
 @font-face {
@@ -869,16 +701,7 @@ pre[class*="language-"] {
 
 		<main id="skip">
 			<heading-anchors>
-				
-<section>
-<h2 id="gs-linkedin">gs_linkedin</h2>
-
-<p class="subtitle">
-	<time datetime="2008-10-25">25 October 2008</time></p>
-    
-
-<article>
-<section><h2 id="dynamically-present-linkedincom-profile-hresume-data">Dynamically present Linkedin.com profile hresume data</h2><h3 id="summary">Summary</h3><p>gs_linkedin is a port of <a href="http://brad.touesnard.com/">Brad Touesnard’s</a> Wordpress plugin <a href="http://wordpress.org/extend/plugins/linkedin-hresume/">LinkedIn hResume</a>. It grabs the Microformated hResume block from your LinkedIn public profile page allowing you to add it to any page with a simple textpattern tag and apply your own styles.</p><p>Thanks to Mariano Absatz for help reporting bugs.</p><h3 id="download">Download</h3><p>gs_linkedin is released under the GPL. <a href="/files/gs_linkedin.zip">Download it</a>.</p><h3 id="setup--installation">Setup / Installation</h3><p>Your LinkedIn profile must be configured to “Full View”. The default view is “Basic”. Once the Linkedin API is public this could change.</p><p>The hResume classes and ids are left in place and can be styled as you wish. Below is the css Brad Touesnard created for his plugin, as well as my modified version.</p><p>The plugin does not currently use any cache, fetch images, or require any non-standard ₱ configurations.</p><h3 id="usage">Usage</h3><p>gs_linkedin requires two attributes.</p><ul>
+				<section><h2 id="dynamically-present-linkedincom-profile-hresume-data">Dynamically present Linkedin.com profile hresume data</h2><h3 id="summary">Summary</h3><p>gs_linkedin is a port of <a href="http://brad.touesnard.com/">Brad Touesnard’s</a> Wordpress plugin <a href="http://wordpress.org/extend/plugins/linkedin-hresume/">LinkedIn hResume</a>. It grabs the Microformated hResume block from your LinkedIn public profile page allowing you to add it to any page with a simple textpattern tag and apply your own styles.</p><p>Thanks to Mariano Absatz for help reporting bugs.</p><h3 id="download">Download</h3><p>gs_linkedin is released under the GPL. <a href="/files/gs_linkedin.zip">Download it</a>.</p><h3 id="setup--installation">Setup / Installation</h3><p>Your LinkedIn profile must be configured to “Full View”. The default view is “Basic”. Once the Linkedin API is public this could change.</p><p>The hResume classes and ids are left in place and can be styled as you wish. Below is the css Brad Touesnard created for his plugin, as well as my modified version.</p><p>The plugin does not currently use any cache, fetch images, or require any non-standard ₱ configurations.</p><h3 id="usage">Usage</h3><p>gs_linkedin requires two attributes.</p><ul>
 <li><strong>linkedin_src</strong> – the url of your public linkedin.com profile</li>
 <li><strong>name</strong> – your full name</li>
 </ul><h3 id="example">Example</h3><p>&#x3C;txp:gs_linkedin linkedin_src="<a href="http://www.linkedin.com/profile?viewProfile=&#x26;key=5919187">http://www.linkedin.com/profile?viewProfile=&#x26;key=5919187</a>“ name="Grant Stavely” /></p><h3 id="css">CSS</h3><p>I prefer a very basic style and hide much of the linkedin-specific content.</p><p>#overview, div.profile-header, div.actions,
@@ -905,11 +728,7 @@ font-size: 1.2em;
 font-style: italic;
 }</p></section>
 
-</article>
-<ul class="nav"><li class="nav-item sans previousPost">← <a href="/warp-xp.html" "="" class="no-tufte-underline">Warp XP</a></li><li class="nav-item sans nextPost"><a href="/on-cs-lewis.html" class="no-tufte-underline">On C.S. Lewis</a> →</li>
-</ul>
 
-</section>
 			</heading-anchors>
 
 		</main>
@@ -932,7 +751,7 @@ font-style: italic;
             </nav>
 		</footer>
 
-		<!-- This page `/gs_linkedin.html` was built on 2024-12-10T20:13:00.476Z -->
+		<!-- This page `/gs_linkedin.html` was built on 2024-12-12T20:56:53.604Z -->
 		<script type="module" src="/dist/rJ3_G-2ArF.js"></script>
 	</body>
 </html>

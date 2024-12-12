@@ -15,175 +15,7 @@
         <link rel="manifest" href="/site.webmanifest">
 		<meta name="generator" content="Eleventy v3.0.0">
 		
-		<style>/**
- * okaidia theme for JavaScript, CSS and HTML
- * Loosely based on Monokai textmate theme by http://www.monokai.nl/
- * @author ocodia
- */
-
-code[class*="language-"],
-pre[class*="language-"] {
-	color: #f8f8f2;
-	background: none;
-	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
-	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-	font-size: 1em;
-	text-align: left;
-	white-space: pre;
-	word-spacing: normal;
-	word-break: normal;
-	word-wrap: normal;
-	line-height: 1.5;
-
-	-moz-tab-size: 4;
-	-o-tab-size: 4;
-	tab-size: 4;
-
-	-webkit-hyphens: none;
-	-moz-hyphens: none;
-	-ms-hyphens: none;
-	hyphens: none;
-}
-
-/* Code blocks */
-pre[class*="language-"] {
-	padding: 1em;
-	margin: .5em 0;
-	overflow: auto;
-	border-radius: 0.3em;
-}
-
-:not(pre) > code[class*="language-"],
-pre[class*="language-"] {
-	background: #272822;
-}
-
-/* Inline code */
-:not(pre) > code[class*="language-"] {
-	padding: .1em;
-	border-radius: .3em;
-	white-space: normal;
-}
-
-.token.comment,
-.token.prolog,
-.token.doctype,
-.token.cdata {
-	color: #8292a2;
-}
-
-.token.punctuation {
-	color: #f8f8f2;
-}
-
-.token.namespace {
-	opacity: .7;
-}
-
-.token.property,
-.token.tag,
-.token.constant,
-.token.symbol,
-.token.deleted {
-	color: #f92672;
-}
-
-.token.boolean,
-.token.number {
-	color: #ae81ff;
-}
-
-.token.selector,
-.token.attr-name,
-.token.string,
-.token.char,
-.token.builtin,
-.token.inserted {
-	color: #a6e22e;
-}
-
-.token.operator,
-.token.entity,
-.token.url,
-.language-css .token.string,
-.style .token.string,
-.token.variable {
-	color: #f8f8f2;
-}
-
-.token.atrule,
-.token.attr-value,
-.token.function,
-.token.class-name {
-	color: #e6db74;
-}
-
-.token.keyword {
-	color: #66d9ef;
-}
-
-.token.regex,
-.token.important {
-	color: #fd971f;
-}
-
-.token.important,
-.token.bold {
-	font-weight: bold;
-}
-.token.italic {
-	font-style: italic;
-}
-
-.token.entity {
-	cursor: help;
-}
-/*
- * New diff- syntax
- */
-
-pre[class*="language-diff-"] {
-	--eleventy-code-padding: 1.25em;
-	padding-left: var(--eleventy-code-padding);
-	padding-right: var(--eleventy-code-padding);
-}
-.token.deleted {
-	background-color: hsl(0, 51%, 37%);
-	color: inherit;
-}
-.token.inserted {
-	background-color: hsl(126, 31%, 39%);
-	color: inherit;
-}
-
-/* Make the + and - characters unselectable for copy/paste */
-.token.prefix.unchanged,
-.token.prefix.inserted,
-.token.prefix.deleted {
-	-webkit-user-select: none;
-	user-select: none;
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	padding-top: 2px;
-	padding-bottom: 2px;
-}
-.token.prefix.inserted,
-.token.prefix.deleted {
-	width: var(--eleventy-code-padding);
-	background-color: rgba(0,0,0,.2);
-}
-
-/* Optional: full-width background color */
-.token.inserted:not(.prefix),
-.token.deleted:not(.prefix) {
-	display: block;
-	margin-left: calc(-1 * var(--eleventy-code-padding));
-	margin-right: calc(-1 * var(--eleventy-code-padding));
-	text-decoration: none; /* override del, ins, mark defaults */
-	color: inherit; /* override del, ins, mark defaults */
-}
-/* This is an arbitrary CSS string added to the bundle */
+		<style>/* This is an arbitrary CSS string added to the bundle */
 @charset "UTF-8";
 
 @font-face {
@@ -869,16 +701,7 @@ pre[class*="language-"] {
 
 		<main id="skip">
 			<heading-anchors>
-				
-<section>
-<h2 id="red-teaming-with-eicar">Red teaming with EICAR</h2>
-
-<p class="subtitle">
-	<time datetime="2009-09-05">05 September 2009</time></p>
-    
-
-<article>
-<section><p>Testing antivirus software with EICAR<label for="sd-the-less-than-strong" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sd-the-less-than-strong" class="margin-toggle"><span class="sidenote">The <strong>EICAR test file</strong> (official name: <strong>EICAR Standard Anti-Virus Test File</strong>) is a file, developed by the <a href="http://wikipedia.org/wiki/EICAR">European Institute for Computer Antivirus Research</a>, to test the response of computer <a href="http://wikipedia.org/wiki/Antivirus">antivirus</a> (AV) programs. The rationale behind it is to allow people, companies, and AV programmers to test their software without having to use a real <a href="http://wikipedia.org/wiki/Computer_virus">computer virus</a> that could cause actual damage should the AV not respond correctly. EICAR likens the use of a live virus to test AV software to setting a fire in a trashcan to test a fire alarm, and promotes the EICAR test file as a safe alternative.</span> deletions one virus at a time is effective but one dimensional. Successful deletion of a single EICAR string validates antivirus software for a given system, in a given directory, at the rate of one virus per unit of time. But single EICAR string deletions do nothing to stress secondary system alerting capabilities, validate rate limiting rules, enumerate directory level exclusions, validate reactive policy changes, and so on.</p>
+				<section><p>Testing antivirus software with EICAR<label for="sd-the-less-than-strong" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sd-the-less-than-strong" class="margin-toggle"><span class="sidenote">The <strong>EICAR test file</strong> (official name: <strong>EICAR Standard Anti-Virus Test File</strong>) is a file, developed by the <a href="http://wikipedia.org/wiki/EICAR">European Institute for Computer Antivirus Research</a>, to test the response of computer <a href="http://wikipedia.org/wiki/Antivirus">antivirus</a> (AV) programs. The rationale behind it is to allow people, companies, and AV programmers to test their software without having to use a real <a href="http://wikipedia.org/wiki/Computer_virus">computer virus</a> that could cause actual damage should the AV not respond correctly. EICAR likens the use of a live virus to test AV software to setting a fire in a trashcan to test a fire alarm, and promotes the EICAR test file as a safe alternative.</span> deletions one virus at a time is effective but one dimensional. Successful deletion of a single EICAR string validates antivirus software for a given system, in a given directory, at the rate of one virus per unit of time. But single EICAR string deletions do nothing to stress secondary system alerting capabilities, validate rate limiting rules, enumerate directory level exclusions, validate reactive policy changes, and so on.</p>
 <h3 id="weaponizing-eicar">Weaponizing EICAR</h3>
 <p>It looks so innocent doesn’t it?</p>
 <p><code>X5O!P%@AP[4\PZX54(P^)7CC)7}$EICAR-STANDARD-ANTIVIRUS-TEST-FILE!$H+H*</code></p>
@@ -911,11 +734,7 @@ pre[class*="language-"] {
 </ul>
 <p>And so on.</p>
 </section>
-</article>
-<ul class="nav"><li class="nav-item sans previousPost">← <a href="/the-shortened-url-straw-men-of-doom.html" "="" class="no-tufte-underline">The shortened url straw men of doom</a></li><li class="nav-item sans nextPost"><a href="/what-i-expect-inside-inside-files-with-underscores-in-the-name-instead-of-spaces.html" class="no-tufte-underline">What I expect inside inside files with underscores in the name instead of spaces...</a> →</li>
-</ul>
 
-</section>
 			</heading-anchors>
 
 		</main>
@@ -938,7 +757,7 @@ pre[class*="language-"] {
             </nav>
 		</footer>
 
-		<!-- This page `/red-teaming-with-eicar.html` was built on 2024-12-10T20:13:00.478Z -->
+		<!-- This page `/red-teaming-with-eicar.html` was built on 2024-12-12T20:56:53.606Z -->
 		<script type="module" src="/dist/rJ3_G-2ArF.js"></script>
 	</body>
 </html>

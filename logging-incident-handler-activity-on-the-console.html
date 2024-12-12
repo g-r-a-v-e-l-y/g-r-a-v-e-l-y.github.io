@@ -15,175 +15,7 @@
         <link rel="manifest" href="/site.webmanifest">
 		<meta name="generator" content="Eleventy v3.0.0">
 		
-		<style>/**
- * okaidia theme for JavaScript, CSS and HTML
- * Loosely based on Monokai textmate theme by http://www.monokai.nl/
- * @author ocodia
- */
-
-code[class*="language-"],
-pre[class*="language-"] {
-	color: #f8f8f2;
-	background: none;
-	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
-	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-	font-size: 1em;
-	text-align: left;
-	white-space: pre;
-	word-spacing: normal;
-	word-break: normal;
-	word-wrap: normal;
-	line-height: 1.5;
-
-	-moz-tab-size: 4;
-	-o-tab-size: 4;
-	tab-size: 4;
-
-	-webkit-hyphens: none;
-	-moz-hyphens: none;
-	-ms-hyphens: none;
-	hyphens: none;
-}
-
-/* Code blocks */
-pre[class*="language-"] {
-	padding: 1em;
-	margin: .5em 0;
-	overflow: auto;
-	border-radius: 0.3em;
-}
-
-:not(pre) > code[class*="language-"],
-pre[class*="language-"] {
-	background: #272822;
-}
-
-/* Inline code */
-:not(pre) > code[class*="language-"] {
-	padding: .1em;
-	border-radius: .3em;
-	white-space: normal;
-}
-
-.token.comment,
-.token.prolog,
-.token.doctype,
-.token.cdata {
-	color: #8292a2;
-}
-
-.token.punctuation {
-	color: #f8f8f2;
-}
-
-.token.namespace {
-	opacity: .7;
-}
-
-.token.property,
-.token.tag,
-.token.constant,
-.token.symbol,
-.token.deleted {
-	color: #f92672;
-}
-
-.token.boolean,
-.token.number {
-	color: #ae81ff;
-}
-
-.token.selector,
-.token.attr-name,
-.token.string,
-.token.char,
-.token.builtin,
-.token.inserted {
-	color: #a6e22e;
-}
-
-.token.operator,
-.token.entity,
-.token.url,
-.language-css .token.string,
-.style .token.string,
-.token.variable {
-	color: #f8f8f2;
-}
-
-.token.atrule,
-.token.attr-value,
-.token.function,
-.token.class-name {
-	color: #e6db74;
-}
-
-.token.keyword {
-	color: #66d9ef;
-}
-
-.token.regex,
-.token.important {
-	color: #fd971f;
-}
-
-.token.important,
-.token.bold {
-	font-weight: bold;
-}
-.token.italic {
-	font-style: italic;
-}
-
-.token.entity {
-	cursor: help;
-}
-/*
- * New diff- syntax
- */
-
-pre[class*="language-diff-"] {
-	--eleventy-code-padding: 1.25em;
-	padding-left: var(--eleventy-code-padding);
-	padding-right: var(--eleventy-code-padding);
-}
-.token.deleted {
-	background-color: hsl(0, 51%, 37%);
-	color: inherit;
-}
-.token.inserted {
-	background-color: hsl(126, 31%, 39%);
-	color: inherit;
-}
-
-/* Make the + and - characters unselectable for copy/paste */
-.token.prefix.unchanged,
-.token.prefix.inserted,
-.token.prefix.deleted {
-	-webkit-user-select: none;
-	user-select: none;
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	padding-top: 2px;
-	padding-bottom: 2px;
-}
-.token.prefix.inserted,
-.token.prefix.deleted {
-	width: var(--eleventy-code-padding);
-	background-color: rgba(0,0,0,.2);
-}
-
-/* Optional: full-width background color */
-.token.inserted:not(.prefix),
-.token.deleted:not(.prefix) {
-	display: block;
-	margin-left: calc(-1 * var(--eleventy-code-padding));
-	margin-right: calc(-1 * var(--eleventy-code-padding));
-	text-decoration: none; /* override del, ins, mark defaults */
-	color: inherit; /* override del, ins, mark defaults */
-}
-/* This is an arbitrary CSS string added to the bundle */
+		<style>/* This is an arbitrary CSS string added to the bundle */
 @charset "UTF-8";
 
 @font-face {
@@ -869,16 +701,7 @@ pre[class*="language-"] {
 
 		<main id="skip">
 			<heading-anchors>
-				
-<section>
-<h2 id="logging-incident-handler-activity-on-the-console">Logging incident handler activity on the console</h2>
-
-<p class="subtitle">
-	<time datetime="2008-04-28">28 April 2008</time></p>
-    
-
-<article>
-<section><p>During incident handling, time is precious. I try to make myself take notes and communicate about the incident over logged channels like e-mail and IM - to the point that I think some team members have rules specifically for e-mail from me.</p>
+				<section><p>During incident handling, time is precious. I try to make myself take notes and communicate about the incident over logged channels like e-mail and IM - to the point that I think some team members have rules specifically for e-mail from me.</p>
 <p>The detailed timelines that can be reconstructed from these notes are crucial when preparing post-mortem documents!</p>
 <blockquote>
 <p>I have a simple philosophy: Fill what’s empty. Empty what’s full. ~Scratch where it itches~ Script the process wherever possible.</p>
@@ -902,11 +725,7 @@ exec /usr/bin/script -f /nsm/var/handlerlog/$USER.shell_log.` date +'%Y-%m-%d:%H
 </code></pre>
 <p>Script will then log everything that prints to the console with the prompt providing context.</p>
 </section>
-</article>
-<ul class="nav"><li class="nav-item sans previousPost">← <a href="/business-meetings.html" "="" class="no-tufte-underline">Business Meetings</a></li><li class="nav-item sans nextPost"><a href="/hans-reiser-guilty.html" class="no-tufte-underline">Hans Reiser: Guilty</a> →</li>
-</ul>
 
-</section>
 			</heading-anchors>
 
 		</main>
@@ -929,7 +748,7 @@ exec /usr/bin/script -f /nsm/var/handlerlog/$USER.shell_log.` date +'%Y-%m-%d:%H
             </nav>
 		</footer>
 
-		<!-- This page `/logging-incident-handler-activity-on-the-console.html` was built on 2024-12-10T20:13:00.475Z -->
+		<!-- This page `/logging-incident-handler-activity-on-the-console.html` was built on 2024-12-12T20:56:53.603Z -->
 		<script type="module" src="/dist/rJ3_G-2ArF.js"></script>
 	</body>
 </html>
