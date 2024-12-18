@@ -1,1 +1,0 @@
-<? $stylesheet = "styles/citrus.css"; ?>

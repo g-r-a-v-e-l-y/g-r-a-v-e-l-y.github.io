@@ -1,7 +1,0 @@
-AuthUserFile C:\web\apache\Apache\users\.htpasswd
-	AuthGroupFile C:\web\apache\Apache\users\.htgroup
-	AuthName "energy private site"
-	AuthType Basic
-	<Limit GET>
-	require user energy
-	</Limit>

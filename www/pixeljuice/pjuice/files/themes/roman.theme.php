@@ -1,4 +1,0 @@
-<?
-  $stylesheet = 'styles/roman.css';
-
-?>

@@ -1,8 +1,0 @@
-<Files "nsettings.cgi">
-order deny,allow
-deny from all
-</Files>
-<Files "ktusers.dat">
-order deny,allow
-deny from all
-</Files>

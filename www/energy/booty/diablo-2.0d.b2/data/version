@@ -1,2 +1,0 @@
-$ver = "diablo v$nver [$os $kernel $machine]";
-$version=$ver;

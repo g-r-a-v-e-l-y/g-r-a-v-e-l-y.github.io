@@ -1,8 +1,0 @@
-The following is a list of things yet to be done.
-In other words, please don't report ideas/bugs if they are in the following list:
-
-- Finish removing hard-coded words to language file.
-- Translate language file to other languages.
-- Finish the Install/Readme manual.
-- Update Version.gif
-- Turn Register page into simpler form.
