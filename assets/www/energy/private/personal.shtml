@@ -1,0 +1,324 @@
+<HTML>
+<HEAD>
+<TITLE>e.personal</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<LINK rel="STYLESHEET" type="text/css" HREF="../planb.css">
+<style type="text/css">
+<!--
+.text 
+{ font-size: 11px; font-family: verdana, arial, sans-serif; line-height: 14px }
+a:link    
+{ color:#000000;
+text-decoration: none }
+a:visited 
+{ color:#000000;
+text-decoration: none }
+a:active  
+{ color:#000000; text-decoration: underline; }
+a:hover  
+{ color:#FFFFFF; background:#00c202; text-decoration: underline }
+BODY	   
+{ margin: 0 ; scrollbar-face-color: #00c202; scrollbar-shadow-color: #bbbbbb; scrollbar-highlight-color: #bbbbbb; scrollbar-3dlight-color: #ffffff; scrollbar-darkshadow-color: #ffffff; scrollbar-track-color: #ffffff; scrollbar-arrow-color: #ffffff; font-family: Verdana, Arial, Helvetica, Geneva, Swiss, SunSans-Regular, sans-serif; }
+TD, P {
+   font-size : 11px; 
+   line-height : 18px; 
+   font-family : Verdana, Arial, Helvetica, Geneva, Swiss, SunSans-Regular, sans-serif;
+   color: #606060; 
+}
+
+
+PRE {
+    font-family: "Lucida Console", "Letter Gothic MT", "Courier New", Courier, monospace; font-size: 10px; color: #606060;
+}
+
+.monospace {
+    font-family: "Lucida Console", "Letter Gothic MT", "Courier New", Courier, monospace; font-size: 10px; color: #606060;
+}
+
+I {
+   font-style : normal; color: #606060;
+}
+
+
+H2 {
+   color : #000000; 
+}
+
+
+H1 {
+   color : #000000; 
+}
+
+
+BODY {
+   margin : 0; color: #606060;
+}
+
+
+B {
+   font-weight : normal; 
+   color : #000000; 
+}
+
+
+.textnav {
+   text-align : right; 
+}
+
+
+.poster {
+   color : #888888; 
+}
+
+
+.date {
+   color : #888888; 
+}
+
+//-->
+</STYLE>
+
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+<!--
+
+
+function newImage(arg) {
+	if (document.images) {
+		rslt = new Image();
+		rslt.src = arg;
+		return rslt;
+	}
+}
+
+function changeImages() {
+	if (document.images && (preloadFlag == true)) {
+		for (var i=0; i<changeImages.arguments.length; i+=2) {
+			document[changeImages.arguments[i]].src = changeImages.arguments[i+1];
+		}
+	}
+}
+
+
+var preloadFlag = false;
+function preloadImages() {
+	if (document.images) {
+		index_02_info_over = newImage("../images/index_02-info_over.gif");
+		news_over = newImage("../images/news-over.gif");
+		yabb_over = newImage("../images/yabb-over.gif");
+		roster_over = newImage("../images/roster-over.gif");
+		files_over = newImage("../images/files-over.gif");
+		matches_over = newImage("../images/matches-over.gif");
+		extras_over = newImage("../images/extras-over.gif");
+		index_16_news_over = newImage("../images/index_16-news_over.gif");
+		info_over = newImage("../images/info-over.gif");
+		links_over = newImage("../images/links-over.gif");
+		rants_over = newImage("../images/rants-over.gif");
+		history_over = newImage("../images/history-over.gif");
+		preloadFlag = true;
+	}
+}
+
+// -->
+</SCRIPT>
+</head>
+<body ONLOAD="preloadImages();" topmargin="0" marginheight="0" leftmargin="0" marginwidth="0" bgcolor="white">
+<!--i know the margin stuff is non-validating. if you are using netscape 4, this is for you. also, if you are using netscape 4, please unplug your monitor and toss it out the window because you are holding the rest of the web back-->
+
+<div align=center>
+<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0>
+	<TR>
+		<TD>
+			<IMG SRC="../images/spacer.gif" WIDTH=7 HEIGHT=1></TD>
+		<TD>
+			<IMG SRC="../images/spacer.gif" WIDTH=28 HEIGHT=1></TD>
+		<TD>
+			<IMG SRC="../images/spacer.gif" WIDTH=8 HEIGHT=1></TD>
+		<TD>
+			<IMG SRC="../images/spacer.gif" WIDTH=9 HEIGHT=1></TD>
+		<TD>
+			<IMG SRC="../images/spacer.gif" WIDTH=25 HEIGHT=1></TD>
+		<TD>
+			<IMG SRC="../images/spacer.gif" WIDTH=9 HEIGHT=1></TD>
+		<TD>
+			<IMG SRC="../images/spacer.gif" WIDTH=36 HEIGHT=1></TD>
+		<TD>
+			<IMG SRC="../images/spacer.gif" WIDTH=8 HEIGHT=1></TD>
+		<TD>
+			<IMG SRC="../images/spacer.gif" WIDTH=16 HEIGHT=1></TD>
+		<TD>
+			<IMG SRC="../images/spacer.gif" WIDTH=9 HEIGHT=1></TD>
+		<TD>
+			<IMG SRC="../images/spacer.gif" WIDTH=21 HEIGHT=1></TD>
+		<TD>
+			<IMG SRC="../images/spacer.gif" WIDTH=19 HEIGHT=1></TD>
+		<TD>
+			<IMG SRC="../images/spacer.gif" WIDTH=8 HEIGHT=1></TD>
+		<TD>
+			<IMG SRC="../images/spacer.gif" WIDTH=30 HEIGHT=1></TD>
+		<TD>
+			<IMG SRC="../images/spacer.gif" WIDTH=9 HEIGHT=1></TD>
+		<TD>
+			<IMG SRC="../images/spacer.gif" WIDTH=58 HEIGHT=1></TD>
+		<TD>
+			<IMG SRC="../images/spacer.gif" WIDTH=8 HEIGHT=1></TD>
+		<TD>
+			<IMG SRC="../images/spacer.gif" WIDTH=42 HEIGHT=1></TD>
+		<TD>
+			<IMG SRC="../images/spacer.gif" WIDTH=217 HEIGHT=1></TD>
+		<TD>
+			<IMG SRC="../images/spacer.gif" WIDTH=18 HEIGHT=1></TD>
+		<TD>
+			<IMG SRC="../images/spacer.gif" WIDTH=12 HEIGHT=1></TD>
+		<TD></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=21>
+			<IMG SRC="../images/index_01.gif" WIDTH=597 HEIGHT=3></TD>
+		<TD>
+			<IMG SRC="../images/spacer.gif" WIDTH=1 HEIGHT=3></TD>
+	</TR>
+	<TR>
+		<TD ROWSPAN=4>
+			<IMG NAME="index_02" SRC="../images/index_02.gif" WIDTH=7 HEIGHT=34></TD>
+		<TD COLSPAN=2>
+			<A HREF="../index.shtml"
+			   ONMOUSEOVER="changeImages('news', '../images/news-over.gif', 'index_16', '../images/index_16-news_over.gif'); return true;"
+			   ONMOUSEOUT="changeImages('news', '../images/news.gif', 'index_16', '../images/index_16.gif'); return true;">
+				<IMG NAME="news" SRC="../images/news.gif" WIDTH=36 HEIGHT=13 BORDER=0></A></TD>
+		<TD ROWSPAN=3>
+			<IMG SRC="../images/index_04.gif" WIDTH=9 HEIGHT=20></TD>
+		<TD COLSPAN=5 ROWSPAN=2>
+			<a href="../yabb/cgi-bin/YaBB.pl"
+			   ONMOUSEOVER="changeImages('yabb', '../images/yabb-over.gif'); return true;"
+			   ONMOUSEOUT="changeImages('yabb', '../images/yabb.gif'); return true;">
+				<IMG NAME="yabb" SRC="../images/yabb.gif" WIDTH=94 HEIGHT=14 BORDER=0></A></TD>
+		<TD ROWSPAN=3>
+			<IMG SRC="../images/index_06.gif" WIDTH=9 HEIGHT=20></TD>
+		<TD COLSPAN=2>
+			<A HREF="../roster.shtml"
+			   ONMOUSEOVER="changeImages('roster', '../images/roster-over.gif'); return true;"
+			   ONMOUSEOUT="changeImages('roster', '../images/roster.gif'); return true;">
+				<IMG NAME="roster" SRC="../images/roster.gif" WIDTH=40 HEIGHT=13 BORDER=0></A></TD>
+		<TD ROWSPAN=4>
+			<IMG SRC="../images/index_08.gif" WIDTH=8 HEIGHT=34></TD>
+		<TD>
+			<A HREF="../files.shtml"
+			   ONMOUSEOVER="changeImages('files', '../images/files-over.gif'); return true;"
+			   ONMOUSEOUT="changeImages('files', '../images/files.gif'); return true;">
+				<IMG NAME="files" SRC="../images/files.gif" WIDTH=30 HEIGHT=13 BORDER=0></A></TD>
+		<TD ROWSPAN=4>
+			<IMG SRC="../images/index_10.gif" WIDTH=9 HEIGHT=34></TD>
+		<TD>
+			<A HREF="../matches.shtml"
+			   ONMOUSEOVER="changeImages('matches', '../images/matches-over.gif'); return true;"
+			   ONMOUSEOUT="changeImages('matches', '../images/matches.gif'); return true;">
+				<IMG NAME="matches" SRC="../images/matches.gif" WIDTH=58 HEIGHT=13 BORDER=0></A></TD>
+		<TD ROWSPAN=4>
+			<IMG SRC="../images/index_12.gif" WIDTH=8 HEIGHT=34></TD>
+		<TD>
+			<A HREF="../extras.shtml"
+			   ONMOUSEOVER="changeImages('extras', '../images/extras-over.gif'); return true;"
+			   ONMOUSEOUT="changeImages('extras', '../images/extras.gif'); return true;">
+				<IMG NAME="extras" SRC="../images/extras.gif" WIDTH=42 HEIGHT=13 BORDER=0></A></TD>
+		<TD ROWSPAN=4>
+			<IMG SRC="../images/index_14.gif" WIDTH=217 HEIGHT=34></TD>
+		<TD ROWSPAN=4>
+			<A HREF="../private/private.shtml"
+			   ONMOUSEOVER="changeImages('index_16', '../images/index_16-news_over.gif'); return true;"
+			   ONMOUSEOUT="changeImages('index_16', '../images/index_16.gif'); return true;">
+				<IMG SRC="../images/index_15.gif" WIDTH=18 HEIGHT=34 BORDER=0></A></TD>
+		<TD ROWSPAN=4>
+			<IMG NAME="index_16" SRC="../images/index_16.gif" WIDTH=12 HEIGHT=34></TD>
+		<TD>
+			<IMG SRC="../images/spacer.gif" WIDTH=1 HEIGHT=13></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=2 ROWSPAN=2>
+			<IMG SRC="../images/index_17.gif" WIDTH=36 HEIGHT=7></TD>
+		<TD COLSPAN=2 ROWSPAN=2>
+			<IMG SRC="../images/index_18.gif" WIDTH=40 HEIGHT=7></TD>
+		<TD ROWSPAN=3>
+			<IMG SRC="../images/index_19.gif" WIDTH=30 HEIGHT=21></TD>
+		<TD ROWSPAN=3>
+			<IMG SRC="../images/index_20.gif" WIDTH=58 HEIGHT=21></TD>
+		<TD ROWSPAN=3>
+			<IMG SRC="../images/index_21.gif" WIDTH=42 HEIGHT=21></TD>
+		<TD>
+			<IMG SRC="../images/spacer.gif" WIDTH=1 HEIGHT=1></TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=5>
+			<IMG SRC="../images/index_22.gif" WIDTH=94 HEIGHT=6></TD>
+		<TD>
+			<IMG SRC="../images/spacer.gif" WIDTH=1 HEIGHT=6></TD>
+	</TR>
+	<TR>
+		<TD>
+			<A HREF="info.shtml"
+			   ONMOUSEOVER="changeImages('index_02', '../images/index_02-info_over.gif', 'info', '../images/info-over.gif'); return true;"
+			   ONMOUSEOUT="changeImages('index_02', '../images/index_02.gif', 'info', '../images/info.gif'); return true;">
+				<IMG NAME="info" SRC="../images/info.gif" WIDTH=28 HEIGHT=14 BORDER=0></A></TD>
+		<TD>
+			<IMG SRC="../images/index_24.gif" WIDTH=8 HEIGHT=14></TD>
+		<TD COLSPAN=2>
+			<A HREF="../links.shtml"
+			   ONMOUSEOVER="changeImages('links', '../images/links-over.gif'); return true;"
+			   ONMOUSEOUT="changeImages('links', '../images/links.gif'); return true;">
+				<IMG NAME="links" SRC="../images/links.gif" WIDTH=34 HEIGHT=14 BORDER=0></A></TD>
+		<TD>
+			<IMG SRC="../images/index_26.gif" WIDTH=9 HEIGHT=14></TD>
+		<TD>
+			<A HREF="../rants.shtml"
+			   ONMOUSEOVER="changeImages('rants', '../images/rants-over.gif'); return true;"
+			   ONMOUSEOUT="changeImages('rants', '../images/rants.gif'); return true;">
+				<IMG NAME="rants" SRC="../images/rants.gif" WIDTH=36 HEIGHT=14 BORDER=0></A></TD>
+		<TD>
+			<IMG SRC="../images/index_28.gif" WIDTH=8 HEIGHT=14></TD>
+		<TD COLSPAN=3>
+			<A HREF="../history.shtml"
+			   ONMOUSEOVER="changeImages('history', '../images/history-over.gif'); return true;"
+			   ONMOUSEOUT="changeImages('history', '../images/history.gif'); return true;">
+				<IMG NAME="history" SRC="../images/history.gif" WIDTH=46 HEIGHT=14 BORDER=0></A></TD>
+		<TD>
+			<IMG SRC="../images/index_30.gif" WIDTH=19 HEIGHT=14></TD>
+		<TD>
+			<IMG SRC="../images/spacer.gif" WIDTH=1 HEIGHT=14></TD>
+	</TR>
+</TABLE>
+</div>
+<div align="center"><table width=600><tr><td align="right">
+<p class="text"><a href="../index.shtml">news</a> <a href="../yabb/cgi-bin/YaBB.pl">messageboard</a> <a href="../roster.shtml">roster</a> <a href="../files.shtml">files</a> <a href="../matches.shtml" >matches</a> <a href="../extras.shtml">extras</a>
+<br>
+<a href="../info.shtml">info</a> <a href="../links.shtml">links</a> <a href="../rants.shtml">rants</a> <a href="../history.shtml">history</a></p>
+</td></tr></table></div>
+<div align=center>
+<table cellpadding=15 cellspacing=0 width=600>
+<tr>
+<td colspan=2>
+<IMG SRC="../images/foot.gif" width="600" height="2" alt="" border="0">
+<p><a href="http://129.100.108.56/pb/private/fileman/fileman.cgi">edit personal files...</a></p>
+<IMG SRC="../images/foot.gif" width="600" height="2" alt="" border="0">
+<p>
+<strong>Monty's stuff:</strong></p>
+<p>
+<!--#include file="energy/monty.html"-->
+</p>
+
+<IMG SRC="../images/foot.gif" width="600" height="2" alt="" border="0">
+<p>
+<strong>Thrashy's stuff:</strong></p>
+<p>
+<!--#include file="energy/thrash.html"-->
+</p>
+
+<IMG SRC="../images/foot.gif" width="600" height="2" alt="" border="0">
+<p>
+<IMG SRC="../images/foot.gif" width="600" height="2" alt="" border="0"><br><br>
+<!--#include file="energy/nolan.html"-->
+<IMG SRC="../images/foot.gif" width="600" height="2" alt="" border="0"><br><br>
+</td>
+</tr>
+</table>
+</div>
+</BODY>
+</HTML>

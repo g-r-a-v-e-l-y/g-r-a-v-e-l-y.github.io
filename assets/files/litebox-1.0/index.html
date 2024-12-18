@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="author" content="Tyler Mulligan - www.detrition.net - tepics is coming" />
+<title>Litebox- Same great taste, less calories</title>
+<link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+<script type="text/javascript" src="js/prototype.lite.js"></script>
+<script type="text/javascript" src="js/moo.fx.js"></script>
+<script type="text/javascript" src="js/litebox-1.0.js"></script>
+</head>
+<body onload="initLightbox()">
+<div id="content">
+<h1>Litebox</h1>
+<h3>What is it?</h3>
+<p>Litebox is a modified version of <a href="http://www.huddletogether.com/projects/lightbox2/" target="_blank">Lightbox v2.0</a> created with one thing in mind, <b>size reduction</b>. Litebox utilizes the 3kb javascript library <a href="http://moofx.mad4milk.net/" target="_blank">moo.fx</a> in association with <b>prototype.lite</b>, giving us the basic tools we need to make this work and you the ability to expand.</p>
+<h3>Image Set Example:</h3>
+<a href="images/image-1.jpg" rel="lightbox[example]" title="Horses"><img src="images/thumb-1.jpg" width="100" height="40" alt="Beautiful Horses" class="bordered" /></a>
+<a href="images/image-2.jpg" rel="lightbox[example]" title="Sprouts"><img src="images/thumb-2.jpg" width="100" height="40" alt="Beautiful Sprouts" class="bordered"/></a>
+<a href="images/image-3.jpg" rel="lightbox[example]" title="Sup dog?"><img src="images/thumb-3.jpg" width="100" height="40" alt="Sup dog?" class="bordered" /></a>
+<h3>Single Image Example</h3>
+<a href="images/image-1.jpg" rel="lightbox"><img src="images/thumb-1.jpg" width="100" height="40" alt="Beautiful Horses" class="bordered" /></a>
+<h3>Usage</h3>
+<p>Litebox is reverse compatible, you can drop the javascript files into your js folder without issues, <b style="color:#f00">WITH ONE EXCEPTION, you must add onload="initLightbox()" into your body tag</b>.  But anyway, here's a quick tutorial for those unfamilar.
+<br /><br />Paste this in your document <b>&lt;head&gt;</b></p>
+<textarea rows="4" cols="80">
+<link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="js/prototype.lite.js"></script>
+<script type="text/javascript" src="js/moo.fx.js"></script>
+<script type="text/javascript" src="js/litebox-1.0.js"></script>
+</textarea>
+<p>Make your links as such</p>
+<textarea rows="2" cols="80">
+<a href="images/image-1.jpg" rel="lightbox[example]" title="Horses"><img src="images/thumb-1.jpg" width="100" height="40" alt="Beautiful Horses" /></a>
+</textarea>
+<p>where <b>example</b> is your image set name.</p>
+<h3>Download</h3>
+<p>
+<a href="download/litebox-1.0.zip">litebox-1.0.zip</a>
+</p>
+<h3>Notes</h3>
+<ul>
+<li>You can reduce the size even further if you remove comments and keyboard navigation.</li>
+<li>Though the current directory structure of lightbox isn't too pleasing (to me) I decided to keep it for portability. I might change my mind in future releases</li>
+</ul>
+<h3>Contact</h3>
+<p><a href="http://www.huddletogether.com/forum">Huddle Together Forums</a></p>
+</div>
+</body>
+</html>

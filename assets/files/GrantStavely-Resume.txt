@@ -1,0 +1,159 @@
+				Grant Stavely
+				 415-606-3947
+			    grant@grantstavely.com
+
+SUMMARY		I love doing neat things with information systems and sharing 
+		that excitement with others through systems analysis, mentoring,
+ 		consulting, and managing. I have a pragmatic and business driven
+		security focus, and stress presentation, design, and usability.
+		My current responsibilities are focused on network security mon-
+		itoring, advanced persistent threat analysis, and operational 
+		security team leadership.
+
+SKILLS		Incident response, forensics, Python, Perl, HTML, CSS, JavaScri-
+		pt, shell scripting, administration of GNU/Linux, FreeBSD, and 
+		Windows systems, IDS, netflow, syslog, log analysis, writing, 
+		and reporting.
+
+PROFESSIONAL 	Zynga Game Network Inc., San Francisco, California
+EXPERIENCE	June 2010 -- Present
+		Lead Security Engineer
+
+		Responsibilities:
+		* Evaluate security vendor technologies based on requirements to
+		  determine their effectiveness in Zynga's ecosystem
+		* Implement and own security vendor technologies that provide 
+		  visibility into security issues inside the company including
+		  vulnerability scanners, endpoint security, intrusion detection,
+		  network recording, change detection, and security event
+		  mangament
+		* Perform discovery and vulnerability scans on networks and 
+		  validate ﬁndings through penetration testing
+		* Validate perimeter and network security controls for effect-
+		  iveness
+		* Perform conﬁguration reviews on network devices and production 
+		  systems and suggest potential remediation guidelines for any 
+		  discovered issues.
+		* Develop and maintain automation frameworks to increase team 
+		  effciency
+		* Assist in technical investigation of security related events
+		* Produce technical and executive metric-based reports
+
+		Constellation Energy, Baltimore, Maryland
+		August 2006 -- June 2010
+		Security Analyst, Team Lead
+		
+		Responsibilities: 
+		* Led Fortune 120 information security engineering operations 
+		  team of six analysts 
+		* Directed advanced persistent threat analysis (APT), network sec-
+	   	  urity monitoring (NSM), incident response (IR), vulnerability 
+		  auditing, and host security control configuration
+		* Developed North American Electric Reliability Corporation (NERC)
+		  Critical Infrastructure Protection (CIP) based policies and 
+		  procedures
+		* Designed and deployed network security monitoring solutions that 
+		  integrate open source and commercial solutions to provide 
+		  flow, full packet, and application protocol logging and alert-
+		  ing
+		* Designed tools for information security analysts to make analyst
+		  work repeatable, reportable, and standardized
+		* Designed and deployed tools and processes automating analysis and 
+		  logging of threat activity 
+		* Tracked and reported security incidents, e-discovery cases, and 
+		  forensic efforts 
+		* Analyzed malware as part of incident response and host forens-
+		  ics efforts using commercial and open source tools
+		* Maintained diverse GNU/Linux systems and the services they prov-
+		  ide 
+		* Scripted in Python, Perl, and shell supporting all of the above 
+		  responsibilities
+		
+		Achievements:
+		* Graduated the Constellation Manager Development Professional 
+		  (CMDP) course, a select program for prospective supervisors
+		* Attained SANS GIAC Certified Forensics Analyst (GCFA) certifi-
+		  -cation 
+		* Returned to night school to begin work towards the completion 
+		  of a Bachelors of Science degree in Information Systems at the
+		  University of Maryland, Baltimore County (UMBC) 
+		* Active in the information security community, leading the Balt-
+		  imore CharmSec monthly meetup and attending ShmooCon, DefCon, 
+		  DojoSec, DojoCon, and multiple SANS and IANS events 
+
+		Outerbody Media, Columbia, Maryland	
+		August 2004 -- present
+		System Administrator
+
+		Responsibilities: 
+		* Maintain Exim, MySQL, Apache, and imapd virtual hosting serv-
+		  ices on FreeBSD and Fedora Linux systems
+		* Support Wordpress, TextPattern, and other content management 
+		  systems
+
+		Achievements: 
+		* Migrated from local shared hosting to Amazon’s Elastic Compute
+		  Cloud systems
+
+		Guru Inc., Gaithersburg, MD
+		December 2001 -- August 2006 
+		Senior Network Engineer, Team Lead
+
+		Responsibilities: 
+		* Supervised nine consulting engineers who supported dozens of 
+		  clients receiving both contract IT support and project orient-
+		  ed IT services
+		* Led technical engineering, sales engineering, product develop-
+		  ment, technology selection, training, and engineer mentoring
+		* Participated in weekly executive management meetings where op-
+		  erational, engineering, project management, sales, personnel, 
+		  and client relations planning, direction and controlling dec-
+		  isions were made
+		* Provided IT support and systems integration for law firms, 
+		  lobbyist organizations, non-profits, creative design, medical,
+		  dental, technology, biotechnology, and financial firms
+		* Led dozens of Microsoft Active Directory, Exchange, MS-SQL Se-
+		  rver, and Sharepoint implementations and migrations, Cisco 
+		  PIX, Juniper Netscreen, and Watchguard firewall implementa-
+		  tions, Symantec Antivirus, and Veritas BackupExec installa-
+		  tions, and supported multiple line- of-business applications
+		* Administered both the public web site and company Intranet
+
+		Achievements: 
+		* Developed and commercialized an SMTP spam and malware filter-
+		  ing solution using open source software and commodity hardware
+		  for my clients that could not afford third party mail filter-
+		  ing services
+
+EDUCATION	University of Maryland, Baltiomre County, Baltimore, Maryland
+		Fall 2008 -- Present
+		* Bachelor of Science in Information Systems
+		  * Expected graduation date: Fall 2011
+		
+		Fall 1999 -- Spring 2001
+		* Bachelor of Arts in Imaging and Digital Arts
+		  * 90 credits earned
+
+
+CERTIFICATIONS	SANS GIAC Certified Forensics Analyst (GCFA) #3683
+& AFFILIATIONS	* Expires April 2012
+		
+		Member, FBI Infragard
+		
+		Active U.S. Passport
+
+INTERESTS	CharmSec, Baltimore, MD
+		Spring 2008 -- Spring 2010
+		
+		I helped restart and lead a CitySec style meet-up and happy hour 
+		in Baltimore for information security professionals. In addition 
+		to scheduling CharmSec, I maintained the CharmSec twitter account, 
+		mailing list, and website.
+		
+		Miscellaneous
+		
+		I’m also interested in photography, graphic design, web design, 
+		home brewing, guitar, writing and rhetoric. Samples of my work 
+		can be found at http://grantstavely.com.
+
+REFERENCES	Available upon request.

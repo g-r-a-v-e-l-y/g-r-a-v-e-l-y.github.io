@@ -1,0 +1,58 @@
+		=======================
+		*  Diablo Help Files  *
+		*         Aop         *
+		*  Last Update: v1.5  *		
+		=======================
+
+	COMMAND LISTING:
+
+-------------------------------------------------------------------------------
+Command:	TOPIC <chan> <topic>
+Description:	Change a channel's topic
+-------------------------------------------------------------------------------
+Command:	KICKBAN <user> [<reason>]
+Description:	Kick and ban a user
+-------------------------------------------------------------------------------
+Command:	KICK <user> [<reason>]
+Description:	Kick a user from the channel
+-------------------------------------------------------------------------------
+Command:	BAN <mask>
+Description:	Set ban on a hostmask
+-------------------------------------------------------------------------------
+Command:	MODE <channel> <mode>
+Description:	Force a mode change on a channel
+-------------------------------------------------------------------------------
+Command:	OP <user>
+Description:	Op a user in current channel
+-------------------------------------------------------------------------------
+Command:	DEOP <user>
+Description:	Deop a user in current channel
+-------------------------------------------------------------------------------
+Command:	VOICE <user>
+Description:	Voice a user in current channel
+-------------------------------------------------------------------------------
+Command:	DEVICE <user>
+Description:	Devoice a user in currrent channel
+-------------------------------------------------------------------------------
+Command:	OPME
+Description:	Op you in current channel
+-------------------------------------------------------------------------------
+Command:	DEOPME
+Description:	Deop you in current channel
+-------------------------------------------------------------------------------
+Command:	ACK [all/aop/sop/admin/owner/root]
+Description:	Limits access to the bot to users of a certain level
+-------------------------------------------------------------------------------
+Command:	IGNORE ADD <nick>
+Description:	Add nickname to ignore list
+-------------------------------------------------------------------------------
+Command:	IGNORE DEL <nick>
+Description:	Delete nickname from ignore list
+-------------------------------------------------------------------------------
+Command:	IGNORE CLEAR
+Description:	Clears the ignore list
+-------------------------------------------------------------------------------
+
+                ======================
+                *  End Of Help File  *
+                ======================

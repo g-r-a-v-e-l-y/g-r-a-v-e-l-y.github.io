@@ -1,0 +1,28 @@
+P, TD, H1, H2, PRE, strong, small, .poster, .news_subject, .date, I, DD, body, li, ul, ol
+{ font-size: 11px; font-family: Verdana, Arial, Helvetica, Geneva, Swiss, SunSans-Regular, sans-serif; color: #cccccc; background: #606060; line-height: 18px}
+
+H1, H2
+{ color: #ffffff }
+
+B
+{ Font-weight: normal; color: #000000 }
+
+.textnav
+{ text-align: right }
+
+.news_subject	
+{ font-weight: bold; color: #666666 }
+
+.poster
+{ text-align: left; color: #888888 }
+
+.date
+{ text-align: right; color: #888888 }
+
+I
+{ font-style: normal }
+
+BODY	   
+{ margin: 0; scrollbar-face-color: #ffffff; scrollbar-shadow-color: #bbbbbb; scrollbar-highlight-color: #bbbbbb; scrollbar-3dlight-color: #ffffff; scrollbar-darkshadow-color: #ffffff; scrollbar-track-color: #ffffff; scrollbar-arrow-color: #ffffff }
+PRE
+{ font-family: courier,system, }

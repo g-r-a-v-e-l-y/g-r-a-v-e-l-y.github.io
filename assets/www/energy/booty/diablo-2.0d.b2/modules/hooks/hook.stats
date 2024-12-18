@@ -1,0 +1,58 @@
+# stats hook
+
+add_command_hook("stats","stats");
+
+sub hook_stats {
+	$text = $_[0];
+
+	if($text =~ /^stats[ ]?(.*)$/) {
+		sockwrite($sock,"PRIVMSG $uchan :Current server is $trueserver\.");
+		$currenttime = time();
+		$runtime = $currenttime - $time;
+	        if ($runtime < 60) {
+	                sockwrite($sock,"PRIVMSG $uchan :Uptime is $runtime seconds.");
+	        }
+	        else {
+	                $min = $runtime / 60;
+	                $min = sprintf("%.0f", $min);
+	                $temp = $min * 60;
+	                $secs = $runtime - $temp;
+        	        if($secs < 0) {
+                	        $secs = 60 + $secs;
+                	        $min = $min - 1;
+                	}
+                	if($min < 60) {
+                	        sockwrite($sock,"PRIVMSG $uchan :Uptime is $min minutes, $secs seconds.");
+                	}
+                	else {
+	                        $hours = $min / 60;
+	                        $hours = sprintf("%.0f", $hours);
+	                        $temp = $hours * 60;
+	                        $min = $min - $temp;
+	                        if($min < 0) {
+	                                $min = 60 + $min;
+	                                $hours = $hours - 1;
+	                        }
+	                        if($hours >= 24) {
+	                                $days = $hours / 24;
+	                                $days = sprintf("%.0f", $days);
+	                                $temp = $days * 24;
+	                                $hours = $hours - $temp;
+	                                if($hours < 0) {
+	                                        $hours = 24 + $hours;
+	                                        $days = $days - 1;
+	                                }
+					sockwrite($sock,"PRIVMSG $uchan :Uptime is $days days, $hours hours, $min minutes, $secs seconds.");
+	                        }
+	                        else {
+					sockwrite($sock,"PRIVMSG $uchan :Uptime is $hours hours, $min minutes, $secs seconds.");
+	                        }
+	                }
+	        }
+		sockwrite($sock,"PRIVMSG $uchan :Processed $cmdcount commands since last reboot.");
+	     	sockwrite($sock,"PRIVMSG $uchan :Processed $ctcpcount ctcps since last reboot.");
+	        return 1;
+	}
+
+	return 0;
+}

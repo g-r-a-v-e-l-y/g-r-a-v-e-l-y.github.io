@@ -1,0 +1,3 @@
+<?
+  $stylesheet = 'styles/original.css';
+  ?>

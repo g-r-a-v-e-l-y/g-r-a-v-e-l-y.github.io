@@ -1,0 +1,13 @@
+
+--------------------------------------------------
+Darkbot should be compiled in DEBUG mode now.
+
+All input/output will be shown on-screen. To
+begin program, type: "run"
+
+If program dies, you can type "backtrace" and
+"where" to check where/why.
+
+darkbot@darkbot.net
+--------------------------------------------------
+

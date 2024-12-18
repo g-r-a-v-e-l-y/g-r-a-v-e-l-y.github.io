@@ -1,0 +1,22 @@
+# mode hook
+
+add_command_hook("mode","mode");
+
+sub hook_mode {
+	$text = $_[0];
+
+	if($text =~ /^mode[ ]?([^ ]+)[ ]?(.*)$/) {
+		if($ulevel{$unick} >= $clevel{mode} && $nnick eq $unick) {
+			$on = $1; $it = $2;
+			if($on ne "" && $it ne "") {
+				sockwrite($sock,"MODE $on $it");
+			}
+			else {
+				syntax("mode");
+			}
+		        return 1;
+		} else { return -1; }
+	}
+
+	return 0;
+}

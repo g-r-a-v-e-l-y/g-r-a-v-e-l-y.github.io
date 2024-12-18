@@ -1,0 +1,75 @@
+# admin hook
+
+add_command_hook("admin","admin");
+
+sub hook_admin {
+	$text = $_[0];
+
+	if($text =~ /^admin list[ ]?(.*)$/) {
+	        sockwrite($sock,"PRIVMSG $uchan :Admin list..");
+	        $i=0; $total=0; $data="PRIVMSG $uchan :";
+	        foreach $key (sort keys %uhosts) {
+			if($ulevel{lc($key)} == 4) {
+		                $data.="$key";
+		                $i++; $total++;
+		                if (length($data) > 75) {
+		                        $i=0;
+		                        sockwrite($sock,"$data"); $data="PRIVMSG $uchan :";
+		                }
+		                else {
+		                        $data.=", ";
+		                }
+			}
+	        }
+	        if (length($data)>16) { chop($data); chop($data); sockwrite($sock,"$data"); }
+	        sockwrite($sock,"PRIVMSG $uchan :Admin count: $total");
+	        return 1;
+	}
+
+	elsif($text =~ /^admin add[ ]?([^ ]*)[ ]?(.*)$/) {
+		if($ulevel{$unick} >= $clevel{admin} && $nnick eq $unick) {
+		        $user = lc($1);
+		        $host = "$2";
+		        $nhost = $host;
+		        $nhost =~ s/ /, /g;
+		        $level = "4";
+		        $chan = "*";
+		        $host =~ s/\*/\.\*/g;
+		        $host =~ s/\?/\.\?/g;
+		        $host =~ s/, / /g;
+		        $host =~ s/,/ /g;
+		        $chan =~ s/,/ /g;
+		        $uhosts{$user}=$host;
+		        $ulevel{$user}=$level;
+		        $uchans{$user}=$chan;
+		        sockwrite($sock,"PRIVMSG $uchan :$unick, added user $user ($nhost) as an Admin.");
+		        saveusers();
+		        return 1;
+		}
+		else {
+			return -1;
+		}
+	}
+
+	elsif($text =~ /^admin del (.*)/) {
+	        $user = $1;
+		if($ulevel{$unick} >= $clevel{admin} && $nnick eq $unick) {
+		        if ($ulevel{$user} == "4") {
+		                sockwrite($sock,"PRIVMSG $uchan :Removed Admin \2$user\2.");
+		                delete $uhosts{$user};
+		                delete $ulevel{$user};
+		                delete $uchans{$user};
+		                saveusers();
+		        }
+		        else {
+		                sockwrite($sock,"PRIVMSG $uchan :$unick, \2$user\2 is not an Admin.");
+		        }
+		        return 1;
+		}
+		else {
+			return -1;
+		}
+	}
+
+	return 0;
+}

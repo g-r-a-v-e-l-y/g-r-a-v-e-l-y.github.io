@@ -1,0 +1,20 @@
+Hi :)
+
+To configure your darkbot, run the ./configure script.
+
+For help and documentation, visit the darkbot site at
+http://darkbot.net
+
+If you need instructions on using a darkbot, please read
+this page: http://help.darkbot.net/darkbot_walkthru.html
+
+Also make sure you read the NOTES file that comes with this
+program, it contains notes that may be important to you and
+the proper configuration of your bot.
+
+If your bot is stupid, and you want it to know some general
+stuff like acronyms, run ./download_databases to download
+some premade databases.
+
+Questions? Email darkbot-request@darkbot.net with the subject
+of "subscribe" to join our mailing list. 

@@ -1,0 +1,615 @@
+###############################################################################
+# English.lng                                                                 #
+###############################################################################
+# YaBB: Yet another Bulletin Board                                            #
+# Open-Source Project started by Zef Hemel (zef@zefnet.com)                   #
+# Software Version: YaBB 1 Gold Beta4                                         #
+# =========================================================================== #
+# Software Distributed by:    www.yabb.org                                    #
+# Support, News, Updates at:  www.yabb.org/cgi-bin/support/YaBB.pl            #
+# =========================================================================== #
+# Copyright (c) 2000-2001 YaBB - All Rights Reserved                          #
+# Software by: The YaBB Development Team                                      #
+###############################################################################
+# Open YaBB.pl and change the require "xxx.lng" into require "english.lng";   #
+###############################################################################
+require "Settings.pl";
+
+$txt{'1'} = "You are not allowed to access this section";
+$txt{'2'} = "Admin";
+$txt{'3'} = "Edit Categories (reorder/create/remove)";
+$txt{'4'} = "Edit Boards (reorder/create/remove)";
+$txt{'5'} = "View all members";
+$txt{'6'} = "Mailing list";
+$txt{'7'} = "Edit YaBB News";
+$txt{'8'} = "Edit Member groups";
+$txt{'9'} = "View all members";
+
+$txt{'10'} = "Save";
+
+$txt{'11'} = "Administrator";
+$txt{'12'} = "Moderator";
+$txt{'13'} = "YaBB Jr. Poster";
+$txt{'14'} = "YaBB Full Poster (over 50 posts)";
+$txt{'15'} = "YaBB Sr. Poster (over 100 posts)";
+$txt{'16'} = "Additional member groups (one per line)";
+
+$txt{'17'} = "Modify";
+$txt{'18'} = "$mbname - INDEX";
+$txt{'19'} = "Total registered members";
+$txt{'20'} = "Forum name";
+$txt{'21'} = "Posts";
+$txt{'22'} = "Last post";
+
+$txt{'23'} = "Unable to open";
+$txt{'24'} = "(No subject)";
+$txt{'25'} = "Post reply";
+$txt{'26'} = "Posts";
+$txt{'27'} = "View Profile";
+$txt{'28'} = "Guest";
+$txt{'29'} = "Author";
+$txt{'30'} = "Date posted";
+$txt{'31'} = "Remove";
+$txt{'32'} = "Messages in this topic";
+$txt{'33'} = "Start new thread";
+
+$txt{'34'} = "Login";
+$txt{'35'} = "Username";
+$txt{'36'} = "Password";
+$txt{'37'} = "You should fill in a username.";
+$txt{'38'} = "Password field is empty";
+$txt{'39'} = "Password incorrect";
+$txt{'40'} = "Username does not exist.";
+
+$txt{'41'} = "Manage Boards";
+$txt{'42'} = "Action";
+$txt{'43'} = "ID";
+$txt{'44'} = "Full name";
+$txt{'45'} = "Add board";
+$txt{'46'} = "Reorder Boards";
+$txt{'47'} = "Current boards";
+$txt{'48'} = "Removing board";
+$txt{'49'} = "Removing message";
+$txt{'50'} = "Removing board datafiles";
+$txt{'51'} = "Done.";
+$txt{'52'} = "Manage Categories";
+$txt{'53'} = "Current categories";
+$txt{'54'} = "Change order";
+$txt{'55'} = "Remove category";
+$txt{'56'} = "Create new category";
+$txt{'57'} = "Only access for membergroup";
+$txt{'58'} = "leave empty if none";
+$txt{'59'} = "Create";
+$txt{'60'} = "Removing category";
+$txt{'61'} = "Removing category datafiles";
+$txt{'62'} = "Board Moderator";
+$txt{'63'} = "Remove Topic";
+$txt{'64'} = "topics";
+$txt{'65'} = "Next";
+$txt{'66'} = "Modify message";
+$txt{'67'} = "You are not allowed to change this message";
+$txt{'68'} = "Name";
+$txt{'69'} = "E-Mail";
+$txt{'70'} = "Subject";
+$txt{'71'} = "Message icon";
+$txt{'72'} = "Message";
+$txt{'73'} = "Only Moderators can use the direct remove function, please remove this message through the modify feature.";
+$txt{'74'} = "This post has replies to it, you must first delete those...";
+
+$txt{'75'} = "The Name field was not filled out. It is required.";
+$txt{'76'} = "The E-Mail field was not filled out. It is required.";
+$txt{'77'} = "The Subject field was not filled out. It is required.";
+$txt{'78'} = "The Message Body was not filled out. It is required.";
+
+$txt{'79'} = "Change profile";
+$txt{'80'} = "You are not allowed to change this person's profile.";
+
+$txt{'81'} = "Choose password";
+$txt{'82'} = "Verify password";
+$txt{'83'} = "Website title";
+$txt{'84'} = "Website URL";
+$txt{'85'} = "Signature";
+$txt{'86'} = "Posts";
+$txt{'87'} = "Position";
+$txt{'88'} = "Change profile";
+$txt{'89'} = "Delete user";
+
+$txt{'90'} = "This topic is locked, you are not allow to post or modify messages...";
+$txt{'91'} = "Password field empty";
+$txt{'92'} = "View profile of";
+$txt{'93'} = "You are not to lock or unlock this topic; you must be a moderator or administrator to do that...";
+$txt{'94'} = "Total";
+$txt{'95'} = "messages in";
+$txt{'96'} = "Website";
+$txt{'97'} = "Register";
+$txt{'98'} = "Choose username";
+$txt{'99'} = "Username may only contain numbers and letters (example: yabber69)";
+$txt{'100'} = "The username you tried to register already exists.";
+
+$txt{'101'} = "Message Index";
+$txt{'102'} = "$mbname - NEWS";
+$txt{'103'} = "Home";
+
+$txt{'104'} = "Lock/Unlock Topic";
+$txt{'105'} = "Post";
+$txt{'106'} = "Error!";
+$txt{'107'} = "at";
+$txt{'108'} = "Logout";
+$txt{'109'} = "Started by";
+$txt{'110'} = "Replies";
+$txt{'111'} = "Last post";
+$txt{'112'} = "Keep current";
+$txt{'113'} = "";
+$txt{'114'} = "Administration Login";
+@days = ('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday');
+@months = ('January','February','March','April','May','June','July','August','September','October','November','December');
+$txt{'116'} = "Post\+reply"; # There should be a + instead of spaces
+$txt{'117'} = "Quote this post";
+$txt{'118'} = "Topic";
+$txt{'119'} = "Help";
+$txt{'120'} = "Remove topic older than number of days:";
+$txt{'121'} = "Remove message";
+$txt{'122'} = "days old";
+$txt{'123'} = "REMOVED";
+$txt{'124'} = "Remove all messages older than";
+$txt{'125'} = "Notify";
+$txt{'126'} = "Do you want a notification e-mail if someone replies to this topic\?";
+$txt{'127'} = "Topic reply";
+$txt{'128'} = "The reply";
+$txt{'129'} = "has been posted. View it at";
+$txt{'130'} = "Regards,\nThe $mbname team.";
+$txt{'131'} = "Notify of replies";
+$txt{'132'} = "Move Topic";
+$txt{'133'} = "Move to";
+$txt{'134'} = "You are not allowed to move threads...";
+$txt{'135'} = "Set censored words";
+$txt{'136'} = "One word per line in the form\: fuck=f\*\*ck";
+$txt{'137'} = "Admin functions";
+$txt{'138'} = "This service is only for members...";
+$txt{'139'} = "Pages";
+$txt{'140'} = "Users active in past 15 minutes";
+$txt{'141'} = "Guests";
+$txt{'142'} = "Users";
+$txt{'143'} = "IM Messages Index";
+$txt{'144'} = "Instant Message";
+$txt{'145'} = "Reply with quote";
+$txt{'146'} = "Reply";
+$txt{'147'} = "Instant Messaging is only for members";
+$txt{'148'} = "Send message";
+$txt{'149'} = "The user you tried to send a message to does not exist...";
+$txt{'150'} = "To username";
+
+$txt{'151'} = "No messages...";
+$txt{'152'} = "you have";
+$txt{'153'} = "messages";
+$txt{'154'} = "OK, remove this message";
+
+$txt{'155'} = "Maintenance Mode";
+$txt{'156'} = "Our Board is currently in maintenance-mode";
+$txt{'157'} = "Our Forums are currently in maintenance-mode. Please try again later. Thank you!";
+
+$txt{'158'} = "Users online";
+$txt{'159'} = "Private Message";
+$txt{'160'} = "Jump to";
+$txt{'161'} = "go";
+$txt{'162'} = "Are you sure you want to remove this topic\?";
+$txt{'163'} = "Yes";
+$txt{'164'} = "No";
+$txt{'165'} = "To post you must be logged in if you don't have an account yet register.";
+
+$txt{'166'} = "Search Results";
+$txt{'167'} = "End of results";
+$txt{'168'} = "Search Again";
+$txt{'169'} = "Display Next Page";
+$txt{'170'} = "Sorry, no matches were found";
+$txt{'171'} = "Displaying Results";
+$txt{'172'} = "to";
+$txt{'173'} = "Search Completed for Threads started by";
+$txt{'174'} = "matches were found";
+$txt{'175'} = "Started by";
+$txt{'176'} = "on";
+$txt{'177'} = "Search Completed for posts posted in by";
+$txt{'178'} = "Thread Title";
+$txt{'179'} = "Message Snippet";
+$txt{'180'} = "Searching for messages containing";
+$txt{'181'} = "Word found";
+$txt{'182'} = "Search";
+$txt{'183'} = "Set Search Parameters";
+$txt{'184'} = "Please choose <b>one</b> of the following";
+$txt{'185'} = "Refine Parameters";
+$txt{'186'} = "Search for threads started by someone";
+$txt{'187'} = "Search for threads posted in by someone";
+$txt{'188'} = "Search by Forum";
+$txt{'189'} = "Choose a forum to search in, or search all";
+$txt{'190'} = "All";
+$txt{'191'} = "Display how many results?";
+
+$txt{'192'} = "Email succesfully sent";
+$txt{'193'} = "Back";
+$txt{'194'} = "reminder";
+$txt{'195'} = "Message started by";
+$txt{'196'} = "Title";
+$txt{'197'} = "Post by";
+$txt{'198'} = "End of Posts";
+$txt{'199'} = "Post not found";
+$txt{'200'} = "List of registered Members and Top 10 Posters.";
+$txt{'201'} = "Welcome to our newest Member";
+$txt{'202'} = "Clean active log";
+$txt{'203'} = "Are you sure you want to clean the active log?";
+$txt{'204'} = "Your version of YaBB is";
+$txt{'205'} = "The current version of YaBB is";
+$txt{'206'} = "Edit Ban List";
+$txt{'207'} = "Set Reserved Names";
+$txt{'208'} = "YaBB Admin Center";
+$txt{'209'} = "I love YaBB 1 Gold!";
+$txt{'210'} = "ATTENTION! Your message couldn't be saved! Please try again!<br><br>Your Message:<br><br>";
+$txt{'211'} = "Last modification";
+$txt{'212'} = "Would you like to deactivate Notification on this topic\?";
+$txt{'213'} = "Passwords aren't the same!";
+
+$txt{'214'} = "Recent Posts";
+
+$txt{'215'} = "browser not compatible with these buttons";
+$txt{'216'} = "Modify Your YaBB Template";
+$txt{'217'} = "Layout/Board Settings";
+$txt{'218'} = "Boards/Categories";
+$txt{'219'} = "Members/Mailing";
+$txt{'220'} = "Variable";
+$txt{'221'} = "Messages/Actives";
+$txt{'222'} = "Modify Your YaBB Settings and Colors";
+$txt{'223'} = "Sorry, you must register before using this feature!";
+
+$txt{'224'} = "The username field does not accept / in the query string";
+$txt{'225'} = "The username field does not accept \\ in the query string";
+$txt{'226'} = "Optional Components";
+$txt{'227'} = "Location";
+$txt{'228'} = "Personal Text";
+$txt{'229'} = "Personalized Picture";
+$txt{'230'} = "Can't open directory";
+$txt{'231'} = "Gender";
+$txt{'232'} = "Picture/Text";
+$txt{'233'} = "Date Registered";
+
+$txt{'234'} = "View the 10 most recent posts on the board.";
+$txt{'235'} = "is one of the most recently updated topics";
+$txt{'236'} = "Return";
+$txt{'237'} = "to the board index.";
+
+$txt{'238'} = "Male";
+$txt{'239'} = "Female";
+
+$txt{'240'} = "Invalid character used in Username.";
+$txt{'241'} = "Invalid character used in Password.";
+$txt{'242'} = "Invalid character used in Name.";
+$txt{'243'} = "Invalid character used in eMail.";
+
+$txt{'244'} = "The username you tried to register contains a reserved name! Please try another username. Reserved name: ";
+$txt{'245'} = "Registration successfull";
+
+$txt{'246'} = "About to remove thread";
+
+$txt{'247'} = "Hey,";
+$txt{'248'} = "Welcome,";
+$txt{'249'} = "Please Login or Register.";
+$txt{'250'} = "Back";
+$txt{'251'} = "Please select a destination";
+
+$txt{'252'} = "Add YABBC tags";
+$txt{'253'} = "Bold";
+$txt{'254'} = "Italicized";
+$txt{'255'} = "Underline";
+$txt{'256'} = "Centered";
+$txt{'257'} = "Insert Hyperlink";
+$txt{'258'} = "Insert Email";
+$txt{'259'} = "Insert Code";
+$txt{'260'} = "Insert Quote";
+$txt{'261'} = "Insert List";
+
+$txt{'262'} = "Black";
+$txt{'263'} = "Red";
+$txt{'264'} = "Yellow";
+$txt{'265'} = "Pink";
+$txt{'266'} = "Green";
+$txt{'267'} = "Orange";
+$txt{'268'} = "Purple";
+$txt{'269'} = "Blue";
+$txt{'270'} = "Beige";
+$txt{'271'} = "Brown";
+$txt{'272'} = "Teal";
+$txt{'273'} = "Navy";
+$txt{'274'} = "Maroon";
+$txt{'275'} = "Lime Green";
+
+$txt{'276'} = "Disable Smilies";
+$txt{'277'} = "Check this if you'll be adding code (or don't like smileys).";
+$txt{'278'} = "Reset Form";
+$txt{'279'} = "Posted by";
+$txt{'280'} = "Posted on";
+
+$txt{'281'} = "Standard";
+$txt{'282'} = "Thumb Up";
+$txt{'283'} = "Thumb Down";
+$txt{'284'} = "Exclamation point";
+$txt{'285'} = "Question mark";
+$txt{'286'} = "Lamp";
+$txt{'287'} = "Smiley";
+$txt{'288'} = "Angry";
+$txt{'289'} = "Cheesy";
+$txt{'290'} = "Laugh";
+$txt{'291'} = "Sad";
+$txt{'292'} = "Wink";
+$txt{'293'} = "Grin";
+$txt{'294'} = "Shocked";
+$txt{'295'} = "Cool";
+$txt{'296'} = "Huh";
+$txt{'297'} = "Add Smileys";
+
+$txt{'298'} = "Moderator";
+$txt{'299'} = "Moderators";
+
+$txt{'300'} = "Mark Topics as Read for this Board";
+$txt{'301'} = "Views";
+$txt{'302'} = "New";
+
+$txt{'303'} = "View All Users";
+$txt{'304'} = "View By Letter";
+$txt{'305'} = "View";
+$txt{'306'} = "Posters";
+$txt{'307'} = "eMail";
+
+$txt{'308'} = "Viewing Members";
+$txt{'309'} = "of";
+$txt{'310'} = "total members";
+$txt{'311'} = "to";
+$txt{'312'} = "Viewing Members By Letter";
+$txt{'313'} = "Viewing The";
+$txt{'314'} = "Top Posters";
+$txt{'315'} = "Forgot password?";
+
+$txt{'316'} = "Inbox";
+$txt{'317'} = "Date";
+$txt{'318'} = "From";
+$txt{'319'} = "Subject";
+$txt{'320'} = "Outbox";
+$txt{'321'} = "New Message";
+$txt{'322'} = "Receive New Messages";
+$txt{'323'} = "Preferences";
+$txt{'324'} = "To";
+$txt{'325'} = "Ignorelist";
+$txt{'326'} = "Add one Username on each line!";
+$txt{'327'} = "Notify by eMail";
+$txt{'328'} = "Save Preferences";
+$txt{'329'} = "Reset Form";
+
+$txt{'330'} = "Topics";
+$txt{'331'} = "Members";
+$txt{'332'} = "Members List";
+$txt{'333'} = "New Posts";
+$txt{'334'} = "No New Posts";
+
+$txt{'335'} = "Please enter your name";
+$txt{'336'} = "Please enter your email-adress";
+
+$txt{'337'} = "This field only accepts numbers from 0-9";
+
+$txt{'338'} = "Send mail to all members";
+$txt{'339'} = "Send";
+$txt{'340'} = "Edit Ban List";
+$txt{'341'} = "Set Reserved Names";
+$txt{'342'} = "One word per line.";
+$txt{'343'} = "Match whole word only";
+$txt{'344'} = "Match exact case";
+$txt{'345'} = "Match Username";
+$txt{'346'} = "Match Name";
+
+$txt{'347'} = "Note: Be very careful with these settings, as they may render your YaBB dysfunctional.";
+$txt{'348'} = "Maintenance Mode?";
+$txt{'349'} = "Your Language pack name:";
+$txt{'350'} = "Message Board Name";
+$txt{'351'} = "Board URL";
+$txt{'352'} = "Cookie Name - Username";
+$txt{'353'} = "Cookie Name - Password";
+$txt{'354'} = "Location of Sendmail Program";
+$txt{'355'} = "Webmaster Email Address";
+$txt{'356'} = "YaBB Directory";
+$txt{'357'} = "Data Directory";
+$txt{'358'} = "Members Directory";
+$txt{'359'} = "Boards Directory";
+$txt{'360'} = "Sources Directory";
+$txt{'361'} = "Variables Directory";
+$txt{'362'} = "Avatars Directory";
+$txt{'363'} = "Images Directory";
+$txt{'364'} = "Help File";
+$txt{'365'} = "Title BG Color";
+$txt{'366'} = "Title Text Color";
+$txt{'367'} = "Window BG Color";
+$txt{'368'} = "Window BG Color #2";
+$txt{'369'} = "Category BG Color";
+$txt{'370'} = "Table Border Color";
+$txt{'371'} = "Time Offset";
+$txt{'372'} = "# of Top Posters";
+$txt{'373'} = "Members Per Page in Member List-All";
+$txt{'374'} = "Maximum Topics to Display";
+$txt{'375'} = "Maximum Messages to Display";
+$txt{'376'} = "Remove entries from user logs after _ days";
+$txt{'377'} = "Insert Original Message in Replies?";
+$txt{'378'} = "Enable Bulletin Board Code?";
+$txt{'379'} = "Enable Normal News?";
+$txt{'380'} = "Enable Guest Posting?";
+$txt{'381'} = "Allow Email Notification?";
+$txt{'382'} = "Show Latest Member on Board Index?";
+$txt{'383'} = "Show Modification Date on Modified Posts?";
+$txt{'384'} = "Show User Pics in Message View?";
+$txt{'385'} = "Show User Text in Message View?";
+$txt{'386'} = "Show Gender Image in Message View?";
+$txt{'387'} = "Show News Fader on Board Index?";
+$txt{'388'} = "News Fader Title Color";
+$txt{'389'} = "News Fader News Color";
+$txt{'390'} = "Path to News Fader file (fader.js)";
+$txt{'391'} = "Use File-Locking?";
+$txt{'392'} = "Lock EX";
+$txt{'393'} = "Lock UN";
+
+$txt{'394'} = "Mailprogram error.";
+$txt{'395'} = "Send email to";
+$txt{'396'} = "to ask for password";
+
+$txt{'397'} = "The catsearch field does not accept / in the query string";
+$txt{'398'} = "Sorry, no matches were found";
+
+$txt{'399'} = "The board field does not accept / in the query string";
+$txt{'400'} = "The board field does not accept \\ in the query string";
+
+$txt{'401'} = "no File-Locking";
+$txt{'402'} = "Unix/Linux File-Locking";
+$txt{'403'} = "Windows File-Locking";
+
+$txt{'404'} = "Send Mails using";
+$txt{'405'} = "sendmail";
+$txt{'406'} = "SMTP";
+
+$txt{'407'} = "SMTP-Server";
+
+$txt{'408'} = "Minimum time between two postings from the same IP";
+$txt{'409'} = "The last posting from your IP was less than";
+$txt{'410'} = "seconds ago! Please try again later!";
+
+$txt{'411'} = "Top";
+
+$txt{'412'} = "Delete all messages in your";
+$txt{'413'} = "Are you sure you want to delete all messages?";
+
+$txt{'414'} = "There are no threads with Notification!";
+$txt{'415'} = "You are notified on replies in the following Threads";
+$txt{'416'} = "Activate checkboxes to <b><i>deactivate</i></b> Notification on Thread!";
+$txt{'417'} = "Update Notifications";
+$txt{'418'} = "Notification";
+$txt{'419'} = "Show all Threads with Notification";
+
+$txt{'420'} = "Age";
+$txt{'421'} = "Use the <b>01/01/01 at 01:01:01<\/b> date\/time format.";
+$txt{'422'} = "(no pic)";
+$txt{'423'} = "Avatars URL";
+$txt{'424'} = "YaBB Admin Options";
+$txt{'425'} = "Your Version/Current Version";
+$txt{'426'} = "Member Functions";
+$txt{'427'} = "Forum Functions";
+$txt{'428'} = "Forum Set-Up";
+$txt{'429'} = "Detailed Version Check";
+$txt{'430'} = "is banned from using this forum";
+$txt{'431'} = "Success! You are now a member of the Forum.";
+$txt{'432'} = "Default Length for login cookies to last (in minutes & > 5)";
+
+$txt{'433'} = "Insert Flash";
+$txt{'434'} = "Insert Ftp Link";
+$txt{'435'} = "Insert Image";
+$txt{'436'} = "Insert Table";
+$txt{'437'} = "Insert Table Column";
+$txt{'438'} = "There are no threads with Notification!";
+$txt{'439'} = "Marquee";
+$txt{'440'} = "Teletype";
+$txt{'441'} = "Strikethrough";
+$txt{'442'} = "Glow";
+$txt{'443'} = "Shadow";
+$txt{'444'} = "Preformatted Text";
+$txt{'445'} = "Left Align";
+$txt{'446'} = "Right Align";
+$txt{'447'} = "Superscript";
+$txt{'448'} = "Subscript";
+$txt{'449'} = "Insert Table Row";
+
+$txt{'450'} = "Roll Eyes";
+$txt{'451'} = "Tongue";
+
+$txt{'452'} = "Mark ALL messages as read";
+
+$txt{'453'} = "The user whose profile you are trying to view does not exist!";
+
+$txt{'454'} = "Hot Topic (More than 15 Replies)";
+$txt{'455'} = "Very Hot Topic (More than 25 Replies)";
+$txt{'456'} = "Locked Thread";
+$txt{'457'} = "Normal Thread";
+
+$txt{'458'} = "Latests posts of: ";
+$txt{'459'} = "Additional Information";
+$txt{'460'} = "Show the last";
+$txt{'461'} = "posts of this person";
+$txt{'462'} = "GO!";
+
+$txt{'463'} = "All times are CST.  All dates are in MM-DD-YY format.";
+$txt{'464'} = "Start+new+thread"; # + instead of spaces!
+$txt{'465'} = "Print";
+$txt{'466'} = "Message";
+$txt{'467'} = "Profile";
+$txt{'468'} = "Topic Summary";
+$txt{'469'} = "Message";
+$txt{'470'} = "N/A";
+$txt{'471'} = "message";
+$txt{'472'} = "This topic doesn't exist on this board.";
+
+$txt{'473'} = "This name is already in use by another member.";
+
+$txt{'474'} = "Select one or specify a web path (ex: <b>http://www.mypage.com/mypic.gif</b>) to your own image.";
+$txt{'475'} = "I have my own pic:";
+$txt{'476'} = "Userpic Width (0 = disable limit)";
+$txt{'477'} = "Userpic Height (0 = disable limit)";
+$txt{'478'} = "Text To Describe The Limits";
+
+$txt{'479'} = "Please choose your Timeformat-Settings";
+$txt{'480'} = "01/31/01 $txt{'107'} 13:15:17";
+$txt{'481'} = "31.01.01 $txt{'107'} 13:15:17";
+$txt{'482'} = "31.01.2001 $txt{'107'} 13:15:17";
+$txt{'483'} = "January 12th, 2001 $txt{'107'} 1:15:17pm";
+$txt{'484'} = "01/31/01 $txt{'107'} 1:15pm";
+$txt{'485'} = "31. January $txt{'107'} 13:15";
+$txt{'486'} = "Time Format";
+$txt{'487'} = "Time Offset must be between -23.5 and 23.5!";
+
+$txt{'488'} = "Total Members:";
+$txt{'489'} = "Total Messages:";
+$txt{'490'} = "Total Topics:";
+$txt{'491'} = "P.S. Your username is";
+$txt{'492'} = "and your password is";
+$txt{'493'} = "YaBB Current Version";
+$txt{'494'} = "Users Version";
+$txt{'495'} = "YaBB File";
+$txt{'496'} = "YaBB Package";
+
+$txt{'497'} = "Minutes to stay<BR>logged in this session";
+$txt{'498'} = "Maximum Allowed Characters in a Posts (required <= 5000)";
+$txt{'499'} = "Your message is too long. Please go back and shorten it, then resubmit.";
+
+$txt{'500'} = "Please enter a valid email address.";
+
+$txt{'501'} = "Y1G Upgrade";
+$txt{'502'} = "Recount All Board Totals";
+$txt{'503'} = "All Board Totals have been recounted.";
+$txt{'504'} = "Recount Membership";
+$txt{'505'} = "Membership Total has been recounted.";
+$txt{'506'} = "URL to UBBC JavaScript file";
+$txt{'507'} = "Preview";
+$txt{'508'} = "Remember me";
+
+$txt{'509'} = "Show Recent Posts Bar on BoardIndex?";
+$txt{'510'} = "Show Members List Bar on BoardIndex?";
+
+$txt{'511'} = "Logged";
+$txt{'512'} = "IP";
+
+$txt{'513'} = "ICQ";
+$txt{'514'} = "Pager";
+$txt{'515'} = "WWW";
+
+$txt{'516'} = "read quoted post";
+
+$txt{'517'} = "(* denotes required field)";
+$txt{'518'} = "This is the displayed name.";
+$txt{'519'} = "Number hours to +/- to make displayed time in your local time.";
+$txt{'520'} = "Used only for identification by YaBB.";
+
+$txt{'600'} = "Search by keyword(s)";
+$txt{'601'} = "Please enter a search phrase.";
+
+$yycopyright = "<a href=\"http://www.yabb.org\">YaBB Board © 2000-2001. All Rights Reserved.<\/a><BR><a href=\"http://www.yabb.org/entireteam.html\">YaBB Programming Team<\/a>";
+
+1;

@@ -1,0 +1,68 @@
+#!/bin/sh
+# Adds a user to the userlist.db
+
+echo
+echo "The format of the user@host is *userid@*.host.isp, examples:"
+echo
+echo "  *jason@*.superlink.net      <-- dyanmic ip"
+echo "  *mtr@darkmind.eclipse.net   <-- static host"
+echo "  *darkmind@204.127.145.*     <-- unresolved host"
+echo
+while [ -z "$NICK" ]
+do
+	echo -n "Enter the *user@host of the user you'd like to add: "
+	read NICK
+	if [ -z "$NICK" ]; then
+		echo "You MUST specify a user@host!"
+		sleep 1
+		echo
+	fi
+done
+while [ -z "$LEVEL" ]
+do
+	echo
+	echo "What level should $NICK be added at? "
+	echo
+	echo "   1) Helper access. Add/delete topics."
+	echo "   2) Channel access, OP/DEOP's."
+	echo "   3) Bot master. Rehash, DIE commands."
+	echo
+	echo -n "Select a number: "
+	read LEVEL
+	case $LEVEL in
+		1)
+			LEVEL=1
+			;;
+		2)
+			LEVEL=2
+			;;
+		3)
+			LEVEL=3
+			;;
+		*)
+			echo "\"$LEVEL\" is not a valid selection."
+			sleep 1
+
+			;;
+	esac
+done
+
+echo
+while [ -z "$PPASS" ]
+do
+        echo -n "Enter a password for $NICK: "
+        read PPASS
+        if [ -z "$PPASS" ]; then
+                echo "You MUST specify a pass!"
+                sleep 1
+                echo
+        fi
+done
+
+
+echo "Adding user: $NICK at level $LEVEL."
+echo "#* $NICK $LEVEL 0 $PPASS I need to use SETINFO" >> dat/userlist.db
+echo
+echo "You can add and delete users on-line with the"
+echo "ADDUSER and DELUSER commands."
+sleep 3

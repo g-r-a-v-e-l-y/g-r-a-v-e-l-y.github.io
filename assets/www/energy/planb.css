@@ -1,0 +1,30 @@
+P, H1, H2, PRE, strong, small, .poster, .news_subject, .date, I, form, li, ul
+{ font-size: 11px; font-family: Verdana, Arial, Helvetica, Geneva, Swiss, SunSans-Regular, sans-serif; color: #606060; background: white; line-height: 18px}
+
+PRE
+{font-family:  "Lucida Console", "Letter Gothic MT", "Courier New", Courier, monospace; }
+H1, H2
+{ color: #000000 }
+
+B
+{ Font-weight: normal; color: #000000 }
+
+.textnav
+{ text-align: right }
+
+.news_subject { font-weight: bold; color: #666666 }
+
+.poster, .date
+{ color: #888888 }
+
+I
+{ font-style: normal }
+
+BODY	   
+{ margin: 0; scrollbar-face-color: #ffffff; scrollbar-shadow-color: #bbbbbb; scrollbar-highlight-color: #bbbbbb; scrollbar-3dlight-color: #ffffff; scrollbar-darkshadow-color: #ffffff; scrollbar-track-color: #ffffff; scrollbar-arrow-color: #ffffff ; background-color : white;}
+
+TD
+{ font-size: 11px; font-family: Verdana, Arial, Helvetica, Geneva, Swiss, SunSans-Regular, sans-serif; line-height: 18px }
+
+P
+{ text-indent: 5px; }

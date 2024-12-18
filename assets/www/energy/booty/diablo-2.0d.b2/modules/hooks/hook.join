@@ -1,0 +1,26 @@
+# join hook
+
+add_command_hook("join","join");
+
+sub hook_join {
+	$text = $_[0];
+
+	if($text =~ /^join[ ]?([^ :]*)[ ]?(.*)$/) {
+		$chan = $1; $chanopt = $2;
+		if($ulevel{$unick} >= $clevel{join} && $nnick eq $unick) {
+			if($chan ne "") {
+			    	sockwrite($sock,"PRIVMSG $uchan :Joining channel \2$chan\2.");
+			     	sockwrite($sock,"JOIN $chan $chanopt");
+			}
+			else {
+				syntax("join");
+			}
+		        return 1;
+		}
+		else {
+			return -1;
+		}
+	}
+
+	return 0;
+}

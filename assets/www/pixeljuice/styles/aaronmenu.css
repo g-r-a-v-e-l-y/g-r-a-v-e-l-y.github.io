@@ -1,0 +1,60 @@
+
+#ob-logo {
+	position:absolute;
+	left:15px;
+	top:12px;
+}
+
+.menubar {
+	position:absolute;
+	left:0px;
+	top:50px;
+	width="100%";
+    border-top: 1px solid #336699;
+    border-bottom: 1px solid #336699;
+}
+
+.menu {
+	line-height: 100%;
+}
+
+td.menu {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+input[type="text"].menu {
+    padding-top: 0.1em;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+}
+
+input[type="submit"].menu {
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+
+.search {
+	border:1px #336699 solid;
+	background-color: #ffffff;
+	font-size: 10px;
+}
+
+a.menu {
+}
+
+a:link.menu, a:visited.menu, a:active.menu { 
+	color:#000000;
+	TEXT-DECORATION:none;
+	border-right: 1px solid #ffffff;
+	border-left: 1px solid #ffffff;
+}
+a:hover.menu
+{
+	color:#000000;
+	TEXT-DECORATION:none;
+	border: 1px solid #ffffff;
+	border-left: 1px solid #336699; /*#990033;*/
+	border-right: 1px solid #336699; /*#990033;*/
+}
+

@@ -1,0 +1,57 @@
+Next to any voice communication program (such as i.e. "Roger Wilco"), binds are the single most important means of team communication during any Quake3Arena Team Death Match (TDM). 
+After our recent decisions and my personal motivation not to sleep, I have decided to make a complete list of all binds we will use in future TDM games.
+I want to make clear that I find it more than important that we not only use (no exceptions) an identical set of binds, but that also for better understanding, an identical coloring system.
+
+I have written out all binds in the correct form suited to copy and past into your cfg. The only thing you need to do before you actually c/p them, is enter the key you want to assign the specific bind too.
+
+/bind key say_team "^7<-----^3* ^4[^7Location^4] ^3*"
+/bind key say_team "^7<-----^3* ^4[^1E^7n^1e^7m^1y ^7spotted^4] ^3*"
+/bind key say_team "^3* ^4[^5Q^4u^5a^4d ^7soon^4] ^3*"
+/bind key say_team "^7<-----^3* ^4[^7Area is secure^4] ^3*"
+/bind key say_team "^7<-----^3* ^4[^7Health^4|^7armor available^4] ^3*" 
+/bind key say_team "^7<-----^3* ^4[^7Weapon available^4] ^3*"
+/bind key say_team "^7<-----^3* ^4[^7Need weapon^4|75ammo^4] ^3*"
+/bind key say_team "^7<-----^3* ^4[^7Need health^4|^7armor^4] ^3*
+/bind key say_team "^3* ^4[^7Cancel that^4] ^3*"
+/bind key say_team "^3* ^4[^7Affirmative^4] ^3*"
+/bind key say_team "^7<-----^3* ^4[^7On my way^4] ^3*"
+
+If you have any more binds you want to add, then please do use the color code ^7 for the arrows (<-----) and ^5 for the text surrounded by ^3*. I do not think - after careful consideration - that every different word should have it's own color code (i.e. health = green...). I personally find it more confusing and I have no doubt that the binds the way they are coded above will serve their full purpose and communicate their meanings without difficulties.   
+
+Additional binds you may often encounter in a game when playing with me are:
+
+/bind key say_team "^3* ^4[Q^5ua^4d ^5in^7 30^7 seconds^4] ^3*"
+/bind key say_team "^3* ^4[Q^5ua^4d ^5in^7 15^7 seconds^4] ^3*"
+/bind key say_team "^3* ^4[^7Regroup at...^4] ^3*"
+/bind key say_team "^3* ^4[^7RL^4] ^3*"
+/bind key say_team "^3* ^4[^7RA^4] ^3*"
+/bind key say_team "^3* ^4[^5Q^4UA^4D] ^3*"
+/bind key say_team "^7<-----^3* ^4[^7Regroup here^4] ^3*"
+/bind key say_team "^3* ^4[^5Go ^4acid^3*^7sun ^4! ^3! ^7!^4] ^3*" 
+/bind key say_team "^7<---^3* ^4[^7Hold position^4|^7Secure all entrances^4] ^3*"
+/bind key say_team "^3*^4[^5Control RL^4|^5YA^4] ^3*
+/bind key say_team "^3*^4[^5Control RA^4|^5Mega^4] ^3*
+
+Any of these binds are voluntary and up to your free will to implement into your game or not. 
+I recommend all of you to position these binds in groups that are logical to you on your keyboard.
+
+I do think everyone should get familiar with these binds as soon as possible. Feel free to use them in online public TDM servers to practice them.
+Of course Roger Wilco will still play a major role in our team communication, but these binds are more important than any voice communication program. The binds are the core. RW is for everything what can't be said with binds, which if you have these binds down, will not be very much ;)
+
+Have fun.
+
+Viva la acid*!
+
+
+
+
+
+
+
+
+
+
+
+
+
+

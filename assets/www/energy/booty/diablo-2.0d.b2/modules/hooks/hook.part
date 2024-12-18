@@ -1,0 +1,27 @@
+# part hook
+
+add_command_hook("part","part");
+
+sub hook_part {
+	$text = $_[0];
+	
+	if($text =~ /^part[ ]?([^ :]*)[ ]?(.*)$/) {
+		$chan = $1;
+		$temp = $2;
+		if($ulevel{$unick} >= $clevel{part} && $nnick eq $unick) {
+			if($chan eq "" && $query ne true) { $chan = $uchan; }
+			if($chan ne "" && $temp eq "") {
+				if($chan ne $uchan) {
+				     	sockwrite($sock,"PRIVMSG $uchan :Parting channel \2$chan\2.");
+				}
+			     	sockwrite($sock,"PART $chan :Part by \2$unick\2.");
+			}
+			else {
+				syntax("part");
+			}
+		        return 1;
+		} else { return -1; }
+	}
+
+	return 0;
+}

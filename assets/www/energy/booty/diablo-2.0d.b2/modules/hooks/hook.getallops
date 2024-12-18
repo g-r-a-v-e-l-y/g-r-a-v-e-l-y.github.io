@@ -1,0 +1,34 @@
+# getallops hook
+
+add_command_hook("getallops","getallops");
+
+sub hook_getallops {
+	$text = $_[0];
+
+	if($text =~ /^getallops[ ]?(.*)$/) {
+		$temp = $1;
+		if($ulevel{$unick} >= $clevel{getallops} && $nnick eq $unick) {
+			if($temp eq "") {
+			     	$i = 0;
+			     	nsident();
+			     	foreach $key (sort keys %channels) {
+			       		$i++;
+			       		sockwrite($sock,"PRIVMSG $chanserv :op $key $nick");
+			       		if($i == 3) {
+						sleep 1;
+						$i=0;
+			       		}
+			      	}
+			}
+			else {
+				syntax("getallops");
+			}
+		        return 1;
+		}
+		else {
+			return -1;
+		}
+	}
+
+	return 0;
+}

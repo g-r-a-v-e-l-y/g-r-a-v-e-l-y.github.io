@@ -1,0 +1,29 @@
+# getops hook
+
+add_command_hook("getops","getops");
+
+sub hook_getops {
+	$text = $_[0];
+
+	if($text =~ /^getops[ ]?([^ ]*)[ ]?(.*)$/) {
+		$chan = $1;
+		$temp = $2;
+		if($ulevel{$unick} >= $clevel{getops} && $nnick eq $unick) {
+			if($chan eq "" && $query ne true) { $chan = $uchan; }
+			if($chan eq "" && $temp ne "") {
+				sockwrite($sock,"PRIVMSG $unick :You must specify a channel in query.");
+			}
+			elsif($temp eq "" && $chan ne "") {
+		     		sockwrite($sock,"PRIVMSG $chanserv :op $chan $nick");
+			}
+			else {
+				syntax("getops");
+			}
+		        return 1;
+		} else {
+			return -1;
+		}
+	}
+	
+	return 0;
+}

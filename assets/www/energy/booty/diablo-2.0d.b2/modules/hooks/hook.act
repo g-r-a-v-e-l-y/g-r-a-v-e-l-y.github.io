@@ -1,0 +1,25 @@
+# act hook
+
+add_command_hook("act","act");
+
+sub hook_act {
+	$text = $_[0];
+
+	if($text =~ /^act[ ]?(.*)$/) {
+		$temp = $1;
+		if($ulevel{$unick} >= $clevel{act} && $nnick eq $unick) {
+			if($temp ne "") {
+			     	sockwrite($sock,"PRIVMSG $uchan :\x01ACTION $1\x01");
+			}
+			else {
+				syntax("act");
+			}
+		        return 1;
+		}
+		else {
+			return -1;
+		}
+	}
+
+	return 0;
+}
