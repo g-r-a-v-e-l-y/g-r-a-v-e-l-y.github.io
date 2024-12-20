@@ -6,7 +6,7 @@ eleventyNavigation:
   order: 3
 hasAsides: true
 disclaimer:
-  text: There is a lot of cringe in this old stuff. I wrote most of it in my 20s. When I happen to see any and have an editor open I delete entire paragraphs, entire posts, and so on. I've abridged the just over one thousand posts I have locally to this small collection, and then in some cases edited the posts themselves to tamp what's left down. If blogs are vanity efforts, and I'm not sure they aren't, surely, or probably, revision isn't against any rules?
+  text: There is a lot of cringe in this old stuff. I wrote most of it in my 20s.
 ---
 
 
