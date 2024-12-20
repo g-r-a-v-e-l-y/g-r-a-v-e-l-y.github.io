@@ -1,0 +1,4 @@
+<?
+  $stylesheet = 'styles/ala.css';
+
+?>

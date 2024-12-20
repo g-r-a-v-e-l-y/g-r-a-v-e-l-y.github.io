@@ -1,0 +1,66 @@
+#!/bin/sh
+# Downloads the latest darkbot
+OLDVER=`grep "Darkbot Revision" darkbot.c`
+cp -rf darkbot.c darkbot.c.old
+echo ""
+echo ""
+echo "Darkbot updater v2 (For v6.x darkbots only)"
+sleep 1
+echo
+echo
+echo "Checking http://darkbot.net for latest darkbot code..."
+echo
+lynx -source http://darkbot.net/darkbot.version > darkbot.version
+VER=`grep "Darkbot Revision" darkbot.version`
+if [ "$OLDVER" = "$VER" ]; then
+	echo "You are currently running the most current version of darkbot :)"
+	echo "$OLDVER"
+	echo ""
+	sleep 1
+	rm -rf darkbot.c.old
+else
+	echo "There is a new version of darkbot! Hit enter to"
+	echo "download $VER, or ctrl+c to quit."
+	read PTR
+	echo ""
+	lynx -source http://darkbot.net/darkbot.c.gz > darkbot.c
+	echo "Your old darkbot.c has been renamed to darkbot.c.old"
+	echo
+	while [ -z $QUITIT ]
+	do
+		echo
+		echo "Would you like to read about the latest changes?"
+		echo
+		echo "	1) Yes"
+		echo "	2) No, get me out of this stupid script."
+		echo
+		echo -n "Select one: "
+		read CHOICE
+		case $CHOICE in
+			1)
+				echo "Please hold while I download the WHATSNEW document."
+			        lynx -source http://darkbot.net/WHATSNEW > WHATSNEW
+				less WHATSNEW
+				QUITIT=yes
+				;;
+			2)
+				QUITIT=yes
+				;;
+			*)
+				QUITIT=yes
+				;;
+		esac
+	done
+
+fi
+echo
+echo
+echo "If you ever get an error with this script, just re-run get-latest script."
+echo "Errors are due to the script updating itself. changes such as downloading"
+echo "new file additions (ie; lang.h) adds more lines to the script causing it"
+echo "to get a little wacky. This is normal."
+echo
+echo "Updating get-latest script.. please hold"
+lynx -source http://darkbot.net/get-latest.gz > get-latest &
+lynx -source http://darkbot.net/download_databases.gz > download_databases &
+echo "Done!"

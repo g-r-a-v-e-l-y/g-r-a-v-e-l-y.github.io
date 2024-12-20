@@ -1,0 +1,66 @@
+# listmasks hook
+
+add_command_hook("listmasks","listmasks");
+
+sub hook_listmasks {
+	$text = $_[0];
+
+	if($text =~ /^listmasks$/) {
+	     	$user = $unick;
+	     	my(@hosts) = split(' ',$uhosts{$user});
+	     	$i=0; $data="PRIVMSG $uchan :Hostmasks for $unick: ";
+	     	foreach $fhost (@hosts) {
+	       		$fhost =~ s/\.\*/\*/g;
+	       		$fhost =~ s/\.\?/\?/g;
+	       		$fhost =~ s/ /,/g;
+	       		$data .= $fhost;
+	       		if ($i==4) { $i=0; sockwrite($sock,"$data"); $data="PRIVMSG $uchan :"; }
+	       		else { $data.=", "; }
+	      	}
+	     	if (length($data)>16) { chop($data); chop($data); sockwrite($sock,"$data"); }
+	        return 1;
+	}
+
+	elsif($text =~ /^listmasks (.*)$/) {
+	        $user = $1;
+		if($ulevel{$unick} >= $clevel{listmasks} && $nnick eq $unick) {
+		        my(@hosts) = split(' ',$uhosts{$user});
+                        $levvy = "";
+                        if ($ulevel{lc($user)} >= "5")
+                        { $levvy = " \(\2Owner\2\)"; }
+                        elsif ($ulevel{lc($user)} == "4")
+                        { $levvy = " \(\2Admin\2\)"; }
+                        elsif ($ulevel{lc($user)} == "3")
+                        { $levvy = " \(\2Sop\2\)"; }
+                        elsif ($ulevel{lc($user)} == "2")
+                        { $levvy = " \(\2Aop\2\)"; }
+		        $i=0; $data="PRIVMSG $uchan :Hostmasks for $user$levvy: ";
+		        $none="true";
+		        foreach $fhost (@hosts) {
+		                $fhost =~ s/\.\*/\*/g;
+		                $fhost =~ s/\.\?/\?/g;
+		                $fhost =~ s/ /,/g;
+		                $data .= $fhost;
+			                if ($i==4) { 
+		                        $i=0;
+		                        sockwrite($sock,"$data"); $data="PRIVMSG $uchan :";
+		                }
+		                else {
+		                        $data.=", ";
+		                        $i++;
+		                }
+		                $none = "false";
+	        	}
+	        	if ($none eq "true") {
+	        	        sockwrite($sock,"PRIVMSG $uchan :Hostmasks for $user: none.");
+	        	}
+	        	elsif (length($data)>16) {
+	        	        chop($data); chop($data);
+	        	        sockwrite($sock,"$data");
+	        	}
+	        	return 1;
+		} else { return -1; }
+	}
+
+	return 0;
+}

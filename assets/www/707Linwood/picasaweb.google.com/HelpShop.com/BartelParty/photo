@@ -1,0 +1,369 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Picasa Web Albums - HelpShop.com - Bartel Party</title>
+<link ref="SHORTCUT ICON" href="http://picasa.google.com/assets/picasa.ico" />
+<base href="http://picasaweb.google.com/s/v/26.34/" />
+<script type="text/javascript">
+var _profile_start = new Date().getTime();
+var _profile_report = new Image();
+function _profile() {
+var now = new Date().getTime();
+var pagetime = now - _profile_load;
+var loadtime = now - _profile_start;
+var output = document.getElementById("hdf_profile");
+if (output) output.innerHTML = "page read in " + pagetime + "ms<br />" +
+"body.onload called after " + loadtime + "ms<br />";
+_profile_report.src = "/lh/profile?uname=HelpShop.com&plt=" +
+loadtime + "&evid=1200410281274000_174253842_980556313";
+}
+</script>
+<script type="text/javascript">//<!--
+var _LH = {
+  locale: "en_US",
+  calDay: 0
+};
+
+var _authuser = {name:""};
+var _user = {name:"HelpShop.com",nickname:"HelpShop.com",portrait:"http:\x2F\x2Flh5.google.com\x2FHelpShop.com\x2FAAAAJjubSH0\x2FAAAAAAAAA-I\x2FIJ8G4thxac0\x2Fs48-c\x2FHelpShop.com",link:"http:\x2F\x2Fpicasaweb.google.com\x2FHelpShop.com"};
+var _album = {id:"5014884378175554449",link:"http:\x2F\x2Fpicasaweb.google.com\x2FHelpShop.com\x2FBartelParty",name:"BartelParty",title:"Bartel Party",titleshort:"Bartel Party"
+,kmlLink: "http:\x2F\x2Fpicasaweb.google.com\x2Fdata\x2Ffeed\x2Fbase\x2Fuser\x2FHelpShop.com\x2Falbumid\x2F5014884378175554449?kind=photo\x26alt=kml\x26hl=en_US",uploadlink:"http:\x2F\x2Fpicasaweb.google.com\x2Flh\x2FwebUpload?uname=HelpShop.com\x26aid=5014884378175554449",thumb:"http:\x2F\x2Flh4.google.com\x2FHelpShop.com\x2FRZhyxZ7PQ5E\x2FAAAAAAAAADk\x2FNf5NQxW24QA\x2FBartelParty.jpg",largepreview:"http:\x2F\x2Flh4.google.com\x2FHelpShop.com\x2FRZhyxZ7PQ5E\x2FAAAAAAAAADk\x2FNf5NQxW24QA\x2Fs160-c\x2FBartelParty.jpg"};
+
+var _copyOrMovePath = "\x2Flh\x2FcopyMovePhotos?tok=";
+var _createAlbumPath = "\x2Flh\x2FcreateAlbum?tok=";
+var _selectedPhotosPath = "\x2Flh\x2FselectedPhotos?tok=";
+var _loginUrl = "https:\x2F\x2Fwww.google.com\x2Faccounts\x2FServiceLogin?hl=en_US\x26continue=\x26passive=true";
+var _signUpUrl = "https:\x2F\x2Fwww.google.com\x2Faccounts\x2FNewAccount?hl=en_US\x26amp\x3Bcontinue=http%3A%2F%2Fpicasaweb.google.com%2F\x26amp\x3Bpassive=true\x26amp\x3Bservice=lh2";
+var _activateUrl = "https:\x2F\x2Fwww.google.com\x2Faccounts\x2FNewAccount?hl=en_US\x26amp\x3Bcontinue=http%3A%2F%2Fpicasaweb.google.com%2Flh%2Flogin%3Fcontinue%3Dhttp%253A%252F%252Fpicasaweb.google.com%252FHelpShop.com%252FBartelParty%252Fphoto\x26amp\x3Bpassive=true\x26amp\x3Bservice=lh2";
+var _updatePhotoPath = "\x2Flh\x2FupdatePhoto?tok=";
+var _addCommentPath = "\x2Flh\x2FaddComment?tok=";
+var _reorderPath = "";
+var _selectedCommentsPath = "\x2Flh\x2FselectedComments?tok=";
+
+
+var _setPrefUrl = "\x2Flh\x2FsetPref?tok=";
+
+
+
+var _updateCartPath = "\x2Flh\x2FupdateCart";
+
+var _geocodePath = "\x2Flh\x2Fgeocode?tok=";
+var _batchUpdateGeoPath = "\x2Flh\x2FbatchUpdateGeo?tok=";
+
+
+var _features = {
+    tags:1,
+    search:1,
+    globalsearch:1,
+    globalsearchpromo:1,
+    newfeatureslink:1,
+    cart:1,
+    contentcaching:1,
+    displaylanguage:1,
+    developerlink:1,
+    payments:1,
+    contacts:1,
+    geotagging:1,
+    showgeo:1,
+    newStrings:1,
+    onebar:1,
+    cccquota:1,
+    signups:1,
+    i18nTest:1,
+    flashSlideshow:1,
+    photopickeralbumview:1,
+    autoupdatealbums:1,
+    imagesearch:1};
+
+var _thumbSize = 144;
+
+var dialog_;
+function LH_createDialog() {
+  dialog_ = new LH_Dialog(DIALOG_CREATE);
+}
+function LH_uploadDialog() {
+  
+    dialog_ = new LH_Dialog(DIALOG_UPLOAD_FIRST);
+  
+}
+function LH_editDialog() {
+  dialog_ = new LH_Dialog(DIALOG_EDIT);
+}
+function LH_copyDialog(iids) {
+  dialog_ = new LH_Dialog(DIALOG_COPY, iids,
+    function() { _d('restoreVideo'); });
+}
+function LH_moveDialog(iids) {
+  dialog_ = new LH_Dialog(DIALOG_MOVE, iids,
+    function() { _d('restoreVideo'); });
+}
+
+
+var _photo = [
+{id:"5014884923636401058",v:"23",w:3264,h:2448,s:"http:\x2F\x2Flh4.google.com\x2FHelpShop.com\x2FRZhzRJ7PQ6I\x2FAAAAAAAAABc\x2FoudjV2C6IeU\x2FIMG_0054.JPG",t:"IMG_0054.JPG",dl:0},
+{id:"5014885606536201138",v:"25",w:3264,h:2448,s:"http:\x2F\x2Flh3.google.com\x2FHelpShop.com\x2FRZhz457PQ7I\x2FAAAAAAAAABk\x2FHVGBY_jmX_A\x2FIMG_0055.JPG",t:"IMG_0055.JPG",dl:0},
+{id:"5014886280846066626",v:"27",w:3264,h:2448,s:"http:\x2F\x2Flh4.google.com\x2FHelpShop.com\x2FRZh0gJ7PQ8I\x2FAAAAAAAAABs\x2FHyq9v9aVUzc\x2FIMG_0056.JPG",t:"IMG_0056.JPG",dl:0},
+{id:"5014886641623319506",v:"29",w:3264,h:2448,s:"http:\x2F\x2Flh4.google.com\x2FHelpShop.com\x2FRZh01J7PQ9I\x2FAAAAAAAAAB0\x2F359u1Qq6Oyc\x2FIMG_0057.JPG",t:"IMG_0057.JPG",dl:0},
+{id:"5014886998105605090",v:"31",w:3264,h:2448,s:"http:\x2F\x2Flh3.google.com\x2FHelpShop.com\x2FRZh1J57PQ-I\x2FAAAAAAAAAB8\x2F5e-6VhjYjJ0\x2FIMG_0058.JPG",t:"IMG_0058.JPG",dl:0},
+{id:"5014887221443904498",v:"33",w:2574,h:1808,s:"http:\x2F\x2Flh3.google.com\x2FHelpShop.com\x2FRZh1W57PQ_I\x2FAAAAAAAAACE\x2F5yCsOlytOAo\x2FIMG_0059.JPG",t:"IMG_0059.JPG",dl:0},
+{id:"5014887861394031618",v:"35",w:3264,h:2448,s:"http:\x2F\x2Flh4.google.com\x2FHelpShop.com\x2FRZh18J7PRAI\x2FAAAAAAAAACM\x2F6Rlm9l9vMOw\x2FIMG_0060.JPG",t:"IMG_0060.JPG",dl:0},
+{id:"5014888402559910930",v:"37",w:3264,h:2448,s:"http:\x2F\x2Flh6.google.com\x2FHelpShop.com\x2FRZh2bp7PRBI\x2FAAAAAAAAACU\x2FLqMs3Acz5Rk\x2FIMG_0061.JPG",t:"IMG_0061.JPG",dl:0},
+{id:"5014888969495594018",v:"39",w:3264,h:2448,s:"http:\x2F\x2Flh6.google.com\x2FHelpShop.com\x2FRZh28p7PRCI\x2FAAAAAAAAACc\x2Fi_Z7d_Be0wI\x2FIMG_0062.JPG",t:"IMG_0062.JPG",dl:0},
+{id:"5014889184243958834",v:"41",w:3264,h:2448,s:"http:\x2F\x2Flh4.google.com\x2FHelpShop.com\x2FRZh3JJ7PRDI\x2FAAAAAAAAACk\x2FAEcFR4ra8QA\x2FIMG_0063.JPG",t:"IMG_0063.JPG",dl:0},
+{id:"5014889386107421762",v:"43",w:3198,h:1894,s:"http:\x2F\x2Flh3.google.com\x2FHelpShop.com\x2FRZh3U57PREI\x2FAAAAAAAAACs\x2Ft_eBXfjMjT4\x2FIMG_0065.JPG",t:"IMG_0065.JPG",dl:0},
+{id:"5014889983107875922",v:"45",w:3264,h:2448,s:"http:\x2F\x2Flh6.google.com\x2FHelpShop.com\x2FRZh33p7PRFI\x2FAAAAAAAAAC0\x2F1u_GMF2x8rE\x2FIMG_0066.JPG",t:"IMG_0066.JPG",dl:0},
+{id:"5014890129136764002",v:"47",w:2495,h:1897,s:"http:\x2F\x2Flh4.google.com\x2FHelpShop.com\x2FRZh4AJ7PRGI\x2FAAAAAAAAAC8\x2F28bnI79i-dA\x2FIMG_0067.JPG",t:"IMG_0067.JPG",dl:0},
+{id:"5014890356770030706",v:"49",w:3264,h:2448,s:"http:\x2F\x2Flh5.google.com\x2FHelpShop.com\x2FRZh4NZ7PRHI\x2FAAAAAAAAADE\x2FqMH_eprFopg\x2FIMG_0068.JPG",t:"IMG_0068.JPG",dl:0},
+{id:"5014890846396302466",v:"51",w:3264,h:2448,s:"http:\x2F\x2Flh3.google.com\x2FHelpShop.com\x2FRZh4p57PRII\x2FAAAAAAAAADM\x2Ftizb8YCb1SQ\x2FIMG_0069.JPG",t:"IMG_0069.JPG",dl:0},
+{id:"5014891022489961618",v:"53",w:2071,h:1716,s:"http:\x2F\x2Flh4.google.com\x2FHelpShop.com\x2FRZh40J7PRJI\x2FAAAAAAAAADU\x2FjbU60Ub3f9g\x2FIMG_0070.JPG",t:"IMG_0070.JPG",dl:0},
+{id:"5014891267303097506",v:"55",w:2705,h:1619,s:"http:\x2F\x2Flh5.google.com\x2FHelpShop.com\x2FRZh5CZ7PRKI\x2FAAAAAAAAADc\x2FRvS2U1GhVeo\x2FIMG_0071.JPG",t:"IMG_0071.JPG",dl:0}];
+
+//--></script>
+<link rel="stylesheet" type="text/css" href="styles/lh.css" />
+<script type="text/javascript"
+            src="script/lh_en_US.js"></script>
+<!--[if IE]>
+<style type="text/css">
+.lhcl_menu .menu-item img {
+width: 24px;
+height: 24px;
+}
+#ctx_icon {
+width: 24px;
+height: 24px;
+}
+</style>
+<![endif]-->
+<script type="text/javascript">
+var _c =
+(function() {
+var m, u = navigator.userAgent.toLowerCase();
+function ua(s) {return u.indexOf(s) >= 0;}
+if (ua('opera') || ua('konqueror')) {
+return false;
+} else if (m = u.match(/safari\/(\d+)/)) {
+return (Number(m[1]) >= 412);
+} else if (m = u.match(/msie (\d)\.(\d)/)) {
+return (Number(m[1]) >= 6);
+} else if (ua('gecko')) {
+m = u.match(/rv:(\d)\.(\d)/)
+return Number(m[1]) >= 2 || (Number(m[1]) == 1 && Number(m[2] >= 8));
+}
+return false;
+})();
+</script>
+<script type="text/javascript">
+function _redirect() {
+var r = "http:\x2F\x2Fpicasaweb.google.com\x2Flh\x2FviewPhoto?uname=HelpShop.com\x26amp\x3Baid=5014884378175554449\x26amp\x3Biid=5014884923636401058";
+var m = location.hash.match(/#s?(\d+)/);
+if (m) {
+r = r.replace(/&amp;/g, '&').replace(/iid=\d+/, 'iid=' + m[1]);
+location.replace(r);
+}
+return false;
+}
+if (!_c) _redirect();
+document.write('\x3c\x21\x2d\x2d');
+</script>
+<meta http-equiv="refresh" content="5; URL='http://picasaweb.google.com/lh/viewPhoto?uname=HelpShop.com&amp;aid=5014884378175554449&amp;iid=5014884923636401058'" />
+<script type="text/javascript">//--></script>
+</head>
+<body onload="_profile();_onload();"
+  class="anon lhcl_lang_en_US
+  ">
+<script type="text/javascript">
+if (!_c) document.write('<div class="lhcl_browserwarning">You are using a browser that is not fully supported. Some features may not work too well, but you are welcome to have a look around.<\/div>');
+</script>
+<noscript>
+<div class="lhcl_browserwarning">You are using a browser that is not fully supported. Some features may not work too well, but you are welcome to have a look around.</div>
+</noscript>
+<table id="lhid_topnav"><tr>
+<td style="padding-top:1em;" valign=top><a href="/">
+<img src="img/picasaweblogo-en_US.gif" id="lhid_logo"
+  alt="Picasa Web Albums" /></a>
+</td>
+<td>
+<table style="width:100%">
+<tr>
+<td id="lhid_userinfo">
+<a href="http://googlephotos.blogspot.com" target="_blank">Blog</a>
+| <a href="http://picasa.google.com/intl/en_us/web/help.html" target="_blank">Help</a>
+| <a id="lhid_login" href="https://www.google.com/accounts/ServiceLogin?hl=en_US&amp;continue=http%3A%2F%2Fpicasaweb.google.com%2Flh%2Flogin%3Fcontinue%3Dhttp%253A%252F%252Fpicasaweb.google.com%252FHelpShop.com%252FBartelParty%252Fphoto&amp;service=lh2&amp;passive=true">Sign In</a>
+| <a id="lhid_signup" href="https://www.google.com/accounts/NewAccount?hl=en_US&amp;continue=http%3A%2F%2Fpicasaweb.google.com%2F&amp;passive=true&amp;service=lh2">Sign up for Picasa Web Albums</a>
+</td>
+</tr>
+<tr>
+<td class="lhcl_align_right" style="padding-top:0.5em; padding-right:0.5em; font-size:0.8em;">
+<a href="/lh/viewCart" onclick="javascript:_setBackLink();" class="lhcl_nounderline"><img src="img/order.gif"></a>
+<a href="/lh/viewCart" onclick="javascript:_setBackLink();">
+View Order
+</a><span id="lhid_cartDiv" class="lhcl_metadata" style="display:none"> (<span id="lhid_cartCount"></span>)</span>
+</td>
+</tr></table>
+</td>
+</tr></table>
+<table id="lhid_navbar_nz" width="100%">
+<tr>
+<td>
+<a id="lhid_publicgallerylink" href="http://picasaweb.google.com/HelpShop.com">HelpShop.com's Public Gallery</a>
+&raquo; <a id="lhid_albumlink" href="http://picasaweb.google.com/HelpShop.com/BartelParty">Bartel Party</a>
+</td>
+<td width="100%"></td>
+<td>
+<table cellspacing=0 cellpadding=0 class="searchbox" id="lhid_searchanchor">
+<tbody><tr class="toprow" >
+<th class="first"><div></div></th>
+<th colspan="3"></th>
+<th class="last"><div></div></th>
+</tr>
+<tr>
+<th class="first"></th>
+<td id="btntd">
+<button id="lhid_btn"> <img id="dwn" src="img/downarrow.gif" />
+</button>
+</td>
+<form name="search_form" action="/lh/searchbrowse#0+1" method="get">
+<td>
+<span class="search_input">
+<input id="lhid_searchbox" type="text" size="25" maxlength="128" value="" />
+</span>
+</td>
+<td>
+<span class="search_button_holder">
+<button type="submit" class="searchbtn" title="Search Photos">Search Photos</button>
+</span>
+</td>
+<input id="lhid_querytext" type="hidden" name="q" value=""/>
+<input id="lhid_search_uname" type="hidden" name="uname" value="HelpShop.com"/>
+<input id="lhid_psc" type="hidden" name="psc" value="G" />
+<input id="lhid_crowdfilter" name="filter" type="hidden" value="1" />
+</form>
+<th class="last"></th>
+</tr>
+</tbody></table>
+</td>
+</tr>
+</table>
+<div id="lhid_feedback" class="lhcl_feedback" style="display:none">
+<center>
+<table class="lhcl_alertMessage" cellspacing="0" cellpadding="0">
+<tr align="left" valign="top"><td><img src="img/alertmsg_tl.gif" align="left"/></td>
+<td rowspan="2" id="msg" style="padding: .2em 1em;">
+</td>
+<td align="right"><img src="img/alertmsg_tr.gif" align="right"/></td>
+</tr>
+<tr valign="bottom">
+<td align="left"><img src="img/alertmsg_bl.gif" align="left"/></td>
+<td align="right"><img src="img/alertmsg_br.gif" align="right"/></td>
+</tr>
+</table>
+</center>
+</div>
+<div class="lhcl_body" id="lhid_searchbody">
+<table><tbody  >
+<tr>
+<td id="lhid_leftbox">
+<div id="lhid_main"></div>
+</td>
+<td id="lhid_rightbox">
+<div class="lhcl_rightgutter">
+<div class="lhcl_prettybox lhcl_sidebox lhcl_recordbox">
+<div class="lhcl_body">
+<table class="lhcl_host">
+<tr>
+<td class="lhcl_column_left">
+<div>
+<a id="lhid_portraitlink"
+                 href="http://picasaweb.google.com/HelpShop.com">
+<img class="lhcl_portrait" id="lhcl_portrait_id"
+                     src="http://lh5.google.com/HelpShop.com/AAAAJjubSH0/AAAAAAAAA-I/IJ8G4thxac0/s48-c/HelpShop.com"
+                     width="48"
+                     height="48" />
+</a>
+</div>
+</td>
+<td class="lhcl_column_right">
+<div class="lhcl_name" id="lhid_user_nickname">
+HelpShop.com
+</div>
+<div class="lhcl_info">
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<div id="lhid_tools"></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<iframe id="lhid_secrethistory"></iframe>
+<script type="text/javascript">//<!--
+
+_album.slideshowlink = "http:\x2F\x2Fpicasaweb.google.com\x2FHelpShop.com\x2FBartelParty\x2Fphoto";
+_album.location = "";
+_album.src = "http:\x2F\x2Flh4.google.com\x2FHelpShop.com\x2FRZhyxZ7PQ5E\x2FAAAAAAAAADk\x2FNf5NQxW24QA\x2FBartelParty.jpg";
+_album.dateonly = _fd("24,11,2006");
+
+
+
+pwa.setup(pwa.slideshow);
+pwa.setup(pwa.flagger,'HelpShop.com','5014884378175554449');
+//--></script>
+<script type="text/javascript">
+var _picasaInstalled = !!(navigator.mimeTypes['application/x-picasa-detect'] ||
+navigator.mimeTypes['application/x-picasa']);
+</script>
+<!--[if gte Picasa 2.0]>
+<script type="text/javascript">
+_picasaInstalled = true;
+</script>
+<![endif]-->
+<div id="lhid_footer">
+&copy;2007 Google&nbsp;
+<span id="lhid_downloadpicasafooter">
+<a href="http://dl.google.com/picasa/picasaweb-current-setup.exe" target="_blank">Download Picasa</a> - </span>
+<span id="lhid_launchpicasafooter" style="display:none">
+<a href="picasa://uploadtogoogle/">Launch Picasa</a> - </span>
+<script type="text/javascript">
+pwa.setup(pwa.footer, _picasaInstalled,
+'http:\x2F\x2Fgoogle.com\x2Fdl\x2Fmac\x2Finstall\x2FInstallPicasaWebAlbumsUploaders.dmg');
+</script>
+<a href="http://google.com/accounts/TOS?hl=en_US" target="_blank">Terms of Use</a> -
+<a href="http://picasa.google.com/intl/en_us/web/privacy.html" target="_blank">Privacy Policy</a> -
+<a href="http://picasa.google.com/intl/en_us/web/policy.html" target="_blank">Program Policies</a> -
+<a href="http://code.google.com/apis/picasaweb/" target="_blank">Developer</a> -
+<a href="http://www.google.com" target="_blank">Google Home</a>
+</div>
+<script type="text/javascript">
+<!--
+_ps({
+  foreign: {
+    name: "HelpShop.com",
+    search_url: '/lh/searchbrowse?psc=F&amp;uname=HelpShop.com&amp;filter=0',
+    search_corpus: 'F',
+    uncrowded_search_url: 'http://picasaweb.google.com/lh/search?psc=F&amp;uname=HelpShop.com&amp;filter=0',
+    is_primary: 0,
+    target_user: 'HelpShop.com',
+    foreign_nickname: 'HelpShop.com'},
+  global: {
+    name: "Community Photos",
+    search_url: '/lh/searchbrowse?psc=G&amp;uname=HelpShop.com&amp;filter=0',
+    search_corpus: 'G',
+    uncrowded_search_url: 'http://picasaweb.google.com/lh/search?psc=G&amp;uname=HelpShop.com&amp;filter=0',
+    is_primary: 1,
+    target_user: 'HelpShop.com'},
+  primary: 'G',
+  query: ''
+});
+//--></script>
+<script type="text/javascript">
+var _profile_load = new Date().getTime();
+</script>
+<script type="text/javascript">pwa.start()</script>
+</body>
+</html>

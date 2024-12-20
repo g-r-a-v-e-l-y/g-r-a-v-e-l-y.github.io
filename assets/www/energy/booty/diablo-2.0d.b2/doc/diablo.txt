@@ -1,0 +1,69 @@
+* diablo 2.0d *
+
+welcome to the wonderful world of diablo bot..
+
+version 2.0 in diablo bot is the latest and greatest line of irc bots
+available. With 2.0, command hooks and server hooks are implemented,
+multipule network configurations, and servers within the networks may
+share the same data.
+
+** In this file:
+	Installation
+	Configuring for your needs
+	Development and modification
+	Contacting
+
+
+(*) Installation -
+
+	For those to impatient to read this overview, run ./configure and
+make, otherwise detailed instructions follow...
+
+	To setup diablo for first use, run the ./configure command out of
+the root diablo dir, this will setup the config file, networks file,
+version information, and setup your user account. When you reach the field
+inquiring about password authentication, it is recommended that you choose
+not to use password authentication on low traffic bots where there is not
+a security risk. As long as you are wise with your user hosts, using full
+masks and not simply *@*, your bot will be plenty secure in most
+situations. If advanced security is necessary, use passwords. If you
+decide to use passwords, you will be prompted for an encryption key, this
+is basically a random set of letters and numbers, so that your passwords
+are encrypted originally, and there is a lesser risk of someone use a
+default salt to crack your passwords. This salt (encryption key) will be
+stored in its own file, also completely random.
+
+	Then run make, also from the main directory to configure a few
+plugins, clean up directories, and initialize configurations.
+
+
+(*) Configuring for your needs -
+
+	Diablo is highly configurable, if you know perl your in luck,
+because you can do practically anything with this bot. Basic configuration
+can be found in the ./modules/hooks/ directory where you can add hooks,
+based on the technical definition in the tech/ subdirectory.
+
+
+(*) Development and modification -
+
+	Diablo is released on the GNU GPL, you may freely redistribute and
+modify this code under the terms in the COPYING file in this release.
+
+	If you would like to develope and contribute to diablo, write your
+commands/subroutines in a seperate file, you can of course put them in a
+tar/gz file that will install them in the right place, as well as a
+configure script. If you would like the commands/subroutines placed on the
+diablo homepage (diablo.sourceforge.net) send them to dave@darkfire.net.
+
+
+(*) Contacting -
+
+	Diablo internet services coders are available on the darkfire irc
+network, in #dis. To reach darkfire open your favorite irc client and
+connect to irc.darkfire.net port 6667 or 7000. Head coding is done by
+dave, secondary coding and module support by slifox.
+
+	Email:
+		dave            (dave@darkfire.net)
+		slifox	        (alex@darkfire.net)

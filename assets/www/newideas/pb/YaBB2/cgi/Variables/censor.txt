@@ -1,0 +1,5 @@
+fuck=f**ck
+damn=d**mn
+asshole=not so nice person
+shithead=pooface
+yabb=YaBB

@@ -1,0 +1,33 @@
+# unlock hook
+
+add_command_hook("unlock","unlock");
+
+sub hook_unlock {
+	$text = $_[0];
+
+	if($text =~ /^unlock[ ]?(.*)$/) {
+	       	$command = lc($1);
+		if($ulevel{$unick} >= $clevel{lock} && $nnick eq $unick) {
+			if($command ne "") {
+		     		if($identd eq true) {
+		       			if($clevel{$command} eq 1000) {
+		         			$clevel{$command} = $clock{$command};
+		         			sockwrite($sock,"PRIVMSG $uchan :$unick, $command has been \2unlocked\2.");
+		        		}
+		       			else {
+		         			sockwrite($sock,"PRIVMSG $uchan :$unick, $command is not locked.");
+		        		}
+		      		}
+		     	 	else {
+		 			sockwrite($sock,"PRIVMSG $uchan :You must be identified to use that command.");
+		       		}
+		    	}
+			else {
+				syntax("unlock");
+			}
+			return 1;
+		} else { return -1; }
+	}
+
+	return 0;
+}

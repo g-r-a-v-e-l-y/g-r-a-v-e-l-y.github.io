@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# Restarts darkbot.pid process. (only for unix)
+
+kill -HUP `cat ../darkbot.pid`

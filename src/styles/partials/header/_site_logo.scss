@@ -1,0 +1,56 @@
+@use "../../mixins";
+
+.site-logo {
+  display: block;
+
+  a {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+    min-width: 3rem;
+    max-width: 22rem;
+    margin-right: 0.5rem;
+    text-decoration: none;
+    font-family: var(--heading-font-family);
+    @include mixins.transition(opacity);
+
+    span {
+      font-size: 4rem;
+      font-weight: 400;
+      line-height: 1;
+    }
+
+    .title {
+      display: none;
+      padding-left: 0.75rem;
+    }
+
+    &:hover,
+    &:focus {
+      opacity: 0.9;
+    }
+  }
+}
+
+@include mixins.belowMenuBreakpoint {
+  .site-logo {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+
+    a {
+      flex-direction: row;
+      width: auto;
+
+      img,
+      svg {
+        height: 3rem;
+      }
+
+      span {
+        display: block;
+      }
+    }
+  }
+}

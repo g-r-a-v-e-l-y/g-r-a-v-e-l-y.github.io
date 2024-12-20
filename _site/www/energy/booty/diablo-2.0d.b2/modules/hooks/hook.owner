@@ -1,0 +1,30 @@
+# owner hook
+
+add_command_hook("owner","owner");
+
+sub hook_owner {
+	$text = $_[0];
+
+	if($text =~ /^owner list[ ]?(.*)$/) {
+	        sockwrite($sock,"PRIVMSG $uchan :Owner list..");
+	        $i=0; $total=0; $data="PRIVMSG $uchan :";
+	        foreach $key (sort keys %uhosts) {
+			if($ulevel{lc($key)} == 5) {
+	        	        $data.="$key";
+		                $i++; $total++;
+	        	        if (length($data) > 75) {
+	        	                $i=0;
+	        	                sockwrite($sock,"$data"); $data="PRIVMSG $uchan :";
+	        	        }
+	        	        else {
+	        	                $data.=", ";
+	        	        }
+			}
+	        }
+	        if (length($data)>16) { chop($data); chop($data); sockwrite($sock,"$data"); }
+	        sockwrite($sock,"PRIVMSG $uchan :Owner count: $total");
+	        return 1;
+	}
+
+	return 0;
+}

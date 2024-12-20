@@ -1,0 +1,23 @@
+# kickban hook
+
+add_command_hook("kickban","kickban");
+
+sub hook_kickban {
+	$text = $_[0];
+
+	if($text =~ /^kickban[ ]?([^ ]+)[ ]?(.*)$/) {
+		$knick = $1;
+		$reason = $2;
+		if($ulevel{$unick} >= $clevel{kickban} && $nnick eq $unick) {
+			if($reason eq "") { $reason = "\2k\2\37b\37 \($unick)"; } 
+			else { $reason = "\2k\2\37b\37 - $reason \($unick)"; }
+			$wreason{lc($1)} = "kickban";
+			$wkickchan{lc($1)} = "$uchan";
+			$wkickreason{lc($1)} = "$reason";
+			sockwrite($sock,"WHOIS $knick");
+		        return 1;
+		} else { return -1; }
+	}
+	
+	return 0;
+}

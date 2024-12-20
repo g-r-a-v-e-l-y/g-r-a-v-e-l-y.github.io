@@ -1,0 +1,73 @@
+h1
+{ 
+font-family:  Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif;
+color: black; 
+font-size: 10pt; 
+text-align: justify; 
+font-weight: lighter; 
+padding: 0px; 
+border: 1pt; 
+border-style: solid; 
+border-color: #808080;  
+width: 300px;
+}
+
+.table
+{ 
+font-family: Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif; 
+color: black; 
+font-size: 10pt;  
+font-weight: lighter;
+}
+
+.title 
+{ text-align: center }
+
+P
+{ 
+font-family:  Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif; 
+color: black; 
+font-size: 10pt; 
+text-align: justify; 
+font-weight: lighter; 
+padding: 0px; 
+border: 1pt; 
+border-style: solid; 
+border-color: #808080;  
+width: 300px;
+}
+
+.tiny
+{ 
+font-family:  Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif; 
+color: black; 
+font-size: 8pt; 
+}
+
+
+.blue
+{color: blue;
+background-color:  #797979}
+
+.yellow
+{color: #E0B700;
+background-color:  #797979 }
+
+.black
+{color: white;
+background-color: #797979 }
+
+.gray
+{ 
+font-family:  Arial,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif; 
+color: black; 
+font-size: 10pt; 
+text-align: center; 
+font-weight: lighter; 
+padding: 0px; 
+border: 1pt; 
+border-style: solid; 
+border-color: black;  
+width: 280px;
+background: #797979
+}

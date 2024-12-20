@@ -1,0 +1,53 @@
+# dict hook
+
+#add_command_hook("dict","dict");
+#add_command_hook("dictionary","dict");
+
+sub hook_dict {
+	$text = $_[0];
+
+	if($text =~ /^dict[ ]?(.*)$/ || $text =~ /^dictionary[ ]?(.*)$/) {
+		$string = $1;
+		if($ulevel{$unick} >= $clevel{dict}) {
+			if($string ne "") {
+				$string =~ s/ /\+/g;
+				$url = '/cgi-bin/dictionary?va=' . $string;
+#				$dictdata = "";
+#				open(DICT,"lynx --source $url");
+				$dictdata = httpget("www.britannica.com",'80',$url);
+				$dictdata =~ s/\n//g;
+				while(<DICT>) {
+					$line = $_;
+					chomp($line);
+					$dictdata .= $line;
+				}
+				if($dictdata =~ /<\/PRE><BR>Main Entry:   <B>(.*)<\/B><BR>Pronunciation:(.*)<\/TT><BR>Function:       <I>(.*)<\/I><BR>Usage:(.*)<\/I><BR>Date:(.*)<BR><B>:<\/B> (.*)<BR>-<B>/) {
+					$entry = $1; $function = $3; $def = lc($5);
+					$def =~ s/<b>//g;
+					$def =~ s/</b>//g;
+					$def =~ s/<i>//g;
+					$def =~ s/</i>//g;
+					$def =~ s/<u>//g;
+					$def =~ s/</u>//g;
+					$def =~ s/<br>//g;
+					$def =~ s/<p>//g;
+					$def =~ s/</p>//g;
+					sockwrite($sock,"PRIVMSG $uchan :Dicionary response for \2$entry\2 \($fucntion\)\2:\2 $def");
+				}
+				else {
+					$string =~ s/\+/ /g;
+					sockwrite($sock,"PRIVMSG $uchan :Could not determine a definition for \2$string\2");
+				}
+			}
+			else {
+				syntax("dict");
+			}
+		        return 1;
+		}
+		else {
+			return -1;
+		}
+	}
+
+	return 0;
+}

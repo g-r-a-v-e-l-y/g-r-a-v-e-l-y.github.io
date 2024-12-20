@@ -1,0 +1,44 @@
+EnableGlossary``x0
+ShowNewsControls``x0
+EmailFrom``xlstave1@umbc.edu
+UseCookies``x0
+NewsArcDel``x2
+NewFilesHTMLOnly``x1
+BasicLayout``x1
+DateFormat``x<Field: Month_Name> <Field: Day> <Field: Year> <Field: Hour>:<Field: Minute>
+Standard_Time_Zone``xEST
+NewsAge``x15
+TimeOffset``x0
+12HourClock``x1
+glossdat``xNewsPro|~|<a href="http://amphibian.gagames.com/newspro/">NewsPro</a>
+EnableHeadlines``x1
+NumberLimit``x0
+CreateAnchors``x1
+AutoLinkURL``x1
+ArchiveNumber``x0
+arclinkfile``xarchive.html
+CommercialUser``x0
+SiteTitle``xplan:b
+userdata``xgrant~Mgnd1enYmJVQo~lstave1@umbc.edu~3|Thrash~jFAjKA/FhhARU~viper399@aol.com~1|Kalabin~PEf7UmwTfxyl.~kalabin@hotmail.com~1|agamemnon~L2omdko.b/vJM~ekucera@shrike.depaul.edu~1|CS6x~3PTBB2b1CfmSk~m-roberts4@northwestern.edu~1|nate~4un5ofxBOtWUk~m4d3w0k@yahoo.com~1
+DisplayLink``x1
+currentbuild``x31
+CheckFileTime``x1
+ArcTime``x2
+mainpagelimit``x1296000
+HeadlineNumber``x0
+Modify_ItemsPerPage``x20
+Daylight_Time_Zone``xEDT
+htmlfile_path``xD:/Inetpub/wwwroot/b/CGI-BIN
+AutoBuild``x1
+DisableHTML``x0
+EmailSubject``xNews Update
+EmailTo``xlstave1@umbc.edu
+archive_path``xD:/Inetpub/wwwroot/b/CGI-BIN
+SiteLink``xhttp://plan-b.n3.net/
+showreadme``xno
+ArcHtmlExt``xhtml
+admin_path``xD:/Inetpub/wwwroot/b/CGI-BIN
+firsttime``xno
+EnableBROption``x0
+MaxSearchResults``x30
+currentversion``x3.7.5

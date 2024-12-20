@@ -1,0 +1,32 @@
+		=======================
+		*  Diablo Help Files  *
+		*        Avoice       *
+		*  Last Update: v1.5  *		
+		=======================
+
+	COMMAND LISTING:
+
+-------------------------------------------------------------------------------
+Command:	VOICEME
+Description:	Voice you in current channel
+-------------------------------------------------------------------------------
+Command:	DEVOICEME
+Description:	Devoice you in current channel
+-------------------------------------------------------------------------------
+Command:	SET ZIP <zipcode>
+Description:	Set a zip code for weather
+-------------------------------------------------------------------------------
+Command:	SET PASSWORD <password>
+Description:	Changes your password
+		Must be used in query
+Syntax:		/msg <bot> set password <password>
+-------------------------------------------------------------------------------
+Command:	IDENTIFY <password>
+Description:	Identifies to bot for higher access commands
+		Must be used in query
+Syntax:		/msg <bot> identify <password>
+-------------------------------------------------------------------------------
+
+                ======================
+                *  End Of Help File  *
+                ======================

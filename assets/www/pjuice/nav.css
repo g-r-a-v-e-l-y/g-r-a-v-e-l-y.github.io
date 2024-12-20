@@ -1,0 +1,16 @@
+P, TD, H1, H2, H3, H4
+{ FONT: 11px Verdana,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif; color: #cccccc; }
+H1
+{ FONT-SIZE: 11px; FONT-Weight: bold }
+
+H4, H3, H4
+{ FONT-SIZE: 20px; }
+
+.black
+{ COLOR: black }
+.pgp
+{ FONT-SIZE: 16px;
+    COLOR: black;
+    LINE-HEIGHT: 100%;
+    FONT-FAMILY: Verdana,Helvetica,Geneva,Swiss,SunSans-Regular,sans-serif
+}

@@ -1,0 +1,91 @@
+@use "variables";
+
+@mixin mediaQuery($property, $value) {
+  @media ($property: $value) {
+    @content;
+  }
+}
+
+@mixin reducedMotion {
+  @media (prefers-reduced-motion) {
+    @content;
+  }
+}
+
+@mixin noJS {
+  .no-js {
+    @content;
+  }
+}
+
+@mixin noTransitionOnReducedMotion {
+  @include reducedMotion {
+    transition: none;
+  }
+}
+
+@mixin transition($property, $duration: variables.$defaultTransitionTime) {
+  transition: $property $duration ease-in-out;
+  @include noTransitionOnReducedMotion;
+}
+
+@mixin mediaQuery($property, $value) {
+  @media ($property: $value) {
+    @content;
+  }
+}
+
+@mixin minWidth($minWidth) {
+  @include mediaQuery(min-width, $minWidth) {
+    @content;
+  }
+}
+
+@mixin maxWidth($maxWidth) {
+  @include mediaQuery(max-width, $maxWidth) {
+    @content;
+  }
+}
+
+@mixin belowMenuBreakpoint {
+  @include maxWidth(variables.$menuBreakpoint) {
+    @content;
+  }
+}
+
+@mixin aboveMediumBreakpoint {
+  @include minWidth(variables.$mediumBreakpoint) {
+    @content;
+  }
+}
+
+@mixin aboveMenuBreakpoint {
+  @include minWidth(variables.$menuBreakpoint + 1px) {
+    @content;
+  }
+}
+
+@mixin aboveFooterBreakpoint {
+  @include maxWidth(variables.$footerBreakpoint) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @include maxWidth(variables.$mainBreakpoint) {
+    @content;
+  }
+}
+
+@mixin biggerThanMobile {
+  @include minWidth(variables.$mainBreakpoint + 1px) {
+    @content;
+  }
+}
+
+@mixin darkMode {
+  html.dark,
+  html:not(.light) {
+    @content;
+  }
+}

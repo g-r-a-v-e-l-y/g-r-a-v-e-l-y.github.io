@@ -1,0 +1,66 @@
+<HTML>
+<HEAD>
+	<TITLE>Ultimate Bulletin Board - Control Panel Links</TITLE>
+
+
+
+<!-- Edit in the full URL to your CGI directory below  		  -->
+
+<!-- For example <BASE HREF="http:///"          -->
+
+
+<!-- Be sure the URL ends with a slash: "/" as in the example above-->
+
+
+<BASE HREF="http://65.8.36.37/portfolio/ubb/cgi/">
+
+
+<!-- Do not edit anything below this line -->
+
+</HEAD>
+<BODY bgcolor="#c7c6ba" link="#000000" vlink="#000000" topmargin=0 leftmargin=3 marginwidth="3" rightmargin=0 marginheight="0">
+<script language="JavaScript">
+function myubbimage () {
+	return location.href.substring(0,location.href.indexOf('cplinks.html')) + 'ubb_logo.gif';
+}
+document.write('<A HREF=\"http://www.ultimatebb.com\" target=_NEW><IMG SRC=\"' + myubbimage() + '" border=0></a>');
+</script>
+<BR><FONT FACE="Verdana, Arial" SIZE="1">
+<A HREF="cpanel.cgi?action=variables" target="CPMAIN">General Settings</A>
+<HR>
+<A HREF="cpanel.cgi?action=styles" target="CPMAIN">Style Settings</A>
+<HR>
+<A HREF="cpanel.cgi?action=logintoforums" target="CPMAIN">Forum Settings</A>
+<HR>
+<A HREF="cpanel.cgi?action=UpdateThreads" target="CPMAIN">Update Threads</A>
+<HR>
+<A HREF="cpanel.cgi?action=setmods" target="CPMAIN">Moderators</A>
+<HR>
+<A HREF="cpanel.cgi?action=permissions"  target="CPMAIN">User Info & Permissions</A>
+<HR>
+<A HREF="cpanel.cgi?action=prune" target="CPMAIN" >Edit/Prune Messages</A>
+<HR>
+
+<A HREF="Ultimate.cgi?action=intro" target=_new">Your UBB</A>
+<HR>
+
+<A HREF="javascript:void(0)" onclick="mycpmain()";>Quick Start Help</A>
+<HR>
+<A HREF="http://www.ultimatebb.com/home/howtopay.shtml" target=_blank>Order
+
+</BODY>
+
+<SCRIPT language="JavaScript">
+// navigate back to control panel
+function mycpmain () {
+	parent.CPMAIN.location.href =  location.href.substring(0,location.href.indexOf('cplinks.html')) + 'controlpanel.html';
+}
+
+
+
+</SCRIPT>
+
+
+
+
+</HTML>

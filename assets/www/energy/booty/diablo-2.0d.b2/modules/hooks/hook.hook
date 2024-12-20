@@ -1,0 +1,158 @@
+# debug hook
+
+add_command_hook("hook","hook");
+
+sub hook_hook {
+	$text = $_[0];
+
+	if($text =~ /^hook list$/) {
+                sockwrite($sock,"PRIVMSG $uchan :Hook list..");
+                $i=0; $total=0; $data="PRIVMSG $uchan :";
+                foreach $key (@command_hooks) {
+                        $data.="$key";
+                        $i++; $total++;
+                        if (length($data) > 85) {
+                                $i=0;
+                                sockwrite($sock,"$data"); $data="PRIVMSG $uchan :";
+                        }
+                        else {
+                                $data.=", ";
+                        }
+                }
+                if (length($data)>16) { chop($data); chop($data); sockwrite($sock,"$data"); }
+                sockwrite($sock,"PRIVMSG $uchan :Found \2$total\2 hooks.");
+		return 1;
+
+	}
+
+	elsif($text =~ /^hook add[ ]?([^ ]+)[ ]?([^ ]+)[ ]?(.*)$/) {
+		$hook = $1; $handler = $2; $temp = $3;
+		if($ulevel{$unick} >= $clevel{eval} && $nnick eq $unick) {
+			if($hook ne "" && $handler ne "" && $temp eq "") {
+				$nhandler = $handler;
+				$handler = "hook_" . $nhandler;
+				if(defined(eval("$handler\(\)"))) {
+					add_command_hook($hook,$nhandler);
+					sockwrite($sock,"PRIVMSG $uchan :Successfully created hook \2$hook\2, handler: \2$handler\2.");
+				}
+				else {
+					sockwrite($sock,"PRIVMSG $uchan :Unable to create hook \2$hook\2: subroutine $handler could not be found!");
+				}
+			} else { syntax("hook"); }
+			return 1;
+		}
+		else {
+			return -1;
+		}
+	}
+
+        elsif($text =~ /^hook del[ ]?([^ ]+)[ ]?(.*)$/) {
+		$hook = $1; $temp = $2;
+                if($ulevel{$unick} >= $clevel{eval} && $nnick eq $unick) {
+			if($hook ne "" && $temp eq "") {
+				$check = check_command_hook($hook);
+				if($check ne "-1") {
+					$hook_reapply{$hook} = $command_hook_handlers[$check];
+					del_command_hook($hook);
+					sockwrite($sock,"PRIVMSG $uchan :Successfully removed hook \2$hook\2. \(Saved\)");
+				}
+				else {
+					sockwrite($sock,"PRIVMSG $uchan :Unable to remove hook \2$hook\2: hook not found!");
+				}
+			} else { syntax("hook"); }
+			return 1;
+		}
+		else {
+			return -1;
+		}
+	}
+
+	elsif($text =~ /^hook reapply[ ]?([^ ]+)[ ]?(.*)$/) {
+		$hook = $1; $temp = $2;
+                if($ulevel{$unick} >= $clevel{eval} && $nnick eq $unick) {
+                        if($hook ne "" && $temp eq "") {
+				if($hook_reapply{$hook} ne "") {
+					$reapply = $hook_reapply{$hook};
+					$reapply =~ /^hook_(.*)$/;
+					add_command_hook($hook,$1);
+					sockwrite($sock,"PRIVMSG $uchan :Successfully reapply\'d hook \2$hook\2: cache\'d handler \2$hook_reapply{$hook}\2");
+					undef($hook_reapply{$hook});
+				}
+				else {
+					sockwrite($sock,"PRIVMSG $uchan :Unable to reapply hook \2$hook\2: entry not found!");
+				}
+			} else { syntax("hook"); }
+			return 1;
+		}
+		else {
+			return -1;
+		}
+	}
+
+        elsif($text =~ /^hook erase[ ]?([^ ]+)[ ]?(.*)$/) {
+                $hook = $1; $temp = $2;
+                if($ulevel{$unick} >= $clevel{eval} && $nnick eq $unick) {
+                        if($hook ne "" && $temp eq "") {
+				if($hook_reapply{$hook} ne "") {
+					eval("sub $hook_reapply{$hook} { }");
+					undef($hook_reapply{$hook});
+					sockwrite($sock,"PRIVMSG $uchan :Successfully erased hook \2$hook\2 and handlers.");
+				}
+				elsif(check_command_hook($hook) ne "-1") {
+					$check = check_command_hook($hook);
+					eval("sub $command_hook_handlers[$check] { }");
+					del_command_hook($hook);
+					sockwrite($sock,"PRIVMSG $uchan :Successfully erased hook \2$hook\2 and handlers. \(Not Saved\).");
+				}
+				else {
+					sockwrite($sock,"PRIVMSG $uchan :Unable to erase hook \2$hook\2: no entries found!");
+				}
+                        } else { syntax("hook"); }
+                        return 1;
+                }
+                else {
+                        return -1;
+                }
+        }
+
+        elsif($text =~ /^hook info[ ]?([^ ]+)[ ]?(.*)$/) {
+                $hook = $1; $temp = $2;
+                if($ulevel{$unick} >= $clevel{eval} && $nnick eq $unick) {
+                        if($hook ne "" && $temp eq "") {
+				if(check_command_hook($hook) ne "-1") {
+					$check = check_command_hook($hook);
+					sockwrite($sock,"PRIVMSG $uchan :Hook information.. hook: \2$hook\2, handlers: \2$command_hook_handlers[$check]\2.");
+				}
+				else {
+					sockwrite($sock,"PRIVMSG $uchan :Could not display information for hook \2$hook\2: hook not found!");
+				}
+                        } else { syntax("hook"); }
+                        return 1;
+                }
+                else {   
+                        return -1;
+                }
+        }
+
+        elsif($text =~ /^hook handler[ ]?([^ ]+)[ ]?([^ ]+)[ ]?(.*)$/) {
+                $hook = $1; $handler = $2; $temp = $3;
+                if($ulevel{$unick} >= $clevel{eval} && $nnick eq $unick) {
+                        if($hook ne "" && $handler ne "" && $temp eq "") {
+				$check = check_command_hook($hook);
+				if($check ne "-1") {
+					$command_hook_handlers[$check] = $handler;
+					sockwrite($sock,"PRIVMSG $uchan :Successfully changed handler on hook \2$hook\2: new handler is \2$handler\2.");
+				}
+				else {
+					sockwrite($sock,"PRIVMSG $uchan :Unable to change handler on hook \2$hook\2: hook not found!");
+				}
+                        } else { syntax("hook"); }
+                        return 1;
+                }
+                else {
+                        return -1;
+                }
+        }
+
+	return 0;
+}

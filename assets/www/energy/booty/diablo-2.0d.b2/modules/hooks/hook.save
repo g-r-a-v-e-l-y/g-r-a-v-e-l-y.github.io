@@ -1,0 +1,26 @@
+# save hook
+
+add_command_hook("save","save");
+
+sub hook_save {
+	$text = $_[0];
+
+	if($text =~ /^save[ ]?(.*)$/) {
+		$temp = $1;
+		if($ulevel{$unick} >= $clevel{saveall} && $nnick eq $unick) {
+			if($temp eq "") {
+			        sockwrite($sock,"PRIVMSG $uchan :Saving networks..");
+			     	sockwrite($sock,"PRIVMSG $uchan :Saving lists..");
+			     	savechannels();
+			     	saveusers();
+			     	sockwrite($sock,"PRIVMSG $uchan :Save Complete.");
+			}
+			else {
+				syntax("save");
+			}
+		        return 1;
+		} else { return -1; }
+	}
+	
+	return 0;
+}

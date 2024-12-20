@@ -1,0 +1,116 @@
+<!--
+    ###############################################################################
+    # Installation and Readme:                                                    #
+    # By Ze0|ntrus (Ze0@digintrus.com) http://www.digintrus.com                   #
+    #                                                                             #
+    ###############################################################################
+    # YaBB: Yet another Bulletin Board                                            #
+    # Open-Source Project started by Zef Hemel (zef@zefnet.com)                   #
+    # Software Version: YaBB 1 Final - Second Edition                             #
+    # =========================================================================== #
+    # Software Distributed by:    www.yabb.org                                    #
+    # Support, News, Updates at:  www.yabb.org/cgi-bin/support/YaBB.pl            #
+    # =========================================================================== #
+    # Copyright (c) 2000-2001 YaBB - All Rights Reserved                          #
+    # Software by: The YaBB Development Team                                      #
+    ###############################################################################
+-->
+
+<html>
+<head>
+<title>*** YaBB 1 Gold *** Install Instructions and Readme</title>
+</head>
+
+<body bgcolor="#5d7790" text="#FFFFFF">
+
+<H2>What was new through Y1F?:</H2>
+These are the new features and bug fixes in all versions through YaBB 1 Final. Please view the "What's Changed in this 
+Release?" page to see the changes in the release you have just downloaded....<BR>
+
+<P><B>Bug Fixes</B><BR>
+- Fixed "-1 replies" Bug when a user kills the only post in a thread (Christian Land)<BR>
+- Fixed memberlist stating "View 25 Posters" to say "View Top 25 Posters" (Jeff Lewis)<BR>
+- Error if guest tries to modify message (Ze0|ntrus)<BR>
+- Changing your password (or admin changing another's) - you stay logged in instead of password error (Ze0|ntrus)<BR>
+- Admin password security leak (Jeff Lewis)<BR>
+- Fix to another Guest Notify bug (henri)<BR>
+- Correct error message when the 2 password fields aren't equal (Ze0|ntrus)<BR>
+- "Re:" or "(No Subject)" in subject of IM's (Ze0|ntrus)<BR>
+- Fixed "D" in posts creating smiley no matter what (DaveG)<BR>
+- YaBB Code Buttons replaced by text message in browsers not compatible with them (Ze0|ntrus)<BR>
+- Some redundant code removed (Ze0|ntrus)<BR>
+- Messages not always shown as new after being modified (Sharp)<BR>
+- Various other minor fixes (Ze0|ntrus)<BR>
+- Put titles on the Member List pages (Ze0|ntrus)<BR>
+- Only shows WWW icon on Message if member has a website listed - in IM and message viewing (Ze0|ntrus)<BR>
+- Opens member's website in new window when clicked - in IM and message viewing (Ze0|ntrus)<BR>
+- Only shows signature if there is one and layout cleaned up (Ze0|ntrus)<BR>
+- Profile and Register pages cleaned up and fix to items disappearing after first registering (Ze0|ntrus)<BR>
+- Fixed menu showing profile for guests and register for members (Ze0|ntrus)<BR>
+- Image sizes removed so custom images can be used (alienine)<BR>
+- Search routines use default page color ([CV]XXL)<BR>
+- Fixed register with spaces bug (Christian Land)<BR>
+- Guests won't see the Notify-Checkbox <BR>
+- You're no longer notified if you reply to your own posts (Christian Land)<BR>
+- If you Logout, you're deleted from log.txt (Christian Land) <BR>
+- Non case sensitive censor - completely fixed now (Ze0|ntrus)<BR>
+- Fixed bug preventing viewing second page of topic (Christian Land)<BR>
+- .htaccess for Members directory, so noone can access via browser (recommended: put outside of web structure)<BR>
+- Fixed diverse security leaks (Thanks to Sharp for notifying us)<BR>
+- Fixed error with german language pack (grammar)<BR>
+
+<BR><P><B>Features</B><BR>
+- Password in Cookie is now encrypted (Christian Land)<BR>
+- "Delete *all* Messages"-Button added to Instant Messenger (Christian Land)<BR>
+- Multiple Usergroups per Category (Christian Land)<BR>
+- Added "Show all Notifications" Feature (Christian Land)<BR>
+- "Truly Private Boards" (Sharp & Christian Land)<BR>
+- Added detailed version checker, checks for every file (Jeff Lewis)<BR>
+- SMTP-Support added (Christian Land)<BR>
+- Simple Spam-Protection (Christian Land)<BR>
+- Moved All strings to English.lng file - nothing hardcoded any more (Christian Land, Ze0|ntrus, Jeff Lewis)<BR>
+- Settings.pl Section in Admin to completely modify your YaBB settings! (Ze0|ntrus, Christian Land (fixed a few bugs))<BR>
+- Ability to modify Template from Admin Section (Ze0|ntrus)<BR>
+- Mark as Read to remove "new's" (Ze0|ntrus, Zef)<BR>
+- Back link on fatal error pages (Ze0|ntrus)<BR>
+- Smiley buttons in Post and Modify (Ze0|ntrus)<BR>
+- Better Maintenance Mode - admin can stay logged in (Aquilo)<BR>
+- Ability to turn many features on and off in Settings.pl (Ze0|ntrus)<BR>
+- Ability to put any faces (Avatars) wanted in faces folder without adding code (Ze0|ntrus)<BR>
+- New Profile Additions: Gender, AIM, YIM, Personal Text, Personal Picture, Date Registered, Location (Ze0|ntrus)<BR>
+- Ability to display members per page on Memberlist - All (Ze0|ntrus)<BR>
+- Setting for # of Top Posters to display on memberlist in Settings.pl (Ze0|ntrus)<BR>
+- Board Index has light bulbs to the left of name instead of the *new* picture (Ze0|ntrus)<BR>
+- More complete upgrade/readme texts (Ze0|ntrus, Jeff Lewis)<BR>
+- ICQ Pager (Christian Land)<BR>
+- Recent Posts add-on (Mike Steinbaugh)<BR>
+- Username shown on board index (Ze0|ntrus)<BR>
+- Category Icon removed (Ze0|ntrus)<BR>
+- Folder navigation style (Ze0|ntrus)<BR>
+- Cleaner template, board index, and jumpto (Ze0|ntrus)<BR>
+- Modified Comment tag at top of each source file (Ze0|ntrus)<BR>
+- New Images (Ze0|ntrus, alienine)<BR>
+- CSS Customization Added to all sources and style tag to template.html for more customization (alienine, Ze0|ntrus)<BR>
+- Real Mailing List in Admin Section (Wartortle, [CV]XXL, Ze0|ntrus)<BR>
+- Reserve User Names (David Gross)<BR>
+- No [url] tags required for hyperlink in posts (Wartortle)<BR>
+- News Fader on Board Index - note: <yabb news> removed from template but can easily be put back in (Morpheus)<BR>
+- IP moved to right of date ([CV]XXL)<BR>
+- Disable Smileys in Posts (Wartortle)<BR>
+- Better Bar in Member List (GlocknessMonster, Tom Quinn and [CV]XXL)<BR>
+- Multiple Moderators (Christian Land) - add comma separated names (name1, name2) to add them<BR>
+- Added a "Last modified: User -> Date" line to every modified message  (Christian Land)<BR>
+- You can "Un-Notify" (just click on Notify again and you'll be removed from the xxx.mail File) (Christian Land)<BR>
+- The names of the Moderators are displayed in MessageIndex & Display (Christian Land)<BR>
+- How many views hack (Matt)<BR>
+- Enhanced post (Wartortle)<BR>
+- Advanced IM (Christian Land)<BR>
+- Ban feature (Daknit)<BR>
+- Added updated "Jumpto" routine (Tonyo)<BR>
+- Added "Welcome to newest" Member hack (Tonyo)<BR>
+- "Hide Admin Function" Add-On (Wartortle)<BR>
+- Better URL display (Plato151)<BR>
+
+<BR><BR><A href="#top"><font size="1">back to top</font></a><BR><BR>
+</body>
+</html>

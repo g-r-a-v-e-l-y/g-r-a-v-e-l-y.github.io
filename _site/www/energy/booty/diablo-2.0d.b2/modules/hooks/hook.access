@@ -1,0 +1,30 @@
+# access hook
+
+add_command_hook("access","access");
+
+sub hook_access {
+	$text = $_[0];
+
+	if($text =~ /^access[ ]?(.*)$/) {
+		$user = $1;
+	       	if($user eq "") {$user = "$unick"; }
+		my(@access) = split(' ',$user);
+		foreach $user (@access) {
+	       		if ($ulevel{lc($user)} >= "5")
+	       		{ $response{lc($user)} = "an \2Owner\2";}
+	       		elsif ($ulevel{lc($user)} == "4")
+	       		{ $response{lc($user)} = "an \2Admin\2";}
+	       		elsif ($ulevel{lc($user)} == "3")
+	       		{ $response{lc($user)} = "a \2Sop\2";}
+	       		elsif ($ulevel{lc($user)} == "2")
+	       		{ $response{lc($user)} = "an \2Aop\2";}
+	       		elsif ($ulevel{lc($user)} != "2")
+	       		{ $response{lc($user)} = "a normal user";}
+	       		$wreason{lc($user)} = "access";
+	       		sockwrite($sock,"WHOIS $user");
+		}
+	        return 1;
+	}
+	
+	return 0;
+}

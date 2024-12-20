@@ -1,0 +1,10 @@
+{
+  "layout": "post",
+  "description": "{{ content|truncate(160) }}",
+  "tags": ["post"],
+  "permalink": "{% if customPermalink %}{{ customPermalink }}{% else %}/{{ title | slugify }}/{% endif %}",
+  "language": "en",
+  "published": true,
+  "ogType": "article",
+  "hasAsides": false
+}

@@ -1,0 +1,16 @@
+#!/bin/sh
+# Change this to the directory you run your bot from. This is
+# the only thing that needs to be changed.
+
+botdir="/usr/u1/people/jason/darkbot4"
+
+
+cd $botdir
+if test -r darkbot.pid; then
+	botpid=`cat darkbot.pid`
+	if `kill -CHLD $botpid`; then
+		exit 0
+	fi
+fi
+echo "Did not find darkbot running. Reloading."
+./darkbot

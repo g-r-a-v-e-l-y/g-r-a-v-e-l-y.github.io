@@ -1,0 +1,59 @@
+		=======================
+		*  Diablo Help Files  *
+		*         Aop         *
+		*  Last Update: v1.5  *		
+		=======================
+
+	COMMAND LISTING:
+
+-------------------------------------------------------------------------------
+Command:        SET ZIP <zipcode>
+Description:    Set a zip code for weather
+-------------------------------------------------------------------------------
+Command:        SET PASSWORD <password>
+Description:    Changes your password
+                Must be used in query
+Syntax:         /msg <bot> set password <password>
+-------------------------------------------------------------------------------
+Command:        IDENTIFY <password>
+Description:    Identifies to bot for higher access commands
+                Must be used in query
+Syntax:         /msg <bot> identify <password>
+-------------------------------------------------------------------------------
+Command:	TOPIC <chan> <topic>
+Description:	Change a channel's topic
+-------------------------------------------------------------------------------
+Command:	KICKBAN <user> [<reason>]
+Description:	Kick and ban a user
+-------------------------------------------------------------------------------
+Command:	KICK <user> [<reason>]
+Description:	Kick a user from the channel
+-------------------------------------------------------------------------------
+Command:	BAN <mask>
+Description:	Set ban on a hostmask
+-------------------------------------------------------------------------------
+Command:	MODE <channel> <mode>
+Description:	Force a mode change on a channel
+-------------------------------------------------------------------------------
+Command:	OP <user>
+Description:	Op a user in current channel
+-------------------------------------------------------------------------------
+Command:	DEOP <user>
+Description:	Deop a user in current channel
+-------------------------------------------------------------------------------
+Command:	VOICE <user>
+Description:	Voice a user in current channel
+-------------------------------------------------------------------------------
+Command:	DEVICE <user>
+Description:	Devoice a user in currrent channel
+-------------------------------------------------------------------------------
+Command:	OPME
+Description:	Op you in current channel
+-------------------------------------------------------------------------------
+Command:	DEOPME
+Description:	Deop you in current channel
+-------------------------------------------------------------------------------
+
+                ======================
+                *  End Of Help File  *
+                ======================

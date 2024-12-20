@@ -1,0 +1,64 @@
+<HTML>
+<HEAD>
+<TITLE>plan:b</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<LINK rel="STYLESHEET" type="text/css" href="../log.css">
+<style type="text/css">
+<!--
+a:link    
+{ color:#000000;
+text-decoration: underline
+}
+
+a:visited 
+{ color:#000000;
+text-decoration: underline
+}
+
+a:active  
+{ color:#000000
+ }
+
+a:hover  
+{ color:#FFFFFF;
+background:#EE9C00;
+text-decoration: underline
+}
+a.textnav:link    
+{ color:#000000;
+text-decoration: underline;
+text-align: right
+}
+
+a.textnav:visited 
+{ color:#000000;
+text-decoration: underline;
+text-align: right
+}
+
+a.textnav:active  
+{ color:#000000; text-align: right
+ }
+
+a.textnav:hover  
+{ color:#FFFFFF;
+background:#00B2EB;
+text-decoration: underline;
+text-align: right
+}
+
+
+BODY	   
+{ scrollbar-face-color: #00B2Eb; 
+scrollbar-shadow-color: #bbbbbb; 
+scrollbar-highlight-color: #bbbbbb; 
+scrollbar-3dlight-color: #ffffff; 
+scrollbar-darkshadow-color: #ffffff; 
+scrollbar-track-color: #ffffff; 
+scrollbar-arrow-color: #ffffff
+}
+//-->
+</STYLE>
+
+</HEAD>
+<BODY BGCOLOR=#FFFFFF>

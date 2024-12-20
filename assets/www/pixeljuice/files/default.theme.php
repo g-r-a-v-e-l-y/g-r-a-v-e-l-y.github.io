@@ -1,0 +1,1 @@
+<? $stylesheet = '/css/default.css'; ?>

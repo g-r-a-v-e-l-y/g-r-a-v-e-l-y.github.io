@@ -1,0 +1,38 @@
+Hooks technical information:
+
+The hooking method links a command trigger, or hook, to a command
+handler, a subroutine. The rest of this file talks about hooks
+specific to diablo, and may not comply with the quirks of other
+hook'd bots..
+
+add_command_hook("hook","handler");
+
+The hook is the trigger, so if one were to message the bot
+"hook me", the handler would be executed. add_command_hook()
+automatically prefix's the handler with hook_, so a handler of
+"whe" would be added as "hook_whe". When hooks are executed,
+they are passed $text in $_[0]. (this is everything after the
+: in PRIVMSG)
+
+del_command_hook("hook"); unassociates the hook from its handler,
+and removes it from the hook list. If a user then executed "hook me"
+(as created in the last example), he would retrieve an Invalid
+Command error.
+
+proccess_command_hook() is the subroutine that runs hooks, should
+_only_ be executed from a debug line(perl!) or from the parser.
+
+check_command_hook("hook") returns -1 for a nonexisting hook, or
+the number (starting at 0) in the hook arrays for the hook.
+
+@command_hooks is the list of hooks, @command_hook_handlers is the
+list of hook handles. hooks and handlers correspond in positions
+in the arrays, manual editing of arrays could disrupt the correspondance
+and make the bot essentially useless past the point of the misconfiuration.
+
+inside a hook subroutine, returns are used to communicate with
+the bot. a return of "1" means the hook executed a command,
+return of "-1" means the user does not have the necessary access,
+hence returning "No access". A return of 0 leads to an invalid
+command, as nothing was done. syntax("command") may be used within hooks
+to guide users to help.

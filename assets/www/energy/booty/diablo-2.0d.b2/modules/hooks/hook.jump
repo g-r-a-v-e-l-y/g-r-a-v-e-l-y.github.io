@@ -1,0 +1,68 @@
+# jump hook
+
+add_command_hook("jump","jump");
+
+sub hook_jump {
+	$text = $_[0];
+
+	if($text =~ /^jump[ ]?([^ ]*)[ ]?(.*)$/) {
+	     	$server = $1;
+		$port = $2;
+		if($ulevel{$unick} >= $clevel{jump} && $nnick eq $unick) {
+			sockwrite($sock,"PRIVMSG $uchan :Attempting to resolve remote host..");
+			$accept = 0;
+			while($accept < 2) {
+				$accept++;
+				open(PING,"|$pingapp -c 1 $server|grep packet");
+				$packet = <PING>; chomp($packet);
+				close(PING);
+				if($packet =~ /([^ ]+) packets transmitted\, ([^ ]+) packets received\, ([^ ]+)\% packet loss/) {
+					$percent = $3;
+					if($percent == 0 && $accept == 1) {
+						$accept = "2";
+					}
+					elsif($percent == 0 && $accept == 2) {
+						$accept = "3";
+					}
+					elsif($percent > 0 && $accept == 1) {
+						# go back !
+					}
+					elsif($percant > 0 && $accept == 2) {
+						$accept = "4";
+					}
+				}
+				elsif ($packet =~ /ping\: unknown host (.*)/) {
+					$accept = "4";
+				}
+				elsif($pingapp =~ /null/) { 
+					$accept = "5";
+				}
+				else {
+					$accept = "4";
+				}
+			}
+			if($accept > 1 && $accept < 4) {
+				if($accept == 2) {
+					sockwrite($sock,"PRIVMSG $uchan :Successfully Resolved host after \2one\2 attempt.");
+				}
+				else {
+					sockwrite($sock,"PRIVMSG $uchan :Successfully Resolved host after \2two\2 attempts.");
+				}
+			}
+			elsif ($accept != 5) {
+				sockwrite($sock,"PRIVMSG $uchan :Could not resolve host, route may be damaged or host unreachable. Check hostname or try again later.");
+			}
+			else {
+				sockwrite($sock,"PRIVMSG $uchan :Could not access the necessary resources to resolve host. Attempting to connect..");
+			}
+		        if ($port eq "") { $port=6667; } else { $port=$port; }
+		     	sockwrite($sock,"QUIT :jump by $unick \[$server:$port\]");
+		     	close($sock);
+		     	jumptoserver();
+			return 1;
+		}
+		else { return -1; }
+	}
+	
+	return 0;
+}

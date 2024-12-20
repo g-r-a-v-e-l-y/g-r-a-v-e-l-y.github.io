@@ -1,0 +1,23 @@
+{%- set title = siteConfig.site.title -%}
+{%- set navPages = collections.all | eleventyNavigation -%}
+
+<div class="main-nav">
+  <ul class="site-links">
+  {% for item in navPages %}
+  <li{% if item.url === page.url %} class="active" aria-current="page"{% endif %}>
+    <a href="{{ item.url }}">
+      {{ item.key }}
+    </a>
+  </li>
+  {% endfor %}
+  <li class="theme-switcher">
+    <a href="">{% include "svg/dark-toggle.svg" %}
+  {% include "svg/light-toggle.svg" %}</a>
+  </li>
+  </ul>
+  <div class="site-logo">
+    <a href="/" title="{{ title }} - {{ phrases.main_page }}">
+      {% include "partials/header/site-logo.njk" %}
+    </a>
+  </div>
+</div>

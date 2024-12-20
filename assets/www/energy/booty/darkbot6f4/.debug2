@@ -1,0 +1,12 @@
+
+---------------------------------------------------
+
+Darkbot should be compiled in DEBUG mode now.
+
+All input/output will be logged to darkbot_debug.log
+begin program, type: "./darkbot"
+
+darkbot@darkbot.net)
+
+---------------------------------------------------
+

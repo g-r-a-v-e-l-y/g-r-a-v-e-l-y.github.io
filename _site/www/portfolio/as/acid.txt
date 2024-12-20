@@ -1,0 +1,4 @@
+<SPAN class=caps>%title</SPAN>:  %body
+<SPAN class=poster>%sig<BR>%date  %time</SPAN><BR>
+<BR>
+

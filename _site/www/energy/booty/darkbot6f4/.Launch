@@ -1,0 +1,21 @@
+#!/bin/sh
+# simple question script.
+
+echo
+echo -n "Do you want to launch Darkbot now? [y/N] "
+read CHOICE
+echo
+case $CHOICE in
+	y)
+		echo 
+		./darkbot
+		;;
+	Y)
+		echo
+		./darkbot
+		;;
+	*)
+		echo "Skipping launch..."
+		echo
+		;;
+esac

@@ -1,0 +1,25 @@
+# ban hook
+
+add_command_hook("ban","ban");
+
+sub hook_ban {
+	$text = $_[0];
+
+	if($text =~ /^ban[ ]?([^ ]*)[ ]?(.*)$/) {
+		if($ulevel{$unick} >= $clevel{ban} && $nnick eq $unick) {
+			$mask = $1; $temp = $2;
+			if($mask ne "" && $temp eq "") {
+		     		sockwrite($sock,"MODE $uchan +b $mask");
+			}
+			else {
+				syntax("ban");
+			}
+		        return 1;
+		}
+		else {
+			return -1;
+		}
+	}
+
+	return 0;
+}

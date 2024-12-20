@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# Kills darkbot.pid process.
+
+kill -9 `cat ../darkbot.pid`

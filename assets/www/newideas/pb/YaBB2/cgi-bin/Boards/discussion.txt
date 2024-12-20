@@ -1,0 +1,48 @@
+145|Member Info|pete|techagq3@home.com|02/23/01 at 20:04:58|4||xx|0
+149|NEW SITE|jokerbone|lstave1@umbc.edu|02/23/01 at 18:09:03|1||xx|0
+148|scores|jokerbone|lstave1@umbc.edu|02/23/01 at 01:01:50|0||xx|0|MrBlack's House of Wong: OSP: (cpm4): EQL Game 1: Clan 519 vs Energy: 151 - 42 (best player: BITCHSLAYER 519: 43)<br><br><br>MrBlack's House of Wong: OSP: (q3dm6): EQL game two: internal energy vs 519: 80 - 192 (best player: rdw.519: 61)<br><br>OSP Tourney DM/CA/CTF: (q3dm7): EQL game three: internal energy vs 519: 76 - 173 (best player: Cracker-0trt: 54)<br><br><br><br>
+147|EQL invitaion received!!!!!!!!!|stereotype|m-roberts4@northwestern.edu|02/21/01 at 10:10:34|3||xx|0
+130|web site content|jokerbone|lstave1@umbc.edu|02/20/01 at 15:16:06|4||question|0
+144|sry|NoccY|NoCtuRn4L@hotmail.com|02/20/01 at 09:08:36|1||sad|0
+138|map strat for cpm4|stereotype|m-roberts4@northwestern.edu|02/17/01 at 22:56:18|6||xx|0
+141|Idea|NoccY|NoCtuRn4L@hotmail.com|02/17/01 at 20:38:22|1||question|0
+140|personal pages...|jokerbone|lstave1@umbc.edu|02/17/01 at 18:07:55|0||heart|0|Hi everyone. I just saw http://www.killerinstincts.com/ and decided to hate myself.<br><br>*cough*<br><br>j/k - although their site is very very leet.<br><br>anyway - there's some new functionality here on the internal energy site.<br><br>For those of you that dont' know, our private page is reached by clicking on the &quot;e&quot; in the top right corner of the site.<br><br>login: planb<br>Password: sun<br><br>On it, you will find a number of files and a few links to important stuff like news posting (broken atm i think) and some other stuff..<br><br>Today, i've added a new feature for personal private space on the server managed by a cgi file manager. I need to have vladimir (ex-plan:b member / server admin) password the directory, so be careful about where you access it from etc..<br><br>Personal space exists currently for monty and gladiac - if any of the rest of you would like one, let me know.<br><br>fuct:::::: this is a BSD machine - i'm looking into how difficult it will be to get this messageboard ported over to IIS. If i get it ready, we could -really- use that t1 line *cough* - this server is rather slow :( talk to me :) - as it is the cgi won't run on iis which would be a major bummer..<br><br>anway - check out the personal pages! enjoy!
+139|BL week 2 maps|NoccY|NoCtuRn4L@hotmail.com|02/17/01 at 13:55:05|0||xx|0|q3ignarena2,q3ignarena2, cpm9 &lt;- i think its 9.<br>Just any fyi. Looks as if we will be playing the final map of each week twice the next week. Hm....<br>interesting :)<br>
+137|new recruits?|ricecake|ekucera@shrike.depaul.edu|02/16/01 at 20:38:01|1||xx|0
+136|voicecomm?|jokerbone|lstave1@umbc.edu|02/16/01 at 12:07:10|6||question|0
+135|how to decide on starting lineup|flood|supamart@email.com|02/16/01 at 00:10:36|9||xx|0
+133|starting line-up|stereotype|m-roberts4@northwestern.edu|02/15/01 at 17:00:23|3||xx|0
+129|history text!|stereotype|m-roberts4@northwestern.edu|02/12/01 at 16:20:25|3||xx|0
+128|regarding flesh - new try out member|evim|bcftc@mindspring.com|02/12/01 at 00:21:45|4||thumbup|0
+104|WELL?|jokerbone|lstave1@umbc.edu|02/02/01 at 01:35:20|4||exclamation|0
+100|yo|b:fled|fled@gamelinks.net|12/27/00 at 23:25:08|0||xx|0|this is fled sending my last words to the clan. &nbsp;I'm calling it quits with Q3 as i just dont enjoy playing it anymore. =(<br>I hope u guys will come through after mark comes back and wish u guys the best of luck in the future. &nbsp;<br>cyas<br><br>FLeD
+99|plan b will be back|tgm2000|bowler34@hotmail.com|12/11/00 at 22:11:27|1||xx|0
+97|inactivity|jokerbone|lstave1@umbc.edu|12/11/00 at 01:48:49|2||exclamation|0
+96|clan activity and other issues|b:fled|fled@gamelinks.net|12/04/00 at 19:18:24|6||exclamation|0
+80|URGENT! plan:b irc meeting needed |stereotype|m-roberts4@northwestern.edu|11/16/00 at 01:16:47|3||xx|0
+67|the absence of ewok|M4d_3w0k|znaverbe@tiu.edu|11/13/00 at 21:28:58|0||xx|0|just thought id let you guys know that im just kinda stepping back for a few days.. to relax and cool down over the whole fiasco with hitman. &nbsp;the situation has been rectified with him today when i sent him the fix for it.<br>please dont take this absence personally, im still in the plan_b channel, but i guess im just frustrated right now is all. &nbsp;rest assured, i will be back, and also rest assured that when i come back (soon) there will be no hard feelings on my end.<br><br>sincerely.<br><br>nate.
+65|history.html|jokerbone|lstave1@umbc.edu|11/11/00 at 17:50:19|0||question|0|Hi. Mark has discussed writing a similar little essay and I've gone and done it without asking anyone &nbsp;- check the history page for what i wrote.<br><br>part of the nature of html is that it is dynamic - if any of you have any changes to suggest, please shoot them at me - remember, this essay is _my_ view of our history, not yours :P<br><br>Those of you that weren't in acid*sun still have a voice! this little essay will represent to visitors what we are as a clan.. is this ok with you guys?<br><br>hope i didn't step on any toes but i feel that this kind of text has been needed on the site for some time because of how cryptic the name plan:b seems to outsiders (and to some of our members) :P<br><br>ty
+64|life stages and the banning of u'hitman|jokerbone|lstave1@umbc.edu|11/11/00 at 13:27:37|3||question|0
+62|&lt;rant&gt; |jokerbone|lstave1@umbc.edu|11/10/00 at 13:45:48|2||lamp|0
+59|TEST|bullet|vzhurov@devbiol.zoo.uwo.ca|11/09/00 at 19:44:42|2||wink|0
+51|private forums|jokerbone|lstave1@umbc.edu|11/06/00 at 18:21:13|0||xx|0|there are no longer passwords on these forums because they are only visible to planb members - just trust me.<br><br>on the other hand, the yabb isn't as secure as i'd like it to be - but good enough for a group like us :)<br><br>Grant
+77|Lemon = my hero !|stereotype||11-06-2000 at 01:33 AM|0||xx|0
+70|Binds|stereotype||11-04-2000 at 11:53 PM|6||xx|0
+69|TP.net challenge|grant||11-02-2000 at 04:18 PM|1||xx|0
+68|welcome|grant||11-02-2000 at 01:43 AM|2||xx|0
+49|dig|grant||10-27-2000 at 07:11 PM|0||xx|0
+48|weekend plans|grant||10-27-2000 at 04:22 PM|0||xx|0
+47|stickmen|grant||10-26-2000 at 12:10 PM|1||xx|0
+46|"news" section of http://plan-b.n3.net/|grant||10-23-2000 at 09:15 PM|0||xx|0
+45|match against m|grant||10-26-2000 at 03:10 PM|3||xx|0
+44|Match against method: recap|CS6x||10-21-2000 at 03:18 PM|0||xx|0
+43|My config and binds.|Monty||10-20-2000 at 11:58 PM|1||xx|0
+42|ok here it is, my config|cArnAge||10-20-2000 at 06:12 PM|0||xx|0
+41|NEW MESSAGEBOARD|grant||10-20-2000 at 12:17 PM|0||xx|0
+40|Some comments on teamplay and plan:b|CS6x||10-20-2000 at 03:50 AM|0||xx|0
+39|test|CS6x||10-20-2000 at 02:51 AM|0||xx|0
+38|Demo n old screen!|Monty||10-19-2000 at 09:20 PM|1||xx|0
+37|**Stuff**|Monty||10-19-2000 at 09:02 PM|0||xx|0
+36|shitty paper|grant||10-19-2000 at 05:21 PM|0||xx|0
+35|i am a l337 haXor!!!|aaron||10-17-2000 at 04:56 PM|0||xx|0
+34|private forums|grant||10-17-2000 at 03:41 PM|4||xx|0

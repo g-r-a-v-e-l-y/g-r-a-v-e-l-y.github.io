@@ -1,0 +1,24 @@
+@use "../../mixins";
+
+.top-meta {
+  margin: 0 0 3rem;
+  font-size: 1.5rem;
+  letter-spacing: 0.0125rem;
+  display: flex;
+  font-family: var(--serif-italic-font-family);
+  font-style: italic;
+  font-weight: 400;
+  color: var(--top-meta-color);
+
+  [data-tooltip]::after {
+    min-width: 8rem;
+  }
+
+  @include mixins.mobile {
+    margin-top: 0.5rem;
+  }
+
+  .separator {
+    padding-right: .25em;
+  }
+}

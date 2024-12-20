@@ -1,0 +1,45 @@
+PROGRAM NAME:  Active LogView
+VERSION NUMBER:  1.35+
+
+SHORT DESCRIPTION:
+
+Active LogView is is a CGI application designed to manage, analyze and report web statisics for your website.
+Log analysis and reporting are performed in Real-Time.
+Active LogView can be installed on Windows 95/98 or run as a Windows NT service.
+Active LogView is the fastest most powerful traffic analyzer because it does not require importing of the log file to a database - the analysis is performed on the log file itself and not on a database.
+With Active LogView you can get a number of different statistics about hit counts, refering page, unique visitors.
+You can password protect viewing statistics.
+Active LogView can erease the log file online. The included password protection gives only authorized persons access to the administration area.
+A number of different settings can be changed on-line. For example, log-file format, background color, text color, page title and others.
+
+
+HISTORY:
+
+New in 1.35+ release
+*  A 'devide by zero' bug fixed.
+
+New in 1.35 release
+*  Active LogView can find Log file format automatically.
+
+New in 1.34 release
+*  Daily Unique reguests report added.
+
+New in 1.33 release
+*  search engine keywords report added.
+*  a small bug in log-file parser fixed.
+
+New in 1.32 release
+*  header / footer can be included into report page.
+
+New in 1.31 release
+*  LOG-file separator symbol can be changed on-line.
+*  Time stamp added. 
+
+New in 1.30 release
+*  Preferences added. All settings can be changed online.
+*  Multiple log files analysis added.
+
+---CONTACT---
+AUTHOR: Sergei Polishchuk
+EMAIL:  support@softcab.com
+WEB:    http://www.softcab.com/logview/

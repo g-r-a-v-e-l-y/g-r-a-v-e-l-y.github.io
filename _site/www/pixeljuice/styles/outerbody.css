@@ -1,0 +1,273 @@
+
+/* my blue: 3A6EA5 ~= 336699 */
+
+body, td, font, p {
+	color:#000000;
+	background:#cccccc;
+	font: 10px geneva, verdana, arial, sans-serif;
+	line-height: 140%;
+}
+
+a:link { color:#000000; TEXT-DECORATION:none; border: 1px solid #cccccc;}
+a:visited { color:#000000; TEXT-DECORATION:none; border: 1px solid #cccccc;}
+a:active { color:#000000; TEXT-DECORATION:none; border: 1px solid #cccccc;}
+a:hover { color:#000000; background-color:#cccccc; TEXT-DECORATION:none; border: 1px solid #336699; }
+
+.ahem, a.dhtmlaunch:link, a.dhtmlaunch:visited, a.dhtmlaunch:active, a.dhtmlaunch:hover, a.dhtmlaunch2:link, a.dhtmlaunch2:visited, a.dhtmlaunch2:active, a.dhtmlaunch2:hover {
+ display : none;
+}
+
+div.brokeass {
+  color : red;
+}
+
+hr { display : none;
+  margin-left : auto;
+  margin-right : auto;
+  text-align : center;
+  }
+
+a.copyright:link {
+  color : #000;
+  cursor : default;
+  text-decoration : none;
+}
+a.copyright:visited {
+  color : #000;
+  cursor : default;
+  text-decoration : none;
+}
+a.copyright:active {
+  color : #000;
+  cursor : default;
+  text-decoration : none;
+}
+a.copyright:hover {
+  color : #000;
+  cursor : default;
+  text-decoration : none;
+  background-color : #cccccc;
+}
+
+.navpadding {
+  line-height : inherit; }
+
+select{
+  font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size : 11px;
+  background-color : #336699;
+  color : white;
+  border : 2px solid #aaaaaa;
+  button-base-color : #336699;
+  button-arrow-color : white;
+  z-index : 4;
+}
+
+#themedrop {
+  font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size : 11px;
+  background-color : #336699;
+  color : white;
+  border : 2px solid #aaaaaa;
+  z-index : 4;
+  position : absolute;
+  left : 680px;
+  top : 330px;
+  z-index : 4;
+  }
+.logo
+  {
+	position:absolute; left:23px; top:23px; width=304px; height=304px;
+	border-right:3px solid #666666;
+	border-bottom : 3px solid #666666;
+	border-left : none;
+	border-top : none;
+	padding:0;
+	background: #336699;
+	cursor : crosshair;
+}
+
+div#navigation {
+    position:absolute; left:25px; top:350px;
+}
+
+div#main
+    {
+    position:absolute; left:350px; top:50px;
+    width : 400px;
+    height : 250px;
+    overflow : scroll;
+    background: #cccccc;
+    border: 1px solid #336699;
+    padding : 1em;
+}
+#main p { border: 1px solid #336699;
+border-top : 10px;
+ }
+
+div#pagetitle {
+	width : 100px;
+	padding : 5px;
+    position:absolute; left:350px; top:25px;
+    font: 10px geneva, verdana, arial, sans-serif;
+}
+
+#spybox{
+  width : 90%;
+  border : 0 0 0 0;
+  outline : none;
+  color : white;
+  background-color : #cccccc;
+  text-align : center;
+  position : relative;
+  margin-left : auto;
+  margin-right : auto;
+}
+
+
+img.scaled {
+  width : 80px;
+  border : 0;
+  display : inline;
+  margin : 6px;
+}
+
+.broke {
+  color : red;
+  font-size : 11px;
+  background-color : white;
+  font-family : verdana, geneva, arial, helvetica, sans-serif;
+  border-top : 1px dotted black;
+  border-bottom : 1px dotted black;
+}
+a.amplink:link {
+  color : inherit;
+  background-color : #cccccc;
+  outline : 0;
+  border : none;
+  }
+
+a.amplink:visited {
+color : inherit;
+  background-color : #cccccc;
+  outline : 0;
+  border : none;
+  }
+
+a.amplink:active {
+  color : inherit;
+  background-color : #cccccc;
+  outline : 0;
+  border : none;
+  }
+
+a.amplink:hover {
+  color : inherit;
+  background-color : #cccccc;
+  outline : 0;
+  border : none;
+  }
+pre {
+  font-family : "Lucida Console", "Letter Gothic MT", "Courier New", Courier, monospace;
+  font-size : 20px;
+  color : black;
+  background-color : #cccccc;
+	padding : 2%;
+	text-align : center;
+}
+
+.tinypre {
+  font-family : "Lucida Console", "Letter Gothin MT", "Courier New", Courier, monospace;
+  font-size : 1px;
+  color : black;
+  }
+
+option {
+  font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size : 11px;
+  background-color : #336699;
+  color : white;
+  }
+
+optgroup {
+  font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size : 11px;
+  font-weight : bold;
+  background-color : #0089bf;
+  color : white;
+  }
+h1 {
+  font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size : 12px;
+  font-weight : normal;
+  color : black;
+  margin : 3px;
+  line-height : normal;
+}
+
+h4 {
+  font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size : 14px;
+}
+
+strong {
+
+  color : #006699;
+  background-color : #cccccc;
+
+}
+
+a.nav:link {
+	margin-left : 1em;
+
+}
+a.nav:visited {
+	margin-left : 1em;}
+a.nav:active {
+	margin-left : 1em;}
+a.nav:hover {
+	margin-left : 1em;
+}
+a.themeanch:link {
+	color : #000000;
+	text-decoration : none;
+	background-color : #eeeeee;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	margin-right : 6px;
+	line-height : normal;
+}
+a.themeanch:visited {
+	color : #000000;
+	text-decoration : none;
+	background-color : #0066cc;
+	font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	margin-right : 6px;
+	line-height : normal;
+}
+a.themeanch:active {
+  color : #000000;
+  text-decoration : none;
+  background-color : #0066cc;
+  margin-right : 6px;
+}
+a.themeanch:hover {
+  color : #ff0000;
+  text-decoration : none;
+  vertical-align : bottom;
+  background-color : #0066cc;
+  margin-right : 6px;
+}
+
+a.nav:visited { text-decoration : none; }
+a.nav:link  { text-decoration : none; }
+a.nav:hover  { text-decoration : none; }
+
+.links_page {
+  line-height : 15px;
+  height : 400;
+  overflow : scroll;
+}
+
+b { font-weight : normal; }

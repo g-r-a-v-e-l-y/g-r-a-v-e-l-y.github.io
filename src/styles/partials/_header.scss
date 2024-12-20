@@ -1,0 +1,45 @@
+@use "sass:meta";
+@use "../mixins";
+
+.header {
+  display: block;
+  flex-direction: row;
+  max-width: 43rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0 auto;
+  font-size: 1.25rem;
+
+  menu {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  @include meta.load-css('header/hamburger');
+  @include meta.load-css('header/site_logo');
+  @include meta.load-css('header/main_nav');
+  @include meta.load-css('header/theme_switcher');
+  @include meta.load-css('header/site_links');
+}
+
+@include mixins.noJS {
+  .theme-switcher {
+    display: none;
+  }
+}
+
+@include mixins.belowMenuBreakpoint {
+  .header {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: var(--background-color);
+  }
+}
