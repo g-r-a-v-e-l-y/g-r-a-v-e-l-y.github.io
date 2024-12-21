@@ -1,7 +1,0 @@
-Binds|stereotype||11-02-2000 at 07:23 PM|stereotype|xx|0|127.0.0.1|I'm just in the process of tweaking a kick-ass script for TDM purposes. It will allow for endless storage space systematically grouped! ... not really endless ... but i.e. 96 binds distributed among 12 keys :)<p>But it's giving me some trouble, so if possible have some patience with me...should be finished at the latest tomorrow evening...needs to be tested as well ;)<p><br>
-Binds|grant||11-02-2000 at 08:17 PM|grant|xx|0|127.0.0.1|I was just talking to shadow'mzimu about this kind of thing last night - he just finnished doing the same kind of thing for ctf. i'll ask him for some tips ;)<p>Grant
-Binds|stereotype||11-02-2000 at 09:38 PM|stereotype|xx|0|127.0.0.1|sweet :P
-Binds|stereotype||11-02-2000 at 09:38 PM|stereotype|xx|0|127.0.0.1|sweet :P<p>I would appreciate ANY suggestions for binds you think we need... =]
-Binds|Agamemnon||11-03-2000 at 12:49 PM|Agamemnon|xx|0|127.0.0.1|can you pass that along to me mark?  Rick gave me a while back a script that did what youre talking about but with a tree system using the wheel of your mouse.  I never tried it, but this sounds better.
-Binds|stereotype||11-03-2000 at 03:16 PM|stereotype|xx|0|127.0.0.1|As I said...I'm not done yet...as soon as I am I will pass it on to Grant who can then put it on the web for download.
-Binds|stereotype||11-04-2000 at 11:53 PM|stereotype|xx|0|127.0.0.1|ok I'm having serious problems here. For some reason the binds won't load in q3 anymore. I need help from someone.

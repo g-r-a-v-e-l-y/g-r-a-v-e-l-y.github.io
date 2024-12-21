@@ -1,3 +1,0 @@
-<?
-  $stylesheet = 'styles/thrashy.css'
-?>

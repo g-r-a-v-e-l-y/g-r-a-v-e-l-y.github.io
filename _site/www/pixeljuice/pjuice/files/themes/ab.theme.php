@@ -1,5 +1,0 @@
-<?
-  $stylesheet = 'styles/ab.css';
-
-
-?>

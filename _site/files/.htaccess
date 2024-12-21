@@ -1,5 +1,0 @@
-RewriteEngine On
-
-RewriteCond %{REQUEST_METHOD} ^POST$ [NC]
-RewriteCond ^/derp.html.*$ [NC]
-RewriteRule .* /error.php [L]

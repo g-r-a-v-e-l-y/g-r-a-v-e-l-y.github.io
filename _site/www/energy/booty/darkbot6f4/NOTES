@@ -1,4 +1,0 @@
-If you're running linux, and are having problems, edit the
-defines.h and enable or disable the NEED_LIB5 define. Also if
-your bot is dying every 5 minutes or so, you might want to
-try disabling the STONED checking (also in the defines.h)

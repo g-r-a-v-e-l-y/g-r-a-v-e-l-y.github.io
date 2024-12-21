@@ -1,1 +1,0 @@
-jokerbone|news posting account|02/23/01 at 18:52:25|k. just set you up with one. go to the private section, then to &quot;newspro&quot;<br><br>you're login name is &quot;e.NoccY&quot; and your password is &quot;yccon&quot; because i'm not very creative ;)<br><br>hf|982972287

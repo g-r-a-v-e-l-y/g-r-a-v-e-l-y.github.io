@@ -8,8 +8,7 @@ permalink: "/eggcorns-in-technology-a-list.html"
 >
 > The term “eggcorn” was coined by Geoffrey Pullum in September 2003, in response to an article by Mark Liberman on the website Language Log, a blog for linguists. Liberman discussed the case of a woman who substitutes the phrase egg corn for the word acorn, arguing that the precise phenomenon lacked a name; Pullum suggested using “eggcorn” itself.
 
-*   _labtop_ instead of _laptop_
-*   _mallware_ instead of _malware_
-*   _cusrser_ instead of _cursor_
-*   _aohell_ instead of _AOL_
-*   instead of
+* _labtop_ instead of _laptop_
+* _mallware_ instead of _malware_
+* _cusrser_ instead of _cursor_
+* _aohell_ instead of _AOL_

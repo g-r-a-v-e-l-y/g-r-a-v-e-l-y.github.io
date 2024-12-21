@@ -3,16 +3,16 @@ title: The Mad Tea Party
 tags: posts
 date: 2009-04-14 23:09:00.00 -8
 permalink: "/the-mad-tea-party.html"
+hasAsides: true
 ---
-[^hatter]
+
+{aside}![The illlustration of The Mad Hatter from Alice in Wonderland](/images/madhatter.jpg){/aside}
 
 There was a table set out under a tree in front of the house, and a Democrat
 and a Republican were having tea at it: the Economy was sitting between them,
 fast asleep, and the other two were using it as a cushion, resting their
 elbows on it, and talking over its head. 'Very uncomfortable for the Economy,'
 thought Alice; 'only, as it's asleep, I suppose it doesn't mind.'
-
-[^hatter]: {-} ![The illlustration of The Mad Hatter from Alice in Wonderland](/images/madhatter.jpg)
 
 The table was a large one, but the three were all crowded together at one
 corner of it: 'No room! No room!' they cried out when they saw Alice coming.
@@ -56,7 +56,7 @@ Democrat.
 'I do,' Alice hastily replied; 'at least--at least I mean what I say--that's
 the same thing, you know.'
 
-![illustration](/images/teaparty.jpg)
+{aside}![illustration](/images/teaparty.jpg){/aside}
 
 'Not the same thing a bit!' said the Republican. 'You might just as well say
 that "I see what I eat" is the same thing as "I eat what I see"!'
@@ -314,7 +314,7 @@ others took the least notice of her going, though she looked back once or
 twice, half hoping that they would call after her: the last time she saw them,
 they were trying to put the Economy into the teapot.
 
-![illustration](/images/pigparty.jpg)
+{aside}![illustration](/images/pigparty.jpg){/aside}
 
 'At any rate I'll never go _THERE_ again!' said Alice as she picked her way
 through the wood. 'It's the stupidest tea-party I ever was at in all my life!'
@@ -330,4 +330,3 @@ Then she went to work nibbling at the mushroom (she had kept a piece of it in
 her pocket) till she was about a foot high: then she walked down the little
 passage: and _THEN_--she found herself at last in the beautiful garden, among
 the bright flower-beds and the cool fountains.
-

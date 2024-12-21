@@ -1,6 +1,0 @@
-fuct you|Jeff|jp_kronos@yahoo.com|02/20/01 at 16:10:45|jp-Kronos|xx|0|65.10.132.101|fuct you
-Re: fuct you|jp-Kronos|jp_kronos@yahoo.com|02/20/01 at 16:12:36|jp_Kronos|xx|0|65.10.132.101|why the shit do they have username and name backwards, thats fuct up :/
-Re: fuct you|ricecake|ekucera@shrike.depaul.edu|02/20/01 at 19:36:04|Agamemnon|angry|0|140.192.173.77|grant youre fired.
-Re: fuct you|jokerbone|lstave1@umbc.edu|02/20/01 at 20:48:50|jokerbone|xx|0|24.23.47.111|I didn't write the shit - but i have had to go in and switch probably every third person that signs up here. gg yabb!
-Re: fuct you|ben|doobman@spam.mediaone.net|02/21/01 at 10:08:05|ben|xx|0|4.18.5.18|thoerically grant, you could find the dialog registration page and change the names of the input on the html and stuff *cough*
-Re: fuct you|jokerbone|lstave1@umbc.edu|02/21/01 at 14:26:20|jokerbone|xx|0|24.23.47.111|it's even easier. <br>/ubb/cgi-bin/Variable/english.lng <br><br>has all of that info - each var gets its own line.. <br><br>i'm so lazy<br><br>*sigh*<br><br>hehe

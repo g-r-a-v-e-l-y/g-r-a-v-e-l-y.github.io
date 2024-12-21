@@ -10,16 +10,17 @@ One of the reasons I maintain archives of my content here — embarrassing as it
 
 I invite you to play along. Strike through and asides noted as we improve my own past. If only it was this easy!
 
-[Shmoocon](http://grantstavely.com/shmoocon).
+[Shmoocon](/shmoocon).
 
 > I just signed up for Shmoocon, billing itself as _“...an all-new, annual East coast hacker convention hell-bent on offering an interesting and new atmosphere for demonstrating technology exploitation, inventive software & hardware solutions, as well as open discussion of critical information security issues.“_
 >
-> **aside:** OK.
+
+> ~~The last (only) LUG meeting I went to was full of Haha I use loonix! 1337! people and the last other geek meet-up I went to was a mix of ultra-brights and people that change backup tapes every night (on reseting TCP sessions: “So you could knock out an FTP session! other tape-changer: But could you knock over an ssl session?” (sorry that’s so obscure but it was silly at the time))~~
 >
-> ~The last (only) LUG meeting I went to was full of Haha I use loonix! 1337! people and the last other geek meet-up I went to was a mix of ultra-brights and people that change backup tapes every night (on reseting TCP sessions: “So you could knock out an FTP session! other tape-changer: But could you knock over an ssl session?” (sorry that’s so obscure but it was silly at the time))~
+
+> Hackers! ~~As a lowly consultant (like a sysadmin albeit ~35+ times over, simultaneously)~~ I ~~’ll~~ expect to be surrounded by a bunch of extremely bright ~~coders, a few~~ people ~~like myself, and a larger handful of nerds and clueless wannabe’s (those last three groups may intermingle a bit)~~.
 >
-> Hackers! ~As a lowly consultant (like a sysadmin albeit ~35+ times over, simultaneously)~ I~’ll~ expect to be surrounded by a bunch of extremely bright ~coders, a few~ people ~like myself, and a larger handful of nerds and clueless wannabe’s (those last three groups may intermingle a bit)~.
->
+
 > I hope I get a t-shirt.
 
-**aside:** What's with the incessant, murky qualification and labeling and classification of fellow human beings? Lose it.
+What's with the incessant, murky qualification and labeling and classification of fellow human beings? Lose it.

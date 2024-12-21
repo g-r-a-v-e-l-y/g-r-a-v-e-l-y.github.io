@@ -3,6 +3,7 @@ title: The Paradox of Controls
 tags: posts
 date: 2010-02-18 08:55:00.00 -8
 permalink: "/the-paradox-of-controls.html"
+hasAsides: true
 ---
 Given an effectively infinite set of behaviors, and a limited set of actors, the simplest and most common control strategy to restrict the behavior of actors seems to be:
 
@@ -29,7 +30,9 @@ Two components of that are interesting.
 
 Doing jumping jacks in the room is not escape from the room. Neither is square dancing, however goofy it may be. In fact, forced jumping jacks or square dancing might be better controls than the rope — they are distracting, require dextrous locomotion, and in the case of square dancing, a guard could keep hold of the escape artist’s arm the entire time.
 
-You see, this is when many practitioners argue for defense-in-depth. OK, they say, we’ll lock the room, and we’ll use a strong chair, and we’ll put chains on top of the ropes, and fill the room with water to 8 inches below the ceiling, and so on until you get sick just hearing from them. Escape artists design their tricks to be _loaded_ with defense-in-depth security theater, it makes the escape look less like a foregone conclusion.1
+{aside}Tomes could be written on this mess, it’s debatable, join any security mailing list and wait for the thread to revive.{/aside}
+
+You see, this is when many practitioners argue for defense-in-depth. OK, they say, we’ll lock the room, and we’ll use a strong chair, and we’ll put chains on top of the ropes, and fill the room with water to 8 inches below the ceiling, and so on until you get sick just hearing from them. Escape artists design their tricks to be _loaded_ with defense-in-depth security theater, it makes the escape look less like a foregone conclusion.
 
 But no matter what, that pesky infinity is still sitting there on the right side of the escape artist’s behavior controls equation. Don’t forget that, because it’s very important. Actually, mind your mediations, it’s a [Lemniscate of Bernoulli](http://en.wikipedia.org/wiki/Lemniscate) sitting there, standing _in for_ infinity. Anyway.
 
@@ -102,8 +105,3 @@ Returning to our behavior control equation:
 For every harmless element of the set _y_ removed from ∞, the ∞ of available behaviors ratio tips 1 unit more towards undesirable.
 
 As a [design pattern](http://www.43folders.com/2009/01/27/creativity-patterns), try to avoid doing that.
-
-- - -
-
-
-1 Tomes could be written on this mess, it’s debatable, join any security mailing list and wait for the thread to revive.
