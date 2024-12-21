@@ -11,4 +11,4 @@ calling metonymy by name, one could claim that synecdoche is a metonym for
 metonymy. By similar standards, because synecdoche is a subset of metonymy,
 synecdoche is also a synecdoche of metonymy. The converse is also true.
 
-> http://en.wikipedia.org/wiki/Metonymy#Synecdoche
+[http://en.wikipedia.org/wiki/Metonymy#Synecdoche](http://en.wikipedia.org/wiki/Metonymy#Synecdoche)
