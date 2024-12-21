@@ -5,8 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>torrent applescript folder action - gimme pizza slow (high quality)</title>
 <meta property="og:title" content="torrent applescript folder action - gimme pizza slow (high quality)">
-<link rel="stylesheet" href="/css/style.css?v=1734730330">
-<script src="/js/scripts.js?v=1734730330"></script>
+<link rel="stylesheet" href="/css/style.css?v=1734801489">
+<script src="/js/scripts.js?v=1734801489"></script>
 <meta name="description" content="{{ content|truncate(160) }}">
 <link rel="canonical" href="https://www.gravely.pizza/torrent-applescript-folder-action" />
 <meta name="generator" content="Eleventy v2.0.1">
@@ -134,14 +134,11 @@
   <time>3 Oct 2011</time>
   
   <span class="separator">, </span>
-  <span data-tooltip="298 words" class="tooltip-bottom reading-time">2 min read</span>
+  <span data-tooltip="309 words" class="tooltip-bottom reading-time">2 min read</span>
   
 </div>
   
-  <p>Aaaag, it’s so annoying having to add the <em>~GNU/Linux ISO~</em> torrent file I
-just downloaded to my home server’s torrent daemon’s auto-start directory. So,
-I hacked up <a href="/files/Move%20Torrents.scpt">this Folder Action</a> to do it for me
-automatically.</p>
+  <p>I made an OS X folder action to move .torrent file downloads to a directory watched by my torrent client. It’s pretty clumsy.</p>
 <pre class="language-applescript"><code class="language-applescript"><span class="token keyword">on</span> adding folder items <span class="token keyword">to</span> thisFolder <span class="token keyword">after</span> receiving added_items
 	<span class="token keyword">set</span> DroboTorrents <span class="token keyword">to</span> <span class="token string">"storage:New Media"</span>
 	<span class="token keyword">repeat</span> <span class="token keyword">with</span> addedFile <span class="token keyword">in</span> added_items
@@ -159,6 +156,7 @@ automatically.</p>
 		<span class="token keyword">end</span> <span class="token keyword">tell</span>
 	<span class="token keyword">end</span> <span class="token keyword">repeat</span>
 <span class="token keyword">end</span> adding folder items <span class="token keyword">to</span></code></pre>
+<p>14 years later I’m still pretty much doing the same thing, having moved from that old Drobo and <a href="https://transmissionbt.com/">Transmission</a> to a <a href="https://www.qbittorrent.org/">qbittorent</a> docker deploy on TrueNAS Scale.</p>
 <h2 id="updated-for-2024">Updated for 2024</h2>
 <pre class="language-applescript"><code class="language-applescript"><span class="token keyword">on</span> adding folder items <span class="token keyword">to</span> thisFolder <span class="token keyword">after</span> receiving added_items
     <span class="token keyword">repeat</span> <span class="token keyword">with</span> addedFile <span class="token keyword">in</span> added_items

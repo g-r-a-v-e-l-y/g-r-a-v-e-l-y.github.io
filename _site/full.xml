@@ -56,10 +56,7 @@
 </entry><entry><title>torrent applescript folder action</title>
 <link href="https://www.gravely.pizza/torrent-applescript-folder-action.html"/>
 <updated>2011-10-03T08:37:00Z</updated>
-<id>https://www.gravely.pizza/torrent-applescript-folder-action.html</id><content type="html">&lt;p&gt;Aaaag, it’s so annoying having to add the &lt;em&gt;~GNU/Linux ISO~&lt;/em&gt; torrent file I
-just downloaded to my home server’s torrent daemon’s auto-start directory. So,
-I hacked up &lt;a href=&quot;https://www.gravely.pizza/files/Move%20Torrents.scpt&quot;&gt;this Folder Action&lt;/a&gt; to do it for me
-automatically.&lt;/p&gt;
+<id>https://www.gravely.pizza/torrent-applescript-folder-action.html</id><content type="html">&lt;p&gt;I made an OS X folder action to move .torrent file downloads to a directory watched by my torrent client. It’s pretty clumsy.&lt;/p&gt;
 &lt;pre class=&quot;language-applescript&quot;&gt;&lt;code class=&quot;language-applescript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;on&lt;/span&gt; adding folder items &lt;span class=&quot;token keyword&quot;&gt;to&lt;/span&gt; thisFolder &lt;span class=&quot;token keyword&quot;&gt;after&lt;/span&gt; receiving added_items
 	&lt;span class=&quot;token keyword&quot;&gt;set&lt;/span&gt; DroboTorrents &lt;span class=&quot;token keyword&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;storage:New Media&quot;&lt;/span&gt;
 	&lt;span class=&quot;token keyword&quot;&gt;repeat&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;with&lt;/span&gt; addedFile &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; added_items
@@ -77,6 +74,7 @@ automatically.&lt;/p&gt;
 		&lt;span class=&quot;token keyword&quot;&gt;end&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;tell&lt;/span&gt;
 	&lt;span class=&quot;token keyword&quot;&gt;end&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;repeat&lt;/span&gt;
 &lt;span class=&quot;token keyword&quot;&gt;end&lt;/span&gt; adding folder items &lt;span class=&quot;token keyword&quot;&gt;to&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;14 years later I’m still pretty much doing the same thing, having moved from that old Drobo and &lt;a href=&quot;https://transmissionbt.com/&quot;&gt;Transmission&lt;/a&gt; to a &lt;a href=&quot;https://www.qbittorrent.org/&quot;&gt;qbittorent&lt;/a&gt; docker deploy on TrueNAS Scale.&lt;/p&gt;
 &lt;h2 id=&quot;updated-for-2024&quot;&gt;Updated for 2024&lt;/h2&gt;
 &lt;pre class=&quot;language-applescript&quot;&gt;&lt;code class=&quot;language-applescript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;on&lt;/span&gt; adding folder items &lt;span class=&quot;token keyword&quot;&gt;to&lt;/span&gt; thisFolder &lt;span class=&quot;token keyword&quot;&gt;after&lt;/span&gt; receiving added_items
     &lt;span class=&quot;token keyword&quot;&gt;repeat&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;with&lt;/span&gt; addedFile &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; added_items
@@ -145,46 +143,31 @@ calling metonymy by name, one could claim that synecdoche is a metonym for
 metonymy. By similar standards, because synecdoche is a subset of metonymy,
 synecdoche is also a synecdoche of metonymy. The converse is also true.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;blockquote&gt;
-&lt;p&gt;http://en.wikipedia.org/wiki/Metonymy#Synecdoche&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;http://en.wikipedia.org/wiki/Metonymy#Synecdoche&quot;&gt;http://en.wikipedia.org/wiki/Metonymy#Synecdoche&lt;/a&gt;&lt;/p&gt;
 </content>
 </entry><entry><title>Scream Like a Man</title>
 <link href="https://www.gravely.pizza/scream-like-a-man.html"/>
 <updated>2010-03-20T19:28:00Z</updated>
 <id>https://www.gravely.pizza/scream-like-a-man.html</id><content type="html">&lt;h3 id=&quot;text-adventures&quot;&gt;Text Adventures&lt;/h3&gt;
 &lt;p&gt;You see an article or a twitter toot or whatever.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;read the thing&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;code&gt;read the thing&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;You see a link that looks interesting.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;click the link&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;code&gt;click the link&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;You just made be &lt;a href=&quot;http://blog.last.fm/2009/02/23/techcrunch-are-full-of-shit&quot;&gt;Mike Arrington&lt;/a&gt; some cash.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.marco.org/244246945&quot;&gt;undo&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;code&gt;undo&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;I’m sorry, I don’t understand “undo”&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;damnit&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;code&gt;damnit&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Swearing won’t help.&lt;/p&gt;
 &lt;h3 id=&quot;enough-of-that&quot;&gt;Enough of that&lt;/h3&gt;
 &lt;p&gt;No thanks, right? I mean it’s all well and good to just close the tab, of
 course, when you go to a site you don’t want to work for, but the ads have
 already loaded. That’s &lt;a href=&quot;http://arstechnica.com/business/news/2010/03/why-ad-blocking-is-devastating-to-the-sites-you-love.ars&quot;&gt;revenue&lt;/a&gt;. Gross.&lt;/p&gt;
-&lt;p&gt;The web isn’t a passive medium. These links can be fixed go to better sites.
-The web isn’t a passive medium.&lt;/p&gt;
 &lt;p&gt;So I made &lt;a href=&quot;https://www.gravely.pizza/files/scream.user.js&quot;&gt;this greasemonkey script&lt;/a&gt; to zap all links
-to all the sites I don’t want to work for. Zap them dead. If it’s too late—say
+to all the sites I don’t want to work for. If it’s too late—say
 a shortened url tricked me—I’d rather see a &lt;a href=&quot;http://www.youtube.com/watch?v=L0-lkl9TzsU&quot;&gt;goat scream like
 man&lt;/a&gt; than see what a mistake I
 just made, so it does that too. You can edit it to do something less drastic
 of course, but where’s the fun in that?&lt;/p&gt;
-&lt;p&gt;Also dude—javascript-massaging the HTML DOM is so relatively simple and easy
-that an idiot like me can do it. So should you. Look at this. You can do this.&lt;/p&gt;
-&lt;p&gt;The web isn’t a passive medium.&lt;/p&gt;
 &lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; url &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; location&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;href&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;token comment&quot;&gt;// add all the domains here&lt;/span&gt;
 &lt;span class=&quot;token keyword&quot;&gt;var&lt;/span&gt; natch &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token regex&quot;&gt;&lt;span class=&quot;token regex-delimiter&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token regex-source language-regex&quot;&gt;(DOMAINS YOU WANT TO AVOID GO HERE)&#92;.&#92;w+&#92;/&lt;/span&gt;&lt;span class=&quot;token regex-delimiter&quot;&gt;/&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; 

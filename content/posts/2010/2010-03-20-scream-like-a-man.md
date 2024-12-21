@@ -7,16 +7,20 @@ permalink: "/scream-like-a-man.html"
 ### Text Adventures
 
 You see an article or a twitter toot or whatever.
-> read the thing
+
+`read the thing`
  
 You see a link that looks interesting.
-> click the link
+
+`click the link`
 
 You just made be <a href="http://blog.last.fm/2009/02/23/techcrunch-are-full-of-shit">Mike Arrington</a> some cash.
-> <a href="http://www.marco.org/244246945">undo</a>
+
+`undo`
 
 I'm sorry, I don't understand "undo"
-> damnit
+
+`damnit`
 
 Swearing won't help. 
 
@@ -26,20 +30,12 @@ No thanks, right? I mean it's all well and good to just close the tab, of
 course, when you go to a site you don't want to work for, but the ads have
 already loaded. That's [revenue](http://arstechnica.com/business/news/2010/03/why-ad-blocking-is-devastating-to-the-sites-you-love.ars). Gross.
 
-The web isn't a passive medium. These links can be fixed go to better sites.
-The web isn't a passive medium.
-
 So I made [this greasemonkey script](/files/scream.user.js) to zap all links
-to all the sites I don't want to work for. Zap them dead. If it's too late—say
+to all the sites I don't want to work for. If it's too late—say
 a shortened url tricked me—I'd rather see a [goat scream like
 man](http://www.youtube.com/watch?v=L0-lkl9TzsU) than see what a mistake I
 just made, so it does that too. You can edit it to do something less drastic
 of course, but where's the fun in that?
-
-Also dude—javascript-massaging the HTML DOM is so relatively simple and easy
-that an idiot like me can do it. So should you. Look at this. You can do this.
-
-The web isn't a passive medium.
 
 ```js
 var url = location.href;
@@ -78,4 +74,3 @@ Well, _I_ think it's fun.
 ### [Install the greasemonkey script](/files/scream.user.js)
 
 [(You need greasemonkey for it to work)](http://en.wikipedia.org/wiki/Greasemonkey)
-
