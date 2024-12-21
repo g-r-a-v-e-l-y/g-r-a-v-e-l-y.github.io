@@ -1,12 +1,12 @@
 {
-  "name": "eleventy-template-bliss",
+  "name": "gravely.pizza",
   "version": "2.6.0",
   "private": true,
   "scripts": {
     "prebuild": "npm run clean",
     "build:eleventy": "cross-env ELEVENTY_ENV=production npx @11ty/eleventy --quiet",
     "prebuild-gh-pages": "npm run clean",
-    "build-gh-pages": "npm run build:sass; npm run build:eleventy -- --pathprefix=/eleventy-template-bliss/",
+    "build-gh-pages": "npm run build:sass; npm run build:eleventy",
     "postbuild-gh-pages": "npm run minify:js",
     "build": "npm-run-all build:*",
     "postbuild": "npm run minify:js",
