@@ -1,1 +1,67 @@
-{"version":"https://jsonfeed.org/version/1.1","title":"gimme pizza slow (high quality)","home_page_url":"https://www.gravely.pizza/","feed_url":"https://www.gravely.pizza/excerpts.json","description":"","user_comment":"gimme pizza slow (high quality) JSON feed (full articles)","authors":[{"name":"gravely","url":"https://www.gravely.pizza/"}],"language":"en","icon":"https://www.gravely.pizza/icon-192.png","favicon":"https://www.gravely.pizza/icon-512.png","items":[{"id":"https://www.gravely.pizza/an-imaginary-mix.html","url":"https://www.gravely.pizza/an-imaginary-mix.html","title":"An imaginary mix","date_published":"2011-10-09T03:43:00Z","language":"","content_html":"&lt;p&gt;Sometimes you hear something like a beat or a riff or whatever and think, well that’s nice.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.gravely.pizza/an-imaginary-mix.html&quot;&gt;Keep reading on gimme pizza slow (high quality) →&lt;/a&gt;&lt;/p&gt;"},{"id":"https://www.gravely.pizza/torrent-applescript-folder-action.html","url":"https://www.gravely.pizza/torrent-applescript-folder-action.html","title":"torrent applescript folder action","date_published":"2011-10-03T08:37:00Z","language":"","content_html":"&lt;p&gt;Aaaag, it’s so annoying having to add the ~GNU/Linux ISO~ torrent file I&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.gravely.pizza/torrent-applescript-folder-action.html&quot;&gt;Keep reading on gimme pizza slow (high quality) →&lt;/a&gt;&lt;/p&gt;"},{"id":"https://www.gravely.pizza/stephen-king-on-fiction.html","url":"https://www.gravely.pizza/stephen-king-on-fiction.html","title":"Stephen King on fiction","date_published":"2011-04-14T13:25:00Z","language":"","content_html":"&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.gravely.pizza/stephen-king-on-fiction.html&quot;&gt;Keep reading on gimme pizza slow (high quality) →&lt;/a&gt;&lt;/p&gt;"},{"id":"https://www.gravely.pizza/synecdoche-and-metonymy.html","url":"https://www.gravely.pizza/synecdoche-and-metonymy.html","title":"Synecdoche and Metonymy","date_published":"2011-01-21T15:43:00Z","language":"","content_html":"&lt;p&gt;Look:&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.gravely.pizza/synecdoche-and-metonymy.html&quot;&gt;Keep reading on gimme pizza slow (high quality) →&lt;/a&gt;&lt;/p&gt;"},{"id":"https://www.gravely.pizza/scream-like-a-man.html","url":"https://www.gravely.pizza/scream-like-a-man.html","title":"Scream Like a Man","date_published":"2010-03-20T19:28:00Z","language":"","content_html":"&lt;p&gt;Text Adventures&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.gravely.pizza/scream-like-a-man.html&quot;&gt;Keep reading on gimme pizza slow (high quality) →&lt;/a&gt;&lt;/p&gt;"},{"id":"https://www.gravely.pizza/the-thermostat-fallacy.html","url":"https://www.gravely.pizza/the-thermostat-fallacy.html","title":"The Thermostat Fallacy","date_published":"2010-02-23T19:21:00Z","language":"","content_html":"&lt;p&gt;I’ve always called this collection of phenomena thermostat fallacies, but my dad does HVAC for a living, so, go figure. I’m not even sure that they are proper fallacies.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.gravely.pizza/the-thermostat-fallacy.html&quot;&gt;Keep reading on gimme pizza slow (high quality) →&lt;/a&gt;&lt;/p&gt;"},{"id":"https://www.gravely.pizza/the-paradox-of-controls.html","url":"https://www.gravely.pizza/the-paradox-of-controls.html","title":"The Paradox of Controls","date_published":"2010-02-18T16:55:00Z","language":"","content_html":"&lt;p&gt;Given an effectively infinite set of behaviors, and a limited set of actors, the simplest and most common control strategy to restrict the behavior of actors seems to be:&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.gravely.pizza/the-paradox-of-controls.html&quot;&gt;Keep reading on gimme pizza slow (high quality) →&lt;/a&gt;&lt;/p&gt;"},{"id":"https://www.gravely.pizza/eggcorns-in-technology-a-list.html","url":"https://www.gravely.pizza/eggcorns-in-technology-a-list.html","title":"Eggcorns in Technology: A list","date_published":"2010-02-16T15:38:00Z","language":"","content_html":"&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.gravely.pizza/eggcorns-in-technology-a-list.html&quot;&gt;Keep reading on gimme pizza slow (high quality) →&lt;/a&gt;&lt;/p&gt;"},{"id":"https://www.gravely.pizza/on-the-ipad.html","url":"https://www.gravely.pizza/on-the-ipad.html","title":"On the iPad","date_published":"2010-02-14T19:58:00Z","language":"","content_html":"&lt;p&gt;&lt;b&gt;Disclaimer:&lt;/b&gt; This is an edited repost of an e-mail I sent to the CapSecDC mailing list over the weekend.&lt;/p&gt;&lt;p&gt;What is interesting about the iPad?&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.gravely.pizza/on-the-ipad.html&quot;&gt;Keep reading on gimme pizza slow (high quality) →&lt;/a&gt;&lt;/p&gt;"},{"id":"https://www.gravely.pizza/shmoocon-2010-advice.html","url":"https://www.gravely.pizza/shmoocon-2010-advice.html","title":"Shmoocon 2010 Advice","date_published":"2010-02-04T16:05:00Z","language":"","content_html":"&lt;p&gt;I write here this morning in an attempt to return from a self-inflicted unhappy state.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.gravely.pizza/shmoocon-2010-advice.html&quot;&gt;Keep reading on gimme pizza slow (high quality) →&lt;/a&gt;&lt;/p&gt;"}]}
+{"version": "https://jsonfeed.org/version/1.1",
+"title": "gimme pizza slow (high quality)",
+"home_page_url": "https://www.gravely.pizza/",
+"feed_url": "https://www.gravely.pizza/excerpts.json",
+"description": "",
+"user_comment": "gimme pizza slow (high quality) JSON feed (full articles)",
+"authors": [
+  {
+    "name": "gravely",
+    "url": "https://www.gravely.pizza/"
+  }
+],
+"language": "en",
+"icon" : "https://www.gravely.pizza/icon-192.png",
+"favicon" : "https://www.gravely.pizza/icon-512.png","items": [{"id": "https://www.gravely.pizza/an-imaginary-mix.html",
+"url": "https://www.gravely.pizza/an-imaginary-mix.html",
+"title": "An imaginary mix",
+"date_published": "2011-10-09T03:43:00Z",
+"language": "","content_html": "&lt;p&gt;Sometimes you hear something like a beat or a riff or whatever and think, well that’s nice.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.gravely.pizza/an-imaginary-mix.html&quot;&gt;Keep reading on gimme pizza slow (high quality) →&lt;/a&gt;&lt;/p&gt;"
+    },{"id": "https://www.gravely.pizza/torrent-applescript-folder-action.html",
+"url": "https://www.gravely.pizza/torrent-applescript-folder-action.html",
+"title": "torrent applescript folder action",
+"date_published": "2011-10-03T08:37:00Z",
+"language": "","content_html": "&lt;p&gt;Aaaag, it’s so annoying having to add the ~GNU/Linux ISO~ torrent file I&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.gravely.pizza/torrent-applescript-folder-action.html&quot;&gt;Keep reading on gimme pizza slow (high quality) →&lt;/a&gt;&lt;/p&gt;"
+    },{"id": "https://www.gravely.pizza/stephen-king-on-fiction.html",
+"url": "https://www.gravely.pizza/stephen-king-on-fiction.html",
+"title": "Stephen King on fiction",
+"date_published": "2011-04-14T13:25:00Z",
+"language": "","content_html": "&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.gravely.pizza/stephen-king-on-fiction.html&quot;&gt;Keep reading on gimme pizza slow (high quality) →&lt;/a&gt;&lt;/p&gt;"
+    },{"id": "https://www.gravely.pizza/synecdoche-and-metonymy.html",
+"url": "https://www.gravely.pizza/synecdoche-and-metonymy.html",
+"title": "Synecdoche and Metonymy",
+"date_published": "2011-01-21T15:43:00Z",
+"language": "","content_html": "&lt;p&gt;Look:&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.gravely.pizza/synecdoche-and-metonymy.html&quot;&gt;Keep reading on gimme pizza slow (high quality) →&lt;/a&gt;&lt;/p&gt;"
+    },{"id": "https://www.gravely.pizza/scream-like-a-man.html",
+"url": "https://www.gravely.pizza/scream-like-a-man.html",
+"title": "Scream Like a Man",
+"date_published": "2010-03-20T19:28:00Z",
+"language": "","content_html": "&lt;p&gt;Text Adventures&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.gravely.pizza/scream-like-a-man.html&quot;&gt;Keep reading on gimme pizza slow (high quality) →&lt;/a&gt;&lt;/p&gt;"
+    },{"id": "https://www.gravely.pizza/the-thermostat-fallacy.html",
+"url": "https://www.gravely.pizza/the-thermostat-fallacy.html",
+"title": "The Thermostat Fallacy",
+"date_published": "2010-02-23T19:21:00Z",
+"language": "","content_html": "&lt;p&gt;I’ve always called this collection of phenomena thermostat fallacies, but my dad does HVAC for a living, so, go figure. I’m not even sure that they are proper fallacies.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.gravely.pizza/the-thermostat-fallacy.html&quot;&gt;Keep reading on gimme pizza slow (high quality) →&lt;/a&gt;&lt;/p&gt;"
+    },{"id": "https://www.gravely.pizza/the-paradox-of-controls.html",
+"url": "https://www.gravely.pizza/the-paradox-of-controls.html",
+"title": "The Paradox of Controls",
+"date_published": "2010-02-18T16:55:00Z",
+"language": "","content_html": "&lt;p&gt;Given an effectively infinite set of behaviors, and a limited set of actors, the simplest and most common control strategy to restrict the behavior of actors seems to be:&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.gravely.pizza/the-paradox-of-controls.html&quot;&gt;Keep reading on gimme pizza slow (high quality) →&lt;/a&gt;&lt;/p&gt;"
+    },{"id": "https://www.gravely.pizza/eggcorns-in-technology-a-list.html",
+"url": "https://www.gravely.pizza/eggcorns-in-technology-a-list.html",
+"title": "Eggcorns in Technology: A list",
+"date_published": "2010-02-16T15:38:00Z",
+"language": "","content_html": "&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.gravely.pizza/eggcorns-in-technology-a-list.html&quot;&gt;Keep reading on gimme pizza slow (high quality) →&lt;/a&gt;&lt;/p&gt;"
+    },{"id": "https://www.gravely.pizza/on-the-ipad.html",
+"url": "https://www.gravely.pizza/on-the-ipad.html",
+"title": "On the iPad",
+"date_published": "2010-02-14T19:58:00Z",
+"language": "","content_html": "&lt;p&gt;&lt;b&gt;Disclaimer:&lt;/b&gt; This is an edited repost of an e-mail I sent to the CapSecDC mailing list over the weekend.&lt;/p&gt;&lt;p&gt;What is interesting about the iPad?&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.gravely.pizza/on-the-ipad.html&quot;&gt;Keep reading on gimme pizza slow (high quality) →&lt;/a&gt;&lt;/p&gt;"
+    },{"id": "https://www.gravely.pizza/shmoocon-2010-advice.html",
+"url": "https://www.gravely.pizza/shmoocon-2010-advice.html",
+"title": "Shmoocon 2010 Advice",
+"date_published": "2010-02-04T16:05:00Z",
+"language": "","content_html": "&lt;p&gt;I write here this morning in an attempt to return from a self-inflicted unhappy state.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://www.gravely.pizza/shmoocon-2010-advice.html&quot;&gt;Keep reading on gimme pizza slow (high quality) →&lt;/a&gt;&lt;/p&gt;"
+    }
+  ]
+}
