@@ -11,7 +11,7 @@ I feel like I bring more effort to trying to get into stuff for the first time w
 
 This is the stuff I say that about.
 
-### Table of contents
+### Contents
 
 * [Artists](#artists)
 * [Authors](#authors)

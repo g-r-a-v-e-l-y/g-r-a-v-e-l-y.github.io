@@ -4,10 +4,7 @@ tags: posts
 date: 2011-10-03 00:37:00.00 -8
 permalink: "/torrent-applescript-folder-action.html"
 ---
-Aaaag, it's so annoying having to add the _~GNU/Linux ISO~_ torrent file I
-just downloaded to my home server's torrent daemon's auto-start directory. So,
-I hacked up [this Folder Action](/files/Move%20Torrents.scpt) to do it for me
-automatically.
+I made an OS X folder action to move .torrent file downloads to a directory watched by my torrent client. It's pretty clumsy.
 
 ```applescript
 on adding folder items to thisFolder after receiving added_items
@@ -28,6 +25,8 @@ on adding folder items to thisFolder after receiving added_items
 	end repeat
 end adding folder items to
 ```
+
+14 years later I'm still pretty much doing the same thing, having moved from that old Drobo and [Transmission](https://transmissionbt.com/) to a [qbittorent](https://www.qbittorrent.org/) docker deploy on TrueNAS Scale.
 
 ## Updated for 2024
 ```applescript
