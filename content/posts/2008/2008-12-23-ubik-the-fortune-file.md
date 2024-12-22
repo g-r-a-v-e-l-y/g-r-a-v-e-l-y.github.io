@@ -9,14 +9,15 @@ The text ads on facebook and google make me think of [ubik](http://en.wikipedia.
 
 > Tired of the same old message of the day? What's a unix user to do? Simply install our patented [ubik](/files/ubik.tar.gz) fortune database wherever you keep fortune files! Safe when used as directed. Do not use internally. Do not execute the ubik fortune database. Do not run as root. Do not add to your login.
 
-
 Start with a basic ad.
 
 > Pay your bill on time. Chase +1 rewards you when you pay your bill on time. Apply now for Chase +1.
 
 Munge it with something like…
 
-` $ad =~ s/[[A-Z]+[a-z]]+/Ubik/g; `
+```perl
+$ad =~ s/[[A-Z]+[a-z]]+/Ubik/g; `
+```
 
 And get:
 

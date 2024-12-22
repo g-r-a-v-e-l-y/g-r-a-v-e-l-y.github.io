@@ -5,11 +5,11 @@ date: 2008-10-25 09:07:00.00 -8
 permalink: "/gs_linkedin.html"
 ---
 
-## Dynamically present Linkedin.com profile hresume data
+## Dynamically present Linkedin.com profile hresume data on your Textpattern blog
 
 ### Summary
 
-gs\_linkedin is a port of [Brad Touesnard’s](http://brad.touesnard.com/) Wordpress plugin [LinkedIn hResume](http://wordpress.org/extend/plugins/linkedin-hresume/). It grabs the Microformated hResume block from your LinkedIn public profile page allowing you to add it to any page with a simple textpattern tag and apply your own styles.
+gs\_linkedin is [Textpattern](https://textpattern.com/) a port of [Brad Touesnard’s](http://brad.touesnard.com/) Wordpress plugin [LinkedIn hResume](http://wordpress.org/extend/plugins/linkedin-hresume/). It grabs the Microformated hResume block from your LinkedIn public profile page allowing you to add it to any page with a simple textpattern tag and apply your own styles.
 
 Thanks to Mariano Absatz for help reporting bugs.
 
@@ -29,17 +29,20 @@ The plugin does not currently use any cache, fetch images, or require any non-st
 
 gs\_linkedin requires two attributes.
 
-*   **linkedin\_src** – the url of your public linkedin.com profile
-*   **name** – your full name
+* **linkedin\_src** – the url of your public linkedin.com profile
+* **name** – your full name
 
 ### Example
 
+```xml
 <txp:gs\_linkedin linkedin\_src="/images/http://www.linkedin.com/profile?viewProfile=&key=5919187" name="Grant Stavely" />
+```
 
 ### CSS
 
 I prefer a very basic style and hide much of the linkedin-specific content.
 
+```css
 #overview, div.profile-header, div.actions,
 #summary h2, summary h3, #additional-information,
 .info, .skills  {
@@ -63,3 +66,4 @@ abbr {
     font-size: 1.2em;
     font-style: italic;
 }
+```

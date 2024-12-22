@@ -9,11 +9,9 @@ I have [nice things to say](/shmoocon-2008) about the rest of the con.
 > **Baked not Fired: Performing an Unauthorized Phishing Awareness Exercise**
 > _Syn Phishus_
 >
-> This talk will illustrate ~how, without~ getting fired, to perform an unauthorized internal phishing exercise within a large corporation ~to raise security awareness and demonstrate why processes need to change~. The phishing attack was orchestrated ~to allow incidence response~ to quickly determine the author ~and support the forensic investigation that followed~. _Phishing is easy_; ~this is how to stand up and rock the boat hard while remaining on board~.
+> This talk will illustrate how, without getting fired, to perform an unauthorized internal phishing exercise within a large corporation to raise security awareness and demonstrate why processes need to change. The phishing attack was orchestrated to allow incidence response to quickly determine the author and support the forensic investigation that followed. _Phishing is easy_; this is how to stand up and rock the boat hard while remaining on board.
 
-Emphasis mine.
-
-Phishing is easy to do. ~An insider~ Anyone can perfect the timing, presentation, and content enough to fool the people in the cubes on either side of you. But that doesn’t prove anything. It is a basic violation of the simple trust we all place in e-mail and the only things keeping you smart folks from falling for it is how poorly it is usually done, and your tinfoil hats.
+Phishing is easy to do. ~~An insider~~ Anyone can perfect the timing, presentation, and content enough to fool the people in the cubes on either side of you. But that doesn’t prove anything. It is a basic violation of the simple trust we all place in e-mail and the only things keeping you smart folks from falling for it is how poorly it is usually done, and your tinfoil hats.
 
 [Public research suggests that](http://www.scientis.com/Security/Phishing.html) it is hard to pin down the percentage of recipients that will download and execute malware delivered to look like corporate communications but it is somewhere between 5% and 30%. If I was in corporate communications I would be disheartened – that is the same cohort that actually skims corporate communications.
 

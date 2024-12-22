@@ -16,15 +16,14 @@ permalink: "/business-meetings.html"
 
 It stinks. It of course is not being proffered as the sole solution to ‘the meeting problem’, but I don’t even consider it a close runner-up.
 
-**My Straw Man**
-
-(cue birds shining, sun chirping)
+## My Straw Man
+#### cue birds shining, sun chirping
 
 The meeting lead or a delegate has arrived before anyone else and prepared the room, ensuring there is appropriate seating, refreshments, and a printed agenda. The attendees all arrive on time, having had beautiful stress and distraction free mornings leading up to the meeting. All attendees have been preparing for the meeting in the shower or during the commute and are ready to brainstorm, compromise, and provide insights from their unique perspectives. The meeting lead or a delegate has a history of taking excellent notes and can be counted on to send next-actions to all attendees.
 
 The actual meeting happens and is hugely successful! The meeting strays once or twice from the established goal when a few ideas are discussed that provide unintended benefits to support personnel or secondary goals. Everyone compromises, gives permission, understands, is motivated, is ready to kick off, or buy, or whatever the goal of the meeting was. The meeting ends before its established hard stop.
 
-**Reality**
+## Reality
 
 The people that are usually early to meetings show up early and wait the five minutes they are accustomed to waiting for everyone else to arrive. A percentage of attendees are late due to random things more important to them than the meeting. A percentage of the attendees have little more than token interest in the goal of the meeting. A few people will take bad notes, a few will take no notes, a few will take down what they think are their own next actions, a few will accept more than they have bandwidth to actually finish in time, and so on. No one knows who scheduled the meeting for 3:30PM on a Friday but everyone agrees silently to murder that person if their identity is revealed.
 

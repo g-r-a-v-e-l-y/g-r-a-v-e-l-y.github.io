@@ -1,7 +1,7 @@
 ---
 title: reiserfs has officially decieved me
 date: 2002-06-23 14:24:00.00 -8
-permalink: "/reiserfs has officially decieved me.html"
+permalink: "/reiserfs-has-officially-decieved-me.html"
 categories: general
 ---
 Welp, reiserfs has officially decieved me.

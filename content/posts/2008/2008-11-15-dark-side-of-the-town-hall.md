@@ -69,15 +69,15 @@ Really? "Giving none away" ♬ "Giving none away" ♬ _8:28 PM Oct 7th_
 defense spending problems to ♬ _Us and Them_ ♬ Clinton-omics? _8:30 PM Oct
 7th_
 
-> ♪ "Haven't you heard it's a battle of words / the poster bearer cried Listen
-son, said the man with the gun / There's room for you inside" ♪ _8:32 PM Oct
+> ♬ "Haven't you heard it's a battle of words / the poster bearer cried Listen
+son, said the man with the gun / There's room for you inside" ♬ _8:32 PM Oct
 7th_
 
-> McCain on nailing Jello to the wall as ♪ _Any Colour You Like_ ♪ begins
+> McCain on nailing Jello to the wall as ♬ _Any Colour You Like_ ♬ begins
 (I'll take Lime with vodka, in a dixie cup) then describes his tax plan …
 _8:37 PM Oct 7th_
 
-> Obama describes his tax plan to ♪ _Brain Damage_ ♪, then McCain plays up his
+> Obama describes his tax plan to ♬ _Brain Damage_ ♬, then McCain plays up his
 maverick record to the same. _8:41 PM Oct 7th_
 
 > ♬ _Eclipse_ ♬ ends as McCain comments on environment. Nuclear power, or

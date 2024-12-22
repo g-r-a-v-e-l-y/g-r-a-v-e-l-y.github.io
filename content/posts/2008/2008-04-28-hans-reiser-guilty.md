@@ -13,25 +13,29 @@ The [Wired article](http://blog.wired.com/27bstroke6/2008/04/reiser-guilty-o.htm
 >
 > On many of Reiser's 11 days on the stand, jurors were seen shaking their heads in disbelief, laughing to themselves and wearing skeptical looks.
 
-
-
-Ok, I'm not one to hold a grudge but quoting [myself from six years ago](http://www.grantstavely.com/reiserfs+has+officially+decieved+me):
+Ok, I'm not one to hold a grudge but quoting [myself from six years ago](/reiserfs-has-officially-decieved-me.html):
 
 
 > Welp, reiserfs has officially decieved me.
 >
-> `Kernel Panic: Unable to mount root filesystem on 03:07      reiserfsck —rebuild-tree /dev/hda7      [UNCORRECTABLE ERROR] SECTOR 110!      [UNCORRECTABLE ERROR] SECTOR 111!      [UNCORRECTABLE ERROR] SECTOR 112!      [UNCORRECTABLE ERROR] SECTOR 113!      [UNCORRECTABLE ERROR] SECTOR 114!   `
+```shell
+ Kernel Panic: Unable to mount root filesystem on 03:07
+
+reiserfsck —rebuild-tree /dev/hda7
+[UNCORRECTABLE ERROR] SECTOR 110!
+[UNCORRECTABLE ERROR] SECTOR 111!
+[UNCORRECTABLE ERROR] SECTOR 112!
+[UNCORRECTABLE ERROR] SECTOR 113!
+[UNCORRECTABLE ERROR] SECTOR 114!   `
+```
 >
 > It then makes it to about 133 before aborting and dying. Good times indeed.
 >
 > For those not in the know, that means, I just lost my / linux partition with all of my data on it. Suck suck suck.
 >
-> Edit: No seriously—this fucking sucks. hard. =/
+> *Edit:* No seriously—this fucking sucks. hard. =/
 
-
-
-**Six Months Later**
-
+## Six Months Later
 
 > advice: Do not use reiserfs.
 >

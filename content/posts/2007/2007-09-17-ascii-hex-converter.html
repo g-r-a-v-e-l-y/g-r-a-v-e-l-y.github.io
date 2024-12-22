@@ -1,0 +1,88 @@
+---
+title: ASCII / Hex Converter
+date: 2007-09-17 15:21:00.00 -8
+permalink: "/ascii-hex-converter.html"
+---
+<p>I use these things often enough that I'm tired of googling them. This one is from <a href="http://www.vortex.prodigynet.co.uk/misc/ascii_conv.html">here</a>. 
+</p>
+<script language="JavaScript" type="text/javascript" src="/files/ascii_conv.js">
+</script>
+<blockquote>
+<form action="">
+<table width="350" align="center">
+    <tr>
+	<td colspan="2">
+	Enter a string here. Any unsupported characters will be ignored.
+	</td>
+    </tr>
+    <tr>
+	<td align="center">
+	<input type="text" name="chars" value="Enter string here." size="42"
+	    onmouseover="window.status='Enter string here.'; return true" />
+	&nbsp;&nbsp;&nbsp;&nbsp;Delimiter:
+	<input type="text" name="delimiter" value=" " size="2"
+	    onmouseover="window.status='separates numbers'; return true" />
+	</td>
+	<td>
+	<button type="button" onclick="from_char(this.form)">Calculate</button>
+	</td>
+    </tr>
+
+    <tr>
+	<td colspan="2" class="padtop">
+	Enter decimal ASCII here. Any non-numerical characters will be ignored.
+	</td>
+    </tr>
+    <tr>
+	<td align="center">
+	<textarea  name="dec"
+	    onmouseover="window.status = 'decimal ASCII'; return true">
+	</textarea>
+	</td>
+	<td>
+	<button type="button" onclick="from_dec(this.form)">Calculate</button>
+	</td>
+    </tr>
+
+    <tr>
+	<td colspan="2" class="padtop">
+	Enter hexadecimal ASCII here. Any non-hex characters will be ignored.
+	</td>
+    </tr>
+    <tr>
+	<td align="center">
+	<textarea name="hex"
+		onmouseover="window.status = 'hexadecimal ASCII'; return true">
+	</textarea>
+	</td>
+	<td>
+	<button type="button" onclick="from_hex(this.form)">Calculate</button>
+	</td>
+    </tr>
+
+    <tr>
+	<td colspan="2" class="padtop">
+	Enter binary ASCII here. Anything that isn't a '0' or a '1' will be
+	ignored.
+	</td>
+    </tr>
+    <tr>
+	<td align="center">
+	<textarea name="bin"
+	    onmouseover="window.status = 'binary ASCII'; return true">
+	</textarea>
+	</td>
+	<td>
+	<button type="button" onclick="from_bin(this.form)">Calculate</button>
+	</td>
+    </tr>
+    <tr>
+	<td colspan="2" align="center" class="padtop">
+	<button type="reset" name="reset_button">Reset all fields</button>
+	</td>
+    </tr>
+</table>
+</form>
+</blockquote>
+
+<p>You'll notice that even armed with a handy conversion app, <a href="/nitpicking-rock-lyrics">Clutch's "10001110101"</a> still makes no sense.</p>
