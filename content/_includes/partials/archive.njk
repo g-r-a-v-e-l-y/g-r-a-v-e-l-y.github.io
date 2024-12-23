@@ -1,9 +1,7 @@
-<ul>
-  {% for yearlyArchive in collections.publishedPosts | groupByYear %}
-    <li>
-      <h2 tabindex='0' class="year-heading" id="year-{{ yearlyArchive.year }}">
-        <time>{{ yearlyArchive.year }}</time>
-      </h3>
+{% for yearlyArchive in collections.publishedPosts | groupByYear %}
+    <h2 tabindex='0' class="year-heading" id="year-{{ yearlyArchive.year }}">
+    <time>{{ yearlyArchive.year }}</time>
+    </h2>
       <ul class="list posts-{{ yearlyArchive.year }}"> 
       {% for post in yearlyArchive.posts %}
         <li class="post">
@@ -16,6 +14,4 @@
         </li>
       {% endfor %}
       </ul>
-    </li>
   {% endfor %}
-</ul>
