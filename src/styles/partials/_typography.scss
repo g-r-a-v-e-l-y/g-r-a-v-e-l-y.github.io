@@ -53,11 +53,14 @@ p,
 li,
 blockquote {
   font-size: 1.25rem;
-  margin-top: 1rem;
   line-height: 1.6;
   letter-spacing: 0.01rem;
+  margin: 0;
 }
 
+p + p {
+  text-indent: 1.6rem;
+}
 strong,
 b {
   font-weight: bold;
@@ -80,11 +83,7 @@ b > em {
 
 ul {
   padding-left: 1.75rem;
-  list-style-type: none;
-}
-
-p {
-  margin-bottom: 2rem;
+  list-style-type: disc;
 }
 
 li {
@@ -102,7 +101,7 @@ ul {
 blockquote {
   font-style: italic;
   margin-left: 0;
-  padding: 0 1rem 0.5rem 2.5rem;
+  padding: 1rem 1rem 1rem 2.5rem;
   position: relative;
 
   &:before {
@@ -113,11 +112,10 @@ blockquote {
     font-size: 3rem;
     line-height: 1;
   }
-
   p {
-    margin: 0;
-    padding: 0;
+
   }
+
 }
 
 @include mixins.mobile {
