@@ -48,7 +48,7 @@
 
 .with-asides {
   .single-article {
-    max-width: 43rem;
+    max-width: 37rem;
     position: relative;
 
     @include mixins.maxWidth(1024px) {
