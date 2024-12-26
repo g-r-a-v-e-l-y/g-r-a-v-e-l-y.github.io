@@ -1,7 +1,6 @@
 ---
 title: Gauntlet gibbing
 date: 2002-05-12 13:17:00.00 -8
-permalink: "/gauntlet-gibbing.html"
 categories: geeky work
 ---
 Every other Thursday night from 7 to 9 PM, I am required to be at the office for "Tech Meetings". The remaining Thursdays are listed as "Game Nights" but no one has ever actually had a 'Game Night' since I started working here four months ago.

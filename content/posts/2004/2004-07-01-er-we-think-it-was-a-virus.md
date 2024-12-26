@@ -1,7 +1,6 @@
 ---
 title: er we think it was a virus
 date: 2004-07-01 10:22:00.00 -8
-permalink: "/er-we-think-it-was-a-virus.html"
 categories: general
 ---
 Now that the scare is over:

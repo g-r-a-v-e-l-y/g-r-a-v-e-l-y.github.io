@@ -1,7 +1,6 @@
 ---
 title: security rant
 date: 2004-06-04 16:18:00.00 -8
-permalink: "/security-rant.html"
 categories: general
 ---
 Ah to be able to rant so well…

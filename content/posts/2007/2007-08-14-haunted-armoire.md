@@ -1,7 +1,6 @@
 ---
 title: Haunted Armoire
 date: 2007-08-14 23:12:00.00 -8
-permalink: "/haunted-armoire.html"
 ---
 I love [craigslist](http://baltimore.craigslist.org/zip/397224456.html).
 

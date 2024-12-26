@@ -2,7 +2,6 @@
 title: Solved problems, and weekend reading
 tags: posts
 date: 2008-05-05 21:35:00.00 -8
-permalink: "/weekend-reading.html"
 hasAsides: true
 ---
 My neighbor and I were victims of the ultimate network attack.

@@ -2,7 +2,6 @@
 title: DNS is tricky
 tags: posts
 date: 2008-07-22 09:44:00.00 -8
-permalink: "/dns-is-tricky.html"
 hasAsides: true
 ---
 {aside}[US-CERT Vulnerability Notes](http://www.kb.cert.org/vuls/id/800113). An [excellent executive summary](http://www.ioactive.com/DNSExecutiveOverview.pdf) of the vague version of the vulnerability.{/aside}

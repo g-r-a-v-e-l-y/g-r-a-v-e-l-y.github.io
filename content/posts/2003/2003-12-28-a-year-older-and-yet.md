@@ -1,7 +1,6 @@
 ---
 title: a year older and yet
 date: 2003-12-28 18:26:00.00 -8
-permalink: "/a-year-older-and-yet.html"
 categories: general
 ---
 I turn 24 today.

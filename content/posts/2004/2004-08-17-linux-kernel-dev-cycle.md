@@ -1,7 +1,6 @@
 ---
 title: linux kernel dev cycle
 date: 2004-08-17 22:12:00.00 -8
-permalink: "/linux-kernel-dev-cycle.html"
 categories: geeky
 ---
 non-geeks: Groups can only e-mail a document back and forth to work on it at certain sizes. When it's a few million lines it has to be maintained in one place and changes (patches) need to be inspected one at a time because hundres of people are throwing them in rapid-fire. Impressive account of a speech about stats about the developement of the linux kernel after moving from old-and-busted(CVS) to new-hotness(BitKeeper) versioning systems:

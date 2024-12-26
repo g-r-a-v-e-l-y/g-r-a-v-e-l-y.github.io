@@ -1,7 +1,6 @@
 ---
 title: buzzclips
 date: 2004-12-17 21:10:00.00 -8
-permalink: "/buzzclips.html"
 categories: music
 ---
 I use and recommend purchasing as I did [Acquisistion](http://www.acquisitionx.com/) for the mac. When Acquisition gets a new song, it adds the song to an "Acquisition" playlist in iTunes, making the new stuff super easy to filter, tag, and check out.

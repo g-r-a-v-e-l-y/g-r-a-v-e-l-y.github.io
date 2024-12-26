@@ -2,7 +2,6 @@
 title: SANS GIAC GCFA
 tags: posts
 date: 2008-04-30 15:26:00.00 -8
-permalink: "/sans-giac-gcfa.html"
 ---
 I am a “Certified IT Professional”, as of this morning. Just like you hear about on the radio advertisements! Yikes.
 

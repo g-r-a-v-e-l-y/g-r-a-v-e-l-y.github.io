@@ -2,7 +2,6 @@
 title: Dark Side of the Town Hall
 tags: posts
 date: 2008-11-15 19:08:00.00 -8
-permalink: "/dark-side-of-the-town-hall.html"
 ---
 For the [second Presidential Debate](http://en.wikipedia.org/wiki/Presidential_debate_2008) of the 2008 Obama / McCain presidential race, I tried an old psychedelic expirament: [synchronization](http://en.wikipedia.org/wiki/Dark_Side_of_the_Rainbow) with Pink Floyd's _Dark Side of the Moon_. It worked better than I expected, and I microblogged the entire experience.
 

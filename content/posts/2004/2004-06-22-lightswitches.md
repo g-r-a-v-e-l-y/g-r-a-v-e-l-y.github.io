@@ -1,7 +1,6 @@
 ---
 title: lightswitches
 date: 2004-06-22 20:07:00.00 -8
-permalink: "/lightswitches.html"
 categories: geeky
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: easier reading w/ htmldoc
 date: 2003-07-13 20:20:00.00 -8
-permalink: "/easier-reading-w-htmldoc.html"
 categories: geeky
 ---
 

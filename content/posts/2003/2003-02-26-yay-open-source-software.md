@@ -1,7 +1,6 @@
 ---
 title: yay open source software
 date: 2003-02-26 15:30:00.00 -8
-permalink: "/yay-open-source-software.html"
 categories: general
 ---
 

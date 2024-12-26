@@ -1,7 +1,6 @@
 ---
 title: Sony DSC-F717 - My new toy!
 date: 2003-03-02 23:35:00.00 -8
-permalink: "/sony-dsc-f717-my-new-toy.html"
 categories: general
 ---
 I just dropped a paycheck on a new digital camera + bag + 128MB memmory stick + gamepad.

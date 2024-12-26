@@ -2,7 +2,6 @@
 title: Making Pizza Paradiso Pizza
 tags: posts
 date: 2008-01-18 10:21:00.00 -8
-permalink: "/making-pizza-paradiso-pizza.html"
 ---
 [Pizza Paradiso](http://eatyourpizza.com/) is my all time favorite neapolitan pizza, [beer bar](http://eatyourpizza.com/about_birreria_paradiso.php), and restaurant. If ever find yourself in Washington DC, make a point of stopping in.
 

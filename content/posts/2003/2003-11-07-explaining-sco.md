@@ -1,7 +1,6 @@
 ---
 title: explaining SCO
 date: 2003-11-07 17:46:00.00 -8
-permalink: "/explaining-sco.html"
 categories: geeky
 ---
 	<p>Groklaw is carrying a complete adaption of The Grinch Who Stole Chrismas relating <a href="http://www.groklaw.net/article.php?story=20031106164630915">SCO</a>&#8216;s story. Great stuff.<br />

@@ -2,7 +2,6 @@
 title: Server issues
 tags: posts
 date: 1999-08-05 19:13:00.00 -8
-permalink: "/server-issues.html"
 disclaimer:
   text: You can see this post in its original proto-blog context on beginnings, an early website of mine.
   url: /www/beginnings/

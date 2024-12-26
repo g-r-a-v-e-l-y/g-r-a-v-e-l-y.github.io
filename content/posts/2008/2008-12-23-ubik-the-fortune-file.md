@@ -2,7 +2,6 @@
 title: Ubik, the fortune file
 tags: posts
 date: 2008-12-23 10:34:00.00 -8
-permalink: "/ubik-the-fortune-file.html"
 ---
 
 The text ads on facebook and google make me think of [ubik](http://en.wikipedia.org/wiki/Ubik), and with the power of greasemonkey, it's possible to actually make them all _for_ ubiq - so many use proper nouns that it should be a simple regex.

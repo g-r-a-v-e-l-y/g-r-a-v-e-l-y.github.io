@@ -2,7 +2,6 @@
 title: Business Meetings
 tags: posts
 date: 2008-03-25 15:29:00.00 -8
-permalink: "/business-meetings.html"
 ---
 > Frustrated by distracted workers so plugged in that they tune out in the middle of business meetings, a growing number of companies are going “topless,” as in no laptops allowed. Also banned from some conference rooms: BlackBerrys, iPhones and other personal devices on which so many have come to depend…
 >

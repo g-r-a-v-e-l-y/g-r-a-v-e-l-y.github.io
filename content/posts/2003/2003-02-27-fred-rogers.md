@@ -1,7 +1,6 @@
 ---
 title: Fred Rogers =/
 date: 2003-02-27 12:05:00.00 -8
-permalink: "/fred-rogers.html"
 categories: general
 ---
 

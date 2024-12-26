@@ -1,7 +1,6 @@
 ---
 title: Winamp Skins
 date: 2002-12-31 19:00:00.00 -8
-permalink: "/winamp-skins.html"
 categories: art geeky
 ---
 [winamp](http://www.winamp.com), [xmms](http://www.xmms.org/), [gqmeg](http://gqmpeg.sourceforge.net/) (pick your poison) format skins….

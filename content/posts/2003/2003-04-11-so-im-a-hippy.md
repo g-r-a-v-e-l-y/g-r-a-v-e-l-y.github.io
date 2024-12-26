@@ -1,7 +1,6 @@
 ---
 title: So I'm a hippy?
 date: 2003-04-11 11:39:00.00 -8
-permalink: "/so-im-a-hippy.html"
 categories: humor
 ---
 Ben is at my wed/thurs client. Justin is one of the people we support there.

@@ -1,7 +1,6 @@
 ---
 title: Phase 3, profit...
 date: 2002-10-18 12:05:00.00 -8
-permalink: "/phase-3-profit.html"
 categories: geeky
 ---
 When you have 10 or more geeks in an irc channel (who else would be in an irc channel) talking geek talk, invariably someone says "I wish I had my own T-1".

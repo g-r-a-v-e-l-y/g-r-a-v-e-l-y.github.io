@@ -1,7 +1,6 @@
 ---
 title: Migrating this site
 date: 2007-02-01 06:47:00.00 -8
-permalink: "/migrating-this-site.html"
 categories: geeky
 ---
 Textpattern is pretty rad and Wordpress seems to be large target for malware,

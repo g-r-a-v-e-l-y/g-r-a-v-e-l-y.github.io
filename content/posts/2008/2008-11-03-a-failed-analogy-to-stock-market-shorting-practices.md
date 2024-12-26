@@ -2,7 +2,6 @@
 title: ! 'A failed analogy to stock market shorting practices '
 tags: posts
 date: 2008-11-03 16:14:00.00 -8
-permalink: "/a-failed-analogy-to-stock-market-shorting-practices.html"
 ---
 For Halloween I borrowed some candy from a neighbor. See, I was counting on nobody liking the candy by the end of the night, so by borrowing it instead of wearing a great costume and earning it up front, I was going to make out like a bandit. I didn’t even say trick or treat to my neighbor!
 

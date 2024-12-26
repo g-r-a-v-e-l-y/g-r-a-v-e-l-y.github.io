@@ -1,7 +1,6 @@
 ---
 title: Radiohead
 date: 2003-08-08 13:25:00.00 -8
-permalink: "/radiohead.html"
 categories: general
 ---
 	<p>Radiohead<br />

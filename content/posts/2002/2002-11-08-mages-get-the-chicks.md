@@ -1,7 +1,6 @@
 ---
 title: Mages get the chicks...
 date: 2002-11-08 04:40:00.00 -8
-permalink: "/mages-get-the-chicks.html"
 categories: geeky
 ---
 Neat, I'm not the only freak that was obsessed with UU back in the day - [these guys are recreating

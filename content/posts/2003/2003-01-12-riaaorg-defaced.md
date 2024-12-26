@@ -1,7 +1,6 @@
 ---
 title: riaa.org defaced
 date: 2003-01-12 11:17:00.00 -8
-permalink: "/riaaorg-defaced.html"
 categories: geeky
 ---
 The [RIAA](http://www.riaa.org/) website front page has been "replaced" without permission. ;) Because the site is currently down, check the below screenshot for what was done:

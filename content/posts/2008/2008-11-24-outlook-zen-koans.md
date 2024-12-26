@@ -2,7 +2,6 @@
 title: Outlook Zen Koans
 tags: posts
 date: 2008-11-24 09:29:00.00 -8
-permalink: "/outlook-zen-koans.html"
 ---
 Outlook error messages must be [Zen Kōans](http://en.wikipedia.org/wiki/Koan). There simply isn’t a rational explanation for a mature product to be so full of useless, annoying alerts.
 

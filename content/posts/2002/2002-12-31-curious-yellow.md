@@ -1,7 +1,6 @@
 ---
 title: Curious Yellow, My High School Rock Band
 date: 2002-12-31 19:00:00.00 -8
-permalink: "/curious-yellow.html"
 categories: music
 ---
 Brent introduced [Eric](http://www.livejournal.com/users/rotnmusic/) and I to Dan some time around '95 or '96\. The lineup was generally a three-piece of myself on guitars, Dan on drums and Eric playing bass with occasional contributions from Brent on keys, Travis on guitar, and Kevin vocals.

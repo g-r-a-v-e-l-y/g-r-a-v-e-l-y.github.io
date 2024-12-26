@@ -2,7 +2,6 @@
 title: Johnny Winter
 tags: posts
 date: 2008-01-26 23:20:00.00 -8
-permalink: "/johnny-winter.html"
 hasAsides: true
 ---
 I just bought two general admission tickets to see Johnny Winter

@@ -2,7 +2,6 @@
 title: Body Language
 tags: posts
 date: 2008-11-24 21:39:00.00 -8
-permalink: "/body-language.html"
 ---
 In my class tonight, the professor lectured about communications. When she got to the bit about body language and oh if you cross your arms like so, it is communicating that you are closed off, one of my classmates pointed out that many of the theories of body language are based on bad research from the 1960’s and 70’s, pop psychology, and folk wisdom.
 

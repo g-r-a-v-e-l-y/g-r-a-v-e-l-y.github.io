@@ -3,7 +3,6 @@ title: ! 'Making the Gambler''s Fallacy Disappear: The Role of Experience — HB
 tags: posts
   Knowledge'
 date: 2008-10-16 10:51:00.00 -8
-permalink: "/making-the-gamblers-fallacy-disappear-the-role-of-experience-hbs-working-knowledge.html"
 ---
 The [Harvard Business School Working Knowledge](http://hbswk.hbs.edu) blog has posted an interesting paper about the gambler’s fallacy, the notion that when presented with random binary events, we tend to identify patterns which we believe will impact future events. As an analyst, this is very interesting.
 

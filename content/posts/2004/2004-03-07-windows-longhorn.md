@@ -1,7 +1,6 @@
 ---
 title: Windows Longhorn
 date: 2004-03-07 22:40:00.00 -8
-permalink: "/windows-longhorn.html"
 categories: geeky
 ---
 I don't care.

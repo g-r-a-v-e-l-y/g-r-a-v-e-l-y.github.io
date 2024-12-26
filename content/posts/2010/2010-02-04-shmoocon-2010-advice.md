@@ -2,7 +2,6 @@
 title: Shmoocon 2010 Advice
 tags: posts
 date: 2010-02-04 08:05:00.00 -8
-permalink: "/shmoocon-2010-advice.html"
 ---
 I write here this morning in an attempt to return from a self-inflicted unhappy state.
 

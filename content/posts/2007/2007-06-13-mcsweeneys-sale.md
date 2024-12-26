@@ -1,7 +1,6 @@
 ---
 title: McSweeney's Sale
 date: 2007-06-13 10:54:00.00 -8
-permalink: "/mcsweeneys-sale.html"
 ---
 Checking out McSweeney's was on my some-day-maybe list for a few years, and I finally got around to buying [The Better of McSweeney's, Volume 1](http://www.amazon.com/Better-McSweeneys-1-Dave-Eggers/dp/1932416331/ref=pd_bbs_sr_7/105-2829745-1113229?ie=UTF8&s=books&qid=1181744937&sr=8-7) in BWI airport this winter. Great stuff.
 

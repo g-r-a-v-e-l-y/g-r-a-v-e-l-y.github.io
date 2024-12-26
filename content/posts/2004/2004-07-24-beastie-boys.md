@@ -1,7 +1,6 @@
 ---
 title: Beastie Boys
 date: 2004-07-24 09:07:00.00 -8
-permalink: "/beastie-boys.html"
 categories: music
 ---
 I'm not really digging the latest BB songs as much as the past three albums but thanks to a pretty heinous hangover and a complete ignorance of what channel is what here in DC, I found myself watching VH1 this morning and caught the _Check it out_ video.

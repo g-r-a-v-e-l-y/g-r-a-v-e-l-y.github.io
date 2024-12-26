@@ -2,7 +2,6 @@
 title: ! 'MailChannels | Anti-Spam Blog: An update to the email standards'
 tags: posts
 date: 2008-10-15 17:15:00.00 -8
-permalink: "/mailchannels-anti-spam-blog-an-update-to-the-email-standards.html"
 ---
 The SMTP RFC’s have been replaced! A few things from the list caught my eye:
 

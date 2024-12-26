@@ -1,7 +1,6 @@
 ---
 title: Baltimore Artscape 2007
 date: 2007-07-18 09:53:00.00 -8
-permalink: "/baltimore-artscape-2007.html"
 ---
 [Artscape](http://www.artscape.org/index.cfm) is this weekend in Bolton Hill.
 

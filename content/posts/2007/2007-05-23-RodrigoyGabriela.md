@@ -1,7 +1,6 @@
 ---
 title: Rodrigo y Gabriela
 date: 2007-05-23 09:38:00.00 -8
-permalink: "/RodrigoyGabriela.html"
 ---
 Rodrigo y Gabriela - 6/30/2007, 9:00 pm @ Rams Head Live!
 

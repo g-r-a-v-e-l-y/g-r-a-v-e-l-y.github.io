@@ -1,7 +1,6 @@
 ---
 title: ESMTP humor?
 date: 2004-02-25 11:52:00.00 -8
-permalink: "/esmtp-humor.html"
 categories: geeky
 ---
 Ok, more geek shit, from ~2 seconds of a real Exim log this time:

@@ -2,7 +2,6 @@
 title: TV-B-Gone II
 tags: posts
 date: 2008-01-13 11:55:00.00 -8
-permalink: "/tv-b-gone-ii.html"
 ---
 [Kill your television](http://www.turnoffyourtv.com/) folks! [Adbust your counterculture](http://www.adbusters.org/metas/corpo/blackspotshoes/index.php)!
 

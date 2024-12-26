@@ -2,7 +2,6 @@
 title: Ambiguously Hyperbolic
 tags: posts
 date: 2008-11-17 07:43:00.00 -8
-permalink: "/ambiguously-hyperbolic.html"
 ---
 Language shift is unavoidable, and passing fads of cultural catch phrases and idioms are to be enjoyed. Word's meanings shift, begin to lose force, take on secondary contrary meanings, and eventually come to mean something wholly different. Idioms that become popular in one field may cross to join the confusing jargon of business analysis, or of political discourse, or of art, and so on.
 

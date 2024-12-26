@@ -2,7 +2,6 @@
 title: torrent applescript folder action
 tags: posts
 date: 2011-10-03 00:37:00.00 -8
-permalink: "/torrent-applescript-folder-action.html"
 ---
 I made an OS X folder action to move .torrent file downloads to a directory watched by my torrent client. It's pretty clumsy.
 

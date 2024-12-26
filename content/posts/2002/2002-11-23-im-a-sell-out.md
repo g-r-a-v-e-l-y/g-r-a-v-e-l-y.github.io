@@ -1,7 +1,6 @@
 ---
 title: I'm a sell-out
 date: 2002-11-23 11:15:00.00 -8
-permalink: "/im-a-sell-out.html"
 categories: general
 ---
 Well, I've given up on coding my own site for now. I just don't have the time

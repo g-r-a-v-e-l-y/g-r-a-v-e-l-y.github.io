@@ -2,7 +2,6 @@
 title: Tufte on the iPhone
 tags: posts
 date: 2008-01-25 08:30:00.00 -8
-permalink: "/tufte-on-the-iphone.html"
 ---
 Edward Tufte has posted a [video](http://www.edwardtufte.com/bboard/iphone-video.adp) and [essay](http://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=00036T&topic_id=1) reviewing successes and failures of presentation and design in Apple’s iPhone. It is an especially easy to digest block of Tufte’s long running attention to information density.
 

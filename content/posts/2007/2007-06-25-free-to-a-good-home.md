@@ -1,7 +1,6 @@
 ---
 title: FREE - to a good home
 date: 2007-06-25 12:10:00.00 -8
-permalink: "/free-to-a-good-home.html"
 ---
 A large starbucks box on the kitchen table at work proclaimed in magic marker:
 

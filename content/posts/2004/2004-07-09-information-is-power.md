@@ -1,7 +1,6 @@
 ---
 title: information is power
 date: 2004-07-09 12:13:00.00 -8
-permalink: "/information-is-power.html"
 categories: politics
 ---
 [Bullshit indeed](http://electricfork.com/blog/anchor.rb?is=bullshit). Couldn't agree more.

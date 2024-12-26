@@ -1,7 +1,6 @@
 ---
 title: cnet interviews adrian lamo
 date: 2003-09-16 16:21:00.00 -8
-permalink: "/cnet-interviews-adrian-lamo.html"
 categories: politics
 ---
 	<p><a href="http://rss.com.com/2008-1014_3-5076942.html">good interview</a></p>

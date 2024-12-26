@@ -1,7 +1,6 @@
 ---
 title: eastern standard tribe
 date: 2004-02-04 13:22:00.00 -8
-permalink: "/eastern-standard-tribe.html"
 categories: art fiction
 ---
 If you are the sort of person into the sort of things that I get into but not always around to see what sort of things I am getting into, you may want to go get a [free book](http://craphound.com/est/download.php). I'm getting into it.

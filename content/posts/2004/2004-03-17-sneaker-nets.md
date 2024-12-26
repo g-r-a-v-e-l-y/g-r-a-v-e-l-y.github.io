@@ -1,7 +1,6 @@
 ---
 title: sneaker nets
 date: 2004-03-17 06:10:00.00 -8
-permalink: "/sneaker-nets.html"
 categories: geeky
 ---
 It is always nice when an [idle curiosity](http://www.kottke.org/04/03/sneakers#comments) uncovers the collection of a finely honed mind.

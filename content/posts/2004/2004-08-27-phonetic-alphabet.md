@@ -1,7 +1,6 @@
 ---
 title: phonetic alphabet
 date: 2004-08-27 09:20:00.00 -8
-permalink: "/phonetic-alphabet.html"
 categories: microsoft
 ---
 Having recently placed a call to the Microsoft Clearinghouse to get a 25 character license re-activated and been bounced between multiple clearinghouse representatives, tech support, and back to the clearinghouse, I wanted to have this handy for posterity.

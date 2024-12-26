@@ -1,7 +1,6 @@
 ---
 title: I am Obliged
 date: 2007-07-10 21:42:00.00 -8
-permalink: "/i-am-obliged.html"
 ---
 > I am obliged to record the things that I am told, but I am certainly not required to believe them–this remark may be taken to apply to the whole of my account.
 >

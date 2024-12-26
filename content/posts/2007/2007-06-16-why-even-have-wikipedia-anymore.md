@@ -1,7 +1,6 @@
 ---
 title: Why even have Wikipedia anymore?
 date: 2007-06-16 15:26:00.00 -8
-permalink: "/why-even-have-wikipedia-anymore.html"
 ---
 Truthiness really jumped the shark with [this compendium of knowledge and answers](http://www.answersingenesis.org/home/area/qa.asp).
 

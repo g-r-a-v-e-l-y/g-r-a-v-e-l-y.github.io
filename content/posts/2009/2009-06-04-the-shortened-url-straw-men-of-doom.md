@@ -2,7 +2,6 @@
 title: The shortened url straw men of doom
 tags: posts
 date: 2009-06-04 10:08:00.00 -8
-permalink: "/the-shortened-url-straw-men-of-doom.html"
 ---
 Bastardizing the [Drake
 equation](http://en.wikipedia.org/wiki/Drake_equation), if only a fraction of

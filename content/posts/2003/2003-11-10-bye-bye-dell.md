@@ -1,7 +1,6 @@
 ---
 title: bye bye dell
 date: 2003-11-10 09:35:00.00 -8
-permalink: "/bye-bye-dell.html"
 categories: geeky
 ---
 	<p>OK, I can&#8217;t take it anymore. I&#8217;m ordering a <a href="http://www.apple.com/powerbook/index15.html">15&#8221; powerbook</a> tonight.</p>

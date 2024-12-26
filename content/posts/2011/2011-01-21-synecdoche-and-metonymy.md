@@ -2,7 +2,6 @@
 title: Synecdoche and Metonymy
 tags: posts
 date: 2011-01-21 07:43:00.00 -8
-permalink: "/synecdoche-and-metonymy.html"
 ---
 Look:
 

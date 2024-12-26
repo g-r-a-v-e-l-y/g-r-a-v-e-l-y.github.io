@@ -1,7 +1,6 @@
 ---
 title: everyone in silico
 date: 2003-02-17 11:34:00.00 -8
-permalink: "/everyone-in-silico.html"
 categories: art fiction
 ---
 Judging books by their covers is often the only effective way to find new authors - Jim Munroe's [Everyone in Silico](http://4w8w.com/bookmunroe2.html) is no expection.

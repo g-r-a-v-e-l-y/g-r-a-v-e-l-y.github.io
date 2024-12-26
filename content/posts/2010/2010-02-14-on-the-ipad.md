@@ -2,7 +2,6 @@
 title: On the iPad
 tags: posts
 date: 2010-02-14 11:58:00.00 -8
-permalink: "/on-the-ipad.html"
 hasAsides: true
 disclaimer:
   text: This is an edited repost of an e-mail I sent to the CapSecDC mailing list over the weekend.

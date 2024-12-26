@@ -1,7 +1,6 @@
 ---
 title: Social engineering, tigers, and bears
 date: 2007-05-15 23:27:00.00 -8
-permalink: "/social-engineering-as-security-audit.html"
 ---
 Cross-posted from somewhere awful and edited to make sense as a stand alone:
 

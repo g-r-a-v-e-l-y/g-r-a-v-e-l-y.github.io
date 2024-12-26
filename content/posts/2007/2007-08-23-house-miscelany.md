@@ -1,7 +1,6 @@
 ---
 title: House Miscelany
 date: 2007-08-23 08:10:00.00 -8
-permalink: "/house-miscelany.html"
 ---
 Ken and Erica had an old Kenwood combo amplifier to get rid of, I had a a home theater system powering my living room audio kitchen audio and and the TV powering the TV audio.
 

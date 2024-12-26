@@ -1,7 +1,6 @@
 ---
 title: Tripods Trilogy
 date: 2007-02-27 23:05:00.00 -8
-permalink: "/tripods-trilogy.html"
 ---
 I'd long forgotten this trilogy which I probably read in the late 80's, until it was mentioned on a book forum I frequent:
 

@@ -2,7 +2,6 @@
 title: Corporate Brand Mash-up DIY Rebellion
 tags: posts
 date: 2009-01-23 08:07:00.00 -8
-permalink: "/corporate-brand-mash-up-diy-rebellion.html"
 ---
 From the [Wall Street Journal](http://wsj.com) via [Dark Visitor](http://www.thedarkvisitor.com/2009/01/your-shanzhai-security-website/):
 

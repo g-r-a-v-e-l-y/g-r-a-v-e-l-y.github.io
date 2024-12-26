@@ -2,7 +2,6 @@
 title: Cutting DNS kite strings
 tags: posts
 date: 2008-05-11 14:34:00.00 -8
-permalink: "/cutting-dns-kite-strings.html"
 ---
 Verisign’s [SiteMinder](http://www.google.com/search?hl=en&client=firefox-a&rls=org.mozilla%3Aen-US%3Aofficial&hs=Q7a&q=verisign+siteminder&btnG=Search) service was an abuse of their role and broke the internet.
 

@@ -2,7 +2,6 @@
 title: Space Ghost Coast to Coast fortunes
 tags: posts
 date: 2008-01-24 22:39:00.00 -8
-permalink: "/space-ghost-coast-to-coast-fortunes.html"
 ---
 The [Bill Brasky](/bill-brasky-fortune-cookies) fortunes never get old. But just in case, I threw together some Space Ghost Coast to Coast fortunes!
 

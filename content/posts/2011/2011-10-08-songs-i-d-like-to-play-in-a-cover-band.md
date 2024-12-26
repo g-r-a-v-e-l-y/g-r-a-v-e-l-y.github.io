@@ -2,7 +2,6 @@
 title: An imaginary mix
 tags: posts
 date: 2011-10-08 19:43:00.00 -8
-permalink: "/an-imaginary-mix.html"
 ---
 
 Sometimes you hear something like a beat or a riff or whatever and think, well that's nice.

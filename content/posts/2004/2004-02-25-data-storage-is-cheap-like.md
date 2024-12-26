@@ -1,7 +1,6 @@
 ---
 title: data storage is cheap like...
 date: 2004-02-25 13:11:00.00 -8
-permalink: "/data-storage-is-cheap-like.html"
 categories: geeky
 ---
 Great [/.](http://www.slashdot.org/) thread covering [Anheuser-Busch](http://www.cnn.com/2004/TECH/ptech/02/25/bus2.feat.beer.network/index.html)'s distribution model. Best [comment](http://yro.slashdot.org/comments.pl?sid=98205&cid=8387946) evar:

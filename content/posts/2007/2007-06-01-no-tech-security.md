@@ -1,7 +1,6 @@
 ---
 title: No-tech security
 date: 2007-06-01 10:03:00.00 -8
-permalink: "/no-tech-security.html"
 ---
 Via [funsec](https://linuxbox.org/cgi-bin/mailman/listinfo/funsec): Software controls at the Carson, CA treasurer's office failed to prevent the installation of a keylogger on a laptop. Theives used the keylogger to acquire the username and password of an account able to make fund transfers, then [transfered themselves half a million dollars](http://www.computerworld.com/action/article.do?command=viewArticleBasic&articleId=9022498).
 

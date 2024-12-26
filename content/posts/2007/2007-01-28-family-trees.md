@@ -1,7 +1,6 @@
 ---
 title: Family trees
 date: 2007-01-28 19:44:00.00 -8
-permalink: "/family-trees.html"
 categories: general
 ---
 A family history of the Italian side of my Mom's family was assembled in the 1970's. Aunts and Great Aunts of mine got copies of it at some time between now and then and fleshed out their generations. My mom made me full copy and gave it to me in a 2" three ring binder last weekend.

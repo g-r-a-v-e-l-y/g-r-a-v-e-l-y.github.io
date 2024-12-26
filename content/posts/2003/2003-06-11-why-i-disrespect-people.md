@@ -1,7 +1,6 @@
 ---
 title: why I disrespect people
 date: 2003-06-11 09:57:00.00 -8
-permalink: "/why-i-disrespect-people.html"
 categories: geeky
 ---
 	<p>Ring&#8230;<br />

@@ -1,7 +1,6 @@
 ---
 title: fauxtesting
 date: 2004-11-24 07:42:00.00 -8
-permalink: "/fauxtesting.html"
 categories: politics art
 ---
 Every university has them and yes this country is better for it but it does get tiring. You corporate sellout babykiller satanist.

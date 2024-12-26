@@ -1,7 +1,6 @@
 ---
 title: Moving Again (last time for a long time I promise!)
 date: 2007-06-23 08:53:00.00 -8
-permalink: "/moving-again-last-time-for-a-long-time-i-promise.html"
 ---
 From:
 

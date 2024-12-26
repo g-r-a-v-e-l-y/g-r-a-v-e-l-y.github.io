@@ -1,7 +1,6 @@
 ---
 title: wowbagger
 date: 2004-02-18 09:20:00.00 -8
-permalink: "/wowbagger.html"
 categories: general
 ---
 I was visited by [Wowbagger the infintely prolonged](http://www.wowbagger.com/) this mornig on [New York Ave near New Jersey](http://www.mapquest.com/maps/map.adp?location=5gJBbOBia45h8Kq4jDDPJWidvOjDe5TbYtZkwmFCMauuCBrFJY7WeF%2fd1vZPdi1UhLhor%2b5u6cjol0gQrWf%2fh2PIwflVsqQRhQNZcmDX7BwDnCleABsMvMH4oNQbSOAA&address=kirby%20st%20nw&city=washington&state=dc&zipcode=&country=US&addtohistory=&submit=Get%20Map). I was in the far right lane but we weren't moving because a truck was blocking the entire lane and not moving. I waited for a gap and poped into the middle lane without cutting anyone off. I always give myself room to go back in instances like this because OfficeSpace style, the truck immediately got out of the way, the middle lane stopped and the lane I'd just bailed out of became the only lane moving. I put my signal on and waited out the stop-and-go for a gap.

@@ -1,7 +1,6 @@
 ---
 title: outerloop
 date: 2004-02-18 05:50:00.00 -8
-permalink: "/outerloop.html"
 categories: music
 ---
 Went and saw the [band](http://outerloop.tv/) Aaron managed to sneak himself into over the weekend.

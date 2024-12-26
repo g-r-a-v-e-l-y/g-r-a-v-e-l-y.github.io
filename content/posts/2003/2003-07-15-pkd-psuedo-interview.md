@@ -1,7 +1,6 @@
 ---
 title: PKD psuedo-interview
 date: 2003-07-15 06:56:00.00 -8
-permalink: "/pkd-psuedo-interview.html"
 categories: art
 ---
 	<p><i>If the future had a slogan, what would it be?</i></p>

@@ -1,7 +1,6 @@
 ---
 title: Company lan party
 date: 2004-03-10 06:47:00.00 -8
-permalink: "/company-lan-party.html"
 categories: geeky
 ---
 The boss threw a lan party.

@@ -1,7 +1,6 @@
 ---
 title: maltron blinkenlights!
 date: 2003-02-24 11:33:00.00 -8
-permalink: "/maltron-blinkenlights.html"
 categories: geeky
 ---
 

@@ -2,7 +2,6 @@
 title: The Mad Tea Party
 tags: posts
 date: 2009-04-14 23:09:00.00 -8
-permalink: "/the-mad-tea-party.html"
 hasAsides: true
 ---
 

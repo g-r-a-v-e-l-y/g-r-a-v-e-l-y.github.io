@@ -2,7 +2,6 @@
 title: ! 'How I almost got myself killed '
 tags: posts
 date: 2008-12-02 08:09:00.00 -8
-permalink: "/how-i-almost-got-myself-killed.html"
 ---
 I almost got myself killed once and have never written how.
 

@@ -2,7 +2,6 @@
 title: Eternal bash history
 tags: posts
 date: 2007-10-18 11:24:00.00 -8
-permalink: "/eternal-bash-history.html"
 ---
 [Debian Administration](http://www.debian-administration.org/articles/543) has great advice for requesting that bash keep a history of all commands recorded. Add this to your .bashrc!
 

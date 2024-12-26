@@ -1,7 +1,6 @@
 ---
 title: DynDNS Mailhops will no longer send NDR's
 date: 2007-08-24 16:33:00.00 -8
-permalink: "/dyndns-mailhops-will-no-longer-send-ndrs.html"
 ---
 Emphasis mine.
 

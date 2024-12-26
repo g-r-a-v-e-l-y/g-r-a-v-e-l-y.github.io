@@ -1,7 +1,6 @@
 ---
 title: The Fighting Tricycles
 date: 2004-12-13 17:45:00.00 -8
-permalink: "/the-fighting-tricycles.html"
 categories: plans music
 ---
 Got this from my old roomate Phil:

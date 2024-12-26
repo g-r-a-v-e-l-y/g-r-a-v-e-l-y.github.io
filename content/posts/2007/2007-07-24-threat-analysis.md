@@ -1,7 +1,6 @@
 ---
 title: Threat Analysis
 date: 2007-07-24 07:00:00.00 -8
-permalink: "/threat-analysis.html"
 ---
 ![Gerald Ford](/images/Frommeassassinationattempt.jpg)
 

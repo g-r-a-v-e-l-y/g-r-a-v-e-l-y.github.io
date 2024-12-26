@@ -1,7 +1,6 @@
 ---
 title: Security-by-power-button
 date: 2002-11-18 17:57:00.00 -8
-permalink: "/security-by-power-button.html"
 categories: microsoft
 ---
 [Old MS Hotfix instructions for IIS4](http://support.microsoft.com/default.aspx?scid=KB;en-us;q297860).

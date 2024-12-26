@@ -1,7 +1,6 @@
 ---
 title: Plans this weekend - J-Roddy
 date: 2007-06-07 13:40:00.00 -8
-permalink: "/plans-this-weekend-j-roddy.html"
 ---
 This Saturday. [J Roddy Walston and The Business](http://www.jroddy.net/)
 

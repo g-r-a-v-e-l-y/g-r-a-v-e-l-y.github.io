@@ -1,7 +1,6 @@
 ---
 title: povray and I
 date: 2004-02-08 20:28:00.00 -8
-permalink: "/povray-and-i.html"
 categories: geeky
 ---
 ![](/images/povray_thumb.jpg)

@@ -1,7 +1,6 @@
 ---
 title: Disney > public domain
 date: 2003-01-15 11:10:00.00 -8
-permalink: "/disney-public-domain.html"
 categories: politics
 ---
 [Boing Boing](http://www.boingboing.net/) **"**_...will be wearing a black arm-band for the next day in mourning for our shared cultural heritage, as the Library of Alexandria burns anew._**"**

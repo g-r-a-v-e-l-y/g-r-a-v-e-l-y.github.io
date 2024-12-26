@@ -1,7 +1,6 @@
 ---
 title: blogging since...
 date: 2004-04-09 15:41:00.00 -8
-permalink: "/blogging-since.html"
 categories: geeky
 ---
 Jokerbone archives go back to 2002.

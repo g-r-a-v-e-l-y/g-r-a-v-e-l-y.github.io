@@ -1,7 +1,6 @@
 ---
 title: Gunslinger VI
 date: 2004-06-08 12:47:00.00 -8
-permalink: "/gunslinger-vi.html"
 categories: art fiction
 ---
 Shit.

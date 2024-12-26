@@ -1,7 +1,6 @@
 ---
 title: uncreative
 date: 2002-04-22 05:51:00.00 -8
-permalink: "/uncreative.html"
 categories: general
 ---
 Back when I was an art major taking an 'introduction to art and digital media' class, I was given the assignment to make three animated banner advertisements.

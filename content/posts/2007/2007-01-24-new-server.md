@@ -1,7 +1,6 @@
 ---
 title: New Server
 date: 2007-01-24 20:13:00.00 -8
-permalink: "/new-server.html"
 categories: plans geeky
 ---
 [Aaron](http://www.outerbody.com/) put me in charge of setting up the new server that will replace the server on which this site and about 20 other domains w/ mail and websites, databases, and so on are hosted.

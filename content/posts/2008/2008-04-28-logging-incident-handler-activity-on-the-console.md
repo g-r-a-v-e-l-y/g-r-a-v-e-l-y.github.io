@@ -2,7 +2,6 @@
 title: Logging incident handler activity on the console
 tags: posts
 date: 2008-04-28 13:33:00.00 -8
-permalink: "/logging-incident-handler-activity-on-the-console.html"
 ---
 During incident handling, time is precious. I try to make myself take notes and communicate about the incident over logged channels like e-mail and IM - to the point that I think some team members have rules specifically for e-mail from me.
 

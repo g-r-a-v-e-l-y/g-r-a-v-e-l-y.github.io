@@ -1,7 +1,6 @@
 ---
 title: rant restrained.
 date: 2003-04-15 10:46:00.00 -8
-permalink: "/rant-restrained.html"
 categories: humor
 ---
 	<p><span class="imBlue">grant</span>: why do i have this strange notion that I need to write long e-mail messages thinking anyone will read it?<br />

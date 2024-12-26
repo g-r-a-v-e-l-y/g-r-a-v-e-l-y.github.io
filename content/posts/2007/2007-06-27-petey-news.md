@@ -1,7 +1,6 @@
 ---
 title: Petey News
 date: 2007-06-27 12:17:00.00 -8
-permalink: "/petey-news.html"
 ---
 On Nat and [Will's](http://www.secret.cc/) dog [Petey](http://www.grantstavely.com/peteyandjake):
 

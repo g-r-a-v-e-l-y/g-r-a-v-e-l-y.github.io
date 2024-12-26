@@ -1,7 +1,6 @@
 ---
 title: Roller Hockey
 date: 2007-04-17 10:08:00.00 -8
-permalink: "/roller-hockey.html"
 ---
 I made it about 45 seconds into a scrimmage at the first roller hockey practice this year before demonstrating the importance of conditioning and proper equipment.
 

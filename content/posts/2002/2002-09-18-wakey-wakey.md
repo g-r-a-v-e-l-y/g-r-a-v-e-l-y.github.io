@@ -1,7 +1,6 @@
 ---
 title: wakey wakey
 date: 2002-09-18 13:15:00.00 -8
-permalink: "/wakey-wakey.html"
 categories: general
 ---
 <span class="screenplay">

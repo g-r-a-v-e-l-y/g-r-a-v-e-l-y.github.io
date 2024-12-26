@@ -1,7 +1,6 @@
 ---
 title: A Confederacy of Dunces
 date: 2007-01-18 08:17:00.00 -8
-permalink: "/a-confederacy-of-dunces.html"
 categories: fiction
 ---
 It isn't very often that I stray from technical reference books and SF short stories and novels. I grabbed [A Confederacy of Dunces](http://www.amazon.com/Confederacy-Dunces-John-Kennedy-Toole/dp/0517122707/sr=8-3/qid=1169129091/ref=pd_bbs_3/104-6710242-9348761?ie=UTF8&s=books) after it came up in the a book forum I read and was universally praised.

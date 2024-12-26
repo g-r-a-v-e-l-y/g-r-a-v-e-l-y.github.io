@@ -2,7 +2,6 @@
 tags: posts
 title: Portfolio Review Day
 date: 1999-07-25 19:13:00.00 -8
-permalink: "/portfolio-review-day.html"
 categories: art plans
 disclaimer:
   text: You can see this post in its original proto-blog context on beginnings, an early website of mine.

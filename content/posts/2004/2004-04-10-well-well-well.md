@@ -1,7 +1,6 @@
 ---
 title: well well well
 date: 2004-04-10 10:03:00.00 -8
-permalink: "/well-well-well.html"
 categories: politics
 ---
 	Start [here](http://slashdot.org/comments.pl?sid=103480&cid=8819645).

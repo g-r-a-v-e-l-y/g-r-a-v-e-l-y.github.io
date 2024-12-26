@@ -1,7 +1,6 @@
 ---
 title: missing ashtrays are a bad sign
 date: 2003-04-10 10:57:00.00 -8
-permalink: "/missing-ashtrays-are-a-bad-sign.html"
 categories: politics
 ---
 The ashtrays in front of the building I'm in on Wed/Thurs in downtown DC are no where to be seen today.

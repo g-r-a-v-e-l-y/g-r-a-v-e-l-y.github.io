@@ -2,7 +2,6 @@
 title: ! 'Hans Reiser: Guilty'
 tags: posts
 date: 2008-04-28 22:07:00.00 -8
-permalink: "/hans-reiser-guilty.html"
 ---
 The [Wired article](http://blog.wired.com/27bstroke6/2008/04/reiser-guilty-o.html) concludes...
 

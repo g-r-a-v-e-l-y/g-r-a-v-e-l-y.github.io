@@ -1,7 +1,6 @@
 ---
 title: I bought jokerbone.com last night
 date: 2002-06-21 01:10:00.00 -8
-permalink: "/I bought jokerbone.com last night.html"
 categories: general
 ---
 Well, for lack of a better name, I bought jokerbone.com last night. It's not live yet but will be soon.

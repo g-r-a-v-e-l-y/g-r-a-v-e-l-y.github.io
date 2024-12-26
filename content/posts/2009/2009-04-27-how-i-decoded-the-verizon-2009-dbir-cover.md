@@ -2,7 +2,6 @@
 title: How I Decoded the Verizon 2009 DBIR Cover
 tags: posts
 date: 2009-04-27 15:02:00.00 -8
-permalink: "/how-i-decoded-the-verizon-2009-dbir-cover.html"
 ---
 I was the first to solve the [Verizon 2009 Data Breach Investigations Report](http://www.verizonbusiness.com/products/security/risk/databreach/) cover. [Chris Eng's similar write-up](http://www.veracode.com/blog/2009/04/decoding-the-dbir-2009-cover/) is excellent and perhaps more in the spirit of defeating a challenge of the sort.
 

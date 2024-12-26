@@ -1,7 +1,6 @@
 ---
 title: Salem's Lot
 date: 2004-06-27 12:25:00.00 -8
-permalink: "/salems-lot.html"
 categories: art
 ---
 [Most impressive](http://www.tnt.tv/Title/Display/0,5918,456406,00.html).

@@ -2,7 +2,6 @@
 title: ! 'The Office: 1912 | Shorpy Photo Archive'
 tags: posts
 date: 2008-10-22 07:11:00.00 -8
-permalink: "/the-office-1912-shorpy-photo-archive.html"
 ---
 None of us have a truly [paperless office](http://en.wikipedia.org/wiki/Paperless_office). The entire idea is an unreal sales pitch. We do have an mostly paperless office.
 

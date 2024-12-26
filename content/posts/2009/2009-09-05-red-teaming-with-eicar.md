@@ -2,7 +2,6 @@
 title: Red teaming with EICAR
 tags: posts
 date: 2009-09-05 10:35:00.00 -8
-permalink: "/red-teaming-with-eicar.html"
 hasAsides: true
 disclaimer:
   text: This post has ben edited to be less.

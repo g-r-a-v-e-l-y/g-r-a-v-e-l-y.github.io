@@ -2,7 +2,6 @@
 title: Sparklines and data trending
 tags: posts
 date: 2007-10-31 17:06:00.00 -8
-permalink: "/sparklines-and-data-trending.html"
 ---
 I keep going on about [Tufte stuff](http://www.edwardtufte.com/tufte/courses).
 

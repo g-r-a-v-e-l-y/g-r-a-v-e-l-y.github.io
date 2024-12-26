@@ -1,7 +1,6 @@
 ---
 title: Dark and Stormy
 date: 2004-12-16 07:21:00.00 -8
-permalink: "/dark-and-stormy.html"
 categories: art
 ---
 The [2004 Bulwer-Lytton Fiction Contest](http://www.bulwer-lytton.com/).

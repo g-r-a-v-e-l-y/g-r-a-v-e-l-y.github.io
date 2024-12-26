@@ -1,7 +1,6 @@
 ---
 title: Wedding Pics
 date: 2007-05-21 16:00:00.00 -8
-permalink: "/wedding-pics.html"
 ---
 Echard Wheeler, the photographer we had at our wedding, has posted a [selection on his blog](http://echardwheeler.com/2007/05/14/amanda-grant/) if you'd like a quick peek. If you'd like to see a bunch more, or buy prints:
 

@@ -1,7 +1,6 @@
 ---
 title: don't send me .dee oh see
 date: 2004-03-25 21:47:00.00 -8
-permalink: "/dont-send-me-dee-oh-see.html"
 categories: microsoft
 ---
 Erk mentioned that I haven't ranted about EULA's in a while.

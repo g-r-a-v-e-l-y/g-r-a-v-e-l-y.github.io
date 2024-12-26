@@ -2,7 +2,6 @@
 title: gs_linkedin
 tags: posts
 date: 2008-10-25 09:07:00.00 -8
-permalink: "/gs_linkedin.html"
 ---
 
 ## Dynamically present Linkedin.com profile hresume data on your Textpattern blog

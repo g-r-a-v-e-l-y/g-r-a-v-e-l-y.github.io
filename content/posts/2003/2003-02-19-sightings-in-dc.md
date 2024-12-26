@@ -1,7 +1,6 @@
 ---
 title: Sightings in DC...
 date: 2003-02-19 14:38:00.00 -8
-permalink: "/sightings-in-dc.html"
 categories: humor
 ---
 I was out in front of a client's office building on K street today having a cigarette…

@@ -1,7 +1,6 @@
 ---
 title: quaternion julia fractals
 date: 2004-02-08 09:34:00.00 -8
-permalink: "/quaternion-julia-fractals.html"
 categories: general
 ---
 

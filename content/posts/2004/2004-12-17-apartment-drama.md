@@ -1,7 +1,6 @@
 ---
 title: Apartment drama
 date: 2004-12-17 12:16:00.00 -8
-permalink: "/apartment-drama.html"
 categories: general
 ---
 [My apartment](http://www.jokerbone.com/gallery/adamsmorgan) used to be operated by two leasing agents and an [onsite](http://www.wardermansion.com/) resident manager. All three were a pleasure the few times we needed their help.

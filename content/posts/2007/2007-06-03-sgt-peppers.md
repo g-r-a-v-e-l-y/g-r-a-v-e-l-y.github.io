@@ -1,7 +1,6 @@
 ---
 title: Sgt. Pepper's
 date: 2007-06-03 22:23:00.00 -8
-permalink: "/sgt-peppers.html"
 ---
 Happy 40th [Sgt. Peppers](http://en.wikipedia.org/wiki/Sgt_Peppers)!
 

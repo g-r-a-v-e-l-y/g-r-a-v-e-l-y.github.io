@@ -2,7 +2,6 @@
 title: Wikipedia
 tags: posts
 date: 2009-04-17 10:53:00.00 -8
-permalink: "/wikipedia.html"
 ---
 [Simplepedia](http://userscripts.org/scripts/show/42312) is a
 [greasemonkey](http://en.wikipedia.org/wiki/Greasemonkey) userscript that

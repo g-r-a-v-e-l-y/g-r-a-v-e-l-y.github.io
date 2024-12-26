@@ -2,7 +2,6 @@
 title: Simplepedia
 tags: posts
 date: 2008-12-22 15:15:00.00 -8
-permalink: "/simplepedia-wiki.html"
 ---
 
 I integrated two existing greasemonkey user scripts for wikipedia, and added lots of _element { display: none; }_‘s to the style sheet, and ended up with a userscript I’m calling [Simplepedia](http://userscripts.org/scripts/show/42312):

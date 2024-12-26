@@ -1,7 +1,6 @@
 ---
 title: Moving to DC
 date: 2004-06-23 07:17:00.00 -8
-permalink: "/moving-to-dc.html"
 categories: plans
 ---
 I'm moving to [DC](http://www.wardermansion.com/). Assuming the credit check goes through…

@@ -1,7 +1,6 @@
 ---
 title: Shmoocon OLPC talk
 date: 2007-06-07 16:06:00.00 -8
-permalink: "/shmoocon-olpc-talk.html"
 ---
 This has been available for a while but I forgot to link to it: The [Shmoocon talks](http://www.shmoocon.org/2007/videos/OLPC%20Panel%20An%20Examination%20of%20OLPC%20Security%20and%20the%20Impact%20on%20Society%20-%20Sean%20Coyne,%20Ivan%20Krstic,%20Jason%20Scott,%20Scott%20Roberts.mp4) on the [One Laptop per Child](http://laptop.org/en/vision/index.shtml) project. The discussion has a bit of an information security leaning to it given the audience, but it still packs content for people that don't approach everything with a screwdriver and a tinfoil hat.
 

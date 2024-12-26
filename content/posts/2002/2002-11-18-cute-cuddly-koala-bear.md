@@ -1,7 +1,6 @@
 ---
 title: cute, cuddly koala bear...
 date: 2002-11-18 14:24:00.00 -8
-permalink: "/cute-cuddly-koala-bear.html"
 categories: plans
 ---
 Kid Koala.

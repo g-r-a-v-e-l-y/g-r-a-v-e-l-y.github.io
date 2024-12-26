@@ -1,7 +1,6 @@
 ---
 title: tough work
 date: 2004-07-20 22:02:00.00 -8
-permalink: "/tough-work.html"
 categories: geeky
 ---
 Switching must be tough. I remember kicking and screaming a bit but now switch app's, os', etc all the time. I don't mean to imply that I'm Captain Open Minded.

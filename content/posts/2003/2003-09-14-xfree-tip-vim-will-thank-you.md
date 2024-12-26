@@ -1,7 +1,6 @@
 ---
 title: xfree tip -- vim will thank you
 date: 2003-09-14 10:04:00.00 -8
-permalink: "/xfree-tip-vim-will-thank-you.html"
 categories: linux
 ---
 	<p>> cat .xinitrc | grep xmodmap

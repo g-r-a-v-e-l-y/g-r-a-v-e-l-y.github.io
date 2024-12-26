@@ -1,7 +1,6 @@
 ---
 title: Swapping bedrooms
 date: 2002-05-05 02:29:00.00 -8
-permalink: "/swapping-bedrooms.html"
 categories: geeky
 ---
 I had to move my ftp/ssh/www server + nat/firewall box. I had hoped to be able

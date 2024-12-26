@@ -2,7 +2,6 @@
 title: On C.S. Lewis
 tags: posts
 date: 2008-11-01 10:38:00.00 -8
-permalink: "/on-cs-lewis.html"
 ---
 Quotation collections are history’s microblogs. C.S. Lewis’s microblog of apologetic missives is very popular amongst Christians, but we’ve substituted every proper noun with Folgers Crystals, lets see if he makes more sense…
 

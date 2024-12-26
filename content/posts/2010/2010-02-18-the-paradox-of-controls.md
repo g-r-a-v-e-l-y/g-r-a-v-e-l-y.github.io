@@ -2,7 +2,6 @@
 title: The Paradox of Controls
 tags: posts
 date: 2010-02-18 08:55:00.00 -8
-permalink: "/the-paradox-of-controls.html"
 hasAsides: true
 ---
 Given an effectively infinite set of behaviors, and a limited set of actors, the simplest and most common control strategy to restrict the behavior of actors seems to be:

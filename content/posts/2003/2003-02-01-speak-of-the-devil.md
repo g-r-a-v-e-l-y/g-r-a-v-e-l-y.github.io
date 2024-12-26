@@ -1,7 +1,6 @@
 ---
 title: speak of the devil =/
 date: 2003-02-01 10:06:00.00 -8
-permalink: "/speak-of-the-devil.html"
 categories: general
 ---
 =/

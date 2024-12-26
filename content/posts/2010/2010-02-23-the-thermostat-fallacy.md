@@ -2,7 +2,6 @@
 title: The Thermostat Fallacy
 tags: posts
 date: 2010-02-23 11:21:00.00 -8
-permalink: "/the-thermostat-fallacy.html"
 ---
 I've always called this collection of phenomena _thermostat fallacies_, but my dad does HVAC for a living, so, go figure. I'm not even sure that they are proper fallacies.
 

@@ -1,7 +1,6 @@
 ---
 title: Speaking of the EFF...
 date: 2003-01-13 16:49:00.00 -8
-permalink: "/speaking-of-the-eff.html"
 categories: politics
 ---
 A few months ago I sent an e-mail to our Maryland representatives. The letter was pre-composed for me by a digital rights organization - all I had to do was fill in my e-mail address street address. Right now I'm too busy working on client issues to dreg up the link - hopefully I'll find it later and update this post so that those of you interested can petition your sentators…

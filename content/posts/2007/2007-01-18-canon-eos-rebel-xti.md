@@ -1,7 +1,6 @@
 ---
 title: Canon EOS Rebel XTi
 date: 2007-01-18 21:40:00.00 -8
-permalink: "/canon-eos-rebel-xti.html"
 categories: geeky photography
 ---
 The [Sony F717](/sony-dsc-f717-my-new-toy.html) I've enjoyed for the past four years has been great to me. My only lingering gripe with the camera has been how slow it is between and leading up to each picture. As a combination 27th birthday present / present to myself for going full time at the new job, I upgraded.

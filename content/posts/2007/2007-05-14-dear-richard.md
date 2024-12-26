@@ -1,7 +1,6 @@
 ---
 title: DEAR RICHARD
 date: 2007-05-14 08:20:00.00 -8
-permalink: "/dear-richard.html"
 ---
 The SomethingAwful forums have changed their privacy policy after a third-party IP sharing incident [went public](http://digg.com/security/Something_Awful_s_Richard_Lowtax_Kyanka_admits_to_violating_user_privacy). If you are a member, check [this thread](http://forums.somethingawful.com/showthread.php?s=&threadid=2473447&pagenumber=2) for more whining.
 

@@ -1,7 +1,6 @@
 ---
 title: Pre-haircut
 date: 2003-07-05 09:35:00.00 -8
-permalink: "/pre-haircut.html"
 categories: microsoft
 ---
 

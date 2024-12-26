@@ -1,7 +1,6 @@
 ---
 title: 17th Anniversary
 date: 2003-01-28 10:02:00.00 -8
-permalink: "/17th-anniversary.html"
 categories: general
 ---
 

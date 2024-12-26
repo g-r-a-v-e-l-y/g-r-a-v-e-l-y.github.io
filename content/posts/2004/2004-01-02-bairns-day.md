@@ -1,7 +1,6 @@
 ---
 title: Bairns' Day
 date: 2004-01-02 19:32:00.00 -8
-permalink: "/bairns-day.html"
 categories: general
 ---
 I was just surfing [Modern Drunkard Magazine](http://www.moderndrunkardmagazine.com/issues/09_03/09-03-reasons-to-get-drunk-dec.htm) as linked from [Kottke](http://www.kottke.org/index.html) and couldn't help but note that my own birthday (12/28) is listed as the unluckiest day of the year.

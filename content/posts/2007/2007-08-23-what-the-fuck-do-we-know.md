@@ -1,7 +1,6 @@
 ---
 title: What the fuck do we know?
 date: 2007-08-23 10:37:00.00 -8
-permalink: "/what-the-fuck-do-we-know.html"
 ---
 We are adults, we don't have to BLEEP.
 

@@ -1,7 +1,6 @@
 ---
 title: ! 'Schneier: Rare Risks Breed Irrational Responses'
 date: 2007-05-23 09:11:00.00 -8
-permalink: "/schneier-rare-risks-breed-irrational-responses.html"
 ---
 Bruce Schneier's latest [wired.com commentar](http://www.wired.com/politics/security/commentary/securitymatters/2007/05/securitymatters_0517) is excellent.
 

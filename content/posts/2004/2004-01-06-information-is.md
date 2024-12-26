@@ -1,7 +1,6 @@
 ---
 title: information is $
 date: 2004-01-06 22:32:00.00 -8
-permalink: "/information-is.html"
 categories: geeky
 ---
 Twice in the past month, she's corrected me when giving my phone number to people standing behind cash registers -- once at blockbuster and once at a shoe store. It has been long enough now that I can blog about it without sounding like I'm whining about being corrected -- honest mistake.

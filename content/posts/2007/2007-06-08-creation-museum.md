@@ -1,7 +1,6 @@
 ---
 title: Creation Museum
 date: 2007-06-08 08:53:00.00 -8
-permalink: "/creation-museum.html"
 ---
 [Ars](http://arstechnica.com/articles/culture/ars-takes-a-field-trip-the-creation-museum.ars) visits the new [creation museum](http://en.wikipedia.org/wiki/Ostrich).
 

@@ -1,7 +1,6 @@
 ---
 title: william gibson transcript concerning mass media
 date: 2003-05-21 21:44:00.00 -8
-permalink: "/william-gibson-transcript-concerning-mass-media.html"
 categories: general
 ---
 	<p>William Gibson has posted a transcript of a recent talk he gave. </p>

@@ -2,7 +2,6 @@
 title: Stephen King on fiction
 tags: posts
 date: 2011-04-14 05:25:00.00 -8
-permalink: "/stephen-king-on-fiction.html"
 ---
 > JP: I'll tell you what I responded to. In the last two paragraphs, the tears sort of jumped to my eyes, but I realized that it wasn't the deaths, oddly enough, that I was responding to -- it was the bravery of the old poet, staggering around.
 

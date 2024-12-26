@@ -1,7 +1,6 @@
 ---
 title: There will always be doubters
 date: 2007-06-21 08:16:00.00 -8
-permalink: "/there-will-always-be-doubters.html"
 ---
 And sometimes, [they are even right](http://bytecoder.com/2006/09/28/xerox-1974-ethernet-would-be-a-failure/)...
 

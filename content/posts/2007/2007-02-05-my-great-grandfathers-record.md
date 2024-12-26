@@ -1,7 +1,6 @@
 ---
 title: My Great-Grandfather's Record
 date: 2007-02-05 10:28:00.00 -8
-permalink: "/my-great-grandfathers-record.html"
 ---
 Thomas Oriani was a police Washington DC Patrolman from August 1, 1888 through June 30, 1931. A photocopy of a photocopy of his policy record is in [the family history](/article/family-trees) I'm documenting, and it is interesting enough that I thought I'd share it with you.
 

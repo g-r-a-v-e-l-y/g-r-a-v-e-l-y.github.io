@@ -1,7 +1,6 @@
 ---
 title: The Eraser
 date: 2007-02-18 12:05:00.00 -8
-permalink: "/the-eraser.html"
 ---
 Hardware failure took the site offline for a while. I'm hosting from my powerbook for now until we put the new server in place.
 

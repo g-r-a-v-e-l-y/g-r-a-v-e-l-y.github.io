@@ -2,7 +2,6 @@
 title: Cable Modem
 tags: posts
 date: 1999-09-10 19:15:00.00 -8
-permalink: "/cable-modem.html"
 categories: plans geeky
 disclaimer:
   text: You can see this post in its original proto-blog context on beginnings, an early website of mine.

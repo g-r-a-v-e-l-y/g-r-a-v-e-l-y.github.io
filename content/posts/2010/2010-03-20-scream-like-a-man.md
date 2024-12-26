@@ -2,7 +2,6 @@
 title: Scream Like a Man
 tags: posts
 date: 2010-03-20 11:28:00.00 -8
-permalink: "/scream-like-a-man.html"
 ---
 ### Text Adventures
 

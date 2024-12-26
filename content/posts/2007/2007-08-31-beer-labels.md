@@ -1,7 +1,6 @@
 ---
 title: Beer Labels
 date: 2007-08-31 07:46:00.00 -8
-permalink: "/beer-labels.html"
 ---
 We went down [early January](http://www.flickr.com/photos/grantandamanda/sets/72157594467083207/) before [the wedding](http://www.grantandamanda.com/wedding/) to scope out the area and to meet with the folks at [Weeping Radish](http://www.weepingradish.com/). They just happened to not only be happy to provide us with kegs but also to print labels for a few custom cases.
 

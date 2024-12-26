@@ -1,7 +1,6 @@
 ---
 title: Eschatology
 date: 2007-01-31 06:01:00.00 -8
-permalink: "/eschatology.html"
 categories: general humor
 ---
 A bumper sticker seen in traffic:

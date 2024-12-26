@@ -2,7 +2,6 @@
 title: Syn Phishus
 tags: posts
 date: 2008-02-18 11:07:00.00 -8
-permalink: "/Syn-Phishus.html"
 ---
 I have [nice things to say](/shmoocon-2008) about the rest of the con.
 

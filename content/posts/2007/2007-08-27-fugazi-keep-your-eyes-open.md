@@ -1,7 +1,6 @@
 ---
 title: keep your eyes open
 date: 2007-08-27 07:09:00.00 -8
-permalink: "/fugazi-keep-your-eyes-open.html"
 ---
 [A book of Fugazi photographs by Glen Friedman](http://www.fugazibook.com/) is available for pre-order for $30.
 

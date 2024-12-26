@@ -2,7 +2,6 @@
 title: The Hard Sell
 tags: posts
 date: 2007-12-03 13:54:00.00 -8
-permalink: "/the-hard-sell.html"
 ---
 I just picked up 2 tickets for DJ Shadow & Cut Chemist’s current tour, called “The Hard Sell”.
 

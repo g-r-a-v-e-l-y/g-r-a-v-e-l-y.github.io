@@ -1,7 +1,6 @@
 ---
 title: Merrie Melodies
 date: 2004-03-03 07:37:00.00 -8
-permalink: "/merrie-melodies.html"
 categories: art
 ---
 ![](/images/67ltreis.jpg)

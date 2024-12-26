@@ -1,7 +1,6 @@
 ---
 title: Bloomberg on Terrorism
 date: 2007-06-15 10:23:00.00 -8
-permalink: "/bloomberg-on-terrorism.html"
 ---
 > "There are lots of threats to you in the world. There's the threat of a heart attack for genetic reasons. You can't sit there and worry about everything. Get a life…. You have a much greater danger of being hit by lightning than being struck by a terrorist."
 

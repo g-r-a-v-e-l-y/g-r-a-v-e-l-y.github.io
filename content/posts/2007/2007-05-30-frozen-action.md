@@ -1,7 +1,6 @@
 ---
 title: Frozen action
 date: 2007-05-30 09:17:00.00 -8
-permalink: "/frozen-action.html"
 categories: photography art
 ---
 One of my current favorite photography techniques, or 'hacks', to use the parlance of our times, is to capture slices of time which cannot easily be appreciated otherwise. Mostly because it is easy to happen into accidentally. Anyone can do this.

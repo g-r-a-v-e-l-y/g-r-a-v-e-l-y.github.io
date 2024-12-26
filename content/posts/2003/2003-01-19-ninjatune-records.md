@@ -1,7 +1,6 @@
 ---
 title: Ninjatune Records
 date: 2003-01-19 09:21:00.00 -8
-permalink: "/ninjatune-records.html"
 categories: music
 ---
 I can't [get enough of this shit](http://www.ninjatune.net/ninjashop/index.php?cat=0&type=LP&by=6&code=ZEN76#ZEN76").

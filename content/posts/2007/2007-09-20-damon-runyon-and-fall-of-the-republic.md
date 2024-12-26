@@ -1,7 +1,6 @@
 ---
 title: Damon Runyon and fall of the Republic
 date: 2007-09-20 20:18:00.00 -8
-permalink: "/damon-runyon-and-fall-of-the-republic.html"
 ---
 I'm poking my way through _[The Best American Mystery Stories of the Century](http://books.google.com/books?id=t_LldHktl9QC&pg=PA204&lpg=PA204&dq=%22damon+runyon%22+%22sense+of+humor%22&source=web&ots=Gq_6r0ny81&sig=FPyoZs-1N79fE099GhpLz9r0688)_; a collection of short stories that looks a bit like an unabridged dictionary. I read [Damon Runyon's](http://en.wikipedia.org/wiki/Damon_Runyon) short story _Sense of Humour_ while I was making dinner tonight. The characters made me think of Looney Toons' [Rocky and Mugsy](/files/bugsride.wav), but I guess the inspiration went the other way 'round.
 

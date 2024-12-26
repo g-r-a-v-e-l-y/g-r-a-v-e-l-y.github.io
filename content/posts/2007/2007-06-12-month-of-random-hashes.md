@@ -1,7 +1,6 @@
 ---
 title: Month of Random Hashes
 date: 2007-06-12 15:06:00.00 -8
-permalink: "/month-of-random-hashes.html"
 ---
 > Dear list,
 >

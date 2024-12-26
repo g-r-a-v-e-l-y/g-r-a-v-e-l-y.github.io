@@ -2,7 +2,6 @@
 title: Conway's Law
 tags: posts
 date: 2007-10-20 10:34:00.00 -8
-permalink: "/conways-law.html"
 ---
 [Tufte finds Conway’s law](http://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0001yB&topic_id=1) frequently rearing it’s ugly head. If you’ve worked on engineering projects, or taken over for someone else’s engineering project, you’ll recognize it immediately.
 

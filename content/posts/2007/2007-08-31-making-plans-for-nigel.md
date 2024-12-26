@@ -1,7 +1,6 @@
 ---
 title: Making Plans for Nigel
 date: 2007-08-31 11:21:00.00 -8
-permalink: "/making-plans-for-nigel.html"
 ---
 At work, [Making Plans for Nigel](http://en.wikipedia.org/wiki/Making_Plans_For_Nigel) came up on the ipod, which I blast through a [Tivoli Model Two](http://www.tivoliaudio.com/product.php?productid=144&cat=262&page=1) in our six-cube windowless office with the overhead flourescent's off because we are all nerds.
 

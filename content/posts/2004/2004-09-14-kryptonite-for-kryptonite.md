@@ -1,7 +1,6 @@
 ---
 title: kryptonite for kryptonite
 date: 2004-09-14 20:31:00.00 -8
-permalink: "/kryptonite-for-kryptonite.html"
 categories: general
 ---
 [Whoa.](http://www.bikeforums.net/showthread.php?t=66128&page=1&pp=25)

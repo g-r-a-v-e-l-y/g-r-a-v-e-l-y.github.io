@@ -1,7 +1,6 @@
 ---
 title: SMTP humor
 date: 2004-02-24 10:07:00.00 -8
-permalink: "/smtp-humor.html"
 categories: geeky
 ---
 > On Tue, Feb 24, 2004 at 10:05:52AM +0000, Philip Hazel wrote: Sorry, I should have added a smiley to my post. Irony doesn't come over well in email.

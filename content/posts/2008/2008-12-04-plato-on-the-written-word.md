@@ -2,7 +2,6 @@
 title: Plato on the written word
 tags: posts
 date: 2008-12-04 07:43:00.00 -8
-permalink: "/plato-on-the-written-word.html"
 ---
 I’ve been reading [McLuhan](http://www.amazon.com/Essential-Mcluhan-Marshall/dp/0465019951) a lot lately trying to figure out what effects media shifts have on culture. As parts of the modern world walk away from picturesque media, turning to this new dynamic variant of the written word (my theory, not his), we can look back to previous media shifts for potential effects, transition signs, and so on.
 

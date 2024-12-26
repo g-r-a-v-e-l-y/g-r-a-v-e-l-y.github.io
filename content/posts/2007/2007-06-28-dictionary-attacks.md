@@ -1,7 +1,6 @@
 ---
 title: Dictionary Attacks
 date: 2007-06-28 11:27:00.00 -8
-permalink: "/dictionary-attacks.html"
 ---
 We've all been asked to use passwords that are more than just a word that could be found in the dictionary…
 

@@ -1,7 +1,6 @@
 ---
 title: vi command line editing
 date: 2004-03-29 06:52:00.00 -8
-permalink: "/vi-command-line-editing.html"
 categories: geeky
 ---
 ![](/images/bash.s.gif)I've always been annoyed at my lack of ability to be [annoyed](/000481.php) with [bash](http://www.gnu.org/software/bash/bash.html)'s default to emacs-style command line editing long enough to learn simple emacs commands.

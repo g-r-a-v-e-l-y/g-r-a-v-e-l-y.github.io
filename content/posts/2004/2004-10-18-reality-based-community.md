@@ -1,7 +1,6 @@
 ---
 title: Reality-based Community
 date: 2004-10-18 17:23:00.00 -8
-permalink: "/reality-based-community.html"
 categories: politics
 ---
 Wow. Just, wow.

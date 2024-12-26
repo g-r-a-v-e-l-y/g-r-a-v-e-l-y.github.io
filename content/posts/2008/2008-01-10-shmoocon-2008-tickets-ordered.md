@@ -2,7 +2,6 @@
 title: Shmoocon 2008 tickets ordered!
 tags: posts
 date: 2008-01-10 08:12:00.00 -8
-permalink: "/shmoocon-2008-tickets-ordered.html"
 ---
 I grabbed 10 [Shmoocon](http://shmoocon.org/) tickets this year, and that was forgetting two people.
 

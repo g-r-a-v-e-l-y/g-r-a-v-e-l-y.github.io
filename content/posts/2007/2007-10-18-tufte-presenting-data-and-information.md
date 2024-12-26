@@ -2,7 +2,6 @@
 title: Tufte - Presenting Data and Information
 tags: posts
 date: 2007-10-18 17:17:00.00 -8
-permalink: "/tufte-presenting-data-and-information.html"
 ---
 I had the pleasure of attending a one day course on the [presentation of data and information](http://www.edwardtufte.com/tufte/courses) given by [Edward Tufte](http://www.tufte.com) in Washington DC.
 
