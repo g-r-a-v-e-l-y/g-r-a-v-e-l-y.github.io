@@ -13,6 +13,8 @@ const MARKDOWN_IT_OPTIONS = {
   html: true,
   typographer: true,
   tabIndex: false,
+  breaks: true,
+  linkify: true,
 };
 
 const MARKDOWN_IT_ANCHOR_OPTIONS = {
