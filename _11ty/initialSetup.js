@@ -13,7 +13,7 @@ const MARKDOWN_IT_OPTIONS = {
   html: true,
   typographer: true,
   tabIndex: false,
-  breaks: true,
+  breaks: false,
   linkify: true,
 };
 
