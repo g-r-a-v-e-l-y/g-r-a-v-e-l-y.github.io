@@ -58,7 +58,7 @@ blockquote {
   margin: 0;
 }
 
-p + p {
+p + p, aside + p {
   text-indent: 1.6rem;
 }
 strong,

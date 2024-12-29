@@ -5,7 +5,7 @@
   </head>
   <body>
     {% include "partials/header.njk" %}
-    <div id="main" class="container{% if hasAsides %} with-asides{% endif %}">
+    <div id="main" class="container with-asides">
       {{ content|safe }}
       {% include "partials/footer.njk" %}
     </div>

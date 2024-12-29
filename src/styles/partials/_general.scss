@@ -1,4 +1,64 @@
 @use "../mixins";
+@use "../variables";
+
+article {
+  h1 {
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+  }
+
+  h2 {
+    margin: 4rem 0 1rem;
+  }
+
+  .top-image {
+    margin-bottom: 3rem;
+
+    .credit {
+      margin-top: 0;
+      margin-bottom: 0;
+      font-size: 1rem;
+    }
+  }
+
+  aside {
+    display: block;
+    font-family: variables.$sansSerifFontFamily;
+    color: var(--aside-color);
+    position: absolute;
+    width: 15rem;
+    left: calc(100% + 2rem);
+
+    p {
+      font-size: 1.0375rem;
+      margin-top: 0;
+    }
+
+    a {
+      padding-bottom: 1px;
+    }
+
+    @include mixins.maxWidth(1024px) {
+      position: static;
+      left: auto;
+      width: auto;
+    }
+    }
+}
+
+.with-asides {
+  article {
+    max-width: 37rem;
+    position: relative;
+
+    @include mixins.maxWidth(1024px) {
+      position: static;
+      margin: 0 auto;
+      left: auto;
+      right: auto;
+    }
+  }
+}
 
 * {
   box-sizing: border-box;
