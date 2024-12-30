@@ -13,7 +13,7 @@ Give or take quite a lot of unfortunate data loss over the years, I've been drag
 ), [Textpattern](https://textpattern.com/) (the best of the bunch in my opinion), and [octopress](https://web.archive.org/web/20180322055328/http://archives.grantstavely.com/), which is where I left things when I bailed for Twitter and [Tumblr](https://web.archive.org/web/20180330002228/https://grantstavely.com/), which I've also since deleted, and now, [{{ eleventy.generator }}](https://www.11ty.dev/).
 
 {aside}<img
-    src="https://v1.sparkline.11ty.dev/120x30/{{ collections.publishedPosts | postsPerYear }}/%23123456/"
+    src="https://v1.sparkline.11ty.dev/120x30/{{ collections.publishedPosts | postsPerYear }}/%2347b7eb/"
     width="170"
     height="30"
     alt="Sparkline representing frequency of posts written per year from 1999"
