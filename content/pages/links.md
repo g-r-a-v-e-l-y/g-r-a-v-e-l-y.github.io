@@ -11,12 +11,12 @@ I tend to divest[^1] from a thing when people call for that, and I'm able, so I'
 
 This is what's left.
 
-
-* [Mastodon](https://mastodon.social/@gravely)
-* [Discord](https://discord.com/users/gravely#6679)
 * [Bandcamp](https://bandcamp.com/_gravely_)
+* [Bookwyrm](https://bookwyrm.social/user/gravely)
+* [Discord](https://discord.com/users/gravely#6679)
 * [Github](https://github.com/g-r-a-v-e-l-y)
 * [LinkedIn](https://www.linkedin.com/in/gravely/)
+* [Mastodon](https://mastodon.social/@gravely)
 
 Er, not left. Whatever.
 
