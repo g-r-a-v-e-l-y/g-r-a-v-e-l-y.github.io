@@ -58,6 +58,10 @@ blockquote {
   margin: 0;
 }
 
+.footnote-item + p {
+    font-size: 1rem !important;
+}
+
 p + p, aside + p {
   text-indent: 1.6rem;
 }

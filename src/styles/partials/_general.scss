@@ -60,8 +60,19 @@ article {
   }
 }
 
+.footnotes, .footnote-list, .footnote-item, p .footnote-item {
+  font-size: 1rem;
+}
+
 * {
   box-sizing: border-box;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid var(--base-color);
+    margin-top: 3.2rem;
+    margin-bottom: 3.2rem;
 }
 
 button {

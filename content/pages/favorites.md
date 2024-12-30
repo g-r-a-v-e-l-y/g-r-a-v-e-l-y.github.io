@@ -161,8 +161,11 @@ This is the stuff I say that about.
 A bunch of people I shoot the shit with from time to time, that I internet-know, and some real pals I like, actually go get dinner with also have old sites like this one. Good for us.
 
 * [electricfork](https://electricfork.com)
+* [Conan's Blog](https://conan.posthaven.com/)
 * [Crucial Carl's Stuff](https://crucialcarl.blogspot.com)
+* [Graham says wrong things](https://graham.posthaven.com/)
 * [maradine](http://maradine.com)
 * [Lou Huang](https://louhuang.com), who also posts at [saiko.fish](https://saiko.fish)
 * [Skippy Ta](https://www.skippyta.com)
+* [Transitive Trust Constructs](https://ttconstructs.com/)
 * [Yuzu Nelson](https://yuzunelson.com)
