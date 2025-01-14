@@ -60,13 +60,20 @@ This is the stuff I say that about.
 * [Amethyst](https://ianyh.com/amethyst/)
 * [AmpliTube](https://www.ikmultimedia.com/products/amplitube5/)
 * [Anylist](https://www.anylist.com/web)
+* [bandcamp](https://bandcamp.com/)
+* [bandsintown](https://www.bandsintown.com)
 * [CityStrides](https://citystrides.com/)
 * [Fastmail](https://www.fastmail.com)
-* [FitBod](https://fitbod.me)
-* [Guitar Pro](https://www.guitar-pro.com)
-* [https://www.inoreader.com/](https://www.inoreader.com/)
+* [FitBod](https://fitbod.me/)
+* [Guitar Pro](https://www.guitar-pro.com/)
+* [Home Assistant](https://www.home-assistant.io)
+* [inoreader](https://www.inoreader.com/)
 * [iReal](https://www.irealpro.com)
 * [Ivory](https://tapbots.com/ivory/)
+* [Marked 2](https://marked2app.com/)
+* [Patreon](https://www.patreon.com/home)
+* [Pocket Casts](https://pocketcasts.com/)
+* [Signal Messenger](https://signal.org/)
 * [Strava](https://www.strava.com/)
 * [Sublime Text](https://www.sublimetext.com/)
 * [Transit](https://transitapp.com)
@@ -97,7 +104,9 @@ This is the stuff I say that about.
 * [SomaFM](https://somafm.com/)
 * [WFMU](https://wfmu.org/)
 
-### Blogs
+### Posters
+
+Or Bloggers, I guess?
 
 * [70s Sci-Fi Art](https://70sscifiart.tumblr.com/)
 * [asumu.city Blog](https://asumu.city/)
@@ -128,6 +137,7 @@ This is the stuff I say that about.
 * [Jacob Kaplan-Moss](https://jacobian.org/)
 * [Julia Evans](https://jvns.ca/)
 * [jwz](https://www.jwz.org/blog/)
+* [Keiran Healy](https://kieranhealy.org)
 * [Kelly Link](https://kellylink.net/)
 * [KING MEGATRIP](https://megatrip.blogspot.com/)
 * [kottke.org](https://www.kottke.org/)
@@ -154,6 +164,7 @@ This is the stuff I say that about.
 * [Waxy.org](http://waxy.org/)
 * [We Built This City](https://webuiltthiscity.tumblr.com/)
 * [World Pizza Cup Champion Tony Gemignani](https://www.tonygemignani.com/)
+* [wreckage/salvage](https://www.wrecka.ge/)
 
 
 ### My webring
