@@ -1,14 +1,14 @@
 {% for yearlyArchive in collections.publishedPosts | groupByYear %}
-    <h2 tabindex='0' class="year-heading" id="year-{{ yearlyArchive.year }}">
-    <time>{{ yearlyArchive.year }}</time>
-    </h2>
       <ul class="list posts-{{ yearlyArchive.year }}"> 
       {% for post in yearlyArchive.posts %}
         <li class="post">
           <time class="archiveTime">{{ post.date | archivePageDate }}</time>
           <a href="{{ post.url }}">
-            <span class="archiveTitle">
+            <span class="archiveTitle">{% if post.data.source === "mastodon" %}
+                {% excerpt post %}
+              {% else %}
               {{ post.data.title }}
+          {% endif %}
             </span>
           </a>
         </li>

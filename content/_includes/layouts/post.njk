@@ -10,9 +10,12 @@ layout: base
 
   {% include "partials/post/image.njk" %}
 
+  {%  if source == 'mastodon' %}
+  {% else %}
   <header>
     <h1>{{ title }}</h1>
   </header>
+  {% endif %}
   {% include "partials/post/top-meta.njk" %}
   {% include "disclaimers/disclaimer.njk" %}
   {{ content | safe }}
