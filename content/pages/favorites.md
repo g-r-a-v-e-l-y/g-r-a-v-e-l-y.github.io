@@ -34,7 +34,13 @@ This is the stuff I say that about.
 
 ### Authors
 
+I have been trying to post what I read to [my BookWyrm](https://bookwyrm.social/user/gravely) for a few years but I'm a completionist when it comes to these living authors (why link to Auster, Dick, Le Guin, King, Vonnegut, etc who I also enjoy) so they get a special link section.
+
+* [Vincent Bevins](https://vincentbevins.com)
+* [Ted Chiang](https://www.penguinrandomhouse.com/authors/2135536/ted-chiang/)
 * [Kelly Link](http://kellylink.net/)
+* [Evgeny Morozov](https://evgenymorozov.net)
+* [Jason Pargin](https://johndiesattheend.com)
 
 ### Patreon posters
 
@@ -127,6 +133,7 @@ Or Bloggers, I guess?
 * [Figure/Ground Communication™](https://figureground.org/)
 * [Filippo Valsorda](https://words.filippo.io)
 * [Fog City Rose](https://fogcityrose.com)
+* [gameboat](https://gameboat.org)
 * [Graham says wrong things](https://graham.posthaven.com/)
 * [Hacking Exposed Computer Forensics Blog](http://hackingexposedcomputerforensicsblog.blogspot.com/)
 * [Hiking by transit](https://hikingbytransit.com/hikes/)
