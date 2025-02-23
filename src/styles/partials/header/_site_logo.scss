@@ -4,11 +4,9 @@
   display: block;
 
   a {
-    display: block;
-    justify-content: center;
-    align-items: center;
-    margin-top: 4rem;
-    margin-bottom: 3rem;
+    display: none;
+    justify-content: right;
+    align-items: right;
     min-width: 3rem;
     max-width: 22rem;
     margin-right: 0.5rem;
@@ -17,7 +15,7 @@
     @include mixins.transition(opacity);
 
     span {
-      font-size: 4rem;
+      font-size: 1rem;
       font-weight: 400;
       line-height: 1;
     }
