@@ -291,5 +291,5 @@ module.exports = {
   enableReadingProgressBar: true,
   // Show post length as word count ('count'), reading time ('time') or disable
   // it completely (false)
-  showPostLength: 'time',
+  showPostLength: 'false',
 };
