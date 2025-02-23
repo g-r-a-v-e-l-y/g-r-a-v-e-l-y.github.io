@@ -1,9 +1,9 @@
 ---
-title: My archives
+title: Posts
 description: All posts published since the start of of the blog back in 2020.
 eleventyNavigation:
-  key: Archive
-  order: 3
+  key: Posts
+  order: 1
 ---
 
 {aside}Give or take quite a lot of unfortunate data loss over the years, I've been dragging some of these posts around for 25 years through WYSIWYG editors, text editors, self-taught (with a lotta help from my friends) PHP, [Movable Type](https://web.archive.org/web/20021127162851/http://jokerbone.com/), [Wordpress](https://web.archive.org/web/20041129200618/http://www.jokerbone.com:80/

@@ -1,9 +1,9 @@
 ---
-title: Favorites
-description: All posts published since the start of of the blog back in 2020.
+title: Faves
+description: Stuff I like that maybe you'll like too.
 customPermalink: /favorites/
 eleventyNavigation:
-  key: Favorites
+  key: Faves
   order: 4
 ---
 
@@ -61,16 +61,17 @@ I have been trying to post what I read to [my BookWyrm](https://bookwyrm.social/
 
 ### Apps and services
 
-* [1Password](http://1password.com/)
-* [AllTrails](https://www.alltrails.com)
-* [Amethyst](https://ianyh.com/amethyst/)
-* [AmpliTube](https://www.ikmultimedia.com/products/amplitube5/)
-* [Anylist](https://www.anylist.com/web)
-* [bandcamp](https://bandcamp.com/)
-* [bandsintown](https://www.bandsintown.com)
-* [CityStrides](https://citystrides.com/)
-* [Fastmail](https://www.fastmail.com)
-* [FitBod](https://fitbod.me/)
+* [1Password](http://1password.com/) — password manager.
+* [AllTrails](https://www.alltrails.com) – I use this a few times a year but pay because I never know when I'll want to get to a trailhead and have a map of it.
+* [Amethyst](https://ianyh.com/amethyst/) – Mac tiling window manager. I use full screen and split screeen only.
+* [AmpliTube](https://www.ikmultimedia.com/products/amplitube5/) – With headphones, the ultimate practice rig.
+* [Anylist](https://www.anylist.com/web) – Our family plans groceries and menus in Anylist. I'm super bummed there's no export as I've got a hundred recipes or so, but it works well so whatever.
+* [bandcamp](https://bandcamp.com/) – "at the show", "wherever the artists says to buy it", "bandcamp", in that order.
+* [bandsintown](https://www.bandsintown.com) – get notified when artists you like are playing in your town. This is what I used to use last.fm for before that got crappy and I deleted it for reasons I forget. It's ok. the mac app is buggy as hell but the service works ok when I remember to keep adding artists to it.
+* [CityStrides](https://citystrides.com/) – I'm trying to walk every street in SF so I pay CityStrides to import my Strava, who I also pay but don't list here, to keep track. I would skip the Strava step if I could.
+* [CyberChef](https://gchq.github.io/CyberChef/) - computer stuff.
+* [Fastmail](https://www.fastmail.com) - I switched from gmail to fastmail in 2013 and have never looked back.
+* [FitBod](https://fitbod.me/) - one hour a day, "bodybuilding" profile, do whatever it says, it's great.
 * [Guitar Pro](https://www.guitar-pro.com/)
 * [Home Assistant](https://www.home-assistant.io)
 * [inoreader](https://www.inoreader.com/)
@@ -103,6 +104,7 @@ I have been trying to post what I read to [my BookWyrm](https://bookwyrm.social/
 * [BAGeL Radio](https://www.bagelradio.com/listen)
 * [Jazz Groove](https://jazzgroove.org/)
 * [KCSM](https://www.kcsm.org/)
+* [KMHD](https://www.kmhd.org)
 * [Le Mellotron](https://www.lemellotron.com/)
 * [NTS](https://www.nts.live/)
 * [Radio Nova](https://www.nova.fr/)
@@ -112,7 +114,7 @@ I have been trying to post what I read to [my BookWyrm](https://bookwyrm.social/
 
 ### Posters
 
-Or Bloggers, I guess?
+Or Bloggers, and Magazines, and stuff like that?
 
 * [70s Sci-Fi Art](https://70sscifiart.tumblr.com/)
 * [asumu.city Blog](https://asumu.city/)
@@ -124,8 +126,10 @@ Or Bloggers, I guess?
 * [Colossal](https://www.thisiscolossal.com/)
 * [Danforth France](https://danforth.tumblr.com/)
 * [Deciphering Glyph](https://blog.glyph.im/)
+* [Democratic Left](https://democraticleft.dsausa.org)
 * [Die, Workwear!](https://dieworkwear.com/)
 * [DJ Food](https://www.djfood.org/)
+* [DSA SF](https://www.dsasf.org/)
 * [Dwell on Dwell](https://www.dwell.com/)
 * [Eater SF - All](https://sf.eater.com/)
 * [Erin Kissane's internet website lol](https://erinkissane.com/)
@@ -152,6 +156,7 @@ Or Bloggers, I guess?
 * [Live Laugh Blog](https://livelaugh.blog/)
 * [Matthew Garrett](https://mjg59.dreamwidth.org/)
 * [New Left Review: current issue](https://newleftreview.org/)
+* [Open Whisper Systems Blog](https://signal.org/blog/)
 * [Pushing Ahead of the Dame](https://bowiesongs.wordpress.com/)
 * [San Francisco Story](https://www.sanfranciscostory.com/)
 * [Security](https://scarybeastsecurity.blogspot.com/)

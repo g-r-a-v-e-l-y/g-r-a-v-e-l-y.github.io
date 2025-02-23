@@ -1,9 +1,9 @@
 ---
-title: Links
+title: Socials
 description: Wherelese I am
 customPermalink: /links/
 eleventyNavigation:
-  key: Links
+  key: Socials
   order: 3
 ---
 
