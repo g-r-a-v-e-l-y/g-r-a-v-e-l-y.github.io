@@ -1,17 +1,9 @@
-{% for yearlyArchive in collections.publishedPosts | groupByYear %}
-      <ul class="list posts-{{ yearlyArchive.year }}"> 
-      {% for post in yearlyArchive.posts %}
-        <li class="post">
-          <time class="archiveTime">{{ post.date | archivePageDate }}</time>
-          <a href="{{ post.url }}">
-            <span class="archiveTitle">{% if post.data.source === "mastodon" %}
-                {% excerpt post %}
-              {% else %}
-              {{ post.data.title }}
-          {% endif %}
-            </span>
-          </a>
-        </li>
-      {% endfor %}
-      </ul>
+<div class="post-list">
+  <ul>
+  {% for post in collections.publishedPosts %}
+    <li>
+      {% include "partials/single-post-excerpt.njk" %}
+    </li>
   {% endfor %}
+  </ul>
+</div>
