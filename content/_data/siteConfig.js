@@ -118,11 +118,11 @@ module.exports = {
     // (build the site and find the images in _site/images/share folder)
     // To modify what generated OG images look like
     // edit content/_data/utils/og-image.njk
-    enableImageGeneration: false,
+    enableImageGeneration: true,
     // Background color for auto-generated OpenGraph images
-    ogImageBackgroundColor: '#1773cf',
+    ogImageBackgroundColor: '#edceec',
     // Text color for for auto-generated OpenGraph images
-    ogImageTextColor: '#fff',
+    ogImageTextColor: '#000',
   },
   // ---------------------------------------------------------------------------
   // Default settings for X graph tags
@@ -250,7 +250,7 @@ module.exports = {
   // ---------------------------------------------------------------------------
   twtxt: {
     // Your nickname on Twtxt
-    nick: 'eleventyBlissTemplate',
+    nick: 'gravely',
     // Path to Twtxt file, used as permalink in the template
     path: '/twtxt.txt',
     // Path to your Twtxt avatar
