@@ -18,7 +18,7 @@
       text-decoration: none;
       padding: var(--spacing) calc(var(--spacing) / 2);
       display: flex;
-      justify-content: center;
+      justify-content: left;
       letter-spacing: 0.0125rem;
       @include mixins.transition(color);
 
