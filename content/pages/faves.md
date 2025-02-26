@@ -4,7 +4,7 @@ description: Stuff I like that maybe you'll like too.
 customPermalink: /faves/
 eleventyNavigation:
   key: Faves
-  order: 4
+  order: 3
 ---
 
 I feel like I bring more effort to trying to get into stuff for the first time when I've gotten assurances from someone whose opinions I repsect that it's worth it. "I like this stuff, mabe you will too."

@@ -4,7 +4,7 @@ description: Wherelese I am
 customPermalink: /links/
 eleventyNavigation:
   key: Socials
-  order: 3
+  order: 2
 ---
 
 I tend to divest[^1] from a thing when people call for that, and I'm able, so I've probably eradicated almost as much as I've posted out there over the years. Sometimes I regret it but I seem to bias for doing it anyway. Weird right?
