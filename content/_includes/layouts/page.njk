@@ -3,9 +3,12 @@ layout: base
 ---
 
 <article>
+  <header>
+    <h1>{{ title }}</h1>
+  </header>
 
   {% include "disclaimers/disclaimer.njk" %}
-
+  {{ content | toc | safe }}
   {{ content | safe }}
 
 </article>

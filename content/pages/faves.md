@@ -1,7 +1,7 @@
 ---
 title: Faves
 description: Stuff I like that maybe you'll like too.
-customPermalink: /favorites/
+customPermalink: /faves/
 eleventyNavigation:
   key: Faves
   order: 4
@@ -11,36 +11,23 @@ I feel like I bring more effort to trying to get into stuff for the first time w
 
 This is the stuff I say that about.
 
-### Contents
-
-* [Artists](#artists)
-* [Authors](#authors)
-* [Patreon posters](#patreon-posters)
-* [Video stream and VOD posters](#video-stream-and-vod-posters)
-* [Apps and services](#apps-and-services)
-* [Podcasts](#podcasts)
-* [Magazines](#magazines)
-* [Books](#books)
-* [Music streams](#music-streams)
-* [Blogs](#blogs)
-* [My Webring](#my-webring)
-
 ---
 
 ### Artists
 
-* [Paul Rickards](https://shop.paulrickards.com/)
-* [Leagh Gardner](https://leahgardner.art/)
+* [Paul Rickards](https://shop.paulrickards.com/) - Paul collects and uses vintage pen plotter devices to use with modern computers and code like Python to create new works of art. I've got a bunch of Rickards stuff up at home.
+* [Leagh Gardner](https://leahgardner.art/) - Leagh started oil painting in 2020 and by 2021 was a working artist. I've got an original pigeon at home.
 
 ### Authors
 
-I have been trying to post what I read to [my BookWyrm](https://bookwyrm.social/user/gravely) for a few years but I'm a completionist when it comes to these living authors (why link to Auster, Dick, Le Guin, King, Vonnegut, etc who I also enjoy) so they get a special link section.
+I have been trying to post what I read to [my BookWyrm](https://bookwyrm.social/user/gravely) for a few years but I'm a completionist and will pre-order when it comes to these authors (why link to Auster, Dick, Le Guin, King, Vonnegut, etc who I also enjoy?) so they get a special link section.
 
 * [Vincent Bevins](https://vincentbevins.com)
 * [Ted Chiang](https://www.penguinrandomhouse.com/authors/2135536/ted-chiang/)
 * [Kelly Link](http://kellylink.net/)
 * [Evgeny Morozov](https://evgenymorozov.net)
 * [Jason Pargin](https://johndiesattheend.com)
+* [Emily Wilson](https://www.emilyrcwilson.com/)
 
 ### Patreon posters
 
@@ -52,7 +39,7 @@ I have been trying to post what I read to [my BookWyrm](https://bookwyrm.social/
 * [If Books Could Kill](https://www.patreon.com/c/IfBooksPod/home)
 * [Jens Larsen](https://www.patreon.com/c/jenslarsen/posts)
 * [Mr. Tabs](https://www.patreon.com/c/MrTabs/posts)
-* [Things I've Learned From Barry Harris](https://www.patreon.com/c/tilfbarryharris/posts)
+* [Things I've Learned From Barry Harris](https:/www.patreon.com/c/tilfbarryharris/posts)
 * [Tyler Mahan Coe](https://www.patreon.com/c/tylermahancoe/posts)
 
 ### Video stream and VOD posters
@@ -70,9 +57,9 @@ I have been trying to post what I read to [my BookWyrm](https://bookwyrm.social/
 * [bandsintown](https://www.bandsintown.com) – get notified when artists you like are playing in your town. This is what I used to use last.fm for before that got crappy and I deleted it for reasons I forget. It's ok. the mac app is buggy as hell but the service works ok when I remember to keep adding artists to it.
 * [CityStrides](https://citystrides.com/) – I'm trying to walk every street in SF so I pay CityStrides to import my Strava, who I also pay but don't list here, to keep track. I would skip the Strava step if I could.
 * [CyberChef](https://gchq.github.io/CyberChef/) - computer stuff.
-* [Fastmail](https://www.fastmail.com) - I switched from gmail to fastmail in 2013 and have never looked back.
+* [Fastmail](https://www.fastmail.com) - I finally stopped hosting my own mail and switched to fastmail in 2013 and have never looked back.
 * [FitBod](https://fitbod.me/) - one hour a day, "bodybuilding" profile, do whatever it says, it's great.
-* [Guitar Pro](https://www.guitar-pro.com/)
+* [Guitar Pro](https://www.guitar-pro.com/) - guitar sheet music and tablature! invest in tools to learn, stop using bad ascii tabs.
 * [Home Assistant](https://www.home-assistant.io)
 * [inoreader](https://www.inoreader.com/)
 * [iReal](https://www.irealpro.com)

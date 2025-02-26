@@ -44,12 +44,36 @@ article {
       width: auto;
     }
     }
+  .toc {
+    display: block;
+    font-family: variables.$sansSerifFontFamily;
+    color: var(--aside-color);
+    position: absolute;
+    width: 10rem;
+    left: calc(0% - 14rem);
+
+    p, ul, ol, li {
+      font-size: 1.0375rem;
+      margin-top: 0;
+    }
+
+    a {
+      padding-bottom: 1px;
+    }
+
+    @include mixins.maxWidth(1024px) {
+      position: static;
+      left: auto;
+      width: auto;
+    }
+    }
 }
 
 .with-asides {
   article {
     max-width: 37rem;
     position: relative;
+    overflow-wrap: break-word;
 
     @include mixins.maxWidth(1024px) {
       position: static;

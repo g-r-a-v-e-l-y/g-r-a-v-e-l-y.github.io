@@ -6,6 +6,7 @@ const eleventyNavigationPlugin = require('@11ty/eleventy-navigation');
 const srcSet = require('./plugins/srcset');
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const embeds = require("eleventy-plugin-embed-everything");
+const pluginTOC = require('eleventy-plugin-toc');
 
 const productionPlugins = IS_PRODUCTION
   ? [
@@ -33,6 +34,9 @@ const plugins = [
   },
   {
     body: embeds,
+  },
+  {
+    body: pluginTOC,
   },
 ];
 

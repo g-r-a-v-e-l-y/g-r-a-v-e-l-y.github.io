@@ -1,9 +1,18 @@
-<div class="post-list">
-  <ul>
-  {% for post in collections.publishedPosts %}
+
+<ul class="archive">
+  {% for yearlyArchive in collections.publishedPosts | groupByYear %}
     <li>
-      {% include "partials/single-post-excerpt.njk" %}
+      <h3 tabindex='0' class="year-heading" id="year-{{ yearlyArchive.year }}">
+        {% emoji "▼", "arrow" %} <time>{{ yearlyArchive.year }}</time>
+      </h3>
+      <ul class="list posts-{{ yearlyArchive.year }}">
+      {% for post in yearlyArchive.posts %}
+        <li class="post">
+          {% include "partials/single-post-excerpt.njk" %}
+          </a>
+        </li>
+      {% endfor %}
+      </ul>
     </li>
   {% endfor %}
-  </ul>
-</div>
+</ul>
