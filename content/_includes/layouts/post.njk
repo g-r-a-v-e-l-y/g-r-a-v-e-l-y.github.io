@@ -18,6 +18,7 @@ layout: base
   {% endif %}
   {% include "partials/post/top-meta.njk" %}
   {% include "disclaimers/disclaimer.njk" %}
+  {{ content | toc | safe }}
   {{ content | safe }}
 </article>
 
