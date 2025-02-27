@@ -1,9 +1,9 @@
 ---
-title: Faves
+title: /faves
 description: Stuff I like that maybe you'll like too.
 customPermalink: /faves/
 eleventyNavigation:
-  key: Faves
+  key: /faves
   order: 3
 ---
 

@@ -1,8 +1,8 @@
 ---
-title: Posts
+title: /posts
 description: All posts published since the start of of the blog back in 2020.
 eleventyNavigation:
-  key: Posts
+  key: /posts
   order: 1
 ---
 

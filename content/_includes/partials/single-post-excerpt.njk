@@ -1,19 +1,27 @@
 {%- set wordCount -%}{{ post.templateContent | striptags | wordcount }}{%- endset -%}
 {%- set readingTime -%}{{ wordCount | readingTimeMin }}{%- endset -%}
 {%- set postDate -%}{{ post.data.date|readableDate }}{%- endset -%}
-<a href="{{ post.url }}">
   <article>
   {%  if post.data.source == 'mastodon' %}
+    <header>
+      <a href="{{ post.url }}">
+      <h2 class="post-title">{{ post.data.excerpt }}</h2>
+      </a>
+    </header>
   {% else %}
     <header>
+      <a href="{{ post.url }}">
       <h2 class="post-title">{{ post.data.title }}</h2>
+      </a>
     </header>
   {% endif %}
     <div class="excerpt">
       {% excerpt post %}
     </div>
     <div class="post-meta">
+      <a href="{{ post.url }}">
         <time>{{ postDate }}</time>
+        </a>
         {% if siteConfig.showPostLength == 'time' %}
         <span class="separator">{{ phrases.meta_separator }}</span>
         <span class="reading-time" title="{{ wordCount }} {{ phrases.words }}">{{ readingTime }} {{ phrases.min }} {{ phrases.read }}</span> 
@@ -23,4 +31,4 @@
         {% endif %}
     </div>
   </article>
-</a>
+<hr />

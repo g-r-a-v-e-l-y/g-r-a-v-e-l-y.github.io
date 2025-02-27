@@ -1,7 +1,7 @@
 ---
 layout: page
 eleventyNavigation:
-  key: Greets
+  key: /greets
   order: 4
 ---
 
