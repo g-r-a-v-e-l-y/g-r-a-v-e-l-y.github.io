@@ -1,7 +1,7 @@
 ---
-title: /socials
+title: socials
 description: Wherelese I am
-customPermalink: /links/
+customPermalink: /socials/
 eleventyNavigation:
   key: /socials
   order: 2
