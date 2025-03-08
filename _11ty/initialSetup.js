@@ -1,3 +1,4 @@
+const removeMarkdown = require('remove-markdown');
 const markdownIt = require('markdown-it');
 const markdownItAnchor = require('markdown-it-anchor');
 const markdownItFootnote = require('markdown-it-footnote');
@@ -33,7 +34,7 @@ module.exports = function (eleventyConfig) {
   );
 
   eleventyConfig.setFrontMatterParsingOptions({
-      excerpt: (file) => {
+      excerpt_title: (file) => {
 
           // I use https://www.npmjs.com/package/remove-markdown here,
           // but you can bring your own de-markdownifier.
@@ -49,7 +50,7 @@ module.exports = function (eleventyConfig) {
           if (dot === -1) dot = plaintext.length;
           if (newline === -1) newline = plaintext.length;
 
-          file.excerpt = plaintext.substring(0, Math.min(dot, newline));
+          file.excerpt_title = plaintext.substring(0, Math.min(dot, newline));
       },
   });
 

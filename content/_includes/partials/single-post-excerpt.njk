@@ -5,7 +5,7 @@
   {%  if post.data.source == 'mastodon' %}
     <header>
       <a href="{{ post.url }}">
-      <h2 class="post-title">{{ post.data.excerpt }}</h2>
+      <h2 class="post-title">{% excerpt post %}</h2>
       </a>
     </header>
   {% else %}
@@ -31,4 +31,3 @@
         {% endif %}
     </div>
   </article>
-<hr />
