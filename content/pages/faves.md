@@ -44,7 +44,32 @@ I have been trying to post what I read to [my BookWyrm](https://bookwyrm.social/
 
 ### Video stream and VOD posters
 
+* [Architectural Digest](https://www.youtube.com/@Archdigest)
+* [BarryHarrisVideos](https://www.youtube.com/@BarryHarrisVideos)
+* [Bruce Foreman](https://www.youtube.com/@BruceFormanGrumps)
+* [campusfive](https://www.youtube.com/@campusfive)
+* [Dave Ricketts](https://www.youtube.com/@daverickettsmusic)
+* [Dead Wax](https://www.youtube.com/@DeadWaxShow)
+* [Doc Pop](https://www.youtube.com/@DocPop)
+* [Eric Haugen Guitar](https://www.youtube.com/@EricHaugenGuitar)
+* [Greg Koch](https://www.youtube.com/@GregKochMusic)
+* [J. Kenji López-Alt](https://www.youtube.com/@JKenjiLopezAlt)
+* [Jens Larsen](https://www.youtube.com/@JensLarsen)
+* [Jim Lill](https://www.youtube.com/@JimLill)
+* [Ken Parker Archtoppery](https://www.youtube.com/@kenparkerarchtoppery9440)
+* [MAJ](https://www.youtube.com/@MyAnalogJournal)
+* [Normans Rare Guitars](https://www.youtube.com/@NormansRareGuitars)
+* [Paul Davids](https://www.youtube.com/@PaulDavids)
+* [Reverb](https://www.youtube.com/@Reverb)
+* [Rick Beato](https://www.youtube.com/@RickBeato)
+* [Rook Records](https://www.youtube.com/@RookRecords)
+* [The Labyrinth of Limitations](https://www.youtube.com/@TheLabyrinthofLimitations)
+* [Things I've Learned From Barry Harris](https://www.youtube.com/@thingsivelearnedfrombarryh2616)
+* [tonefiend by joe gore](https://www.youtube.com/@joe_gore)
 * [Tonight We Race](https://www.twitch.tv/tonightwerace)
+* [Tyler Mahan Coe](https://www.youtube.com/@TylerMahanCoe8)
+* [Vito Iacopelli](https://www.youtube.com/@vitoiacopelli)
+* [Wildwood Guitars](https://www.youtube.com/@wildwoodguitars)
 
 ### Apps and services
 
@@ -98,6 +123,7 @@ I have been trying to post what I read to [my BookWyrm](https://bookwyrm.social/
 * [Radio Paradise](https://radioparadise.com/)
 * [SomaFM](https://somafm.com/)
 * [WFMU](https://wfmu.org/)
+* [WorldwideFM](https://worldwidefm.net/)
 
 ### Posters
 
