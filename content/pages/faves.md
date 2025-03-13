@@ -85,18 +85,18 @@ I have been trying to post what I read to [my BookWyrm](https://bookwyrm.social/
 * [Fastmail](https://www.fastmail.com) - I finally stopped hosting my own mail and switched to fastmail in 2013 and have never looked back.
 * [FitBod](https://fitbod.me/) - one hour a day, "bodybuilding" profile, do whatever it says, it's great.
 * [Guitar Pro](https://www.guitar-pro.com/) - guitar sheet music and tablature! invest in tools to learn, stop using bad ascii tabs.
-* [Home Assistant](https://www.home-assistant.io)
-* [inoreader](https://www.inoreader.com/)
-* [iReal](https://www.irealpro.com)
-* [Ivory](https://tapbots.com/ivory/)
-* [Marked 2](https://marked2app.com/)
-* [Patreon](https://www.patreon.com/home)
-* [Pocket Casts](https://pocketcasts.com/)
-* [Signal Messenger](https://signal.org/)
-* [Strava](https://www.strava.com/)
-* [Sublime Text](https://www.sublimetext.com/)
-* [Transit](https://transitapp.com)
-* [Wipr](https://kaylees.site/wipr2.html)
+* [Home Assistant](https://www.home-assistant.io) - "I'll never use home automation nonsense" disproven immediately.
+* [inoreader](https://www.inoreader.com/) - Google Reader -> Feedly -> inoreader.
+* [iReal](https://www.irealpro.com) - Jazz charts. Like a bottomless fakebook.
+* [Ivory](https://tapbots.com/ivory/) - Twittter client now a Mastodon client.
+* [Marked 2](https://marked2app.com/) - Weird that OS X doesn't natively render markdown, but whatever.
+* [Patreon](https://www.patreon.com/home) - Where I tend to fund the people in other lists on here.
+* [Pocket Casts](https://pocketcasts.com/) - The free version gets me by.
+* [Signal Messenger](https://signal.org/) -
+* [Strava](https://www.strava.com/) - Annoying growth mode nonsense but there isn't much else like it.
+* [Sublime Text](https://www.sublimetext.com/) - Vintage mode.
+* [Transit](https://transitapp.com) - How I catch Muni.
+* [Wipr](https://kaylees.site/wipr2.html) - Safari add blocker on Mac and iOS.
 
 ### Podcasts
 
@@ -108,8 +108,8 @@ I have been trying to post what I read to [my BookWyrm](https://bookwyrm.social/
 
 ### Magazines
 
-* [Clarkesworld](https://clarkesworldmagazine.com)
-* [Dwell](http://dwell.com)
+* [Clarkesworld](https://clarkesworldmagazine.com) - I pay for the paper delivery and try to finish it before the next months.
+* [Dwell](http://dwell.com) - I pay for the paper delivery (and don't read it) so that I can use their website for inspo.
 
 ### Music streams
 
