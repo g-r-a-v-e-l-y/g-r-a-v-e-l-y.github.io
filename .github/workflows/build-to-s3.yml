@@ -22,11 +22,6 @@ jobs:
           npm install
           npm run build-gh-pages
 
-  # Deployment job
-  deploy:
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v4
         with:
