@@ -4,6 +4,10 @@ on:
 # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
+# Permission can be added at job level or workflow level    
+permissions:
+      id-token: write   # This is required for requesting the JWT
+      contents: read    # This is required for actions/checkout
 jobs:
   # Build job
   build:
@@ -21,15 +25,18 @@ jobs:
         run: |
           npm install
           npm run build-gh-pages
+ 
       - name: configure aws credentials
         uses: aws-actions/configure-aws-credentials@v4
         with:
           role-to-assume: arn:aws:iam::170423329915:role/pizza.slow.high.quality.gravely.pizza
           role-session-name: GitHub_to_AWS_via_FederatedOIDC
           aws-region: us-west-1
+      
       - name: get caller identity
         run: |
           aws sts get-caller-identity
+      
       - name: Upload files to S3 with AWS CLI
         run: |
           aws s3 sync ./_site s3://pizza.slow.high.quality.gravely.pizza --delete
