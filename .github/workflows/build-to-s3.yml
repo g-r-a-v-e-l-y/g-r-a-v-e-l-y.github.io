@@ -21,13 +21,12 @@ jobs:
         run: |
           npm install
           npm run build-gh-pages
-
-      - name: Configure AWS Credentials
+      - name: configure aws credentials
         uses: aws-actions/configure-aws-credentials@v4
         with:
+          role-to-assume: arn:aws:iam::170423329915:role/pizza.slow.high.quality.gravely.pizza
+          role-session-name: GitHub_to_AWS_via_FederatedOIDC
           aws-region: us-west-1
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
       - name: get caller identity
         run: |
           aws sts get-caller-identity
