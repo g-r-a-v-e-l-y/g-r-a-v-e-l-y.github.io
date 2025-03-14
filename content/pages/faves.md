@@ -114,16 +114,17 @@ I have been trying to post what I read to [my BookWyrm](https://bookwyrm.social/
 ### Music streams
 Algo-playlists have always disappointed me and the companies that make them seem like yet more layers of grift on top of artists so I've never used them myself and prefer human tune selection or purely random shuffle of deep catalogs. Lots of these groups also have desktop and mobile apps. When they don't I use [TuneIn](https://tunein.com/) (derogatory).
 
-* [BAGeL Radio](https://www.bagelradio.com/listen) - GenX rock pop as likely to play Led Zeppelin as Weezer as Alvvays.
+* [BAGeL Radio](https://www.bagelradio.com/listen) - GenX rock pop as likely to play Led Zeppelin as Weezer as Alvvays DJ'd by a real person who has great taste. Used to be a based in SF and a SomaFM station, moved to NYC, went independent.
 * [Jazz Groove](https://jazzgroove.org/) - Most mornings.
 * [KCSM](https://www.kcsm.org/) - "The Bay Area's Jazz Station to the World"
 * [KMHD](https://www.kmhd.org) - Jazz Radio, Portland
-* [Le Mellotron](https://www.lemellotron.com/) - When I don't know what to listen to, I put on Mellotron. Default bicycling in SF music, making dinner music, chilling on the patio music, etc.
+* [Le Mellotron](https://www.lemellotron.com/) - When I don't know what to listen to, I put on Mellotron. It is my default bicycling-in-SF music, making dinner music, chilling on the patio music, etc.
 * [NTS](https://www.nts.live/) - I usually proceed directly to "Expansions", but the two live streams are often also good.
-* [Radio Nova](https://www.nova.fr/) - Classics, New, Night, Reggae, Soul, all good.
-* [Radio Paradise](https://radioparadise.com/) - The Rock Mix is generally OK but they favor some bands that are third-rails to me but probably your favorite[^1]? No hard feelings. What makes this tolerable: you can skip to the next song. Go figure.
-* [SomaFM](https://somafm.com/) - PopTron, Indie Pop Rocks!, Heavyweight Reggae, Left Coast 70s
-* [WFMU](https://wfmu.org/) - Independent freeform radio broadcasting at 91.1 and 91.9 fm in New Jersey and New York City, and at 90.1 and 91.9 fm in the Hudson Valley, with gobs of online offerings.
+* [Radio Nova](https://www.nova.fr/) - Classics, New, Night, Reggae, Soul: all good.
+* [Radio Paradise](https://radioparadise.com/) - The Rock Mix is generally OK. They favor some bands that are third-rails to me but probably your favorite[^1]? No hard feelings. What makes this tolerable: you can skip to the next song. Go figure.
+* [SomaFM](https://somafm.com/) - PopTron, Indie Pop Rocks!, Heavyweight Reggae, and Left Coast 70s are in my rotation.
+* [WFMU](https://wfmu.org/) - "Independent freeform radio broadcasting at 91.1 and 91.9 fm in New Jersey and New York City, and at 90.1 and 91.9 fm in the Hudson Valley, with gobs of online offerings."
+* [WTUL](https://www.wtulneworleans.com/) - "WTUL is a progressive/alternative FM radio outlet in New Orleans, Louisiana, operating at 91.5 MHz with an ERP of 1.5 kW and established in 1959. The station, operated primarily by students of Tulane University, offers a mix of cutting-edge progressive, electronica, classical, New Age, straight ahead jazz, folk, blues Latin, world reggae, show tunes, kid's show and an eclectic mix of a variety of genres."
 * [WorldwideFM](https://worldwidefm.net/) - "Worldwide FM is an award-winning community and platform where marginalised voices, alternative perspectives and shared progressive values are brought to the forefront through music and culture. Whether our programming comes from Palestine or New Orleans, we try where we can to give voice to progressive artists and cultural figures who fight inequality in all its forms."
 
 ### Posters
