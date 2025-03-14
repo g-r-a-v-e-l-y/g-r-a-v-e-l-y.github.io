@@ -28,7 +28,9 @@ jobs:
           aws-region: us-west-1
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-
+      - name: get caller identity
+        run: |
+          aws sts get-caller-identity
       - name: Upload files to S3 with AWS CLI
         run: |
           aws s3 sync ./_site s3://pizza.slow.high.quality.gravely.pizza --delete
