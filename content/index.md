@@ -10,7 +10,7 @@ eleventyNavigation:
 Hi, I'm gravely. I post about books and music and other media I've enjoyed, new things I've cooked (a lot of pizza, lately), and walks I take in San Francisco, California, where I live.
 
 {aside}
-But also [Bandcamp](https://bandcamp.com/_gravely_), [Bookwyrm](https://bookwyrm.social/user/gravely), [Discord](https://discord.com/users/gravely#6679), E-mail (guess), [Github](https://github.com/g-r-a-v-e-l-y) (to publish this site), [LinkedIn](https://www.linkedin.com/in/gravely/) (derogatory), and Signal (ask).
+But also [Bandcamp](https://bandcamp.com/_gravely_), [Bookwyrm](https://bookwyrm.social/user/gravely), a few Discords and Slacks (as per), E-mail (guess), [Github](https://github.com/g-r-a-v-e-l-y) (to publish this site), [LinkedIn](https://www.linkedin.com/in/gravely/) (derogatory), and Signal (ask).
 {/aside}
 
 I'm mostly only on [Mastodon](https://mastodon.social/@gravely) lately and kinda not doing social networking anymore otherwise excpet for various private-ish group chats. I'm also on [LinkedIn](https://www.linkedin.com/in/gravely/) (derogatory), I guess? It's so weird.
