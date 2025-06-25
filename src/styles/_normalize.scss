@@ -9,7 +9,8 @@
  */
 
 html {
-  line-height: 1.15; /* 1 */
+  line-height: 1lh 1.15; /* 1 */
+  text-wrap: pretty;
   -webkit-text-size-adjust: 100%; /* 2 */
 }
 
