@@ -18,7 +18,7 @@ module.exports = {
     // Production URL. Used by 'alwaysProductionUrl' filter.
     // If none is provided, relative paths will be used
     // and in some cases (like sitemap.xml) that is TOTALLY NOT what you want
-    url: process.env.URL || 'https://pizza.gravely.pizza/',
+    url: process.env.URL || 'https://pizza.slow.high.quality.gravely.pizza/',
     // Image used as a site logo. If none is provided, site title as text
     // will be displayed as fallback.
     // If you opt for text fallback, you may want to adjust
@@ -71,7 +71,7 @@ module.exports = {
     name: 'gravely',
     // Your website URL. Used in the footer. Optional.
     // Doesn't have to be the same link as this site
-    url: 'https://pizza.gravely.pizza/',
+    url: 'https://pizza.slow.high.quality.gravely.pizza/',
     // Your fediverse links (e.g. Mastodon). You can provide more than one.
     // For the first account in this array your site will generate
     // .well-known/webfinger file for you so that you'll be searchable
