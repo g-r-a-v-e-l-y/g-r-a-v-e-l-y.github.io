@@ -3,7 +3,7 @@ title: faves
 description: Stuff I like that maybe you'll like too.
 customPermalink: /faves/
 eleventyNavigation:
-  key: /faves
+  key: faves
   order: 3
 ---
 

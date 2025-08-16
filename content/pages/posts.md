@@ -1,7 +1,7 @@
 ---
 title: posts
 eleventyNavigation:
-  key: /posts
+  key: posts
   order: 1
 ---
 
