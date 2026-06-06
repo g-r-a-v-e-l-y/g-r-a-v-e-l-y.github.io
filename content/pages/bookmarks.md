@@ -1,26 +1,21 @@
 ---
-title: faves
+title: bookmarks
 description: Stuff I like that maybe you'll like too.
-customPermalink: /faves/
+customPermalink: /bookmarks/
 eleventyNavigation:
-  key: faves
-  order: 3
----
-
-I feel like I bring more effort to trying to get into stuff for the first time when I've gotten assurances from someone whose opinions I repsect that it's worth it. "I like this stuff, mabe you will too."
-
-This is the stuff I say that about.
-
+  key: bookmarks
+  order: 2
 ---
 
 ### Artists
 
 * [Paul Rickards](https://shop.paulrickards.com/) - Paul collects and uses vintage pen plotter devices to use with modern computers and code like Python to create new works of art. I've got a bunch of Rickards stuff up at home.
-* [Leagh Gardner](https://leahgardner.art/) - Leagh started oil painting in 2020 and by 2021 was a working artist. I've got an original pigeon at home.
+* [Leagh Gardner](https://leahgardner.art/) - Gardner started oil painting in 2020 and by 2021 was a working artist. I've got an original pigeon at home.
+* [Deth P. Sun](https://www.dethpsun.com/) is an artist who makes paintings and drawings and zines and stickers and prints. We have a great print of Sun's [Secret Histories Map of San Francisco](https://www.dethpsun.com/otherthings/sfmap/) in the main floor bathroom so that guests can examine it undisturbed. I'm constantly finding new things in it myself. Sometimes I feel bad when guests who live in the Portola neighborhood are over and I remember it isn't on the map.
 
 ### Authors
 
-I have been trying to post what I read to [my BookWyrm](https://bookwyrm.social/user/gravely) for a few years but I'm a completionist and will pre-order when it comes to these authors (why link to Auster, Dick, Le Guin, King, Vonnegut, etc who I also enjoy?) so they get a special link section.
+I have been trying to post what I read to [my BookWyrm](https://bookwyrm.social/user/gravely) for a few years so start there, but I'd like to use this space to recommend a few authors who I will pre-order when they put out new stuff.
 
 * [Vincent Bevins](https://vincentbevins.com)
 * [Ted Chiang](https://www.penguinrandomhouse.com/authors/2135536/ted-chiang/)
@@ -75,28 +70,28 @@ I have been trying to post what I read to [my BookWyrm](https://bookwyrm.social/
 
 * [1Password](http://1password.com/) — password manager.
 * [AllTrails](https://www.alltrails.com) – I use this a few times a year but pay because I never know when I'll want to get to a trailhead and have a map of it.
-* [Amethyst](https://ianyh.com/amethyst/) – Mac tiling window manager. I use full screen and split screeen only.
 * [AmpliTube](https://www.ikmultimedia.com/products/amplitube5/) – With headphones, the ultimate practice rig.
 * [Anylist](https://www.anylist.com/web) – Our family plans groceries and menus in Anylist. I'm super bummed there's no export as I've got a hundred recipes or so, but it works well so whatever.
 * [bandcamp](https://bandcamp.com/) – "at the show", "wherever the artists says to buy it", "bandcamp", in that order.
 * [bandsintown](https://www.bandsintown.com) – get notified when artists you like are playing in your town. This is what I used to use last.fm for before that got crappy and I deleted it for reasons I forget. It's ok. the mac app is buggy as hell but the service works ok when I remember to keep adding artists to it.
 * [CityStrides](https://citystrides.com/) – I'm trying to walk every street in SF so I pay CityStrides to import my Strava, who I also pay but don't list here, to keep track. I would skip the Strava step if I could.
-* [CyberChef](https://gchq.github.io/CyberChef/) - computer stuff.
+* [CyberChef](https://gchq.github.io/CyberChef/) - computer stuff. I honestly forget I have it and never use it so this is here to remind me, which it will fail to do.
 * [Fastmail](https://www.fastmail.com) - I finally stopped hosting my own mail and switched to fastmail in 2013 and have never looked back.
 * [FitBod](https://fitbod.me/) - one hour a day, "bodybuilding" profile, do whatever it says, it's great.
 * [Guitar Pro](https://www.guitar-pro.com/) - guitar sheet music and tablature! invest in tools to learn, stop using bad ascii tabs.
 * [Home Assistant](https://www.home-assistant.io) - "I'll never use home automation nonsense" disproven immediately.
-* [inoreader](https://www.inoreader.com/) - Google Reader -> Feedly -> inoreader.
+* [inoreader](https://www.inoreader.com/) - Google Reader → Feedly → inoreader.
 * [iReal](https://www.irealpro.com) - Jazz charts. Like a bottomless fakebook.
 * [Ivory](https://tapbots.com/ivory/) - Twittter client now a Mastodon client.
+* [Kagi](kagi.com) - "Our mission is to humanize the web, making it more accessible, and centered around your needs." I'm subscribe monthly and use their browser, [Kagi](https://kagi.com/orion/), for lots of things too.
 * [Marked 2](https://marked2app.com/) - Weird that OS X doesn't natively render markdown, but whatever.
 * [Patreon](https://www.patreon.com/home) - Where I tend to fund the people in other lists on here.
 * [Pocket Casts](https://pocketcasts.com/) - The free version gets me by.
+* [Rectangle](https://rectangleapp.com/) – A Mac tiling window manager thingy. I use full screen and split screeen only.
 * [Signal Messenger](https://signal.org/) -
 * [Strava](https://www.strava.com/) - Annoying growth mode nonsense but there isn't much else like it.
 * [Sublime Text](https://www.sublimetext.com/) - Vintage mode.
 * [Transit](https://transitapp.com) - How I catch Muni.
-* [Wipr](https://kaylees.site/wipr2.html) - Safari add blocker on Mac and iOS.
 
 ### Podcasts
 
@@ -125,7 +120,6 @@ Algo-playlists have always disappointed me and the companies that make them seem
 * [SomaFM](https://somafm.com/) - PopTron, Indie Pop Rocks!, Heavyweight Reggae, and Left Coast 70s are in my rotation.
 * [WFMU](https://wfmu.org/) - "Independent freeform radio broadcasting at 91.1 and 91.9 fm in New Jersey and New York City, and at 90.1 and 91.9 fm in the Hudson Valley, with gobs of online offerings."
 * [WTUL](https://www.wtulneworleans.com/) - "WTUL is a progressive/alternative FM radio outlet in New Orleans, Louisiana, operating at 91.5 MHz with an ERP of 1.5 kW and established in 1959. The station, operated primarily by students of Tulane University, offers a mix of cutting-edge progressive, electronica, classical, New Age, straight ahead jazz, folk, blues Latin, world reggae, show tunes, kid's show and an eclectic mix of a variety of genres."
-* [WorldwideFM](https://worldwidefm.net/) - "Worldwide FM is an award-winning community and platform where marginalised voices, alternative perspectives and shared progressive values are brought to the forefront through music and culture. Whether our programming comes from Palestine or New Orleans, we try where we can to give voice to progressive artists and cultural figures who fight inequality in all its forms."
 
 ### Posters
 
@@ -208,4 +202,3 @@ A bunch of people I shoot the shit with from time to time, that I internet-know,
 * [Transitive Trust Constructs](https://ttconstructs.com/)
 * [Yuzu Nelson](https://yuzunelson.com)
 
-[^1]: In no particular order: U2, the Red Hot Chili Peppers, The Doors, the fuckin' Eagles, the Rolling Stones. Oasis.
