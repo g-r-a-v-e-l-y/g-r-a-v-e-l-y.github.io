@@ -52,16 +52,18 @@ h6 {
 p,
 li,
 blockquote {
-  font-size: 1.25rem;
   line-height: 1lh 1.6;
   letter-spacing: 0.01rem;
   margin: 0;
 }
 
-.footnote-item + p {
-    font-size: 1rem !important;
+.footnote-item {
+    font-size: 0.9rem;
 }
 
+.subscribe {
+    font-size: 0.8rem;
+}
 p + p, aside + p {
   text-indent: 1.6rem;
 }

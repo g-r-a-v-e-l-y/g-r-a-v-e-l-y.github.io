@@ -40,7 +40,7 @@ article {
     left: calc(100% + 4rem);
 
     p {
-      font-size: 1.0375rem;
+      font-size: 0.8rem;
       margin-top: 0;
     }
 
@@ -79,6 +79,10 @@ article {
     }
 }
 
+.footnite-item {
+    font-family: variables.$sansSerifFontFamily;
+}
+
 .with-asides {
   article {
     max-width: 37rem;
@@ -92,10 +96,6 @@ article {
       right: auto;
     }
   }
-}
-
-.footnotes, .footnote-list, .footnote-item, p .footnote-item {
-  font-size: 1rem;
 }
 
 * {
@@ -124,6 +124,7 @@ html {
 
 body {
   font-family: var(--font-family);
+  font-size: 1.2rem;
 
   &.no-scrollbar {
     overflow: hidden;
