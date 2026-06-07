@@ -89,7 +89,8 @@ b > em {
 }
 
 ul {
-  padding-left: 1.75rem;
+  padding-left: 0;
+  list-style-position: inside;
   list-style-type: disc;
 }
 

@@ -104,9 +104,8 @@ article {
 
 hr {
     border: 0;
-    border-top: 1px solid var(--base-color);
-    margin-top: 3.2rem;
-    margin-bottom: 3.2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 button {
@@ -258,5 +257,12 @@ textarea {
   video {
     width: 50%;
     max-width: 480px;
+  }
+}
+
+.footer {
+  ul {
+    list-style-position: inside;
+    padding-left: 0;
   }
 }
