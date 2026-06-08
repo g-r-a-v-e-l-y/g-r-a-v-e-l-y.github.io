@@ -35,7 +35,6 @@ thumbs.db
 Desktop.ini
 $RECYCLE.BIN/
 
-package-lock.json
 yarn.lock
 
 # VS Code
