@@ -70,7 +70,7 @@ I have been trying to post what I read to [my BookWyrm](https://bookwyrm.social/
 
 * [1Password](http://1password.com/) — password manager.
 * [AllTrails](https://www.alltrails.com) – I use this a few times a year but pay because I never know when I'll want to get to a trailhead and have a map of it.
-* [AmpliTube](https://www.ikmultimedia.com/products/amplitube5/) – With headphones, the ultimate practice rig.
+* [AmpliTube](https://www.ikmultimedia.com/products/amplitube5/) – With headphones the ultimate practice rig.
 * [Anylist](https://www.anylist.com/web) – Our family plans groceries and menus in Anylist. I'm super bummed there's no export as I've got a hundred recipes or so, but it works well so whatever.
 * [bandcamp](https://bandcamp.com/) – "at the show", "wherever the artists says to buy it", "bandcamp", in that order.
 * [bandsintown](https://www.bandsintown.com) – get notified when artists you like are playing in your town. This is what I used to use last.fm for before that got crappy and I deleted it for reasons I forget. It's ok. the mac app is buggy as hell but the service works ok when I remember to keep adding artists to it.
@@ -106,8 +106,8 @@ I have been trying to post what I read to [my BookWyrm](https://bookwyrm.social/
 * [Clarkesworld](https://clarkesworldmagazine.com) - I pay for the paper delivery and try to finish it before the next months.
 * [Dwell](http://dwell.com) - I pay for the paper delivery (and don't read it) so that I can use their website for inspo.
 
-### Music streams
-Algo-playlists have always disappointed me and the companies that make them seem like yet more layers of grift on top of artists so I've never used them myself and prefer human tune selection or purely random shuffle of deep catalogs. Lots of these groups also have desktop and mobile apps. When they don't I use [TuneIn](https://tunein.com/) (derogatory).
+### Music stream
+[Music Assistant](https://www.music-assistant.io/) is the only interface I use for all music. When I find a radio station or stream I like that doesn't have a native integration, I find the url and stash it there manually.
 
 * [BAGeL Radio](https://www.bagelradio.com/listen) - GenX rock pop as likely to play Led Zeppelin as Weezer as Alvvays DJ'd by a real person who has great taste. Used to be a based in SF and a SomaFM station, moved to NYC, went independent.
 * [Jazz Groove](https://jazzgroove.org/) - Most mornings.
@@ -115,8 +115,9 @@ Algo-playlists have always disappointed me and the companies that make them seem
 * [KMHD](https://www.kmhd.org) - Jazz Radio, Portland
 * [Le Mellotron](https://www.lemellotron.com/) - When I don't know what to listen to, I put on Mellotron. It is my default bicycling-in-SF music, making dinner music, chilling on the patio music, etc.
 * [NTS](https://www.nts.live/) - I usually proceed directly to "Expansions", but the two live streams are often also good.
-* [Radio Nova](https://www.nova.fr/) - Classics, New, Night, Reggae, Soul: all good.
-* [Radio Paradise](https://radioparadise.com/) - The Rock Mix is generally OK. They favor some bands that are third-rails to me but probably your favorite[^1]? No hard feelings. What makes this tolerable: you can skip to the next song. Go figure.
+* [qobuz](http://qobuz.com/) - I put off subscribing to one of these infinite-catalog sites until 2025 and when I finally gave in, I just looked for whatever paid artists the most.
+* [Radio Nova](https://www.nova.fr/) - Classics, New, Night, Reggae, Soul: all good and what I put on when I don't like whatever is on Mellotron.
+* [Radio Paradise](https://radioparadise.com/) - The Rock Mix is generally OK.
 * [SomaFM](https://somafm.com/) - PopTron, Indie Pop Rocks!, Heavyweight Reggae, and Left Coast 70s are in my rotation.
 * [WFMU](https://wfmu.org/) - "Independent freeform radio broadcasting at 91.1 and 91.9 fm in New Jersey and New York City, and at 90.1 and 91.9 fm in the Hudson Valley, with gobs of online offerings."
 * [WTUL](https://www.wtulneworleans.com/) - "WTUL is a progressive/alternative FM radio outlet in New Orleans, Louisiana, operating at 91.5 MHz with an ERP of 1.5 kW and established in 1959. The station, operated primarily by students of Tulane University, offers a mix of cutting-edge progressive, electronica, classical, New Age, straight ahead jazz, folk, blues Latin, world reggae, show tunes, kid's show and an eclectic mix of a variety of genres."
@@ -201,4 +202,3 @@ A bunch of people I shoot the shit with from time to time, that I internet-know,
 * [Skippy Ta](https://www.skippyta.com)
 * [Transitive Trust Constructs](https://ttconstructs.com/)
 * [Yuzu Nelson](https://yuzunelson.com)
-
