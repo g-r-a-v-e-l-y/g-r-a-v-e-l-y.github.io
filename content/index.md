@@ -7,7 +7,7 @@ eleventyNavigation:
 
 <img src="/images/selfie-winter-2024-no-blur.jpeg" alt="Selfie from December 2024 that I took at a kid's birthday party after showing my kid what he looked like in a party hat and then going to take a pic of him and his friends and oops the camera is backwards, might as well take a selfie first." class="myphoto" />
 
-Oh, hi. I'm gravely. You've caught me relaxing on my personal site, <em>pizza slow (high quality)</em>[^1].
+Oh, hi. I'm gravely. You've caught me relaxing on my <em>pizza slow (high quality)</em>[^1], my personal website[^2].
 
 {aside}
 <img
