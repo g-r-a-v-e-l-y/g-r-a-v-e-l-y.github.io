@@ -18,13 +18,17 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v6
         with:
-          node-version: 'node'
+          node-version: 'lts/*'
+          cache: 'npm'
           check-latest: true
 
       - name: Install dependencies & build
         run: |
           npm install
           npm run build-gh-pages
+
+      - name: Set up s5cmd
+        uses: peak/action-setup-s5cmd@v2
  
       - name: configure aws credentials
         uses: aws-actions/configure-aws-credentials@v4
@@ -39,4 +43,10 @@ jobs:
       
       - name: Upload files to S3 with AWS CLI
         run: |
-          aws s3 sync ./_site s3://pizza.slow.high.quality.gravely.pizza --delete
+          s5cmd sync ./_site s3://pizza.slow.high.quality.gravely.pizza --delete
+
+      - name: Invalidate CloudFront Cache
+        run: |
+          aws cloudfront create-invalidation \
+            --distribution-id E3HFJCJFCJ5NES \
+            --paths "/*"
