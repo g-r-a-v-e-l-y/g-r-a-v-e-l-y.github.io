@@ -28,7 +28,7 @@ jobs:
           npm run build-gh-pages
 
       - name: Set up s5cmd
-        uses: peak/action-setup-s5cmd2@main
+        uses: peak/action-setup-s5cmd@main
         with:
           version: v2.0.0
  
