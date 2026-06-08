@@ -45,7 +45,7 @@ jobs:
       
       - name: Upload files to S3 with AWS CLI
         run: |
-          s5cmd sync ./_site s3://pizza.slow.high.quality.gravely.pizza --delete
+          s5cmd sync ./_site s3://pizza.slow.high.quality.gravely.pizza
 
       - name: Invalidate CloudFront Cache
         run: |
